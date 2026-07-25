@@ -1,0 +1,23 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 常见静态博客框架生成的产物(以后用到再启用对应行)
+# Jekyll
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Hugo
+# public/
+# resources/_gen/
+
+# Hexo
+# public/
+# db.json
+node_modules/
