@@ -1,6 +1,6 @@
 ---
 title: ""
-date: 2026-08-08
+date: ""                # YYYY-MM-DD
 type: review
 instrument: ""            # 品种，如 EB2609 / MES / NQ
 method: ""                # 策略，如 Breakout / Breakout Pullback / Reversal
@@ -12,7 +12,7 @@ tags:
   - 突破单                # 可改为：回踩单 / 反转单 / 顺势单 等
 direction: long           # long / short
 result: win               # win / loss / breakeven
-pnl_r: 0.37              # 盈亏R倍数
+pnl_r: 0.37               # 盈亏R倍数
 pnl: 30                   # 盈亏金额
 confidence: 4             # 执行信心 1-5（对应截图里的星级）
 summary: ""               # 一句话摘要，显示在列表预览里
