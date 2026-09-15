@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360">
+  <rect width="960" height="360" fill="#fff"/>
+  <text x="480" y="28" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="700">市场结构摆动（一眼看趋势）</text>
+  <text x="240" y="58" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#166534">上升结构：HH + HL</text>
+  <text x="720" y="58" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#b91c1c">下降结构：LH + LL</text>
+  <rect x="40" y="70" width="400" height="250" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+  <rect x="520" y="70" width="400" height="250" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+  <polyline points="80,280 140,160 200,220 260,120 320,180 380,90" fill="none" stroke="#2563eb" stroke-width="3"/>
+  <circle cx="140" cy="160" r="5" fill="#16a34a"/><text x="150" y="155" font-size="12" fill="#16a34a" font-family="system-ui,sans-serif">HH</text>
+  <circle cx="200" cy="220" r="5" fill="#16a34a"/><text x="210" y="235" font-size="12" fill="#16a34a" font-family="system-ui,sans-serif">HL</text>
+  <circle cx="260" cy="120" r="5" fill="#16a34a"/><text x="270" y="115" font-size="12" fill="#16a34a" font-family="system-ui,sans-serif">HH</text>
+  <circle cx="320" cy="180" r="5" fill="#16a34a"/><text x="330" y="195" font-size="12" fill="#16a34a" font-family="system-ui,sans-serif">HL</text>
+  <polyline points="560,100 620,180 680,140 740,230 800,190 860,290" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <circle cx="620" cy="180" r="5" fill="#dc2626"/><text x="630" y="195" font-size="12" fill="#dc2626" font-family="system-ui,sans-serif">LH</text>
+  <circle cx="680" cy="140" r="5" fill="#dc2626"/><text x="690" y="135" font-size="12" fill="#dc2626" font-family="system-ui,sans-serif">LL</text>
+  <circle cx="740" cy="230" r="5" fill="#dc2626"/><text x="750" y="245" font-size="12" fill="#dc2626" font-family="system-ui,sans-serif">LH</text>
+  <circle cx="800" cy="190" r="5" fill="#dc2626"/><text x="810" y="185" font-size="12" fill="#dc2626" font-family="system-ui,sans-serif">LL</text>
+</svg>

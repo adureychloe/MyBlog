@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+  <rect width="900" height="420" fill="#fff"/>
+  <text x="450" y="30" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="700">供需区：画成「区域」不是一根细线</text>
+  <rect x="80" y="60" width="740" height="70" fill="#fecaca" fill-opacity=".55" stroke="#dc2626"/>
+  <text x="100" y="100" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#b91c1c">供给区 Supply</text>
+  <rect x="80" y="300" width="740" height="70" fill="#bbf7d0" fill-opacity=".55" stroke="#16a34a"/>
+  <text x="100" y="340" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#166534">需求区 Demand</text>
+  <polyline points="120,330 180,320 220,310 260,200 320,90 380,80 450,100 520,180 560,280 600,330 680,320 760,250" fill="none" stroke="#334155" stroke-width="3"/>
+  <polygon points="600,330 590,310 620,320" fill="#16a34a"/>
+  <text x="640" y="350" font-family="system-ui,sans-serif" font-size="13" fill="#166534">回到需求区 再找入场</text>
+</svg>

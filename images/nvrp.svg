@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400">
+  <rect width="960" height="400" fill="#fff"/>
+  <text x="480" y="30" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700">NVRP = (IV − RV) / RV（过滤用，不是保证赚钱）</text>
+  <text x="240" y="62" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#166534">正 NVRP：IV &gt; RV</text>
+  <text x="720" y="62" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#b91c1c">负 NVRP：RV 很大</text>
+  <rect x="40" y="80" width="400" height="260" rx="12" fill="#f0fdf4" stroke="#86efac"/>
+  <rect x="520" y="80" width="400" height="260" rx="12" fill="#fef2f2" stroke="#fca5a5"/>
+  <rect x="100" y="130" width="280" height="140" fill="#bbf7d0" fill-opacity=".6" stroke="#16a34a"/>
+  <text x="240" y="155" text-anchor="middle" font-size="12" fill="#166534" font-family="system-ui,sans-serif">IV 定价区间</text>
+  <path d="M120 200 Q160 180 200 200 T280 200 T360 200" fill="none" stroke="#15803d" stroke-width="3"/>
+  <text x="240" y="300" text-anchor="middle" font-size="12" fill="#166534" font-family="system-ui,sans-serif">实际路径 RV 较小 → 概念上利卖方</text>
+  <rect x="600" y="150" width="240" height="90" fill="#fecaca" fill-opacity=".6" stroke="#dc2626"/>
+  <text x="720" y="175" text-anchor="middle" font-size="12" fill="#991b1b" font-family="system-ui,sans-serif">IV 定价区间</text>
+  <path d="M580 220 Q640 100 700 280 T840 120" fill="none" stroke="#b91c1c" stroke-width="3"/>
+  <text x="720" y="310" text-anchor="middle" font-size="12" fill="#991b1b" font-family="system-ui,sans-serif">实际路径冲出 → 卖区间更危险</text>
+</svg>
