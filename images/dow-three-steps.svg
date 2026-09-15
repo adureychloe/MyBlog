@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420">
+  <rect width="960" height="420" fill="#fff"/>
+  <text x="480" y="30" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#111">道氏三步 SOP 卡片（写进笔记再谈 BOS）</text>
+  <defs>
+    <marker id="darr" markerWidth="10" markerHeight="10" refX="5" refY="8" orient="auto">
+      <path d="M0,0 L5,10 L10,0 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- card 1 -->
+  <rect x="50" y="55" width="860" height="95" rx="14" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="100" cy="227" r="22" fill="#2563eb"/>
+  <text x="100" y="109" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#fff">1</text>
+  <text x="140" y="90" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#1d4ed8">主趋势</text>
+  <text x="140" y="118" font-family="system-ui,sans-serif" font-size="13" fill="#1e40af">更高时间框架：HH/HL 还是 LH/LL？不清 → 观望</text>
+  <text x="780" y="108" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#1d4ed8">定偏见</text>
+
+  <path d="M480 155 L480 175" stroke="#64748b" stroke-width="3" marker-end="url(#darr)"/>
+
+  <!-- card 2 -->
+  <rect x="50" y="180" width="860" height="95" rx="14" fill="#e0e7ff" stroke="#6366f1" stroke-width="2"/>
+  <circle cx="100" cy="227" r="22" fill="#6366f1"/>
+  <text x="100" y="234" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#fff">2</text>
+  <text x="140" y="215" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#4338ca">守结构回撤</text>
+  <text x="140" y="243" font-family="system-ui,sans-serif" font-size="13" fill="#4f46e5">回调有没有破坏主结构？多头等 HL 区 · 空头等 LH 区</text>
+  <text x="780" y="233" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#4338ca">选位置</text>
+
+  <path d="M480 280 L480 300" stroke="#64748b" stroke-width="3" marker-end="url(#darr)"/>
+
+  <!-- card 3 -->
+  <rect x="50" y="305" width="860" height="95" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <circle cx="100" cy="352" r="22" fill="#16a34a"/>
+  <text x="100" y="359" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#fff">3</text>
+  <text x="140" y="340" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#166534">微确认</text>
+  <text x="140" y="368" font-family="system-ui,sans-serif" font-size="13" fill="#15803d">小级别扳机：收盘确认 / 吞没 / 拒绝 —— 当 Entry，不当方向</text>
+  <text x="780" y="358" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#166534">等扳机</text>
+</svg>
