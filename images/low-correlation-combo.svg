@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420">
+  <rect width="960" height="420" fill="#fff"/>
+  <text x="480" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700">所谓圣杯：低相关系统组合，不是单一曲线</text>
+  <!-- three boxes -->
+  <rect x="50" y="70" width="240" height="120" rx="12" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+  <text x="170" y="125" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#1d4ed8">均值回归</text>
+  <text x="170" y="155" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">震荡市更友好</text>
+
+  <rect x="360" y="70" width="240" height="120" rx="12" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+  <text x="480" y="125" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#166534">动量 ETF</text>
+  <text x="480" y="155" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">强者恒强阶段</text>
+
+  <rect x="670" y="70" width="240" height="120" rx="12" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/>
+  <text x="790" y="125" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#c2410c">期货趋势跟随</text>
+  <text x="790" y="155" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">大波段趋势市</text>
+
+  <!-- arrows down -->
+  <path d="M170 200 L170 250" stroke="#64748b" stroke-width="2.5" marker-end="url(#d)"/>
+  <path d="M480 200 L480 250" stroke="#64748b" stroke-width="2.5" marker-end="url(#d)"/>
+  <path d="M790 200 L790 250" stroke="#64748b" stroke-width="2.5" marker-end="url(#d)"/>
+  <defs><marker id="d" markerWidth="8" markerHeight="8" refX="4" refY="8" orient="auto"><path d="M0,0 L4,8 L8,0 Z" fill="#64748b"/></marker></defs>
+
+  <!-- combo result -->
+  <rect x="180" y="260" width="600" height="100" rx="14" fill="#faf5ff" stroke="#c4b5fd" stroke-width="2"/>
+  <text x="480" y="305" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#6d28d9">组合后回撤更平滑（概念示意）</text>
+  <text x="480" y="335" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#7c3aed">赚钱市况不完全重叠 · 须自行验证相关性</text>
+  <text x="480" y="400" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">单一漂亮曲线 ≠ 圣杯；低相关规则集才更接近「可扛过不同市况」</text>
+</svg>

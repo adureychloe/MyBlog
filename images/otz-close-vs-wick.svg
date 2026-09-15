@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420">
+  <rect width="960" height="420" fill="#fff"/>
+  <text x="480" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700">趋势有没有变？看收盘，别只看影线</text>
+  <text x="240" y="62" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#c2410c">左：影线刺破，收盘收回</text>
+  <text x="720" y="62" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#166534">右：收盘跌破 MSL</text>
+  <rect x="40" y="78" width="400" height="290" rx="12" fill="#fff7ed" stroke="#fed7aa"/>
+  <rect x="520" y="78" width="400" height="290" rx="12" fill="#f0fdf4" stroke="#86efac"/>
+  <!-- level line left -->
+  <line x1="70" y1="220" x2="410" y2="220" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="80" y="212" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">MSL 关键低</text>
+  <!-- price path approaching -->
+  <polyline points="90,140 140,160 180,130 230,170 270,150" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+  <!-- candle: long lower wick piercing, close above -->
+  <line x1="320" y1="160" x2="320" y2="290" stroke="#b91c1c" stroke-width="2"/>
+  <rect x="308" y="160" width="24" height="55" fill="#fecaca" stroke="#b91c1c" stroke-width="2"/>
+  <text x="355" y="185" font-family="system-ui,sans-serif" font-size="12" fill="#9a3412">影线刺破</text>
+  <text x="355" y="205" font-family="system-ui,sans-serif" font-size="12" fill="#9a3412">收盘仍在上方</text>
+  <text x="240" y="340" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#c2410c">还没确认</text>
+  <text x="240" y="360" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#9a3412">结构暂未改写 · 先当试探/扫荡</text>
+  <!-- right panel -->
+  <line x1="550" y1="220" x2="890" y2="220" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="560" y="212" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">MSL 关键低</text>
+  <polyline points="570,140 620,160 660,130 710,175" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+  <!-- candle that closes below -->
+  <line x1="780" y1="155" x2="780" y2="300" stroke="#166534" stroke-width="2"/>
+  <rect x="768" y="230" width="24" height="70" fill="#86efac" stroke="#166534" stroke-width="2"/>
+  <text x="810" y="250" font-family="system-ui,sans-serif" font-size="12" fill="#166534">收盘在下方</text>
+  <text x="810" y="270" font-family="system-ui,sans-serif" font-size="12" fill="#166534">结构被改写</text>
+  <text x="720" y="340" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#166534">才算结构变了</text>
+  <text x="720" y="360" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#15803d">close 突破 MSH/MSL → 再评估趋势</text>
+</svg>

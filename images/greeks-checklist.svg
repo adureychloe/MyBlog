@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480">
+  <rect width="960" height="480" fill="#fff"/>
+  <text x="480" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700">开仓前写下仓位级 Greeks（Δ Γ Θ Vega）</text>
+  <rect x="120" y="55" width="720" height="390" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="480" y="90" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#334155">检查清单卡片 · 仓位级 = 单张 ×100 × 张数</text>
+  <!-- checklist rows -->
+  <rect x="160" y="115" width="640" height="52" rx="8" fill="#fff" stroke="#e2e8f0"/>
+  <rect x="175" y="128" width="26" height="26" rx="4" fill="#fff" stroke="#64748b" stroke-width="2"/>
+  <text x="220" y="148" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#1d4ed8">Δ Delta</text>
+  <text x="340" y="148" font-family="system-ui,sans-serif" font-size="13" fill="#64748b">整仓等效方向暴露 = _____</text>
+
+  <rect x="160" y="180" width="640" height="52" rx="8" fill="#fff" stroke="#e2e8f0"/>
+  <rect x="175" y="193" width="26" height="26" rx="4" fill="#fff" stroke="#64748b" stroke-width="2"/>
+  <text x="220" y="213" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#7c3aed">Γ Gamma</text>
+  <text x="340" y="213" font-family="system-ui,sans-serif" font-size="13" fill="#64748b">Delta 会漂移多快 = _____</text>
+
+  <rect x="160" y="245" width="640" height="52" rx="8" fill="#fff" stroke="#e2e8f0"/>
+  <rect x="175" y="258" width="26" height="26" rx="4" fill="#fff" stroke="#64748b" stroke-width="2"/>
+  <text x="220" y="278" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#c2410c">Θ Theta</text>
+  <text x="340" y="278" font-family="system-ui,sans-serif" font-size="13" fill="#64748b">每天付/收多少时间金 = _____</text>
+
+  <rect x="160" y="310" width="640" height="52" rx="8" fill="#fff" stroke="#e2e8f0"/>
+  <rect x="175" y="323" width="26" height="26" rx="4" fill="#fff" stroke="#64748b" stroke-width="2"/>
+  <text x="220" y="343" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#166534">Vega</text>
+  <text x="340" y="343" font-family="system-ui,sans-serif" font-size="13" fill="#64748b">IV 变动 1 点，整仓盈亏 = _____</text>
+
+  <rect x="160" y="375" width="640" height="48" rx="8" fill="#fef3c7" stroke="#fbbf24"/>
+  <text x="480" y="405" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#92400e">写不出来 → 还没准备好点「确认下单」</text>
+</svg>

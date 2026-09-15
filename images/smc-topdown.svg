@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420">
+  <rect width="960" height="420" fill="#fff"/>
+  <text x="480" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700">SMC Top-down：周/日 → 4H → 1H</text>
+  <!-- boxes -->
+  <rect x="80" y="70" width="800" height="80" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="480" y="105" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#1d4ed8">周线 / 日线（W/D）</text>
+  <text x="480" y="132" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#1e40af">定偏见 + 标大级别供需区</text>
+
+  <path d="M480 155 L480 185" stroke="#64748b" stroke-width="3" marker-end="url(#td)"/>
+  <defs><marker id="td" markerWidth="10" markerHeight="10" refX="5" refY="10" orient="auto"><path d="M0,0 L5,10 L10,0 Z" fill="#64748b"/></marker></defs>
+
+  <rect x="160" y="190" width="640" height="70" rx="12" fill="#e0e7ff" stroke="#6366f1" stroke-width="2"/>
+  <text x="480" y="220" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#4338ca">4H</text>
+  <text x="480" y="245" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#4f46e5">细化结构、摆动、回调路径</text>
+
+  <path d="M480 265 L480 295" stroke="#64748b" stroke-width="3" marker-end="url(#td)"/>
+
+  <rect x="240" y="300" width="480" height="70" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="480" y="330" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#166534">1H（执行周期）</text>
+  <text x="480" y="355" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#15803d">等 Entry 触发 · 不推翻大级别故事</text>
+
+  <text x="480" y="400" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#b91c1c">禁忌：从小周期漂亮形态倒推大级别方向</text>
+</svg>

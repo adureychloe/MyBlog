@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400">
+  <rect width="960" height="400" fill="#fff"/>
+  <text x="480" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700">OTZ / 收盘 如何映射到 T.A.E</text>
+  <!-- three columns -->
+  <rect x="40" y="70" width="280" height="260" rx="14" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+  <text x="180" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#1d4ed8">T</text>
+  <text x="180" y="140" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#1e40af">Trend 趋势</text>
+  <text x="180" y="185" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">用 MSH / MSL 结构</text>
+  <text x="180" y="210" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">+ 收盘确认</text>
+  <text x="180" y="250" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#64748b">判断多 / 空 / 盘整</text>
+  <text x="180" y="290" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#b91c1c">影线不算改趋势</text>
+
+  <rect x="340" y="70" width="280" height="260" rx="14" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+  <text x="480" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#166534">A</text>
+  <text x="480" y="140" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#15803d">Area 区域</text>
+  <text x="480" y="185" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">优先选 OTZ</text>
+  <text x="480" y="210" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">（多次测试的 S/R 区）</text>
+  <text x="480" y="250" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#64748b">当区域，不当细线</text>
+  <text x="480" y="290" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#b91c1c">单次触碰先观察</text>
+
+  <rect x="640" y="70" width="280" height="260" rx="14" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/>
+  <text x="780" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#c2410c">E</text>
+  <text x="780" y="140" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#9a3412">Entry 入场</text>
+  <text x="780" y="185" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">回到 OTZ 再等触发</text>
+  <text x="780" y="210" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">（拒绝 / 吞没 / 收盘守住）</text>
+  <text x="780" y="250" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#64748b">确认前默认空手</text>
+  <text x="780" y="290" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#b91c1c">远离区不追价</text>
+
+  <text x="480" y="370" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#334155">顺序固定：先 Trend → 再 Area → 最后 Entry</text>
+</svg>
