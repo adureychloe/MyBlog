@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420">
+  <rect width="960" height="420" fill="#fff"/>
+  <text x="480" y="36" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#0f172a">UK 高量窗口时间线（学习示意，非官方完整会话）</text>
+  <text x="480" y="58" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">作者设定钟点：Asia 01:00–07:00 · London 08:00–12:00 · NY 13:00–17:00（UK）</text>
+
+  <!-- axis -->
+  <line x1="60" y1="220" x2="900" y2="220" stroke="#94a3b8" stroke-width="3"/>
+  <polygon points="900,220 886,212 886,228" fill="#94a3b8"/>
+
+  <!-- Asia -->
+  <rect x="80" y="150" width="220" height="70" rx="10" fill="#e0f2fe" stroke="#38bdf8" stroke-width="2"/>
+  <text x="190" y="180" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#0369a1">Asia</text>
+  <text x="190" y="202" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#0c4a6e">01:00–07:00 UK</text>
+  <text x="190" y="260" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">窄箱体 / 扫流动性</text>
+  <text x="190" y="280" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#b91c1c">日交易少硬猜箱内</text>
+
+  <!-- London -->
+  <rect x="340" y="120" width="220" height="100" rx="10" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+  <text x="450" y="155" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#166534">London Push</text>
+  <text x="450" y="178" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#14532d">08:00–12:00 UK</text>
+  <text x="450" y="200" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#166534">机构入场 · 方向推力</text>
+  <text x="450" y="250" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#15803d">日交易优先窗口</text>
+
+  <!-- NY -->
+  <rect x="600" y="120" width="240" height="100" rx="10" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="720" y="155" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#92400e">NY 第二次动量</text>
+  <text x="720" y="178" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#78350f">13:00–17:00 UK</text>
+  <text x="720" y="200" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#92400e">约 12–14 点再放量</text>
+  <text x="720" y="250" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#b45309">可反转也可延续</text>
+
+  <!-- markers -->
+  <circle cx="80" cy="220" r="5" fill="#0ea5e9"/>
+  <circle cx="300" cy="220" r="5" fill="#0ea5e9"/>
+  <circle cx="340" cy="220" r="5" fill="#22c55e"/>
+  <circle cx="560" cy="220" r="5" fill="#22c55e"/>
+  <circle cx="600" cy="220" r="5" fill="#f59e0b"/>
+  <circle cx="840" cy="220" r="5" fill="#f59e0b"/>
+
+  <text x="480" y="330" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">不是每天完整三部曲；数据日可乱掉 → 降频或空手</text>
+  <text x="480" y="358" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#64748b">品种口播偏好：Asia≈AUD/NZD/JPY · London≈GBP/CHF · NY≈USD/CAD</text>
+  <text x="480" y="390" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#94a3b8">教学示意 · 钟点按作者 UK 高量窗口 · 非投资建议</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400">
+  <rect width="960" height="400" fill="#fff"/>
+  <text x="480" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700">Session VWAP：按交易日重置（连轴不推荐）</text>
+  <text x="480" y="54" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">VWAP = 成交量加权均价 · 日内公允参考从今日开盘重新累计</text>
+
+  <!-- Day 1 -->
+  <rect x="50" y="80" width="280" height="220" rx="12" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="190" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#1d4ed8">交易日 D</text>
+  <line x1="80" y1="180" x2="300" y2="160" stroke="#2563eb" stroke-width="2.5"/>
+  <text x="190" y="150" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#2563eb">VWAP_D</text>
+  <path d="M90 200 C130 140, 170 220, 210 170 S270 190, 290 175" fill="none" stroke="#64748b" stroke-width="2"/>
+  <text x="190" y="260" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#334155">从开盘累计量价</text>
+  <text x="190" y="280" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">收盘后会话结束</text>
+
+  <!-- reset arrow -->
+  <path d="M350 190 L400 190" stroke="#0f172a" stroke-width="3"/>
+  <polygon points="400,190 388,182 388,198" fill="#0f172a"/>
+  <text x="375" y="175" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#b91c1c">RESET</text>
+
+  <!-- Day 2 -->
+  <rect x="420" y="80" width="280" height="220" rx="12" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="560" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#166534">交易日 D+1</text>
+  <line x1="450" y1="200" x2="670" y2="170" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="560" y="155" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#16a34a">VWAP_D+1 新线</text>
+  <path d="M460 210 C500 160, 540 230, 580 180 S640 200, 660 185" fill="none" stroke="#64748b" stroke-width="2"/>
+  <text x="560" y="260" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#334155">重新从 0 累计</text>
+  <text x="560" y="280" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">别拿昨日 VWAP 当磁铁</text>
+
+  <!-- anchored warn -->
+  <rect x="720" y="80" width="200" height="220" rx="12" fill="#fef2f2" stroke="#fca5a5"/>
+  <text x="820" y="120" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#991b1b">连轴 VWAP</text>
+  <text x="820" y="160" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#334155">作者不推荐</text>
+  <text x="820" y="190" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">跨日混淆</text>
+  <text x="820" y="215" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">公允参照</text>
+  <text x="820" y="250" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#b91c1c">日内用</text>
+  <text x="820" y="270" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#b91c1c">Session 重置</text>
+
+  <text x="480" y="340" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">用法：平衡市看附近反应；趋势中可当目标或回踩，勿当永真磁铁</text>
+  <text x="480" y="370" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#94a3b8">教学示意 · Session VWAP 重置概念</text>
+</svg>
