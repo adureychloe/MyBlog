@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420">
+  <rect width="960" height="420" fill="#fff"/>
+  <text x="480" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700">风险资本边界：只有亏得起的钱进交易账户</text>
+  <text x="480" y="54" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">概念饼图 · 比例因人而异 · 勿把生活费/房租本金化</text>
+
+  <!-- left: net worth slices as stacked bars for clarity -->
+  <rect x="80" y="90" width="360" height="260" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="260" y="120" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#0f172a">净资产怎么切（示意）</text>
+
+  <rect x="120" y="145" width="280" height="50" rx="6" fill="#dbeafe" stroke="#60a5fa"/>
+  <text x="260" y="175" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#1e40af">生活 / 应急 / 房租储备</text>
+
+  <rect x="120" y="205" width="280" height="50" rx="6" fill="#dcfce7" stroke="#4ade80"/>
+  <text x="260" y="235" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#166534">长期投资（非交易杠杆）</text>
+
+  <rect x="120" y="265" width="280" height="50" rx="6" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+  <text x="260" y="295" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#9a3412">Risk Capital（可亏尽）</text>
+
+  <!-- right: inside risk capital -->
+  <rect x="500" y="90" width="400" height="260" rx="12" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="700" y="120" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#9a3412">账户内再切单笔风险</text>
+
+  <rect x="540" y="150" width="320" height="70" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="700" y="180" text-anchor="middle" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#b45309">0.5%–2% / 笔</text>
+  <text x="700" y="205" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#78350f">相对交易账户净值</text>
+
+  <text x="700" y="250" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">✗ 把净资产很大比例塞进账户</text>
+  <text x="700" y="275" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">✗ 高杠杆「翻倍」心态</text>
+  <text x="700" y="300" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#166534">✓ 写下 risk capital 占净资产%</text>
+  <text x="700" y="325" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#166534">✓ 固定单笔% 再算手数</text>
+
+  <text x="480" y="390" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#94a3b8">教学示意 · 比例非建议配额 · 不构成理财规划</text>
+</svg>
