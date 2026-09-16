@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440">
+  <rect width="960" height="440" fill="#fff"/>
+  <text x="480" y="34" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700">IV 是「破尺子」：BSM 反解出的可比波动变量</text>
+  <text x="480" y="56" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">前四项相对可知；未知的是期限内波动 → 用市价反代 σ = IV</text>
+
+  <!-- BSM box -->
+  <rect x="40" y="80" width="420" height="220" rx="12" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="250" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#1d4ed8">BSM 五输入 → 期权价</text>
+  <rect x="70" y="130" width="160" height="36" rx="6" fill="#dbeafe" stroke="#60a5fa"/>
+  <text x="150" y="153" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#1e40af">现货 S</text>
+  <rect x="250" y="130" width="160" height="36" rx="6" fill="#dbeafe" stroke="#60a5fa"/>
+  <text x="330" y="153" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#1e40af">行权 K</text>
+  <rect x="70" y="180" width="160" height="36" rx="6" fill="#dbeafe" stroke="#60a5fa"/>
+  <text x="150" y="203" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#1e40af">到期 T</text>
+  <rect x="250" y="180" width="160" height="36" rx="6" fill="#dbeafe" stroke="#60a5fa"/>
+  <text x="330" y="203" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#1e40af">利率 / 持有成本</text>
+  <rect x="70" y="230" width="340" height="44" rx="6" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="240" y="258" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#92400e">σ 波动率 ← 未知项</text>
+
+  <!-- arrow -->
+  <path d="M480 190 L530 190" stroke="#64748b" stroke-width="3"/>
+  <polygon points="530,190 518,182 518,198" fill="#64748b"/>
+  <text x="505" y="175" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#64748b">反解</text>
+
+  <!-- IV result -->
+  <rect x="540" y="80" width="380" height="220" rx="12" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="730" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#c2410c">市价 → 反解 IV</text>
+  <text x="730" y="150" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">模型有假设缺陷也没关系</text>
+  <text x="730" y="178" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">只要尺子一致，时间序列可比高低</text>
+  <rect x="580" y="200" width="300" height="70" rx="8" fill="#ffedd5" stroke="#ea580c"/>
+  <text x="730" y="230" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#9a3412">目的：隔离可比较的波动变量</text>
+  <text x="730" y="252" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#78350f">不是「用 BSM 真实定价世界」</text>
+
+  <!-- bottom comparison -->
+  <rect x="40" y="320" width="430" height="70" rx="10" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="255" y="348" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#166534">RV = 事后量出来的晃动</text>
+  <text x="255" y="372" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">窗口要对齐；HV/RV 别混比</text>
+
+  <rect x="490" y="320" width="430" height="70" rx="10" fill="#fef2f2" stroke="#fca5a5"/>
+  <text x="705" y="348" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#991b1b">年化 ÷ √252 ≈ 日波动（÷16）</text>
+  <text x="705" y="372" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">Vol cone：短窗 RV 本身更跳</text>
+
+  <text x="480" y="420" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#94a3b8">教学示意 · 破尺子仍可测 · 不构成定价建议</text>
+</svg>
