@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440">
+  <rect width="960" height="440" fill="#fff"/>
+  <text x="480" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700">Session VWAP：平衡市可回归，趋势日别逆势摊平</text>
+  <text x="480" y="54" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">约 70%+ 时间有回归倾向 · 约 20% 强趋势日会重创「等回归」策略（口播量级）</text>
+
+  <!-- Balance panel -->
+  <rect x="40" y="75" width="430" height="290" rx="12" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="255" y="105" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#166534">平衡市 ✓</text>
+  <text x="255" y="128" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">价格绕 VWAP 来回</text>
+
+  <!-- VWAP line -->
+  <line x1="80" y1="220" x2="430" y2="220" stroke="#16a34a" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <text x="440" y="225" font-family="system-ui,sans-serif" font-size="11" fill="#16a34a">VWAP</text>
+
+  <!-- oscillating path -->
+  <path d="M90 200 C120 160, 150 280, 180 200 S240 160, 270 230 S330 180, 360 210 S400 250, 420 215" fill="none" stroke="#0f766e" stroke-width="2.5"/>
+  <text x="255" y="310" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#334155">机构在公允区建仓/减仓感</text>
+  <text x="255" y="335" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#166534">可观察 VWAP 附近反应</text>
+
+  <!-- Trend panel -->
+  <rect x="490" y="75" width="430" height="290" rx="12" fill="#fef2f2" stroke="#fca5a5"/>
+  <text x="705" y="105" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#991b1b">趋势日 ✗ 危险</text>
+  <text x="705" y="128" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">价格可长时间不回归</text>
+
+  <line x1="530" y1="280" x2="880" y2="280" stroke="#94a3b8" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="890" y="285" font-family="system-ui,sans-serif" font-size="11" fill="#64748b">VWAP</text>
+
+  <!-- trending away -->
+  <path d="M540 270 L580 240 L620 200 L660 160 L720 120 L780 95 L850 80" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <polygon points="850,80 838,82 842,92" fill="#dc2626"/>
+
+  <!-- bad pyramid markers -->
+  <circle cx="600" cy="220" r="6" fill="#f87171"/>
+  <circle cx="680" cy="150" r="6" fill="#f87171"/>
+  <circle cx="760" cy="105" r="6" fill="#f87171"/>
+  <text x="705" y="310" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#991b1b">✗ 越涨越空 / 越跌越买等 VWAP</text>
+  <text x="705" y="335" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#166534">✓ 可把 VWAP 当顺势回踩参考</text>
+
+  <text x="480" y="400" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">先判平衡 vs 趋势（开盘结构 / profile / 消息）；有侵略性 single prints 时慎做均值回归</text>
+  <text x="480" y="425" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#94a3b8">Tom Vorwald VWAP 框架 · 教学示意 · 百分比为口播量级非统计保证</text>
+</svg>

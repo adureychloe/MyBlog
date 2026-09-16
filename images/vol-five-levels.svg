@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480">
+  <rect width="960" height="480" fill="#fff"/>
+  <text x="480" y="34" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700">波动率五级：从「晃不晃」到曲面与预测</text>
+  <text x="480" y="56" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">分层理解 · 别只背一个 IV 数字</text>
+
+  <!-- L1 -->
+  <rect x="40" y="80" width="170" height="140" rx="10" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="125" y="108" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#1d4ed8">L1 概念</text>
+  <text x="125" y="140" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#334155">离散程度</text>
+  <text x="125" y="162" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">天气类比：</text>
+  <text x="125" y="182" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">稳 vs 一天巨变</text>
+  <text x="125" y="204" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#1e40af">先问：晃不晃？</text>
+
+  <!-- L2 -->
+  <rect x="230" y="80" width="170" height="140" rx="10" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="315" y="108" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#166534">L2 RV / HV</text>
+  <text x="315" y="140" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#334155">已实现 / 历史</text>
+  <text x="315" y="162" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">close-to-close</text>
+  <text x="315" y="182" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">也可 MAD / OHLC</text>
+  <text x="315" y="204" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#14532d">后视镜量「有多晃」</text>
+
+  <!-- L3 -->
+  <rect x="420" y="80" width="170" height="140" rx="10" fill="#fef3c7" stroke="#fcd34d"/>
+  <text x="505" y="108" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#92400e">L3 IV</text>
+  <text x="505" y="140" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#334155">BSM 反解 σ</text>
+  <text x="505" y="162" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">破尺子仍可测</text>
+  <text x="505" y="182" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">隔离可比较变量</text>
+  <text x="505" y="204" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#78350f">市场对未来的报价</text>
+
+  <!-- L4 -->
+  <rect x="610" y="80" width="170" height="140" rx="10" fill="#fce7f3" stroke="#f9a8d4"/>
+  <text x="695" y="108" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#9d174d">L4 时间尺度</text>
+  <text x="695" y="140" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#334155">年化 ↔ 日 ÷√252</text>
+  <text x="695" y="162" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">拇指法则 ÷16</text>
+  <text x="695" y="182" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">Vol Cone</text>
+  <text x="695" y="204" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#831843">短窗更跳、长窗更稳</text>
+
+  <!-- L5 -->
+  <rect x="800" y="80" width="140" height="140" rx="10" fill="#ede9fe" stroke="#c4b5fd"/>
+  <text x="870" y="108" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#5b21b6">L5 预测</text>
+  <text x="870" y="140" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#334155">聚类 / GARCH</text>
+  <text x="870" y="162" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">HAR · V-Lab</text>
+  <text x="870" y="182" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">捕状态切换</text>
+  <text x="870" y="204" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#4c1d95">非印钞机</text>
+
+  <!-- arrows -->
+  <path d="M210 150 L225 150" stroke="#94a3b8" stroke-width="2" marker-end="url(#a)"/>
+  <path d="M400 150 L415 150" stroke="#94a3b8" stroke-width="2"/>
+  <path d="M590 150 L605 150" stroke="#94a3b8" stroke-width="2"/>
+  <path d="M780 150 L795 150" stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- bottom: surface + VRP -->
+  <rect x="40" y="250" width="430" height="160" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="255" y="280" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#0f172a">曲面 / Skew（读叙事）</text>
+  <text x="255" y="310" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">先问：市场在说什么？</text>
+  <text x="255" y="335" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">再问：是否合理？</text>
+  <text x="255" y="365" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#b91c1c">✗ 无脑「分位极端就反向」</text>
+  <text x="255" y="390" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#166534">✓ put/call skew 分位作上下文</text>
+
+  <rect x="490" y="250" width="430" height="160" rx="12" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="705" y="280" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#9a3412">与 VRP 结合</text>
+  <text x="705" y="310" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">会算 vol ≠ 可以裸卖</text>
+  <text x="705" y="335" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">分层心智 + 仓位限额</text>
+  <text x="705" y="365" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#b91c1c">✗ 背一个 IV 当圣杯</text>
+  <text x="705" y="390" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#166534">✓ 分清 RV / IV / 窗口</text>
+
+  <text x="480" y="450" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#94a3b8">Outlier / Options Trench 五级框架 · 教学示意</text>
+</svg>
