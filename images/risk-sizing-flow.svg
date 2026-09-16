@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420">
+  <rect width="960" height="420" fill="#fff"/>
+  <text x="480" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700">仓位计算顺序：先算手数，再下单</text>
+  <text x="480" y="54" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">止损距离由结构决定 · 手数由风险反推 · 禁止先拍手数</text>
+
+  <!-- steps -->
+  <rect x="30" y="90" width="160" height="120" rx="10" fill="#eff6ff" stroke="#60a5fa"/>
+  <text x="110" y="125" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#1d4ed8">① 风险资本</text>
+  <text x="110" y="155" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#334155">只拿亏得起的钱</text>
+  <text x="110" y="178" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">勿生活费本金化</text>
+
+  <path d="M195 150 L220 150" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="220,150 210,144 210,156" fill="#94a3b8"/>
+
+  <rect x="230" y="90" width="160" height="120" rx="10" fill="#f0fdf4" stroke="#4ade80"/>
+  <text x="310" y="125" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#166534">② 单笔风险%</text>
+  <text x="310" y="155" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#334155">建议 0.5%–2%</text>
+  <text x="310" y="178" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">作者常用 0.5–1%</text>
+
+  <path d="M395 150 L420 150" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="420,150 410,144 410,156" fill="#94a3b8"/>
+
+  <rect x="430" y="90" width="160" height="120" rx="10" fill="#fef3c7" stroke="#fbbf24"/>
+  <text x="510" y="125" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#92400e">③ 止损距离</text>
+  <text x="510" y="155" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#334155">结构外放置</text>
+  <text x="510" y="178" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">例：58 pips</text>
+
+  <path d="M595 150 L620 150" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="620,150 610,144 610,156" fill="#94a3b8"/>
+
+  <rect x="630" y="90" width="160" height="120" rx="10" fill="#ede9fe" stroke="#a78bfa"/>
+  <text x="710" y="125" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#5b21b6">④ 算手数</text>
+  <text x="710" y="155" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#334155">风险$ ÷ 止损$</text>
+  <text x="710" y="178" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">例：≈0.17 手</text>
+
+  <path d="M795 150 L820 150" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="820,150 810,144 810,156" fill="#94a3b8"/>
+
+  <rect x="830" y="90" width="110" height="120" rx="10" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+  <text x="885" y="140" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#166534">⑤ 下单</text>
+  <text x="885" y="170" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#334155">再点确认</text>
+
+  <!-- RR + exposure -->
+  <rect x="30" y="240" width="440" height="110" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="250" y="275" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#0f172a">Risk:Reward ≥ 1:2</text>
+  <text x="250" y="305" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">先画止损与止盈，再算 RR</text>
+  <text x="250" y="328" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">&lt;1:2 宁可不做 · 用 RR 降盈亏平衡胜率需求</text>
+
+  <rect x="490" y="240" width="440" height="110" rx="12" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="710" y="275" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#9a3412">最大暴露（例）</text>
+  <text x="710" y="305" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">单笔 1% · 总暴露 5% → 最多 5 笔同时</text>
+  <text x="710" y="328" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">先定单笔，再定总上限</text>
+
+  <text x="480" y="390" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#b91c1c">反例：每笔 25% → 连亏四笔可爆仓；1% 级才有「连亏空间感」</text>
+  <text x="480" y="410" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#94a3b8">Trading Geek 风控框架 · 过滤攻击性话术 · 教学示意</text>
+</svg>

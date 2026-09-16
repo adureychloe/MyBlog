@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+  <rect width="960" height="520" fill="#fff"/>
+  <text x="480" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700">七大红旗：你可能正要开始亏大钱</text>
+  <text x="480" y="54" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">每周自评打分 · 堆叠触发降仓阶梯（SMB 框架学习版）</text>
+
+  <!-- 7 flags in 2 rows -->
+  <rect x="30" y="75" width="290" height="88" rx="10" fill="#fef2f2" stroke="#fca5a5"/>
+  <text x="50" y="100" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#b91c1c">① 胜率升但账户不涨</text>
+  <text x="50" y="125" font-family="system-ui,sans-serif" font-size="12" fill="#334155">赢小亏大（例 70% 胜率</text>
+  <text x="50" y="145" font-family="system-ui,sans-serif" font-size="12" fill="#334155">均赢 $200 / 均亏 $700）</text>
+
+  <rect x="335" y="75" width="290" height="88" rx="10" fill="#fef2f2" stroke="#fca5a5"/>
+  <text x="355" y="100" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#b91c1c">② 笔数多于最佳日</text>
+  <text x="355" y="125" font-family="system-ui,sans-serif" font-size="12" fill="#334155">最佳日 2–4 笔 → 现在 10–20</text>
+  <text x="355" y="145" font-family="system-ui,sans-serif" font-size="12" fill="#334155">过度交易螺旋</text>
+
+  <rect x="640" y="75" width="290" height="88" rx="10" fill="#fef2f2" stroke="#fca5a5"/>
+  <text x="660" y="100" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#b91c1c">③ 记不清最近三笔</text>
+  <text x="660" y="125" font-family="system-ui,sans-serif" font-size="12" fill="#334155">说不出 setup / 入场 / 出场</text>
+  <text x="660" y="145" font-family="system-ui,sans-serif" font-size="12" fill="#334155">已抛弃流程、在追市场</text>
+
+  <rect x="30" y="180" width="290" height="88" rx="10" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="50" y="205" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#c2410c">④ 策略跳槽</text>
+  <text x="50" y="230" font-family="system-ui,sans-serif" font-size="12" fill="#334155">动量→均值回归→突破…</text>
+  <text x="50" y="250" font-family="system-ui,sans-serif" font-size="12" fill="#334155">常是状态不对，先减仓</text>
+
+  <rect x="335" y="180" width="290" height="88" rx="10" fill="#fee2e2" stroke="#f87171" stroke-width="2"/>
+  <text x="355" y="205" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#991b1b">⑤ 合理化更大亏损</text>
+  <text x="355" y="230" font-family="system-ui,sans-serif" font-size="12" fill="#334155">止损一路挪大（最危险）</text>
+  <text x="355" y="250" font-family="system-ui,sans-serif" font-size="12" fill="#991b1b">自毁纪律 · 零容忍</text>
+
+  <rect x="640" y="180" width="290" height="88" rx="10" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="660" y="205" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#c2410c">⑥ 盯 P&amp;L 多于执行</text>
+  <text x="660" y="230" font-family="system-ui,sans-serif" font-size="12" fill="#334155">频繁看浮动盈亏</text>
+  <text x="660" y="250" font-family="system-ui,sans-serif" font-size="12" fill="#334155">desk：键盘执行、少摸鼠</text>
+
+  <rect x="185" y="285" width="290" height="88" rx="10" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="205" y="310" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#c2410c">⑦ 无法休息一天</text>
+  <text x="205" y="335" font-family="system-ui,sans-serif" font-size="12" fill="#334155">对「动作」上瘾 / FOMO</text>
+  <text x="205" y="355" font-family="system-ui,sans-serif" font-size="12" fill="#334155">强制每周完整休息</text>
+
+  <rect x="495" y="285" width="290" height="88" rx="10" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="640" y="320" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#166534">修复起点</text>
+  <text x="640" y="345" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#334155">每笔后写三点日志</text>
+  <text x="640" y="365" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#334155">写不出 → 不要下一笔</text>
+
+  <text x="480" y="420" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">红旗是过程警报，不是「亏了才算」；赢钱时也可能亮灯</text>
+  <text x="480" y="450" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">胜率 ≠ 赚钱；过度交易与挪止损优先处理</text>
+  <text x="480" y="490" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#94a3b8">SMB Capital 七红旗框架 · 教学示意 · 非诊疗</text>
+</svg>
