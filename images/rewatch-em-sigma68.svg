@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440">
+  <rect width="960" height="440" fill="#fff"/>
+  <text x="480" y="30" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700">Expected Move ≈ 1σ 区间（约 68%）（画面约 3:35）</text>
+  <text x="480" y="52" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">EM 是区间宽度，不是方向目标价 / 确定性围栏</text>
+
+  <!-- bell curve -->
+  <rect x="80" y="80" width="520" height="260" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+  <path d="M120 300 C180 300, 200 100, 340 100 S500 300, 560 300" fill="#dbeafe" fill-opacity="0.7" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="260" y="100" width="160" height="200" fill="#93c5fd" fill-opacity="0.45"/>
+  <text x="340" y="200" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#1d4ed8">≈68%</text>
+  <text x="340" y="225" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#1e40af">1σ 蓝区</text>
+  <line x1="260" y1="300" x2="260" y2="320" stroke="#1d4ed8"/>
+  <line x1="420" y1="300" x2="420" y2="320" stroke="#1d4ed8"/>
+  <text x="260" y="340" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#334155">−1σ</text>
+  <text x="420" y="340" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#334155">+1σ</text>
+  <text x="340" y="340" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">现价</text>
+
+  <!-- netflix box -->
+  <rect x="640" y="90" width="280" height="240" rx="12" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="780" y="125" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#c2410c">Netflix 例（约 0:44）</text>
+  <text x="780" y="165" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">期权暗示约</text>
+  <text x="780" y="200" text-anchor="middle" font-family="system-ui,sans-serif" font-size="28" font-weight="700" fill="#ea580c">±13%</text>
+  <text x="780" y="240" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">财报前 Implied Move</text>
+  <text x="780" y="275" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#991b1b">≠「必涨/必跌」</text>
+  <text x="780" y="300" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#166534">= 市场定价的区间宽度</text>
+
+  <text x="480" y="390" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">正态假设下 1σ≈68% 概率落在区间内——仍有约 32% 可能穿出</text>
+  <text x="480" y="420" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#94a3b8">Rewatch 教学示意 · 非围栏保证</text>
+</svg>
