@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460">
+  <rect width="960" height="460" fill="#fff"/>
+  <text x="480" y="28" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="700">成功突破 vs 假突破：看关键点 RVOL（约 07:38–09:17）</text>
+  <text x="480" y="50" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">量在关键点有帮助，不总能正确预测（约 10:07）</text>
+
+  <!-- success -->
+  <rect x="40" y="70" width="420" height="250" rx="12" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="250" y="105" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#166534">Successful Breakout</text>
+  <line x1="80" y1="180" x2="380" y2="180" stroke="#64748b" stroke-dasharray="4 3"/>
+  <text x="400" y="185" font-family="system-ui,sans-serif" font-size="11" fill="#64748b">阻力</text>
+  <path d="M100 220 L160 200 L220 190 L280 140 L340 120" fill="none" stroke="#16a34a" stroke-width="3"/>
+  <line x1="250" y1="120" x2="250" y2="240" stroke="#3b82f6" stroke-width="2" stroke-dasharray="3 2"/>
+  <rect x="235" y="250" width="30" height="50" fill="#22c55e"/>
+  <text x="250" y="320" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#166534">突破处绿柱上升（黄圈标）</text>
+
+  <!-- false -->
+  <rect x="500" y="70" width="420" height="250" rx="12" fill="#fef2f2" stroke="#fca5a5"/>
+  <text x="710" y="105" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#991b1b">False Breakout</text>
+  <line x1="540" y1="180" x2="840" y2="180" stroke="#64748b" stroke-dasharray="4 3"/>
+  <path d="M560 210 L620 160 L680 150 L720 170 L780 200" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <circle cx="680" cy="150" r="18" fill="none" stroke="#eab308" stroke-width="2.5"/>
+  <rect x="665" y="250" width="30" height="25" fill="#f97316"/>
+  <text x="710" y="320" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#991b1b">低 RVOL（约 05:01）→ 回调/盘整偏多</text>
+
+  <rect x="40" y="345" width="880" height="60" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="480" y="370" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#166534">采用：RVOL 作突破确认过滤 · 同时段自身均量</text>
+  <text x="480" y="392" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#991b1b">弃用：单靠 RVOL 猜方向 · 高量=必成功突破</text>
+
+  <text x="480" y="440" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#94a3b8">Rewatch 教学示意 · Breakout 篇 · 非实盘保证</text>
+</svg>
