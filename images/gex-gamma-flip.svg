@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440">
+  <rect width="960" height="440" fill="#fff"/>
+  <text x="480" y="30" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700">Gamma Flip 后：原 Call Resistance 可改读支撑</text>
+  <text x="480" y="52" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">突破语境 ~32:52 · MenthorQ 例 PS≈21500 / NQ≈21671（~35:16）</text>
+
+  <!-- before -->
+  <rect x="40" y="75" width="420" height="280" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="250" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#0f172a">Flip 前</text>
+  <line x1="100" y1="180" x2="380" y2="180" stroke="#f59e0b" stroke-width="3"/>
+  <text x="250" y="170" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#b45309">Call Resistance（阻力）</text>
+  <text x="250" y="220" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">正 gamma 语境 · 上方墙</text>
+  <line x1="100" y1="300" x2="380" y2="300" stroke="#22c55e" stroke-width="3"/>
+  <text x="250" y="325" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#166534">Put Support</text>
+
+  <!-- after -->
+  <rect x="500" y="75" width="420" height="280" rx="12" fill="#fefce8" stroke="#fde047"/>
+  <text x="710" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#854d0e">Flip / 突破后</text>
+  <line x1="560" y1="180" x2="840" y2="180" stroke="#22c55e" stroke-width="3"/>
+  <text x="710" y="170" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#166534">原 CR → 可转支撑</text>
+  <text x="710" y="220" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">负 gamma 语境下角色重标</text>
+  <rect x="580" y="250" width="260" height="70" rx="8" fill="#fff" stroke="#86efac"/>
+  <text x="710" y="280" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#334155">例：PS ≈ 21500</text>
+  <text x="710" y="302" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#334155">NQ 约 21671（片中快照）</text>
+
+  <text x="480" y="400" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">GEX 只是结构层 · 叠加价量/事件 · 勿当必涨必跌预言</text>
+</svg>
