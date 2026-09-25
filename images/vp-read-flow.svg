@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+  <rect width="960" height="520" fill="#fff"/>
+  <text x="480.0" y="32" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">开盘前后 5 步：先读「价值在哪」，再谈进场</text>
+  <text x="480.0" y="55" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">按片中 Checklist 顺序整理 · 学习流程，不是交易信号</text>
+  <rect x="40" y="80" width="260" height="90" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="170.0" y="106" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="700">① 画 Session Profile</text>
+  <text x="170.0" y="128" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">标出 POC / VAH / VAL</text>
+  <text x="170.0" y="146" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">（VA 默认约 70%，平台可调）</text>
+  <rect x="350" y="80" width="260" height="90" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="480.0" y="106" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="700">② 看形状</text>
+  <text x="480.0" y="128" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">钟形、绕 POC 摆 = 平衡</text>
+  <text x="480.0" y="146" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">一段段往上/下挪 = 失衡</text>
+  <rect x="660" y="80" width="260" height="90" rx="10" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="790.0" y="106" font-size="14" fill="#9a3412" text-anchor="middle" font-weight="700">③ 价格在 VAH–VAL 内？</text>
+  <text x="790.0" y="128" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">这是分岔口</text>
+  <line x1="300" y1="125" x2="348" y2="125" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="610" y1="125" x2="658" y2="125" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="730" y1="170" x2="560" y2="228" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="850" y1="170" x2="850" y2="228" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="620" y="200" font-size="13" fill="#166534" text-anchor="middle" font-weight="700">是</text>
+  <text x="842" y="205" font-size="13" fill="#b91c1c" text-anchor="end" font-weight="700">否，且价值在搬家</text>
+  <rect x="380" y="230" width="330" height="100" rx="10" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="545.0" y="256" font-size="14" fill="#166534" text-anchor="middle" font-weight="700">轮动读法</text>
+  <text x="545.0" y="278" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">区内来回，HVN 当接受区</text>
+  <text x="545.0" y="296" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">边缘 → 中轴的来回是常见读法</text>
+  <text x="545.0" y="314" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">LVN 附近预期快穿/快拒</text>
+  <rect x="730" y="230" width="200" height="100" rx="10" fill="#fef2f2" stroke="#fca5a5"/>
+  <text x="830.0" y="256" font-size="14" fill="#b91c1c" text-anchor="middle" font-weight="700">迁移读法</text>
+  <text x="830.0" y="278" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">承认趋势</text>
+  <text x="830.0" y="296" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">别死磕旧 POC</text>
+  <text x="830.0" y="314" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">别逆势摊平</text>
+  <line x1="545" y1="330" x2="480" y2="378" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="830" y1="330" x2="560" y2="378" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <rect x="260" y="380" width="440" height="90" rx="10" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="480.0" y="406" font-size="14" fill="#1d4ed8" text-anchor="middle" font-weight="700">④ 先算 tick value → 定手数</text>
+  <text x="480.0" y="428" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">片中单列一页：Calculate your tick value</text>
+  <text x="480.0" y="446" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">每跳多少钱 × 止损跳数 = 这笔最多亏多少</text>
+  <rect x="740" y="380" width="190" height="90" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="835.0" y="406" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="700">⑤ 再谈 Setup</text>
+  <text x="835.0" y="428" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">入场规则最后才轮到</text>
+  <line x1="700" y1="425" x2="738" y2="425" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <rect x="40" y="230" width="300" height="100" rx="10" fill="#fafafa" stroke="#e5e7eb"/>
+  <text x="190.0" y="256" font-size="14" fill="#6b7280" text-anchor="middle" font-weight="700">常见误区（弃用）</text>
+  <text x="190.0" y="278" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">「POC 一定会被回踩」</text>
+  <text x="190.0" y="296" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">趋势日还按区内轮动做反向</text>
+  <text x="190.0" y="314" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">不算 tick value 就加仓</text>
+  <text x="480.0" y="505" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">把 ③ 的答案写下来再动手：你今天在做「轮动」还是在跟「迁移」？</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+  <rect width="960" height="520" fill="#fff"/>
+  <text x="480.0" y="32" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">蝶式 1:2:1 拆开看：TSLA 1200 / 1220 / 1240 Call Butterfly</text>
+  <text x="480.0" y="55" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">按片中白板 ~10:34（结构）与中段拆解画面重画 · 教学例，非荐股</text>
+  <rect x="40" y="72" width="880" height="62" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="150" y="100" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="700">股价 $1135</text>
+  <text x="150" y="121" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">（片中 TSLA 例）</text>
+  <line x1="225" y1="104" x2="330" y2="104" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="440" y="100" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="700">Expected Move ≈ $87</text>
+  <text x="440" y="121" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">Apr14 1135 跨式 ≈ $86.65–87.65</text>
+  <line x1="555" y1="104" x2="660" y2="104" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="780" y="100" font-size="15" fill="#b45309" text-anchor="middle" font-weight="700">目标 $1220 → 放在中轴</text>
+  <text x="780" y="121" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">short strike = 你的目标价</text>
+  <line x1="90" y1="250" x2="870" y2="250" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="175" y="160" width="150" height="64" rx="10" fill="#dcfce7" stroke="#166534"/>
+  <text x="250" y="188" font-size="20" fill="#166534" text-anchor="middle" font-weight="700">+1</text>
+  <text x="250" y="212" font-size="12" fill="#166534" text-anchor="middle" font-weight="700">买 1 张 1200C</text>
+  <circle cx="250" cy="250" r="6" fill="#166534"/>
+  <text x="250" y="274" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="700">1200</text>
+  <rect x="405" y="160" width="150" height="64" rx="10" fill="#fee2e2" stroke="#b91c1c"/>
+  <text x="480" y="188" font-size="20" fill="#b91c1c" text-anchor="middle" font-weight="700">−2</text>
+  <text x="480" y="212" font-size="12" fill="#b91c1c" text-anchor="middle" font-weight="700">卖 2 张 1220C</text>
+  <circle cx="480" cy="250" r="6" fill="#b91c1c"/>
+  <text x="480" y="274" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="700">1220</text>
+  <rect x="635" y="160" width="150" height="64" rx="10" fill="#dcfce7" stroke="#166534"/>
+  <text x="710" y="188" font-size="20" fill="#166534" text-anchor="middle" font-weight="700">+1</text>
+  <text x="710" y="212" font-size="12" fill="#166534" text-anchor="middle" font-weight="700">买 1 张 1240C</text>
+  <circle cx="710" cy="250" r="6" fill="#166534"/>
+  <text x="710" y="274" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="700">1240</text>
+  <line x1="262" y1="285" x2="468" y2="285" stroke="#475569" stroke-width="1.2" marker-end="url(#arr)"/>
+  <line x1="468" y1="285" x2="262" y2="285" stroke="#475569" stroke-width="1.2" marker-end="url(#arr)"/>
+  <line x1="492" y1="285" x2="698" y2="285" stroke="#475569" stroke-width="1.2" marker-end="url(#arr)"/>
+  <line x1="698" y1="285" x2="492" y2="285" stroke="#475569" stroke-width="1.2" marker-end="url(#arr)"/>
+  <text x="365" y="302" font-size="12" fill="#475569" text-anchor="middle" font-weight="400">翼宽 20</text>
+  <text x="595" y="302" font-size="12" fill="#475569" text-anchor="middle" font-weight="400">翼宽 20</text>
+  <text x="830" y="272" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">比例永远 1 : 2 : 1</text>
+  <text x="830" y="292" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">两侧距离对称</text>
+  <text x="480.0" y="342" font-size="13" fill="#334155" text-anchor="middle" font-weight="700">等价拆解（片中：When you break this down what you really have is…）</text>
+  <rect x="70" y="360" width="370" height="100" rx="10" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="255" y="388" font-size="14" fill="#166534" text-anchor="middle" font-weight="700">Long 1200/1220 call spread</text>
+  <text x="255" y="412" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="400">+1200C  −1220C</text>
+  <text x="255" y="436" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">看涨垂直：赚「涨到 1220」这段</text>
+  <text x="480" y="418" font-size="28" fill="#0f172a" text-anchor="middle" font-weight="700">+</text>
+  <rect x="520" y="360" width="370" height="100" rx="10" fill="#fef2f2" stroke="#fca5a5"/>
+  <text x="705" y="388" font-size="14" fill="#b91c1c" text-anchor="middle" font-weight="700">Short 1220/1240 call spread</text>
+  <text x="705" y="412" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="400">−1220C  +1240C</text>
+  <text x="705" y="436" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">卖出垂直：「涨过 1220」开始还回去</text>
+  <text x="480.0" y="496" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">两个 1220C 合起来就是中间的「−2」；两个垂直同宽（20）、共享中轴 1220。</text>
+</svg>
