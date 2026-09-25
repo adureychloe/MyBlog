@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="470" viewBox="0 0 960 470">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+  <rect width="960" height="470" fill="#fff"/>
+  <text x="480.0" y="32" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">做市商的一天：从接单到「被迫买卖」的 5 步</text>
+  <text x="480.0" y="55" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">把片中动画串成流程 · ~4:46 P/L 剖面绕现价「旋转」+ 底部红绿对冲柱</text>
+  <rect x="30" y="90" width="164" height="110" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="112" y="120" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="700">① 接单</text>
+  <text x="112" y="148" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">客户买/卖期权</text>
+  <text x="112" y="168" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">做市商做对手盘</text>
+  <line x1="196" y1="145" x2="214" y2="145" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <rect x="216" y="90" width="164" height="110" rx="10" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="298" y="120" font-size="15" fill="#1d4ed8" text-anchor="middle" font-weight="700">② Delta 对冲</text>
+  <text x="298" y="148" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">用标的把 Delta</text>
+  <text x="298" y="168" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">压到接近 0</text>
+  <line x1="382" y1="145" x2="400" y2="145" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <rect x="402" y="90" width="164" height="110" rx="10" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="484" y="120" font-size="15" fill="#166534" text-anchor="middle" font-weight="700">③ 价格动</text>
+  <text x="484" y="148" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">Gamma 改变 Delta</text>
+  <text x="484" y="168" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">→ 必须再对冲</text>
+  <line x1="568" y1="145" x2="586" y2="145" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <rect x="588" y="90" width="164" height="110" rx="10" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="670" y="120" font-size="15" fill="#9a3412" text-anchor="middle" font-weight="700">④ IV 动</text>
+  <text x="670" y="148" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">Vanna 改变 Delta</text>
+  <text x="670" y="168" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">→ 也要再对冲</text>
+  <line x1="754" y1="145" x2="772" y2="145" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <rect x="774" y="90" width="164" height="110" rx="10" fill="#faf5ff" stroke="#d8b4fe"/>
+  <text x="856" y="120" font-size="15" fill="#6b21a8" text-anchor="middle" font-weight="700">⑤ 形成流</text>
+  <text x="856" y="148" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">这些买卖是机械的</text>
+  <text x="856" y="168" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">不是观点</text>
+  <rect x="30" y="230" width="440" height="150" rx="10" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="250" y="258" font-size="14" fill="#166534" text-anchor="middle" font-weight="700">③ 里怎么动：看 Gamma 正负</text>
+  <text x="50" y="286" font-size="13" fill="#334155" text-anchor="start" font-weight="400">· 正 Gamma：涨了卖、跌了买 → 阻尼</text>
+  <text x="50" y="312" font-size="13" fill="#334155" text-anchor="start" font-weight="400">· 负 Gamma：涨了买、跌了卖 → 放大</text>
+  <text x="50" y="338" font-size="13" fill="#334155" text-anchor="start" font-weight="400">· 对冲后 P/L 在现价附近变平（Delta≈0）</text>
+  <text x="50" y="362" font-size="12" fill="#64748b" text-anchor="start" font-weight="400">  价格一走，平的地方就移开了</text>
+  <rect x="490" y="230" width="440" height="150" rx="10" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="710" y="258" font-size="14" fill="#9a3412" text-anchor="middle" font-weight="700">④ 里怎么动：片中多 Put 例</text>
+  <text x="510" y="286" font-size="13" fill="#334155" text-anchor="start" font-weight="400">· IV↑ 且 Put ITM → 卖标的</text>
+  <text x="510" y="312" font-size="13" fill="#334155" text-anchor="start" font-weight="400">· IV↑ 且 Put OTM → 买标的</text>
+  <text x="510" y="338" font-size="13" fill="#334155" text-anchor="start" font-weight="400">· 事件前后 IV 变化大：价格没怎么动，</text>
+  <text x="510" y="362" font-size="13" fill="#334155" text-anchor="start" font-weight="400">  对冲流也可能先出现</text>
+  <text x="480.0" y="416" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">用法：把它当「谁会被迫买卖」的背景地图，和价格结构一起看；</text>
+  <text x="480.0" y="442" font-size="13" fill="#b91c1c" text-anchor="middle" font-weight="700">弃用：拿一张 Gamma / Vanna 图直接喊方向——仓位规模、流动性、真实持仓都未知。</text>
+</svg>

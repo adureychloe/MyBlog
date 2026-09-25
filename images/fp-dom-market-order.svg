@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+  <rect width="960" height="500" fill="#fff"/>
+  <text x="480.0" y="32" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">DOM 先看懂：限价单「挂着等」，市价单「吃掉」才让价格跳</text>
+  <text x="480.0" y="55" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">按 ATAS 片中 ~2:39 DOM 画面重画（仅保留 5850.50 这一档的画面数字）</text>
+  <rect x="60" y="80" width="400" height="330" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="130" y="106" font-size="13" fill="#166534" text-anchor="middle" font-weight="700">Bid 挂单</text>
+  <text x="260" y="106" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">价格</text>
+  <text x="390" y="106" font-size="13" fill="#b91c1c" text-anchor="middle" font-weight="700">Ask 挂单</text>
+  <rect x="200" y="120" width="120" height="30" fill="#e2e8f0"/>
+  <text x="260" y="140" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="400">5851.25</text>
+  <rect x="330" y="120" width="120" height="30" fill="#fee2e2"/>
+  <text x="390" y="140" font-size="12" fill="#b91c1c" text-anchor="middle" font-weight="400">…</text>
+  <rect x="200" y="154" width="120" height="30" fill="#e2e8f0"/>
+  <text x="260" y="174" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="400">5851.00</text>
+  <rect x="330" y="154" width="120" height="30" fill="#fee2e2"/>
+  <text x="390" y="174" font-size="12" fill="#b91c1c" text-anchor="middle" font-weight="400">…</text>
+  <rect x="200" y="188" width="120" height="30" fill="#e2e8f0"/>
+  <text x="260" y="208" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="400">5850.75</text>
+  <rect x="330" y="188" width="120" height="30" fill="#fee2e2"/>
+  <text x="390" y="208" font-size="12" fill="#b91c1c" text-anchor="middle" font-weight="400">…</text>
+  <rect x="200" y="222" width="120" height="30" fill="#fde68a"/>
+  <text x="260" y="242" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">5850.50</text>
+  <rect x="330" y="222" width="120" height="30" fill="#fecaca"/>
+  <text x="390" y="242" font-size="14" fill="#b91c1c" text-anchor="middle" font-weight="700">40</text>
+  <rect x="200" y="256" width="120" height="30" fill="#e2e8f0"/>
+  <text x="260" y="276" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="400">5850.25</text>
+  <rect x="330" y="256" width="120" height="30" fill="#fee2e2"/>
+  <text x="390" y="276" font-size="12" fill="#b91c1c" text-anchor="middle" font-weight="400">…</text>
+  <rect x="200" y="290" width="120" height="30" fill="#e2e8f0"/>
+  <text x="260" y="310" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="400">5850.00</text>
+  <rect x="70" y="290" width="120" height="30" fill="#dcfce7"/>
+  <text x="130" y="310" font-size="12" fill="#166534" text-anchor="middle" font-weight="400">…</text>
+  <rect x="200" y="324" width="120" height="30" fill="#e2e8f0"/>
+  <text x="260" y="344" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="400">5849.75</text>
+  <rect x="70" y="324" width="120" height="30" fill="#dcfce7"/>
+  <text x="130" y="344" font-size="12" fill="#166534" text-anchor="middle" font-weight="400">…</text>
+  <rect x="200" y="358" width="120" height="30" fill="#e2e8f0"/>
+  <text x="260" y="378" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="400">5849.50</text>
+  <rect x="70" y="358" width="120" height="30" fill="#dcfce7"/>
+  <text x="130" y="378" font-size="12" fill="#166534" text-anchor="middle" font-weight="400">…</text>
+  <line x1="70" y1="288" x2="450" y2="288" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="390" y="308" font-size="11" fill="#0f172a" text-anchor="middle" font-weight="400">↑ 卖方挂单 / ↓ 买方挂单</text>
+  <text x="455" y="242" font-size="12" fill="#334155" text-anchor="start" font-weight="400"></text>
+  <rect x="480" y="211" width="200" height="46" rx="10" fill="#fef9c3" stroke="#eab308"/>
+  <text x="580" y="241" font-size="20" fill="#854d0e" text-anchor="middle" font-weight="700">91 − 40 = 51</text>
+  <line x1="478" y1="237" x2="452" y2="237" stroke="#ca8a04" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="700" y="120" font-size="14" fill="#0f172a" text-anchor="start" font-weight="700">限价单（被动）</text>
+  <text x="700" y="142" font-size="12" fill="#334155" text-anchor="start" font-weight="400">挂在某价位等人来成交</text>
+  <text x="700" y="180" font-size="14" fill="#0f172a" text-anchor="start" font-weight="700">市价单（主动）</text>
+  <text x="700" y="202" font-size="12" fill="#334155" text-anchor="start" font-weight="400">立刻吃掉对面的挂单</text>
+  <text x="700" y="222" font-size="12" fill="#334155" text-anchor="start" font-weight="400">一档吃光 → 价格才跳到下一档</text>
+  <text x="700" y="262" font-size="14" fill="#854d0e" text-anchor="start" font-weight="700">画面标注（5850.50）</text>
+  <text x="700" y="284" font-size="12" fill="#334155" text-anchor="start" font-weight="400">该档卖方挂单 40，黄笔写</text>
+  <text x="700" y="304" font-size="12" fill="#334155" text-anchor="start" font-weight="400">91 − 40 = 51：两边量相减，</text>
+  <text x="700" y="324" font-size="12" fill="#334155" text-anchor="start" font-weight="400">剩下的就是「多出来的那一方」</text>
+  <text x="480.0" y="446" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">先建立直觉：价格移动 = 主动方把一档挂单吃完。Footprint 就是把这些「谁吃了谁」按价位记下来。</text>
+  <text x="480.0" y="472" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">（「…」为本图省略的挂单数字；只保留笔记核对过的 40 与 91−40=51）</text>
+</svg>

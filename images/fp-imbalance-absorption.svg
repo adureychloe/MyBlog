@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+  <rect width="960" height="540" fill="#fff"/>
+  <text x="480.0" y="32" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">Imbalance Rate = 150 → 一侧至少是另一侧的 1.5 倍；色块只是提醒，不是指令</text>
+  <text x="480.0" y="55" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">~13:03 ATAS 设置：Imbalance Rate 150 · Bid 红 / Ask 浅绿 · ~7:50 烛底 720 × 238 吸收观察</text>
+  <rect x="40" y="76" width="500" height="300" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="290" y="104" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="700">150 = 150% = 1.5 倍（两数相比演示倍数）</text>
+  <text x="290" y="126" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">同行还是斜向比较因平台而异；画面只给了阈值</text>
+  <rect x="60" y="146" width="130" height="50" rx="6" fill="#fee2e2" stroke="#b91c1c"/>
+  <text x="125" y="178" font-size="17" fill="#b91c1c" text-anchor="middle" font-weight="700">26 × 7</text>
+  <text x="210" y="168" font-size="14" fill="#0f172a" text-anchor="start" font-weight="700">26 ÷ 7 ≈ 3.7</text>
+  <text x="210" y="188" font-size="13" fill="#b91c1c" text-anchor="start" font-weight="400">≥ 1.5 → Bid 侧占优</text>
+  <rect x="60" y="216" width="130" height="50" rx="6" fill="#f1f5f9" stroke="#475569"/>
+  <text x="125" y="248" font-size="17" fill="#475569" text-anchor="middle" font-weight="700">4 × 4</text>
+  <text x="210" y="238" font-size="14" fill="#0f172a" text-anchor="start" font-weight="700">4 ÷ 4 = 1.0</text>
+  <text x="210" y="258" font-size="13" fill="#475569" text-anchor="start" font-weight="400">&lt; 1.5 → 不算失衡</text>
+  <rect x="60" y="286" width="130" height="50" rx="6" fill="#fee2e2" stroke="#b91c1c"/>
+  <text x="125" y="318" font-size="17" fill="#b91c1c" text-anchor="middle" font-weight="700">720 × 238</text>
+  <text x="210" y="308" font-size="14" fill="#0f172a" text-anchor="start" font-weight="700">720 ÷ 238 ≈ 3.0</text>
+  <text x="210" y="328" font-size="13" fill="#b91c1c" text-anchor="start" font-weight="400">≥ 1.5 → 烛底 Bid 极值</text>
+  <text x="290" y="364" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">26×7、4×4 出自「72/−30」那根 K 线；720×238 出自 ~7:50 画面</text>
+  <rect x="560" y="76" width="370" height="145" rx="10" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="745" y="104" font-size="14" fill="#166534" text-anchor="middle" font-weight="700">吸收（Absorption）观察点</text>
+  <text x="580" y="132" font-size="12" fill="#334155" text-anchor="start" font-weight="400">· 烛底 Bid 侧出现极大值（例 720×238）</text>
+  <text x="580" y="156" font-size="12" fill="#334155" text-anchor="start" font-weight="400">· 大量主动卖打进来，价格却没继续跌穿</text>
+  <text x="580" y="180" font-size="12" fill="#334155" text-anchor="start" font-weight="400">· 才可以说「卖压被接住」这个假设成立</text>
+  <text x="580" y="204" font-size="12" fill="#166534" text-anchor="start" font-weight="700">· 必须看后续是否守住这个价位</text>
+  <rect x="560" y="231" width="370" height="145" rx="10" fill="#fef2f2" stroke="#fca5a5"/>
+  <text x="745" y="259" font-size="14" fill="#b91c1c" text-anchor="middle" font-weight="700">反例：只看色块就下单（弃用）</text>
+  <text x="580" y="287" font-size="12" fill="#334155" text-anchor="start" font-weight="400">× 看到一格红/绿高亮就反向进场</text>
+  <text x="580" y="311" font-size="12" fill="#334155" text-anchor="start" font-weight="400">× 把单格极值当「必反转」</text>
+  <text x="580" y="335" font-size="12" fill="#334155" text-anchor="start" font-weight="400">× 照搬默认 150，不看品种与流动性</text>
+  <text x="580" y="359" font-size="12" fill="#334155" text-anchor="start" font-weight="400">× 混用不同平台的 Delta / 失衡口径</text>
+  <rect x="40" y="400" width="164" height="46" rx="8" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="122" y="428" font-size="12" fill="#1d4ed8" text-anchor="middle" font-weight="700">看到高亮格</text>
+  <line x1="205" y1="423" x2="218" y2="423" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <rect x="220" y="400" width="164" height="46" rx="8" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="302" y="428" font-size="12" fill="#1d4ed8" text-anchor="middle" font-weight="700">读数字：谁大、几倍</text>
+  <line x1="385" y1="423" x2="398" y2="423" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <rect x="400" y="400" width="164" height="46" rx="8" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="482" y="428" font-size="12" fill="#1d4ed8" text-anchor="middle" font-weight="700">位置：烛底/烛顶/关键价？</text>
+  <line x1="565" y1="423" x2="578" y2="423" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <rect x="580" y="400" width="164" height="46" rx="8" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="662" y="428" font-size="12" fill="#1d4ed8" text-anchor="middle" font-weight="700">价格守住了吗？</text>
+  <line x1="745" y1="423" x2="758" y2="423" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <rect x="760" y="400" width="164" height="46" rx="8" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="842" y="428" font-size="12" fill="#1d4ed8" text-anchor="middle" font-weight="700">才进入你的计划</text>
+  <text x="480.0" y="490" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">失衡率是「放大镜的倍数」：它帮你找值得细看的格子，判断仍然要回到数字、位置和后续价格行为。</text>
+  <text x="480.0" y="516" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">（150 为片中 ATAS 设置值，需按自己的品种本地化；本图不构成进场规则）</text>
+</svg>
