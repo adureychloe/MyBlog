@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+  <rect width="960" height="480" fill="#fff"/>
+  <text x="480.0" y="32" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">反例：把白板上的 19:1 当成下单常态</text>
+  <text x="480.0" y="55" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">左：片中白板（debit $1 → 最大 $20 → R:R $19/$1）· 右：落到真实市场前要自检的东西</text>
+  <rect x="40" y="76" width="420" height="320" rx="10" fill="#fffbeb" stroke="#fcd34d"/>
+  <text x="250" y="106" font-size="15" fill="#92400e" text-anchor="middle" font-weight="700">教学白板（理想化）</text>
+  <text x="70" y="146" font-size="13" fill="#334155" text-anchor="start" font-weight="400">· Butterfly spreads are typically 「cheap」</text>
+  <text x="70" y="180" font-size="13" fill="#334155" text-anchor="start" font-weight="400">· If we can buy this spread for $1</text>
+  <text x="70" y="214" font-size="13" fill="#334155" text-anchor="start" font-weight="400">· Max value = $20（到期恰在 short strike）</text>
+  <text x="70" y="248" font-size="13" fill="#334155" text-anchor="start" font-weight="400">· Reward / Risk = $19 / $1 = 19:1</text>
+  <rect x="80" y="290" width="340" height="80" rx="10" fill="#ffffff" stroke="#fcd34d"/>
+  <text x="250" y="318" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="700">R:R = (翼宽 20 − debit) ÷ debit</text>
+  <text x="250" y="346" font-size="12" fill="#92400e" text-anchor="middle" font-weight="400">debit 一变大，R:R 立刻缩水</text>
+  <line x1="470" y1="236" x2="520" y2="236" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <rect x="530" y="76" width="390" height="320" rx="10" fill="#fef2f2" stroke="#fca5a5"/>
+  <text x="725" y="106" font-size="15" fill="#b91c1c" text-anchor="middle" font-weight="700">实盘自检（观望，不假设能成交）</text>
+  <text x="555" y="146" font-size="13" fill="#334155" text-anchor="start" font-weight="400">① 三条腿的真实 bid/ask：$1 真能成交吗？</text>
+  <text x="555" y="178" font-size="13" fill="#334155" text-anchor="start" font-weight="400">② 三腿各有滑点，进出都要付</text>
+  <text x="555" y="210" font-size="13" fill="#334155" text-anchor="start" font-weight="400">③ 最大值只在「到期正好停在 1220」</text>
+  <text x="555" y="242" font-size="13" fill="#334155" text-anchor="start" font-weight="400">    停在别处 → 见帐篷图，值得少得多</text>
+  <text x="555" y="274" font-size="13" fill="#334155" text-anchor="start" font-weight="400">④ 卖出的 1220C 进入实值：留意指派风险</text>
+  <text x="555" y="306" font-size="13" fill="#334155" text-anchor="start" font-weight="400">⑤ EM≈$87 只是市场定价的波动幅度，</text>
+  <text x="555" y="338" font-size="13" fill="#334155" text-anchor="start" font-weight="400">    不是「一定会到 1220」的保证</text>
+  <text x="480.0" y="432" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="700">采用：1:2:1 结构 + 垂直拆解 + 到期价值表；弃用：把教学价 $1 / 19:1 当成常态。</text>
+  <text x="480.0" y="458" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">数字均为片中教学价；真实价格以你看到的实时报价为准。</text>
+</svg>

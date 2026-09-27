@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440">
+  <rect width="960" height="440" fill="#fff"/>
+  <text x="480" y="30" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700">波动自适应：高波缩仓、低波才可略加</text>
+  <text x="480" y="52" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">画面对照：ATR 150 pips（~01:35）→ 降至约 75 pips（~02:19 / Fine-Tuning ~02:47）</text>
+
+  <rect x="40" y="80" width="420" height="280" rx="12" fill="#fef2f2" stroke="#fca5a5"/>
+  <text x="250" y="115" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#991b1b">高波动 · ATR ≈ 150 pips</text>
+  <rect x="100" y="150" width="300" height="50" rx="8" fill="#fee2e2" stroke="#ef4444"/>
+  <text x="250" y="182" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#b91c1c">止损宽（1×=150 / 2×=300）</text>
+  <text x="250" y="240" text-anchor="middle" font-family="system-ui,sans-serif" font-size="40" fill="#64748b">↓</text>
+  <rect x="100" y="270" width="300" height="50" rx="8" fill="#fff" stroke="#ef4444"/>
+  <text x="250" y="302" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#991b1b">同样 $100 → 手数必须小</text>
+
+  <rect x="500" y="80" width="420" height="280" rx="12" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="710" y="115" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#166534">低波动 · ATR ≈ 75 pips</text>
+  <rect x="560" y="150" width="300" height="50" rx="8" fill="#dcfce7" stroke="#22c55e"/>
+  <text x="710" y="182" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#166534">止损变窄（约一半）</text>
+  <text x="710" y="240" text-anchor="middle" font-family="system-ui,sans-serif" font-size="40" fill="#64748b">↓</text>
+  <rect x="560" y="270" width="300" height="50" rx="8" fill="#fff" stroke="#22c55e"/>
+  <text x="710" y="295" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#166534">同样 $100 → 可略加仓</text>
+  <text x="710" y="315" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">画面约写 1.33 units/pip（需本地化）</text>
+
+  <text x="480" y="400" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">弃用：固定手数无视 ATR · 把 ATR 当多空信号</text>
+</svg>

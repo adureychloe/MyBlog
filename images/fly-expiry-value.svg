@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+  <rect width="960" height="560" fill="#fff"/>
+  <text x="480.0" y="32" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">到期价值：像一顶帐篷，只在 1200–1240 之间「活着」</text>
+  <text x="480.0" y="55" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">数据点全部来自片中到期价值白板（后段）+ 中轴 $20 · 未扣手续费/滑点</text>
+  <line x1="100" y1="440" x2="650" y2="440" stroke="#94a3b8" stroke-width="1.2"/>
+  <line x1="100" y1="440" x2="100" y2="100" stroke="#94a3b8" stroke-width="1.2"/>
+  <line x1="96" y1="440.0" x2="640" y2="440.0" stroke="#f1f5f9" stroke-width="1"/>
+  <text x="92" y="444.0" font-size="11" fill="#64748b" text-anchor="end" font-weight="400">$0</text>
+  <line x1="96" y1="365.0" x2="640" y2="365.0" stroke="#f1f5f9" stroke-width="1"/>
+  <text x="92" y="369.0" font-size="11" fill="#64748b" text-anchor="end" font-weight="400">$5</text>
+  <line x1="96" y1="290.0" x2="640" y2="290.0" stroke="#f1f5f9" stroke-width="1"/>
+  <text x="92" y="294.0" font-size="11" fill="#64748b" text-anchor="end" font-weight="400">$10</text>
+  <line x1="96" y1="215.00000000000003" x2="640" y2="215.00000000000003" stroke="#f1f5f9" stroke-width="1"/>
+  <text x="92" y="219.00000000000003" font-size="11" fill="#64748b" text-anchor="end" font-weight="400">$15</text>
+  <line x1="96" y1="140.0" x2="640" y2="140.0" stroke="#f1f5f9" stroke-width="1"/>
+  <text x="92" y="144.0" font-size="11" fill="#64748b" text-anchor="end" font-weight="400">$20</text>
+  <text x="100.0" y="458" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">1190</text>
+  <text x="190.0" y="458" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">1200</text>
+  <text x="280.0" y="458" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">1210</text>
+  <text x="370.0" y="458" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">1220</text>
+  <text x="460.0" y="458" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">1230</text>
+  <text x="550.0" y="458" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">1240</text>
+  <text x="640.0" y="458" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">1250</text>
+  <text x="370.0" y="478" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">到期时 TSLA 价格</text>
+  <text x="40" y="92" font-size="12" fill="#334155" text-anchor="start" font-weight="400">蝶式到期价值（每股）</text>
+  <polyline points="100.0,440.0 190.0,440.0 370.0,140.0 550.0,440.0 640.0,440.0" fill="none" stroke="#2563eb" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="190.0" cy="440.0" r="5" fill="#1d4ed8"/>
+  <circle cx="235.0" cy="365.0" r="5" fill="#1d4ed8"/>
+  <circle cx="289.0" cy="275.0" r="5" fill="#1d4ed8"/>
+  <circle cx="352.0" cy="170.0" r="5" fill="#1d4ed8"/>
+  <circle cx="370.0" cy="140.0" r="5" fill="#1d4ed8"/>
+  <circle cx="388.0" cy="170.0" r="5" fill="#1d4ed8"/>
+  <circle cx="469.0" cy="305.0" r="5" fill="#1d4ed8"/>
+  <circle cx="532.0" cy="410.0" r="5" fill="#1d4ed8"/>
+  <circle cx="550.0" cy="440.0" r="5" fill="#1d4ed8"/>
+  <line x1="100" y1="425.0" x2="640" y2="425.0" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="108" y="417.0" font-size="11" fill="#b91c1c" text-anchor="start" font-weight="700">教学 debit $1（成本线）</text>
+  <text x="370.0" y="128.0" font-size="12" fill="#b45309" text-anchor="middle" font-weight="700">中轴 1220：最大 $20</text>
+  <text x="145.0" y="365.0" font-size="11" fill="#475569" text-anchor="middle" font-weight="400">&lt;1200：$0</text>
+  <text x="595.0" y="380.0" font-size="11" fill="#475569" text-anchor="middle" font-weight="400">≥1240：$0</text>
+  <rect x="680" y="90" width="250" height="400" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="805" y="116" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="700">片中到期价值表</text>
+  <text x="696" y="140" font-size="12" fill="#64748b" text-anchor="start" font-weight="700">到期价</text>
+  <text x="770" y="140" font-size="12" fill="#64748b" text-anchor="start" font-weight="700">怎么算</text>
+  <text x="916" y="140" font-size="12" fill="#64748b" text-anchor="end" font-weight="700">价值</text>
+  <text x="696" y="166" font-size="13" fill="#0f172a" text-anchor="start" font-weight="400">&lt;1200</text>
+  <text x="770" y="166" font-size="12" fill="#334155" text-anchor="start" font-weight="400">全部虚值</text>
+  <text x="916" y="166" font-size="13" fill="#1d4ed8" text-anchor="end" font-weight="700">$0</text>
+  <text x="696" y="196" font-size="13" fill="#0f172a" text-anchor="start" font-weight="400">1205</text>
+  <text x="770" y="196" font-size="12" fill="#334155" text-anchor="start" font-weight="400">1200C 值 5</text>
+  <text x="916" y="196" font-size="13" fill="#1d4ed8" text-anchor="end" font-weight="700">$5</text>
+  <text x="696" y="226" font-size="13" fill="#0f172a" text-anchor="start" font-weight="400">1211</text>
+  <text x="770" y="226" font-size="12" fill="#334155" text-anchor="start" font-weight="400">1200C 值 11</text>
+  <text x="916" y="226" font-size="13" fill="#1d4ed8" text-anchor="end" font-weight="700">$11</text>
+  <text x="696" y="256" font-size="13" fill="#0f172a" text-anchor="start" font-weight="400">1218</text>
+  <text x="770" y="256" font-size="12" fill="#334155" text-anchor="start" font-weight="400">1200C 值 18</text>
+  <text x="916" y="256" font-size="13" fill="#1d4ed8" text-anchor="end" font-weight="700">$18</text>
+  <rect x="686" y="268" width="238" height="26" fill="#fef3c7"/>
+  <text x="696" y="286" font-size="13" fill="#0f172a" text-anchor="start" font-weight="400">1220</text>
+  <text x="770" y="286" font-size="12" fill="#334155" text-anchor="start" font-weight="400">中轴（最大）</text>
+  <text x="916" y="286" font-size="13" fill="#1d4ed8" text-anchor="end" font-weight="700">$20</text>
+  <text x="696" y="316" font-size="13" fill="#0f172a" text-anchor="start" font-weight="400">1222</text>
+  <text x="770" y="316" font-size="12" fill="#334155" text-anchor="start" font-weight="400">22 − 2×2</text>
+  <text x="916" y="316" font-size="13" fill="#1d4ed8" text-anchor="end" font-weight="700">$18</text>
+  <text x="696" y="346" font-size="13" fill="#0f172a" text-anchor="start" font-weight="400">1231</text>
+  <text x="770" y="346" font-size="12" fill="#334155" text-anchor="start" font-weight="400">31 − 2×11</text>
+  <text x="916" y="346" font-size="13" fill="#1d4ed8" text-anchor="end" font-weight="700">$9</text>
+  <text x="696" y="376" font-size="13" fill="#0f172a" text-anchor="start" font-weight="400">1238</text>
+  <text x="770" y="376" font-size="12" fill="#334155" text-anchor="start" font-weight="400">38 − 2×18</text>
+  <text x="916" y="376" font-size="13" fill="#1d4ed8" text-anchor="end" font-weight="700">$2</text>
+  <text x="696" y="406" font-size="13" fill="#0f172a" text-anchor="start" font-weight="400">1240</text>
+  <text x="770" y="406" font-size="12" fill="#334155" text-anchor="start" font-weight="400">40 − 2×20</text>
+  <text x="916" y="406" font-size="13" fill="#1d4ed8" text-anchor="end" font-weight="700">$0</text>
+  <text x="805" y="452" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">1222 起两张卖出的 1220C 进入实值，</text>
+  <text x="805" y="470" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">每多涨 $1 要还回 $2，价值开始回落</text>
+  <text x="480.0" y="516" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">读法：越靠近 1220 越值钱，两翼之外归零。净盈亏 = 到期价值 − 付出的 debit。</text>
+  <text x="480.0" y="540" font-size="12" fill="#334155" text-anchor="middle" font-weight="400">例：debit $1 时，1220 到期净赚 $19（19:1 的来源）；1238 到期净赚约 $1；低于 1200 亏掉 $1。</text>
+</svg>

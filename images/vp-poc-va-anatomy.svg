@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+  <rect width="960" height="540" fill="#fff"/>
+  <text x="480.0" y="32" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">Volume Profile 解剖：POC · Value Area · VAH / VAL · HVN / LVN</text>
+  <text x="480.0" y="55" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">教学示意（按片中 ~1:19 POC 文案、VA≈70% 文案与中段示意图重画；柱长为示意，非真实数据）</text>
+  <rect x="40" y="78" width="470" height="426" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+  <rect x="110" y="91" width="21" height="14" fill="#cbd5e1"/>
+  <rect x="110" y="107" width="31" height="14" fill="#cbd5e1"/>
+  <rect x="110" y="123" width="42" height="14" fill="#cbd5e1"/>
+  <rect x="110" y="139" width="62" height="14" fill="#cbd5e1"/>
+  <rect x="110" y="155" width="91" height="14" fill="#cbd5e1"/>
+  <rect x="110" y="171" width="118" height="14" fill="#cbd5e1"/>
+  <rect x="110" y="187" width="147" height="14" fill="#cbd5e1"/>
+  <rect x="110" y="203" width="175" height="14" fill="#60a5fa"/>
+  <rect x="110" y="219" width="196" height="14" fill="#60a5fa"/>
+  <rect x="110" y="235" width="210" height="14" fill="#60a5fa"/>
+  <rect x="110" y="251" width="230" height="14" fill="#60a5fa"/>
+  <rect x="110" y="267" width="251" height="14" fill="#f59e0b"/>
+  <rect x="110" y="283" width="237" height="14" fill="#60a5fa"/>
+  <rect x="110" y="299" width="210" height="14" fill="#60a5fa"/>
+  <rect x="110" y="315" width="182" height="14" fill="#60a5fa"/>
+  <rect x="110" y="331" width="105" height="14" fill="#60a5fa"/>
+  <rect x="110" y="347" width="49" height="14" fill="#60a5fa"/>
+  <rect x="110" y="363" width="42" height="14" fill="#60a5fa"/>
+  <rect x="110" y="379" width="84" height="14" fill="#60a5fa"/>
+  <rect x="110" y="395" width="133" height="14" fill="#60a5fa"/>
+  <rect x="110" y="411" width="154" height="14" fill="#60a5fa"/>
+  <rect x="110" y="427" width="118" height="14" fill="#60a5fa"/>
+  <rect x="110" y="443" width="77" height="14" fill="#cbd5e1"/>
+  <rect x="110" y="459" width="42" height="14" fill="#cbd5e1"/>
+  <rect x="110" y="475" width="24" height="14" fill="#cbd5e1"/>
+  <line x1="110" y1="86" x2="110" y2="494" stroke="#94a3b8" stroke-width="1"/>
+  <text x="102" y="94" font-size="11" fill="#64748b" text-anchor="end" font-weight="400">价格 ↑</text>
+  <line x1="110" y1="202" x2="500" y2="202" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="5,4"/>
+  <line x1="110" y1="442" x2="500" y2="442" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="5,4"/>
+  <line x1="110" y1="274.0" x2="500" y2="274.0" stroke="#d97706" stroke-width="2.5"/>
+  <text x="496" y="197" font-size="12" fill="#1d4ed8" text-anchor="end" font-weight="700">VAH（示意虚线 ≈ 2915.00）</text>
+  <text x="496" y="457" font-size="12" fill="#1d4ed8" text-anchor="end" font-weight="700">VAL（示意虚线 ≈ 2907.50）</text>
+  <text x="496" y="268.0" font-size="12" fill="#b45309" text-anchor="end" font-weight="700">POC：量最大的一档</text>
+  <text x="220" y="116" font-size="11" fill="#64748b" text-anchor="start" font-weight="400">↑ Range（区间外沿）</text>
+  <text x="220" y="484" font-size="11" fill="#64748b" text-anchor="start" font-weight="400">↓ Range（区间外沿）</text>
+  <line x1="160" y1="370.0" x2="255" y2="370.0" stroke="#dc2626" stroke-width="1.2"/>
+  <text x="260" y="374.0" font-size="11" fill="#b91c1c" text-anchor="start" font-weight="400">LVN 薄柱：易快穿 / 尖锐拒绝</text>
+  <rect x="540" y="78" width="390" height="420" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="558" y="108" font-size="14" fill="#b45309" text-anchor="start" font-weight="700">① POC（Point of Control）</text>
+  <text x="570" y="130" font-size="12" fill="#334155" text-anchor="start" font-weight="400">· 成交量最多的价位</text>
+  <text x="570" y="149" font-size="12" fill="#334155" text-anchor="start" font-weight="400">· 片中文案：the market agreed most</text>
+  <text x="570" y="168" font-size="12" fill="#334155" text-anchor="start" font-weight="400">· = 市场「最同意」的价格</text>
+  <text x="558" y="199" font-size="14" fill="#1d4ed8" text-anchor="start" font-weight="700">② Value Area（价值区）</text>
+  <text x="570" y="221" font-size="12" fill="#334155" text-anchor="start" font-weight="400">· 约 70% 的会话成交量落在这里</text>
+  <text x="570" y="240" font-size="12" fill="#334155" text-anchor="start" font-weight="400">· 上沿 VAH、下沿 VAL</text>
+  <text x="570" y="259" font-size="12" fill="#334155" text-anchor="start" font-weight="400">· （示意图虚线约 2915.00 / 2907.50）</text>
+  <text x="558" y="290" font-size="14" fill="#334155" text-anchor="start" font-weight="700">③ HVN 厚柱 / LVN 薄柱</text>
+  <text x="570" y="312" font-size="12" fill="#334155" text-anchor="start" font-weight="400">· HVN：大家愿意在这成交 → 易巩固</text>
+  <text x="570" y="331" font-size="12" fill="#334155" text-anchor="start" font-weight="400">· LVN：没人想停留 → 易快速穿越或拒绝</text>
+  <text x="558" y="362" font-size="14" fill="#0f766e" text-anchor="start" font-weight="700">④ 它按「价格」统计，不按时间</text>
+  <text x="570" y="384" font-size="12" fill="#334155" text-anchor="start" font-weight="400">· 横向柱 = 某价位累计成交量</text>
+  <text x="570" y="403" font-size="12" fill="#334155" text-anchor="start" font-weight="400">· 和下方的时间成交量柱是两回事</text>
+  <text x="480.0" y="528" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">一句话：POC 是「最同意价」，VA 是「大多数人认可的价格带」——它们描述共识，不预言明天必回。</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460">
+  <rect width="960" height="460" fill="#fff"/>
+  <text x="480" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700">ATR 调仓位：风险金额 ÷ (N×ATR)</text>
+  <text x="480" y="54" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">ATR 量波动、不量方向 · Wilder 常用 14 · 画面例（FXCM ~01:35）</text>
+
+  <rect x="40" y="78" width="880" height="90" rx="12" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="480" y="115" text-anchor="middle" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#1d4ed8">手数 ≈ 风险 $ ÷ (N × ATR 止损距离)</text>
+  <text x="480" y="145" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">先定账户可亏金额，再用 N×ATR 定止损宽度，最后反推仓位</text>
+
+  <rect x="40" y="190" width="280" height="200" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="180" y="222" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#0f172a">① 风险金额</text>
+  <text x="180" y="255" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">账户 $10,000</text>
+  <text x="180" y="280" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">× 1% =</text>
+  <text x="180" y="320" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#1d4ed8">$100</text>
+  <text x="180" y="360" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">画面叠字：1% of $10,000</text>
+
+  <rect x="340" y="190" width="280" height="200" rx="12" fill="#fefce8" stroke="#fde047"/>
+  <text x="480" y="222" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#854d0e">② 止损 = N×ATR</text>
+  <text x="480" y="255" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">14-day ATR = 0.0150</text>
+  <text x="480" y="280" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">= 150 pips</text>
+  <text x="480" y="320" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#a16207">1× → 150 · 2× → 300</text>
+  <text x="480" y="360" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">N 与持仓周期匹配</text>
+
+  <rect x="640" y="190" width="280" height="200" rx="12" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="780" y="222" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#166534">③ 反推手数</text>
+  <text x="780" y="255" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">同样 $100 风险</text>
+  <text x="780" y="280" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">止损越宽 → 手数越小</text>
+  <text x="780" y="320" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#166534">点值/货币需本地化</text>
+  <text x="780" y="360" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">勿死记「units/pip」数字</text>
+
+  <text x="480" y="430" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#334155">核心：ATR 变 → 止损宽变 → 手数必须跟着变</text>
+</svg>

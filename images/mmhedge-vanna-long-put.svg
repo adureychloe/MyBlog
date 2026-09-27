@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+  <rect width="960" height="540" fill="#fff"/>
+  <text x="480.0" y="32" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">Vanna：价格没动，IV 一变，对冲也得动（片中：做市商多 Put 的情形）</text>
+  <text x="480.0" y="55" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">按 ~5:56（Puts In / Out the money 分区）与 ~7:05（Higher IV → selling / buying 文案）重画</text>
+  <rect x="40" y="75" width="440" height="270" fill="#dcfce7" opacity="0.7"/>
+  <rect x="480" y="75" width="440" height="270" fill="#fee2e2" opacity="0.8"/>
+  <line x1="480" y1="75" x2="480" y2="345" stroke="#64748b" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="480" y="362" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">行权价（示意）</text>
+  <line x1="40" y1="300" x2="920" y2="300" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="916" y="318" font-size="11" fill="#64748b" text-anchor="end" font-weight="400">标的价格 →</text>
+  <text x="60" y="102" font-size="14" fill="#166534" text-anchor="start" font-weight="700">Puts In the money（价格在行权价下方）</text>
+  <text x="500" y="102" font-size="14" fill="#b91c1c" text-anchor="start" font-weight="700">Puts Out the money（价格在行权价上方）</text>
+  <text x="260" y="150" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="700">IV ↑ + 做市商多 Put 且 ITM</text>
+  <text x="260" y="180" font-size="17" fill="#b91c1c" text-anchor="middle" font-weight="700">→ 卖出标的（selling）</text>
+  <text x="700" y="150" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="700">IV ↑ + 做市商多 Put 且 OTM</text>
+  <text x="700" y="180" font-size="17" fill="#166534" text-anchor="middle" font-weight="700">→ 买入标的（buying）</text>
+  <polyline points="60.0,210.0 200.0,245.0 330.0,275.0 470.0,293.0 600.0,293.0 900.0,293.0" fill="none" stroke="#475569" stroke-width="2.5" stroke-linejoin="round"/>
+  <text x="260" y="232" font-size="11" fill="#475569" text-anchor="middle" font-weight="400">多 Put 的 P/L（示意）</text>
+  <rect x="40" y="380" width="880" height="140" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="60" y="406" font-size="13" fill="#0f172a" text-anchor="start" font-weight="700">为什么方向相反？（补充推导，按常见 Black-Scholes 直觉；片中只给了结论）</text>
+  <text x="60" y="432" font-size="12" fill="#334155" text-anchor="start" font-weight="400">· 做市商多 Put = 手里是负 Delta，所以对冲时持有多头标的。</text>
+  <text x="60" y="456" font-size="12" fill="#334155" text-anchor="start" font-weight="400">· ITM Put 的 Delta 接近 −1；IV 升高会把它往 −0.5 方向拉 → 负 Delta 变小 → 原来的多头对冲「太多了」→ 卖。</text>
+  <text x="60" y="480" font-size="12" fill="#334155" text-anchor="start" font-weight="400">· OTM Put 的 Delta 接近 0；IV 升高会把它往 −0.5 方向拉 → 负 Delta 变大 → 对冲「不够了」→ 买。</text>
+  <text x="60" y="504" font-size="12" fill="#64748b" text-anchor="start" font-weight="400">· 片中对 Call 侧的对称细节着墨不多：本文只讲画面里出现的多 Put 情形。</text>
+</svg>
