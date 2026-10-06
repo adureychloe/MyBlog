@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker></defs>
+  <rect width="960" height="520" fill="#fff"/>
+  <text x="480.0" y="32.0" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">AAPL 真实数据：只有最前面那个到期特别贵——「前端倒挂，后面又正常」</text>
+  <text x="480.0" y="55.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">片中 6:26 Excel 数据行（Date 6/10/2024，Delta 50 IV，20 个到期）逐点画出；中间各到期日期画面太小，不逐一标注</text>
+  <rect x="96.0" y="90.0" width="68.5" height="290.0" fill="#fee2e2" fill-opacity="0.6" stroke="none"/>
+  <rect x="302.6" y="90.0" width="591.4" height="290.0" fill="#dcfce7" fill-opacity="0.45" stroke="none"/>
+  <text x="130.3" y="106.0" font-size="12" fill="#dc2626" text-anchor="middle" font-weight="700">前端倒挂</text>
+  <text x="596.3" y="106.0" font-size="12" fill="#16a34a" text-anchor="middle" font-weight="700">之后又慢慢往上 = 正常（contango）形态</text>
+  <line x1="90.0" y1="380.0" x2="900.0" y2="380.0" stroke="#e2e8f0" stroke-width="0.8"/>
+  <text x="82.0" y="384.0" font-size="11" fill="#64748b" text-anchor="end" font-weight="400">15%</text>
+  <line x1="90.0" y1="307.5" x2="900.0" y2="307.5" stroke="#e2e8f0" stroke-width="0.8"/>
+  <text x="82.0" y="311.5" font-size="11" fill="#64748b" text-anchor="end" font-weight="400">20%</text>
+  <line x1="90.0" y1="235.0" x2="900.0" y2="235.0" stroke="#e2e8f0" stroke-width="0.8"/>
+  <text x="82.0" y="239.0" font-size="11" fill="#64748b" text-anchor="end" font-weight="400">25%</text>
+  <line x1="90.0" y1="162.5" x2="900.0" y2="162.5" stroke="#e2e8f0" stroke-width="0.8"/>
+  <text x="82.0" y="166.5" font-size="11" fill="#64748b" text-anchor="end" font-weight="400">30%</text>
+  <line x1="90.0" y1="90.0" x2="900.0" y2="90.0" stroke="#e2e8f0" stroke-width="0.8"/>
+  <text x="82.0" y="94.0" font-size="11" fill="#64748b" text-anchor="end" font-weight="400">35%</text>
+  <line x1="90.0" y1="90.0" x2="90.0" y2="380.0" stroke="#334155" stroke-width="1.2"/>
+  <line x1="90.0" y1="380.0" x2="900.0" y2="380.0" stroke="#334155" stroke-width="1.2"/>
+  <polyline points="110.0,139.1 150.5,265.0 191.1,292.0 231.6,309.8 272.1,312.6 312.6,322.5 353.2,322.2 393.7,302.0 434.2,310.8 474.7,311.7 515.3,292.1 555.8,294.7 596.3,295.7 636.8,287.8 677.4,278.2 717.9,273.8 758.4,268.7 798.9,271.3 839.5,265.8 880.0,266.4" fill="none" stroke="#2563eb" stroke-width="2.8" stroke-linejoin="round" stroke-opacity="1.0"/>
+  <circle cx="110.0" cy="139.1" r="3.5" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="150.5" cy="265.0" r="3.5" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="191.1" cy="292.0" r="3.5" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="231.6" cy="309.8" r="3.5" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="272.1" cy="312.6" r="3.5" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="312.6" cy="322.5" r="3.5" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="353.2" cy="322.2" r="3.5" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="393.7" cy="302.0" r="3.5" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="434.2" cy="310.8" r="3.5" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="474.7" cy="311.7" r="3.5" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="515.3" cy="292.1" r="3.5" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="555.8" cy="294.7" r="3.5" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="596.3" cy="295.7" r="3.5" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="636.8" cy="287.8" r="3.5" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="677.4" cy="278.2" r="3.5" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="717.9" cy="273.8" r="3.5" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="758.4" cy="268.7" r="3.5" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="798.9" cy="271.3" r="3.5" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="839.5" cy="265.8" r="3.5" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="880.0" cy="266.4" r="3.5" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <text x="120.0" y="143.1" font-size="12" fill="#0f172a" text-anchor="start" font-weight="700">31.62（6/14/2024 到期，DTE 3）</text>
+  <text x="158.5" y="257.0" font-size="12" fill="#0f172a" text-anchor="start" font-weight="700">22.93</text>
+  <text x="312.6" y="342.5" font-size="12" fill="#0f172a" text-anchor="middle" font-weight="700">最低约 18.96</text>
+  <text x="880.0" y="254.4" font-size="12" fill="#0f172a" text-anchor="end" font-weight="700">22.83（12/18/2026）</text>
+  <text x="495.0" y="402.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">各到期日：近 → 远（第 1 个 = 6/14/2024，最后 1 个 = 12/18/2026）</text>
+  <text x="90.0" y="440.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">读法：第一个到期只剩 3 天，IV 31.6；第二个就掉到 22.9；中段最低约 19.0；远端回到约 22.8。</text>
+  <text x="90.0" y="461.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">4:37 字幕在讲「correction going on or anything like that the possible reason for the high…」，作者最后给的原因没截到。</text>
+  <text x="90.0" y="482.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">同一天同一标的，前端「恐慌」、后段「正常」可以同时存在——看形状要看整条线，不只看两端。</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker></defs>
+  <rect width="960" height="520" fill="#fff"/>
+  <text x="480.0" y="32.0" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">两种流动性：ERL 在区间外沿，IRL 是区间里的 FVG</text>
+  <text x="480.0" y="55.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">左：Step 1（~0:55）重画 · 右：Step 3 标题「IRL → ERL → IRL → ERL」（~5:30）节奏示意；无价格</text>
+  <rect x="40.0" y="76.0" width="420.0" height="340.0" rx="10" fill="#0f172a" stroke="#0f172a" stroke-width="1"/>
+  <line x1="80.0" y1="290.0" x2="80.0" y2="345.0" stroke="#16a34a" stroke-width="1.6"/>
+  <rect x="72.0" y="300.0" width="16" height="30.0" fill="#16a34a"/>
+  <line x1="105.0" y1="292.0" x2="105.0" y2="340.0" stroke="#dc2626" stroke-width="1.6"/>
+  <rect x="97.0" y="300.0" width="16" height="30.0" fill="#dc2626"/>
+  <line x1="130.0" y1="270.0" x2="130.0" y2="330.0" stroke="#16a34a" stroke-width="1.6"/>
+  <rect x="122.0" y="280.0" width="16" height="40.0" fill="#16a34a"/>
+  <line x1="155.0" y1="245.0" x2="155.0" y2="300.0" stroke="#16a34a" stroke-width="1.6"/>
+  <rect x="147.0" y="255.0" width="16" height="35.0" fill="#16a34a"/>
+  <line x1="180.0" y1="215.0" x2="180.0" y2="272.0" stroke="#16a34a" stroke-width="1.6"/>
+  <rect x="172.0" y="225.0" width="16" height="37.0" fill="#16a34a"/>
+  <line x1="205.0" y1="200.0" x2="205.0" y2="245.0" stroke="#16a34a" stroke-width="1.6"/>
+  <rect x="197.0" y="210.0" width="16" height="28.0" fill="#16a34a"/>
+  <line x1="230.0" y1="178.0" x2="230.0" y2="228.0" stroke="#16a34a" stroke-width="1.6"/>
+  <rect x="222.0" y="190.0" width="16" height="30.0" fill="#16a34a"/>
+  <line x1="255.0" y1="156.0" x2="255.0" y2="204.0" stroke="#16a34a" stroke-width="1.6"/>
+  <rect x="247.0" y="165.0" width="16" height="31.0" fill="#16a34a"/>
+  <line x1="280.0" y1="142.0" x2="280.0" y2="176.0" stroke="#16a34a" stroke-width="1.6"/>
+  <rect x="272.0" y="150.0" width="16" height="20.0" fill="#16a34a"/>
+  <line x1="305.0" y1="145.0" x2="305.0" y2="240.0" stroke="#dc2626" stroke-width="1.6"/>
+  <rect x="297.0" y="150.0" width="16" height="80.0" fill="#dc2626"/>
+  <line x1="330.0" y1="220.0" x2="330.0" y2="296.0" stroke="#dc2626" stroke-width="1.6"/>
+  <rect x="322.0" y="225.0" width="16" height="60.0" fill="#dc2626"/>
+  <line x1="355.0" y1="240.0" x2="355.0" y2="292.0" stroke="#16a34a" stroke-width="1.6"/>
+  <rect x="347.0" y="250.0" width="16" height="30.0" fill="#16a34a"/>
+  <line x1="380.0" y1="238.0" x2="380.0" y2="280.0" stroke="#dc2626" stroke-width="1.6"/>
+  <rect x="372.0" y="252.0" width="16" height="20.0" fill="#dc2626"/>
+  <rect x="300.0" y="200.0" width="100.0" height="46.0" fill="#facc15" fill-opacity="0.35" stroke="none"/>
+  <line x1="275.0" y1="142.0" x2="450.0" y2="142.0" stroke="#38bdf8" stroke-width="2"/>
+  <text x="445.0" y="134.0" font-size="12" fill="#7dd3fc" text-anchor="end" font-weight="700">Swing High（ERL）</text>
+  <line x1="130.0" y1="345.0" x2="450.0" y2="345.0" stroke="#38bdf8" stroke-width="2"/>
+  <text x="445.0" y="366.0" font-size="12" fill="#7dd3fc" text-anchor="end" font-weight="700">Swing Low（ERL）</text>
+  <text x="405.0" y="228.0" font-size="12" fill="#fde047" text-anchor="start" font-weight="700">FVG（IRL）</text>
+  <text x="60.0" y="392.0" font-size="11" fill="#cbd5e1" text-anchor="start" font-weight="400">字幕：…this is what the price uses as fuel to attack</text>
+  <rect x="500.0" y="76.0" width="420.0" height="340.0" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <rect x="610.0" y="268.0" width="110.0" height="26.0" fill="#facc15" fill-opacity="0.4" stroke="none"/>
+  <rect x="765.0" y="192.0" width="65.0" height="22.0" fill="#facc15" fill-opacity="0.4" stroke="none"/>
+  <line x1="650.0" y1="230.0" x2="900.0" y2="230.0" stroke="#0284c7" stroke-width="1.6" stroke-dasharray="6,4"/>
+  <line x1="780.0" y1="172.0" x2="900.0" y2="172.0" stroke="#0284c7" stroke-width="1.6" stroke-dasharray="6,4"/>
+  <polyline points="520.0,390.0 560.0,340.0 600.0,300.0 650.0,250.0 690.0,230.0 712.0,285.0 760.0,215.0 800.0,172.0 815.0,206.0 830.0,200.0 880.0,130.0 905.0,110.0" fill="none" stroke="#0f172a" stroke-width="2.4" stroke-linejoin="round" stroke-opacity="1.0"/>
+  <text x="665.0" y="286.0" font-size="10" fill="#a16207" text-anchor="middle" font-weight="700">FVG</text>
+  <text x="797.0" y="207.0" font-size="10" fill="#a16207" text-anchor="middle" font-weight="700">FVG</text>
+  <text x="600.0" y="318.0" font-size="11" fill="#a16207" text-anchor="middle" font-weight="700">① 留下 FVG</text>
+  <circle cx="690.0" cy="230.0" r="8" fill="none" stroke="#0284c7" stroke-width="2"/>
+  <text x="682.0" y="214.0" font-size="11" fill="#0284c7" text-anchor="middle" font-weight="700">② 拿 ERL（前高）</text>
+  <circle cx="712.0" cy="285.0" r="8" fill="none" stroke="#a16207" stroke-width="2"/>
+  <text x="730.0" y="314.0" font-size="11" fill="#a16207" text-anchor="middle" font-weight="700">③ 回到 FVG 加油</text>
+  <circle cx="800.0" cy="172.0" r="8" fill="none" stroke="#0284c7" stroke-width="2"/>
+  <text x="790.0" y="156.0" font-size="11" fill="#0284c7" text-anchor="middle" font-weight="700">④ 再拿下一个 ERL</text>
+  <text x="710.0" y="104.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="700">IRL → ERL → IRL → ERL</text>
+  <text x="520.0" y="392.0" font-size="11" fill="#64748b" text-anchor="start" font-weight="400">字幕：fair value gap that can be used as fuel to create the next leg</text>
+  <text x="60.0" y="446.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">ERL（External Range Liquidity）= 波段高点 / 波段低点：区间外沿，止损单堆在外面。</text>
+  <text x="60.0" y="467.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">IRL（Internal Range Liquidity）= 区间内部未回补的 FVG：价格回来「加油」的地方。</text>
+  <text x="60.0" y="488.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">趋势里价格在两者之间来回：回补 IRL → 去拿 ERL → 留下新 FVG → 回补 → 再拿下一个 ERL。</text>
+</svg>
