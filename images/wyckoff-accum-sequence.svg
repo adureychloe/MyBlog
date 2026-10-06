@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="580" viewBox="0 0 960 580">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker></defs>
+  <rect width="960" height="580" fill="#fff"/>
+  <text x="480.0" y="32.0" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">吸筹（累积）的事件顺序：SC → AR → ST → Spring → Test → SOS → LPS / BU</text>
+  <text x="480.0" y="55.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">按片中 0:19 开场图与 4:17–6:25 例 1 的标签顺序重画；纵轴无价格、无品种、无周期</text>
+  <rect x="190.0" y="200.0" width="570.0" height="90.0" fill="#f1f5f9" fill-opacity="0.7" stroke="none"/>
+  <line x1="150.0" y1="200.0" x2="800.0" y2="200.0" stroke="#2563eb" stroke-width="1.3" stroke-dasharray="6,4"/>
+  <text x="805.0" y="204.0" font-size="11" fill="#2563eb" text-anchor="start" font-weight="400">区间上沿（AR 定）</text>
+  <line x1="150.0" y1="290.0" x2="800.0" y2="290.0" stroke="#2563eb" stroke-width="1.3" stroke-dasharray="6,4"/>
+  <text x="805.0" y="294.0" font-size="11" fill="#2563eb" text-anchor="start" font-weight="400">区间下沿（SC 定）</text>
+  <line x1="310.0" y1="80.0" x2="310.0" y2="360.0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="500.0" y1="80.0" x2="500.0" y2="360.0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="600.0" y1="80.0" x2="600.0" y2="360.0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="760.0" y1="80.0" x2="760.0" y2="360.0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="240.0" y="92.0" font-size="12" fill="#475569" text-anchor="middle" font-weight="700">Phase A</text>
+  <text x="405.0" y="92.0" font-size="12" fill="#475569" text-anchor="middle" font-weight="700">Phase B</text>
+  <text x="550.0" y="92.0" font-size="12" fill="#475569" text-anchor="middle" font-weight="700">Phase C</text>
+  <text x="680.0" y="92.0" font-size="12" fill="#475569" text-anchor="middle" font-weight="700">Phase D</text>
+  <text x="840.0" y="92.0" font-size="12" fill="#475569" text-anchor="middle" font-weight="700">Phase E</text>
+  <polyline points="60.0,110.0 110.0,160.0 150.0,215.0 190.0,302.0 240.0,196.0 290.0,284.0 330.0,232.0 365.0,262.0 400.0,288.0 440.0,216.0 480.0,252.0 522.0,322.0 552.0,250.0 582.0,278.0 620.0,222.0 652.0,246.0 705.0,168.0 742.0,204.0 790.0,150.0 880.0,96.0" fill="none" stroke="#0f172a" stroke-width="2.4" stroke-linejoin="round" stroke-opacity="1.0"/>
+  <circle cx="190.0" cy="302.0" r="4" fill="#dc2626" stroke="#dc2626" stroke-width="1"/>
+  <text x="190.0" y="324.0" font-size="13" fill="#dc2626" text-anchor="middle" font-weight="700">SC</text>
+  <circle cx="240.0" cy="196.0" r="4" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+  <text x="240.0" y="186.0" font-size="13" fill="#2563eb" text-anchor="middle" font-weight="700">AR</text>
+  <circle cx="290.0" cy="284.0" r="4" fill="#334155" stroke="#334155" stroke-width="1"/>
+  <text x="290.0" y="306.0" font-size="13" fill="#334155" text-anchor="middle" font-weight="700">ST</text>
+  <circle cx="400.0" cy="288.0" r="4" fill="#334155" stroke="#334155" stroke-width="1"/>
+  <text x="400.0" y="310.0" font-size="13" fill="#334155" text-anchor="middle" font-weight="700">ST in Phase B</text>
+  <circle cx="522.0" cy="322.0" r="4" fill="#dc2626" stroke="#dc2626" stroke-width="1"/>
+  <text x="522.0" y="346.0" font-size="13" fill="#dc2626" text-anchor="middle" font-weight="700">Spring</text>
+  <circle cx="582.0" cy="278.0" r="4" fill="#334155" stroke="#334155" stroke-width="1"/>
+  <text x="582.0" y="300.0" font-size="13" fill="#334155" text-anchor="middle" font-weight="700">Test</text>
+  <circle cx="652.0" cy="246.0" r="4" fill="#16a34a" stroke="#16a34a" stroke-width="1"/>
+  <text x="652.0" y="268.0" font-size="13" fill="#16a34a" text-anchor="middle" font-weight="700">LPS</text>
+  <circle cx="705.0" cy="168.0" r="4" fill="#16a34a" stroke="#16a34a" stroke-width="1"/>
+  <text x="705.0" y="156.0" font-size="13" fill="#16a34a" text-anchor="middle" font-weight="700">SOS</text>
+  <circle cx="742.0" cy="204.0" r="4" fill="#16a34a" stroke="#16a34a" stroke-width="1"/>
+  <text x="748.0" y="228.0" font-size="13" fill="#16a34a" text-anchor="middle" font-weight="700">BU/LPS</text>
+  <circle cx="522.0" cy="322.0" r="16" fill="none" stroke="#dc2626" stroke-width="2"/>
+  <line x1="820.0" y1="140.0" x2="880.0" y2="100.0" stroke="#dc2626" stroke-width="2.5" marker-end="url(#arrR)"/>
+  <text x="60.0" y="384.0" font-size="11" fill="#64748b" text-anchor="start" font-weight="400">成交量（示意）</text>
+  <rect x="64.0" y="454.0" width="14.0" height="16.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="90.0" y="450.8" width="14.0" height="19.2" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="116.0" y="447.6" width="14.0" height="22.4" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="142.0" y="441.2" width="14.0" height="28.8" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="168.0" y="428.4" width="14.0" height="41.6" fill="#fca5a5" fill-opacity="1.0" stroke="none"/>
+  <rect x="194.0" y="406.0" width="14.0" height="64.0" fill="#fca5a5" fill-opacity="1.0" stroke="none"/>
+  <rect x="220.0" y="415.6" width="14.0" height="54.4" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="246.0" y="425.2" width="14.0" height="44.8" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="272.0" y="431.6" width="14.0" height="38.4" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="298.0" y="434.8" width="14.0" height="35.2" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="324.0" y="438.0" width="14.0" height="32.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="350.0" y="439.6" width="14.0" height="30.4" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="376.0" y="442.8" width="14.0" height="27.2" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="402.0" y="444.4" width="14.0" height="25.6" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="428.0" y="446.0" width="14.0" height="24.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="454.0" y="449.2" width="14.0" height="20.8" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="480.0" y="452.4" width="14.0" height="17.6" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="506.0" y="458.8" width="14.0" height="11.2" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="532.0" y="455.6" width="14.0" height="14.4" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="558.0" y="444.4" width="14.0" height="25.6" fill="#86efac" fill-opacity="1.0" stroke="none"/>
+  <rect x="584.0" y="434.8" width="14.0" height="35.2" fill="#86efac" fill-opacity="1.0" stroke="none"/>
+  <rect x="610.0" y="438.0" width="14.0" height="32.0" fill="#86efac" fill-opacity="1.0" stroke="none"/>
+  <rect x="636.0" y="431.6" width="14.0" height="38.4" fill="#86efac" fill-opacity="1.0" stroke="none"/>
+  <rect x="662.0" y="428.4" width="14.0" height="41.6" fill="#86efac" fill-opacity="1.0" stroke="none"/>
+  <rect x="688.0" y="441.2" width="14.0" height="28.8" fill="#86efac" fill-opacity="1.0" stroke="none"/>
+  <rect x="714.0" y="444.4" width="14.0" height="25.6" fill="#86efac" fill-opacity="1.0" stroke="none"/>
+  <rect x="740.0" y="446.0" width="14.0" height="24.0" fill="#86efac" fill-opacity="1.0" stroke="none"/>
+  <rect x="766.0" y="447.6" width="14.0" height="22.4" fill="#86efac" fill-opacity="1.0" stroke="none"/>
+  <rect x="792.0" y="449.2" width="14.0" height="20.8" fill="#86efac" fill-opacity="1.0" stroke="none"/>
+  <rect x="818.0" y="450.8" width="14.0" height="19.2" fill="#86efac" fill-opacity="1.0" stroke="none"/>
+  <rect x="844.0" y="450.8" width="14.0" height="19.2" fill="#86efac" fill-opacity="1.0" stroke="none"/>
+  <rect x="870.0" y="452.4" width="14.0" height="17.6" fill="#86efac" fill-opacity="1.0" stroke="none"/>
+  <line x1="201.0" y1="402.0" x2="513.0" y2="454.8" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="513.0" y="446.8" font-size="11" fill="#dc2626" text-anchor="middle" font-weight="700">Spring 低量</text>
+  <text x="194.0" y="396.0" font-size="11" fill="#dc2626" text-anchor="middle" font-weight="400">高潮放量</text>
+  <text x="60.0" y="500.0" font-size="11" fill="#334155" text-anchor="start" font-weight="400">读顺序：急跌出 SC（下沿）→ 反弹出 AR（上沿）→ ST 回测，这三步 = Phase A「止住下跌」（5:27 字幕：phase A, the stopping of a trend）</text>
+  <text x="60.0" y="520.0" font-size="11" fill="#334155" text-anchor="start" font-weight="400">→ Phase B 来回 → Spring 低量刺破下沿再收回（5:43 字幕：…the spring. Low volume）→ Test → 突破结构 → SOS → LPS / BU 回踩 → Phase E 上涨</text>
+  <text x="60.0" y="540.0" font-size="11" fill="#334155" text-anchor="start" font-weight="400">片中例 2（6:49–7:38）画面上没有 Spring 标签：不是每个吸筹都有 Spring。</text>
+</svg>

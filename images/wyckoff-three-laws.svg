@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker></defs>
+  <rect width="960" height="520" fill="#fff"/>
+  <text x="480.0" y="32.0" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">威科夫三大定律：供需、因果、努力与结果</text>
+  <text x="480.0" y="55.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">上：1:07 幻灯片「Wyckoff laws」整理 · 下：2:37「努力没结果」画面示意（无品种、周期、价格）</text>
+  <rect x="40.0" y="76.0" width="280.0" height="186.0" rx="10" fill="#ecfdf5" stroke="#86efac" stroke-width="1"/>
+  <text x="180.0" y="104.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="700">① 供需 Supply &amp; Demand</text>
+  <text x="62.0" y="138.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">需求 &gt; 供给 → 价格涨</text>
+  <text x="62.0" y="164.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">需求 &lt; 供给 → 价格跌</text>
+  <text x="62.0" y="190.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">两者相等 → 价格不怎么动</text>
+  <rect x="340.0" y="76.0" width="280.0" height="186.0" rx="10" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
+  <text x="480.0" y="104.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="700">② 因果 Cause &amp; Effect</text>
+  <text x="362.0" y="138.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">每个「果」（一段行情）</text>
+  <text x="362.0" y="164.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">都由之前市场里发生的</text>
+  <text x="362.0" y="190.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">「因」造成；片中图把「因」</text>
+  <text x="362.0" y="216.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">画成一段横盘区间</text>
+  <rect x="640.0" y="76.0" width="280.0" height="186.0" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="1"/>
+  <text x="780.0" y="104.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="700">③ 努力与结果 Effort &amp; Result</text>
+  <text x="662.0" y="138.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">努力 = 成交量</text>
+  <text x="662.0" y="164.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">结果 = 价格变化</text>
+  <text x="662.0" y="190.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">拿两者对比：</text>
+  <text x="662.0" y="216.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">对不上就要警惕</text>
+  <rect x="40.0" y="280.0" width="520.0" height="196.0" rx="6" fill="#fbfdff" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="220.0" y="358.0" width="100.0" height="22.0" fill="#bbf7d0" fill-opacity="0.8" stroke="none"/>
+  <polyline points="60.0,300.0 110.0,315.0 150.0,335.0 190.0,362.0 210.0,372.0 230.0,368.0 250.0,374.0 270.0,366.0 290.0,372.0 310.0,367.0 340.0,352.0 380.0,360.0 420.0,346.0 460.0,352.0 500.0,340.0 540.0,345.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" stroke-opacity="1.0"/>
+  <circle cx="270.0" cy="370.0" r="34" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <rect x="60.0" y="458.0" width="12.0" height="8.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="80.0" y="456.0" width="12.0" height="10.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="100.0" y="457.0" width="12.0" height="9.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="120.0" y="454.0" width="12.0" height="12.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="140.0" y="452.0" width="12.0" height="14.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="160.0" y="450.0" width="12.0" height="16.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="180.0" y="444.0" width="12.0" height="22.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="200.0" y="440.0" width="12.0" height="26.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="220.0" y="442.0" width="12.0" height="24.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="240.0" y="446.0" width="12.0" height="20.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="260.0" y="452.0" width="12.0" height="14.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="280.0" y="454.0" width="12.0" height="12.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="300.0" y="456.0" width="12.0" height="10.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="320.0" y="457.0" width="12.0" height="9.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="340.0" y="455.0" width="12.0" height="11.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="360.0" y="458.0" width="12.0" height="8.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="380.0" y="456.0" width="12.0" height="10.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="400.0" y="457.0" width="12.0" height="9.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="420.0" y="458.0" width="12.0" height="8.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="440.0" y="456.0" width="12.0" height="10.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="460.0" y="457.0" width="12.0" height="9.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="480.0" y="458.0" width="12.0" height="8.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="500.0" y="457.0" width="12.0" height="9.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="520.0" y="458.0" width="12.0" height="8.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <circle cx="266.0" cy="450.0" r="14" fill="none" stroke="#dc2626" stroke-width="2"/>
+  <text x="60.0" y="296.0" font-size="10" fill="#64748b" text-anchor="start" font-weight="400">价格（相对）</text>
+  <rect x="580.0" y="280.0" width="340.0" height="196.0" rx="10" fill="#fef2f2" stroke="#fca5a5" stroke-width="1"/>
+  <text x="600.0" y="308.0" font-size="14" fill="#dc2626" text-anchor="start" font-weight="700">努力没结果（2:37）</text>
+  <text x="600.0" y="336.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">下跌后一小段横盘（绿底）被大红圈圈住，</text>
+  <text x="600.0" y="355.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">下方成交量也画了小红圈。</text>
+  <text x="600.0" y="374.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">字幕：…is a lack of result. This can serve</text>
+  <text x="600.0" y="393.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">as a signal of a possible trend…（后半截断）</text>
+  <text x="600.0" y="412.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400"></text>
+  <text x="600.0" y="431.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">人话：力气（量）花了，价格却走不动，</text>
+  <text x="600.0" y="450.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">原来的趋势可能没劲了。</text>
+  <text x="480.0" y="504.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">1:07 图上的「10 / 20 / SPRING 20」数字含义从画面看不懂，本文不做解释、也不画。</text>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="580" viewBox="0 0 960 580">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker></defs>
+  <rect width="960" height="580" fill="#fff"/>
+  <text x="480.0" y="32.0" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">派发（出货）是镜像：BC → AR → ST → UT / UTAD → LPSY → SOW，量能一路递减</text>
+  <text x="480.0" y="55.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">按片中 8:04 派发示意与实盘标签重画；纵轴无价格。右下为派发例 2（10:2x）没有 UTAD 的情况</text>
+  <rect x="200.0" y="150.0" width="440.0" height="90.0" fill="#fdf2f8" fill-opacity="0.8" stroke="none"/>
+  <line x1="150.0" y1="150.0" x2="640.0" y2="150.0" stroke="#db2777" stroke-width="1.3" stroke-dasharray="6,4"/>
+  <text x="146.0" y="154.0" font-size="11" fill="#db2777" text-anchor="end" font-weight="400">区间上沿（BC 定）</text>
+  <line x1="150.0" y1="240.0" x2="640.0" y2="240.0" stroke="#db2777" stroke-width="1.3" stroke-dasharray="6,4"/>
+  <text x="146.0" y="244.0" font-size="11" fill="#db2777" text-anchor="end" font-weight="400">区间下沿（AR 定）</text>
+  <line x1="340.0" y1="80.0" x2="340.0" y2="390.0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="540.0" y1="80.0" x2="540.0" y2="390.0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="640.0" y1="80.0" x2="640.0" y2="390.0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="800.0" y1="80.0" x2="800.0" y2="390.0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="270.0" y="92.0" font-size="12" fill="#475569" text-anchor="middle" font-weight="700">Phase A</text>
+  <text x="440.0" y="92.0" font-size="12" fill="#475569" text-anchor="middle" font-weight="700">Phase B</text>
+  <text x="590.0" y="92.0" font-size="12" fill="#475569" text-anchor="middle" font-weight="700">Phase C</text>
+  <text x="720.0" y="92.0" font-size="12" fill="#475569" text-anchor="middle" font-weight="700">Phase D</text>
+  <text x="870.0" y="92.0" font-size="12" fill="#475569" text-anchor="middle" font-weight="700">Phase E</text>
+  <polyline points="60.0,370.0 110.0,300.0 150.0,232.0 180.0,252.0 220.0,148.0 270.0,240.0 320.0,160.0 360.0,210.0 400.0,246.0 440.0,190.0 480.0,146.0 515.0,205.0 560.0,118.0 590.0,186.0 615.0,160.0 645.0,238.0 675.0,282.0 712.0,252.0 750.0,304.0 785.0,286.0 880.0,380.0" fill="none" stroke="#0f172a" stroke-width="2.4" stroke-linejoin="round" stroke-opacity="1.0"/>
+  <circle cx="150.0" cy="232.0" r="4" fill="#334155" stroke="#334155" stroke-width="1"/>
+  <text x="134.0" y="222.0" font-size="13" fill="#334155" text-anchor="middle" font-weight="700">PSY</text>
+  <circle cx="220.0" cy="148.0" r="4" fill="#dc2626" stroke="#dc2626" stroke-width="1"/>
+  <text x="220.0" y="136.0" font-size="13" fill="#dc2626" text-anchor="middle" font-weight="700">BC</text>
+  <circle cx="270.0" cy="240.0" r="4" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+  <text x="270.0" y="262.0" font-size="13" fill="#2563eb" text-anchor="middle" font-weight="700">AR</text>
+  <circle cx="320.0" cy="160.0" r="4" fill="#334155" stroke="#334155" stroke-width="1"/>
+  <text x="320.0" y="148.0" font-size="13" fill="#334155" text-anchor="middle" font-weight="700">ST</text>
+  <circle cx="400.0" cy="246.0" r="4" fill="#334155" stroke="#334155" stroke-width="1"/>
+  <text x="400.0" y="268.0" font-size="13" fill="#334155" text-anchor="middle" font-weight="700">SOW in Phase B</text>
+  <circle cx="480.0" cy="146.0" r="4" fill="#334155" stroke="#334155" stroke-width="1"/>
+  <text x="480.0" y="134.0" font-size="13" fill="#334155" text-anchor="middle" font-weight="700">UT</text>
+  <circle cx="560.0" cy="118.0" r="4" fill="#dc2626" stroke="#dc2626" stroke-width="1"/>
+  <text x="560.0" y="104.0" font-size="13" fill="#dc2626" text-anchor="middle" font-weight="700">UTAD</text>
+  <circle cx="615.0" cy="160.0" r="4" fill="#334155" stroke="#334155" stroke-width="1"/>
+  <text x="629.0" y="148.0" font-size="13" fill="#334155" text-anchor="middle" font-weight="700">Test</text>
+  <circle cx="675.0" cy="282.0" r="4" fill="#dc2626" stroke="#dc2626" stroke-width="1"/>
+  <text x="675.0" y="306.0" font-size="13" fill="#dc2626" text-anchor="middle" font-weight="700">SOW</text>
+  <circle cx="712.0" cy="252.0" r="4" fill="#ea580c" stroke="#ea580c" stroke-width="1"/>
+  <text x="712.0" y="240.0" font-size="13" fill="#ea580c" text-anchor="middle" font-weight="700">LPSY</text>
+  <circle cx="785.0" cy="286.0" r="4" fill="#ea580c" stroke="#ea580c" stroke-width="1"/>
+  <text x="785.0" y="274.0" font-size="13" fill="#ea580c" text-anchor="middle" font-weight="700">LPSY</text>
+  <circle cx="560.0" cy="118.0" r="16" fill="none" stroke="#dc2626" stroke-width="2"/>
+  <line x1="820.0" y1="330.0" x2="880.0" y2="384.0" stroke="#dc2626" stroke-width="2.5" marker-end="url(#arrR)"/>
+  <text x="60.0" y="404.0" font-size="11" fill="#64748b" text-anchor="start" font-weight="400">成交量（示意）</text>
+  <rect x="64.0" y="464.0" width="14.0" height="16.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="90.0" y="460.8" width="14.0" height="19.2" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="116.0" y="456.0" width="14.0" height="24.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="142.0" y="451.2" width="14.0" height="28.8" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="168.0" y="444.8" width="14.0" height="35.2" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="194.0" y="438.4" width="14.0" height="41.6" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="220.0" y="428.8" width="14.0" height="51.2" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="246.0" y="435.2" width="14.0" height="44.8" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="272.0" y="441.6" width="14.0" height="38.4" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="298.0" y="446.4" width="14.0" height="33.6" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="324.0" y="449.6" width="14.0" height="30.4" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="350.0" y="452.8" width="14.0" height="27.2" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="376.0" y="454.4" width="14.0" height="25.6" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="402.0" y="456.0" width="14.0" height="24.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="428.0" y="457.6" width="14.0" height="22.4" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="454.0" y="459.2" width="14.0" height="20.8" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="480.0" y="460.8" width="14.0" height="19.2" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="506.0" y="462.4" width="14.0" height="17.6" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="532.0" y="464.0" width="14.0" height="16.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="558.0" y="464.0" width="14.0" height="16.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="584.0" y="465.6" width="14.0" height="14.4" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="610.0" y="465.6" width="14.0" height="14.4" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="636.0" y="465.6" width="14.0" height="14.4" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="662.0" y="441.6" width="14.0" height="38.4" fill="#fca5a5" fill-opacity="1.0" stroke="none"/>
+  <rect x="688.0" y="435.2" width="14.0" height="44.8" fill="#fca5a5" fill-opacity="1.0" stroke="none"/>
+  <rect x="714.0" y="454.4" width="14.0" height="25.6" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="740.0" y="457.6" width="14.0" height="22.4" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="766.0" y="460.8" width="14.0" height="19.2" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="792.0" y="462.4" width="14.0" height="17.6" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="818.0" y="464.0" width="14.0" height="16.0" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="844.0" y="465.6" width="14.0" height="14.4" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <rect x="870.0" y="465.6" width="14.0" height="14.4" fill="#cbd5e1" fill-opacity="1.0" stroke="none"/>
+  <line x1="227.0" y1="424.8" x2="617.0" y2="461.6" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="402.0" y="422.8" font-size="11" fill="#dc2626" text-anchor="middle" font-weight="700">8:59 字幕：the volumes are already lower</text>
+  <text x="682.0" y="429.2" font-size="11" fill="#dc2626" text-anchor="middle" font-weight="400">SOW 后放量</text>
+  <rect x="660.0" y="100.0" width="260.0" height="112.0" rx="8" fill="#ecfeff" stroke="#67e8f9" stroke-width="1"/>
+  <text x="672.0" y="122.0" font-size="12" fill="#155e75" text-anchor="start" font-weight="400">派发例 2（10:2x）：画面上没有 UTAD，</text>
+  <text x="672.0" y="141.0" font-size="12" fill="#155e75" text-anchor="start" font-weight="400">作者改看区间后半段的</text>
+  <text x="672.0" y="160.0" font-size="12" fill="#155e75" text-anchor="start" font-weight="400">「imbalance zone」（浅蓝框，一段</text>
+  <text x="672.0" y="179.0" font-size="12" fill="#155e75" text-anchor="start" font-weight="400">横盘区，不是经典 FVG 缺口）当依据。</text>
+  <text x="60.0" y="516.0" font-size="11" fill="#334155" text-anchor="start" font-weight="400">镜像对照（笔者整理）：SC ↔ BC 高潮 · Spring ↔ UTAD 假突破 · SOS ↔ SOW 结构转强/转弱 · LPS ↔ LPSY 最后支撑/最后供给</text>
+  <text x="60.0" y="536.0" font-size="11" fill="#334155" text-anchor="start" font-weight="400">10:21 字幕出现「removal of liquidity from selling climax」，在派发里很怪，可能是口误或自动字幕错，本文不采信这半句。</text>
+</svg>

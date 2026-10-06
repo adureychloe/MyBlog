@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="530" viewBox="0 0 960 530">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker></defs>
+  <rect width="960" height="530" fill="#fff"/>
+  <text x="480.0" y="32.0" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">片中三个入场画面：入场线、止损放哪、目标往哪</text>
+  <text x="480.0" y="55.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">7:38 累积例 2 · 10:57 派发例 2 · 12:4x 再累积；红框 = 止损区，箭头 = 目标方向（高度只是示意）</text>
+  <rect x="40.0" y="76.0" width="280.0" height="340.0" rx="8" fill="#fbfdff" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="180.0" y="100.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="700">累积例 2（7:38）</text>
+  <text x="180.0" y="118.0" font-size="10" fill="#64748b" text-anchor="middle" font-weight="400">字幕：…the structure break line</text>
+  <text x="180.0" y="132.0" font-size="10" fill="#64748b" text-anchor="middle" font-weight="400">with the stop loss beyond the LPS.</text>
+  <polyline points="55.0,150.0 85.0,250.0 105.0,330.0 125.0,260.0 145.0,320.0 165.0,268.0 185.0,300.0 200.0,312.0 220.0,290.0 238.0,316.0 258.0,268.0 276.0,230.0 290.0,205.0 305.0,222.0" fill="none" stroke="#0f172a" stroke-width="2" stroke-linejoin="round" stroke-opacity="1.0"/>
+  <line x1="160.0" y1="268.0" x2="310.0" y2="268.0" stroke="#475569" stroke-width="1.5"/>
+  <text x="168.0" y="262.0" font-size="11" fill="#475569" text-anchor="start" font-weight="700">BOS 线</text>
+  <rect x="252.0" y="268.0" width="50.0" height="56.0" fill="#dc2626" fill-opacity="0.25" stroke="none"/>
+  <text x="302.0" y="356.0" font-size="11" fill="#dc2626" text-anchor="end" font-weight="700">止损：LPS 之外</text>
+  <text x="200.0" y="330.0" font-size="11" fill="#16a34a" text-anchor="middle" font-weight="700">LPS</text>
+  <text x="236.0" y="334.0" font-size="11" fill="#16a34a" text-anchor="middle" font-weight="700">LPS</text>
+  <circle cx="258.0" cy="268.0" r="6" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+  <text x="246.0" y="252.0" font-size="11" fill="#2563eb" text-anchor="end" font-weight="700">入场</text>
+  <line x1="290.0" y1="262.0" x2="290.0" y2="170.0" stroke="#16a34a" stroke-width="3" marker-end="url(#arrG)"/>
+  <text x="284.0" y="164.0" font-size="11" fill="#16a34a" text-anchor="end" font-weight="700">目标：SOS 一带</text>
+  <text x="80.0" y="346.0" font-size="11" fill="#dc2626" text-anchor="middle" font-weight="700">SC</text>
+  <text x="56.0" y="384.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">入场在结构突破（BOS）线，</text>
+  <text x="56.0" y="402.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">止损放在 LPS 之外</text>
+  <rect x="340.0" y="76.0" width="280.0" height="340.0" rx="8" fill="#fbfdff" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="480.0" y="100.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="700">派发例 2（10:57）</text>
+  <text x="480.0" y="118.0" font-size="10" fill="#64748b" text-anchor="middle" font-weight="400">字幕：I would enter here. The stop loss</text>
+  <text x="480.0" y="132.0" font-size="10" fill="#64748b" text-anchor="middle" font-weight="400">would be above the imbalance</text>
+  <rect x="470.0" y="190.0" width="110.0" height="34.0" fill="#a5f3fc" fill-opacity="0.6" stroke="none"/>
+  <text x="525.0" y="184.0" font-size="11" fill="#155e75" text-anchor="middle" font-weight="700">imbalance zone</text>
+  <polyline points="355.0,330.0 385.0,250.0 405.0,175.0 425.0,230.0 445.0,185.0 465.0,230.0 485.0,200.0 505.0,214.0 525.0,196.0 545.0,216.0 562.0,204.0 578.0,222.0 592.0,290.0 606.0,340.0" fill="none" stroke="#0f172a" stroke-width="2" stroke-linejoin="round" stroke-opacity="1.0"/>
+  <rect x="572.0" y="160.0" width="40.0" height="30.0" fill="#dc2626" fill-opacity="0.25" stroke="none"/>
+  <text x="592.0" y="152.0" font-size="11" fill="#dc2626" text-anchor="middle" font-weight="700">止损：蓝框之上</text>
+  <circle cx="578.0" cy="224.0" r="6" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+  <text x="566.0" y="244.0" font-size="11" fill="#2563eb" text-anchor="end" font-weight="700">入场：蓝框下沿附近</text>
+  <line x1="602.0" y1="232.0" x2="602.0" y2="360.0" stroke="#16a34a" stroke-width="3" marker-end="url(#arrG)"/>
+  <text x="596.0" y="372.0" font-size="11" fill="#16a34a" text-anchor="end" font-weight="700">目标向下</text>
+  <text x="356.0" y="396.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">没有 UTAD 时，用后半段横盘区当依据</text>
+  <rect x="640.0" y="76.0" width="280.0" height="340.0" rx="8" fill="#fbfdff" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="780.0" y="100.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="700">再累积（12:4x）</text>
+  <text x="780.0" y="118.0" font-size="10" fill="#64748b" text-anchor="middle" font-weight="400">上升途中的横盘：</text>
+  <text x="780.0" y="132.0" font-size="10" fill="#64748b" text-anchor="middle" font-weight="400">SOS 之后等 BU/LPS 回踩</text>
+  <line x1="700.0" y1="258.0" x2="875.0" y2="258.0" stroke="#475569" stroke-width="1" stroke-dasharray="4,4"/>
+  <polyline points="655.0,350.0 685.0,300.0 710.0,256.0 730.0,290.0 750.0,260.0 770.0,288.0 790.0,266.0 810.0,282.0 830.0,258.0 850.0,216.0 868.0,248.0 886.0,210.0 906.0,170.0" fill="none" stroke="#0f172a" stroke-width="2" stroke-linejoin="round" stroke-opacity="1.0"/>
+  <text x="850.0" y="208.0" font-size="11" fill="#16a34a" text-anchor="middle" font-weight="700">SOS</text>
+  <circle cx="868.0" cy="248.0" r="6" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+  <text x="856.0" y="242.0" font-size="11" fill="#2563eb" text-anchor="end" font-weight="700">入场：BU/LPS</text>
+  <rect x="854.0" y="250.0" width="30.0" height="24.0" fill="#dc2626" fill-opacity="0.25" stroke="none"/>
+  <text x="869.0" y="290.0" font-size="11" fill="#dc2626" text-anchor="middle" font-weight="700">止损：其下方</text>
+  <line x1="902.0" y1="196.0" x2="902.0" y2="152.0" stroke="#16a34a" stroke-width="3" marker-end="url(#arrG)"/>
+  <text x="890.0" y="160.0" font-size="11" fill="#16a34a" text-anchor="end" font-weight="700">目标：右上新高</text>
+  <text x="656.0" y="384.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">量能递减、只在个别处放量（12:30），</text>
+  <text x="656.0" y="402.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">突破后回踩才进</text>
+  <rect x="40.0" y="428.0" width="880.0" height="82.0" rx="8" fill="#fff7ed" stroke="#fdba74" stroke-width="1" stroke-dasharray="6,4"/>
+  <text x="60.0" y="452.0" font-size="12" fill="#9a3412" text-anchor="start" font-weight="400">片中没有任何价格数字或 R 倍数：工具框的像素高度不能读成「1:2」「1:5」。</text>
+  <text x="60.0" y="472.0" font-size="12" fill="#9a3412" text-anchor="start" font-weight="400">派发例 1（9:0x）字幕说 You can enter a trade here，但那一帧没画入场/止损框——本图不画。</text>
+  <text x="60.0" y="492.0" font-size="12" fill="#9a3412" text-anchor="start" font-weight="400">Spring 2「不等测试直接买」的定义没截到，片中入场画面里也没用到，本图不画。</text>
+</svg>
