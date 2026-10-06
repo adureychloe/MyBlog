@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker></defs>
+  <rect width="960" height="500" fill="#fff"/>
+  <text x="480.0" y="32.0" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">VWAP 怎么算：按成交量加权的「当天平均成本」</text>
+  <text x="480.0" y="55.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">片中 1:46–1:56 算例画面重画；虚线框里的第三笔股数与价格是笔者按 $2.64 反推的（推算），画面没截到</text>
+  <rect x="40.0" y="76.0" width="560.0" height="340.0" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="70.0" y="108.0" font-size="13" fill="#64748b" text-anchor="start" font-weight="700">成交股数</text>
+  <text x="250.0" y="108.0" font-size="13" fill="#64748b" text-anchor="start" font-weight="700">成交价</text>
+  <text x="380.0" y="108.0" font-size="13" fill="#64748b" text-anchor="start" font-weight="700">成交额 = 价 × 量</text>
+  <line x1="60.0" y1="118.0" x2="580.0" y2="118.0" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="70.0" y="150.0" font-size="15" fill="#0f172a" text-anchor="start" font-weight="700">10,000 股</text>
+  <text x="250.0" y="150.0" font-size="15" fill="#0f172a" text-anchor="start" font-weight="700">$2.00</text>
+  <text x="380.0" y="150.0" font-size="15" fill="#0f172a" text-anchor="start" font-weight="700">$20,000</text>
+  <text x="480.0" y="150.0" font-size="11" fill="#16a34a" text-anchor="start" font-weight="400">画面 1:46 / 1:56</text>
+  <text x="70.0" y="192.0" font-size="15" fill="#0f172a" text-anchor="start" font-weight="700">5,000 股</text>
+  <text x="250.0" y="192.0" font-size="15" fill="#0f172a" text-anchor="start" font-weight="700">$2.50</text>
+  <text x="380.0" y="192.0" font-size="15" fill="#0f172a" text-anchor="start" font-weight="700">$12,500</text>
+  <text x="480.0" y="192.0" font-size="11" fill="#16a34a" text-anchor="start" font-weight="400">画面 1:46 / 1:56</text>
+  <rect x="56.0" y="208.0" width="528.0" height="40.0" rx="6" fill="#fff7ed" stroke="#ea580c" stroke-width="1" stroke-dasharray="6,4"/>
+  <text x="70.0" y="234.0" font-size="15" fill="#ea580c" text-anchor="start" font-weight="700">20,000 股（推算）</text>
+  <text x="250.0" y="234.0" font-size="15" fill="#ea580c" text-anchor="start" font-weight="700">$3.00（推算）</text>
+  <text x="380.0" y="234.0" font-size="15" fill="#0f172a" text-anchor="start" font-weight="700">$60,000</text>
+  <text x="476.0" y="234.0" font-size="11" fill="#ea580c" text-anchor="start" font-weight="400">画面只有 $60,000</text>
+  <line x1="60.0" y1="262.0" x2="580.0" y2="262.0" stroke="#94a3b8" stroke-width="1"/>
+  <text x="70.0" y="290.0" font-size="14" fill="#0f172a" text-anchor="start" font-weight="700">合计 35,000 股（推算）</text>
+  <text x="380.0" y="290.0" font-size="14" fill="#0f172a" text-anchor="start" font-weight="700">$92,500（推算）</text>
+  <text x="70.0" y="330.0" font-size="16" fill="#2563eb" text-anchor="start" font-weight="700">VWAP = 92,500 ÷ 35,000 ≈ 2.643  →  片中结论 $2.64</text>
+  <text x="70.0" y="362.0" font-size="12" fill="#64748b" text-anchor="start" font-weight="400">只有前两笔和「$60,000」「$2.64」是画面/字幕里出现的；</text>
+  <text x="70.0" y="381.0" font-size="12" fill="#64748b" text-anchor="start" font-weight="400">第三笔 20,000 股 @ $3.00 是用 $2.64 倒推出来的，不是片中原话。</text>
+  <rect x="620.0" y="76.0" width="300.0" height="340.0" rx="10" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
+  <text x="770.0" y="106.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="700">公式</text>
+  <text x="770.0" y="140.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="700">VWAP = Σ(价格 × 成交量)</text>
+  <text x="770.0" y="164.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="700">÷ Σ 成交量</text>
+  <text x="640.0" y="200.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">人话：当天所有成交的平均持仓成本</text>
+  <text x="640.0" y="219.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">（1:36 卡片：Average cost basis</text>
+  <text x="640.0" y="238.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400"> of the market for the day）</text>
+  <text x="640.0" y="268.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">· 价在 VWAP 上：当天平均买家浮盈（2:55）</text>
+  <text x="640.0" y="292.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">· 价在 VWAP 下：当天平均买家浮亏</text>
+  <text x="640.0" y="316.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">· 围着 VWAP 来回：均衡</text>
+  <text x="640.0" y="340.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">  （3:05 MARKET EQUILIBRIUM）</text>
+  <text x="480.0" y="448.0" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">量大的成交「票数」多：10,000 股的 $2.00 比 5,000 股的 $2.50 更能拉住平均价。</text>
+  <text x="480.0" y="474.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">普通 VWAP 每天重算——下一张图看它的缺点，以及 Anchored VWAP 怎么补。</text>
+</svg>

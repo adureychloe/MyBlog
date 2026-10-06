@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker></defs>
+  <rect width="960" height="520" fill="#fff"/>
+  <text x="480.0" y="32.0" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">日历价差怕什么：盈利区很窄，两边大波动都亏</text>
+  <text x="480.0" y="55.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">左：7:43–8:08 损益图重画（轴上无数字）· 右：8:45–9:54 的 2×2 画面 · 底部为笔者补充</text>
+  <line x1="70.0" y1="400.0" x2="70.0" y2="86.0" stroke="#334155" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="70.0" y1="260.0" x2="450.0" y2="260.0" stroke="#334155" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="64.0" y="100.0" font-size="12" fill="#64748b" text-anchor="end" font-weight="400">盈利</text>
+  <text x="64.0" y="396.0" font-size="12" fill="#64748b" text-anchor="end" font-weight="400">亏损</text>
+  <text x="455.0" y="254.0" font-size="11" fill="#64748b" text-anchor="start" font-weight="400">近月到期</text>
+  <text x="455.0" y="269.0" font-size="11" fill="#64748b" text-anchor="start" font-weight="400">时股价</text>
+  <polyline points="80.0,330.0 86.0,329.9 92.0,329.9 98.0,329.8 104.0,329.6 110.0,329.3 116.0,328.9 122.0,328.3 128.0,327.4 134.0,326.1 140.0,324.2 146.0,321.5 152.0,317.9 158.0,313.1 164.0,306.9 170.0,299.1 176.0,289.4 182.0,277.7 188.0,263.9 194.0,248.2 200.0,230.7 206.0,211.9 212.0,192.4 218.0,172.8 224.0,153.9 230.0,136.7 236.0,121.9 242.0,110.5 248.0,103.1 254.0,100.1 260.0,101.6 266.0,107.6 272.0,117.7 278.0,131.4 284.0,147.9 290.0,166.3 296.0,185.8 302.0,205.5 308.0,224.6 314.0,242.5 320.0,258.9 326.0,273.3 332.0,285.7 338.0,296.1 344.0,304.5 350.0,311.3 356.0,316.5 362.0,320.4 368.0,323.4 374.0,325.5 380.0,327.0 386.0,328.0 392.0,328.7 398.0,329.2 404.0,329.5 410.0,329.7 416.0,329.8 422.0,329.9 428.0,329.9 434.0,330.0 440.0,330.0" fill="none" stroke="#ea580c" stroke-width="3" stroke-linejoin="round" stroke-opacity="1.0"/>
+  <line x1="255.0" y1="254.0" x2="255.0" y2="266.0" stroke="#ea580c" stroke-width="2.5"/>
+  <text x="255.0" y="282.0" font-size="12" fill="#ea580c" text-anchor="middle" font-weight="700">A ≈ 行权价</text>
+  <text x="330.0" y="120.0" font-size="13" fill="#0f172a" text-anchor="start" font-weight="700">Must Overcome Breakeven!</text>
+  <line x1="190.0" y1="368.0" x2="90.0" y2="368.0" stroke="#dc2626" stroke-width="5" marker-end="url(#arrR)"/>
+  <text x="140.0" y="392.0" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="700">Loser</text>
+  <line x1="320.0" y1="368.0" x2="420.0" y2="368.0" stroke="#dc2626" stroke-width="5" marker-end="url(#arrR)"/>
+  <text x="370.0" y="392.0" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="700">Loser</text>
+  <text x="255.0" y="430.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">字幕 8:08：…how you lose on both ends</text>
+  <text x="740.0" y="96.0" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">AAPL 大涨 / 大跌时，两条腿各自怎么变（画面）</text>
+  <text x="670.0" y="138.0" font-size="14" fill="#16a34a" text-anchor="middle" font-weight="700">AAPL ↑</text>
+  <text x="830.0" y="138.0" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="700">AAPL ↓</text>
+  <rect x="590.0" y="154.0" width="160.0" height="80.0" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <rect x="750.0" y="154.0" width="160.0" height="80.0" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="670.0" y="204.0" font-size="22" fill="#16a34a" text-anchor="middle" font-weight="700">+20%</text>
+  <text x="830.0" y="204.0" font-size="22" fill="#dc2626" text-anchor="middle" font-weight="700">−20%</text>
+  <text x="750.0" y="148.0" font-size="1" fill="#334155" text-anchor="start" font-weight="400"></text>
+  <rect x="590.0" y="250.0" width="160.0" height="80.0" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <rect x="750.0" y="250.0" width="160.0" height="80.0" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="670.0" y="300.0" font-size="22" fill="#dc2626" text-anchor="middle" font-weight="700">−40%</text>
+  <text x="830.0" y="300.0" font-size="22" fill="#16a34a" text-anchor="middle" font-weight="700">+20%</text>
+  <text x="750.0" y="244.0" font-size="1" fill="#334155" text-anchor="start" font-weight="400"></text>
+  <text x="580.0" y="200.0" font-size="12" fill="#0f172a" text-anchor="end" font-weight="700">Long</text>
+  <text x="580.0" y="216.0" font-size="12" fill="#0f172a" text-anchor="end" font-weight="700">Call</text>
+  <text x="580.0" y="296.0" font-size="12" fill="#0f172a" text-anchor="end" font-weight="700">Short</text>
+  <text x="580.0" y="312.0" font-size="12" fill="#0f172a" text-anchor="end" font-weight="700">Call</text>
+  <text x="590.0" y="370.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">Long Call = 买入的远月（旁注 $455）</text>
+  <text x="590.0" y="389.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">Short Call = 卖出的近月（旁注 $235）</text>
+  <text x="590.0" y="408.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">片中用这张表解释：损益图两侧为什么都标</text>
+  <text x="590.0" y="427.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">「Loser」——大涨、大跌都会伤到这个组合。</text>
+  <rect x="40.0" y="448.0" width="880.0" height="58.0" rx="8" fill="#fff7ed" stroke="#fdba74" stroke-width="1" stroke-dasharray="6,4"/>
+  <text x="60.0" y="472.0" font-size="12" fill="#9a3412" text-anchor="start" font-weight="400">笔者补充（片中没画出/没说出）：同行权价的多头日历，理论最大亏损一般约等于付出的借记（本例约 $220/张）。</text>
+  <text x="60.0" y="494.0" font-size="12" fill="#9a3412" text-anchor="start" font-weight="400">片中也没讲何时平仓、财报前的 IV 结构、double calendar——这些不是片中规则。</text>
+</svg>

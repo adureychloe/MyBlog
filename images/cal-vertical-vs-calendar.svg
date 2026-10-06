@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker></defs>
+  <rect width="960" height="500" fill="#fff"/>
+  <text x="480.0" y="32.0" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">垂直价差 vs 日历价差：一个换行权价，一个换到期日</text>
+  <text x="480.0" y="55.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">左、中按片中 0:50–1:03 对比图重画；右侧命名对照为笔者补充</text>
+  <text x="190.0" y="92.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="700">Vertical Spread 垂直价差</text>
+  <line x1="110.0" y1="110.0" x2="110.0" y2="320.0" stroke="#334155" stroke-width="1.5"/>
+  <line x1="110.0" y1="320.0" x2="310.0" y2="320.0" stroke="#334155" stroke-width="1.5"/>
+  <text x="210.0" y="342.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">到期天数 →</text>
+  <text x="102.0" y="215.0" font-size="12" fill="#64748b" text-anchor="end" font-weight="400">行权价</text>
+  <rect x="170.0" y="150.0" width="76.0" height="30.0" rx="4" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+  <text x="208.0" y="170.0" font-size="13" fill="#16a34a" text-anchor="middle" font-weight="700">Buy</text>
+  <rect x="170.0" y="240.0" width="76.0" height="30.0" rx="4" fill="#fee2e2" stroke="#dc2626" stroke-width="1"/>
+  <text x="208.0" y="260.0" font-size="13" fill="#dc2626" text-anchor="middle" font-weight="700">Sell</text>
+  <text x="190.0" y="370.0" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">同一到期日</text>
+  <text x="190.0" y="390.0" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">两个不同行权价</text>
+  <text x="480.0" y="92.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="700">Calendar Spread 日历价差</text>
+  <line x1="400.0" y1="110.0" x2="400.0" y2="320.0" stroke="#334155" stroke-width="1.5"/>
+  <line x1="400.0" y1="320.0" x2="600.0" y2="320.0" stroke="#334155" stroke-width="1.5"/>
+  <text x="500.0" y="342.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">到期天数 →</text>
+  <text x="392.0" y="215.0" font-size="12" fill="#64748b" text-anchor="end" font-weight="400"></text>
+  <line x1="400.0" y1="215.0" x2="600.0" y2="215.0" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4,4"/>
+  <rect x="420.0" y="200.0" width="72.0" height="30.0" rx="4" fill="#fee2e2" stroke="#dc2626" stroke-width="1"/>
+  <text x="456.0" y="220.0" font-size="13" fill="#dc2626" text-anchor="middle" font-weight="700">Sell</text>
+  <rect x="516.0" y="200.0" width="72.0" height="30.0" rx="4" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+  <text x="552.0" y="220.0" font-size="13" fill="#16a34a" text-anchor="middle" font-weight="700">Buy</text>
+  <text x="456.0" y="250.0" font-size="11" fill="#dc2626" text-anchor="middle" font-weight="400">近月</text>
+  <text x="552.0" y="250.0" font-size="11" fill="#16a34a" text-anchor="middle" font-weight="400">远月</text>
+  <text x="480.0" y="370.0" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">同一行权价</text>
+  <text x="480.0" y="390.0" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">卖近月、买远月</text>
+  <rect x="650.0" y="80.0" width="280.0" height="330.0" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="1" stroke-dasharray="6,4"/>
+  <text x="790.0" y="106.0" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="700">命名对照（笔者补充）</text>
+  <text x="668.0" y="138.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">· Calendar（又叫 horizontal）：</text>
+  <text x="668.0" y="160.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">  同行权价 + 不同到期</text>
+  <text x="668.0" y="182.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">· Diagonal：</text>
+  <text x="668.0" y="204.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">  不同行权价 + 不同到期</text>
+  <text x="668.0" y="226.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">  （PMCC 属于这一类）</text>
+  <text x="668.0" y="248.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400"></text>
+  <text x="668.0" y="270.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">片中 1:03 文字把 Calendar 和 PMCC</text>
+  <text x="668.0" y="292.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">都归到 Diagonal 大类（符号被字幕</text>
+  <text x="668.0" y="314.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">遮挡）。常见叫法里两者不相等，</text>
+  <text x="668.0" y="336.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">本文不写成「Calendar = Diagonal」。</text>
+  <text x="480.0" y="446.0" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">片中例：AAPL 160.55 · 卖 Dec 17 2021（27 天）165C ≈ $235 · 买 Jan 21 2022（62 天）165C ≈ $455</text>
+  <text x="480.0" y="472.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">0:18 Schwab 权限表：Level 2 含 Vertical / Long calendar/diagonal / Iron butterfly / Iron condor</text>
+</svg>

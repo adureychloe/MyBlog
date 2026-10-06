@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker></defs>
+  <rect width="960" height="560" fill="#fff"/>
+  <text x="480.0" y="32.0" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">作者的经验法则：线下不做多，等放量投降日再起锚</text>
+  <text x="480.0" y="55.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">步骤流（片中 6:12 / 6:41–6:51 / 7:20–7:40）+ 两个画面案例；启发式，不是硬规则</text>
+  <rect x="36.0" y="78.0" width="164.0" height="92.0" rx="10" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="118.0" y="104.0" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">① 找事件日</text>
+  <text x="118.0" y="128.0" font-size="11" fill="#475569" text-anchor="middle" font-weight="400">财报 · 大突破 · IPO</text>
+  <text x="118.0" y="146.0" font-size="11" fill="#475569" text-anchor="middle" font-weight="400">恐慌低点 · 大新闻</text>
+  <line x1="202.0" y1="124.0" x2="218.0" y2="124.0" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <rect x="220.0" y="78.0" width="164.0" height="92.0" rx="10" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="302.0" y="104.0" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">② 在那根 K 线</text>
+  <text x="302.0" y="128.0" font-size="11" fill="#475569" text-anchor="middle" font-weight="400">起锚画 AVWAP</text>
+  <line x1="386.0" y1="124.0" x2="402.0" y2="124.0" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <rect x="404.0" y="78.0" width="164.0" height="92.0" rx="10" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="486.0" y="104.0" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">③ 价格在线上</text>
+  <text x="486.0" y="128.0" font-size="11" fill="#475569" text-anchor="middle" font-weight="400">还是线下？</text>
+  <line x1="570.0" y1="124.0" x2="586.0" y2="124.0" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <rect x="588.0" y="78.0" width="164.0" height="92.0" rx="10" fill="#fef2f2" stroke="#fca5a5" stroke-width="1"/>
+  <text x="670.0" y="104.0" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">④ 在线下：不做多</text>
+  <text x="670.0" y="128.0" font-size="11" fill="#475569" text-anchor="middle" font-weight="400">等「放量投降日」</text>
+  <line x1="754.0" y1="124.0" x2="770.0" y2="124.0" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <rect x="772.0" y="78.0" width="164.0" height="92.0" rx="10" fill="#ecfdf5" stroke="#86efac" stroke-width="1"/>
+  <text x="854.0" y="104.0" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">⑤ 从投降日重新起锚</text>
+  <text x="854.0" y="128.0" font-size="11" fill="#475569" text-anchor="middle" font-weight="400">回踩守住才考虑做多</text>
+  <text x="480.0" y="196.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">6:12 COST 日内图字幕：I don't want to long a stock below VWAP.（线上同理：不在 VWAP 上方做空）</text>
+  <rect x="40.0" y="214.0" width="420.0" height="250.0" rx="10" fill="#fffbeb" stroke="#fcd34d" stroke-width="1"/>
+  <text x="60.0" y="244.0" font-size="15" fill="#92400e" text-anchor="start" font-weight="700">例 1：CRCL（6:41–6:51，日线）</text>
+  <text x="60.0" y="276.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">· thinkorswim 指标头：</text>
+  <text x="60.0" y="303.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">  AnchoredVWAP (0.0, 0.0, 20250605) 188.27</text>
+  <text x="60.0" y="330.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">· 一根长上影 K 线，标注 Hi: 298.99</text>
+  <text x="60.0" y="357.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">· 作者：6/23 的投降日（capitulatory day）之后，</text>
+  <text x="60.0" y="384.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">  才开始考虑做多</text>
+  <text x="60.0" y="411.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">· 注意：指标头里的锚点参数是 20250605，</text>
+  <text x="60.0" y="438.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">  不是 6/23</text>
+  <rect x="500.0" y="214.0" width="420.0" height="250.0" rx="10" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1"/>
+  <text x="520.0" y="244.0" font-size="15" fill="#5b21b6" text-anchor="start" font-weight="700">例 2：UNH（7:20–7:40，日线）</text>
+  <text x="520.0" y="276.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">· 2025-05-15：Medicare 欺诈调查新闻，</text>
+  <text x="520.0" y="303.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">  当天跌 17%</text>
+  <text x="520.0" y="330.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">· 从这根放量投降日起锚（粉色 AVWAP）</text>
+  <text x="520.0" y="357.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">· 之后价格一直守在约 $300 的 AVWAP 上方</text>
+  <text x="520.0" y="384.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">· 字幕：Ever since then, we've been</text>
+  <text x="520.0" y="411.0" font-size="13" fill="#334155" text-anchor="start" font-weight="400">  holding above anchored VWAP</text>
+  <text x="480.0" y="500.0" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">两例都是事后挑出来的画面；AVWAP 不是入场信号本身，仍要止损与仓位。</text>
+  <text x="480.0" y="526.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">片中没有出现 AVWAP 标准差带（bands），本文也不画。</text>
+</svg>
