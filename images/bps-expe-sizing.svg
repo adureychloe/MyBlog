@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="680" viewBox="0 0 960 680">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker></defs>
+  <rect width="960" height="680" fill="#fff"/>
+  <text x="480.0" y="32.0" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">先算能亏多少，再定开几张（EXPE 例）</text>
+  <text x="480.0" y="55.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">对照 10:53、12:29–14:41 画面；EXPE 为片中 2021 年 2 月的教学数据，只当算例，不是报价</text>
+  <rect x="40.0" y="78.0" width="280.0" height="150.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.4"/>
+  <text x="52.0" y="100.0" font-size="14" fill="#dc2626" text-anchor="start" font-weight="700">① 单张风险（12:46–12:55）</text>
+  <text x="52.0" y="122.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">Mar 19（36 天）卖 140P / 买 135P</text>
+  <text x="52.0" y="142.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">预计收 1.65 → $165</text>
+  <text x="52.0" y="162.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">宽度 (140 − 135) × 100 = $500</text>
+  <text x="52.0" y="182.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">单张风险 = $500 − $165</text>
+  <text x="52.0" y="202.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">= $335</text>
+  <line x1="322.0" y1="153.0" x2="352.0" y2="153.0" stroke="#475569" stroke-width="1.8" marker-end="url(#arr)"/>
+  <rect x="356.0" y="78.0" width="250.0" height="150.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+  <text x="368.0" y="100.0" font-size="14" fill="#2563eb" text-anchor="start" font-weight="700">② 组合风险（12:29）</text>
+  <text x="368.0" y="122.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">账户 $100,000</text>
+  <text x="368.0" y="142.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">每笔最多亏 1%</text>
+  <text x="368.0" y="162.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">→ 每笔 $1,000</text>
+  <text x="368.0" y="182.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400"></text>
+  <text x="368.0" y="202.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">先定这个，再看别的</text>
+  <line x1="608.0" y1="153.0" x2="638.0" y2="153.0" stroke="#475569" stroke-width="1.8" marker-end="url(#arr)"/>
+  <rect x="642.0" y="78.0" width="278.0" height="150.0" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.4"/>
+  <text x="654.0" y="100.0" font-size="14" fill="#16a34a" text-anchor="start" font-weight="700">③ 张数（13:17–13:30）</text>
+  <text x="654.0" y="122.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">$1,000 ÷ $335 ≈ 2.98</text>
+  <text x="654.0" y="142.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">→ 取 3 张（片中：约 3 张）</text>
+  <text x="654.0" y="162.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">下单：Sell 3 Vertical @1.65</text>
+  <text x="654.0" y="182.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">3 × $335 = $1,005（略超 $1,000）</text>
+  <text x="654.0" y="202.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">3 × $165 = $495 最大盈利</text>
+  <rect x="40.0" y="246.0" width="600.0" height="300.0" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="340.0" y="270.0" font-size="13.5" fill="#0f172a" text-anchor="middle" font-weight="700">3 张到期损益（13:43–14:05 风险图重画）</text>
+  <line x1="90.0" y1="400.0" x2="610.0" y2="400.0" stroke="#475569" stroke-width="1.4"/>
+  <text x="84.0" y="404.0" font-size="12" fill="#64748b" text-anchor="end" font-weight="400">0</text>
+  <line x1="194.0" y1="285.0" x2="194.0" y2="520.0" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text x="194.0" y="536.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">135 买</text>
+  <line x1="298.0" y1="285.0" x2="298.0" y2="520.0" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text x="298.0" y="536.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">140 卖</text>
+  <polyline points="90.0,505.5 194.0,505.5 298.0,348.0 610.0,348.0" fill="none" stroke="#2563eb" stroke-width="3.5" stroke-linejoin="round" stroke-opacity="1.0"/>
+  <text x="381.2" y="338.0" font-size="13" fill="#16a34a" text-anchor="middle" font-weight="700">最大盈利 +$495</text>
+  <text x="96.0" y="475.5" font-size="13" fill="#dc2626" text-anchor="start" font-weight="700">最大亏损 −$1,005</text>
+  <line x1="502.7" y1="285.0" x2="502.7" y2="520.0" stroke="#0891b2" stroke-width="1.4" stroke-dasharray="2 3"/>
+  <text x="502.7" y="536.0" font-size="12" fill="#0891b2" text-anchor="middle" font-weight="400">现价约 149.8</text>
+  <circle cx="263.7" cy="400.0" r="5" fill="#ea580c"/>
+  <rect x="273.7" y="410.0" width="190.0" height="40.0" rx="6" fill="#fff7ed" stroke="#ea580c" stroke-width="1.4" stroke-dasharray="5 3"/>
+  <text x="281.7" y="427.0" font-size="11.5" fill="#ea580c" text-anchor="start" font-weight="700">盈亏平衡 ≈ 138.35（推算）</text>
+  <text x="281.7" y="443.0" font-size="10.5" fill="#ea580c" text-anchor="start" font-weight="400">= 140 − 1.65；片中口播「约 139 上方盈利」</text>
+  <rect x="660.0" y="246.0" width="260.0" height="180.0" rx="8" fill="#ecfeff" stroke="#0891b2" stroke-width="1.4"/>
+  <text x="672.0" y="268.0" font-size="14" fill="#0891b2" text-anchor="start" font-weight="700">④ 下单前核对（14:41 确认单）</text>
+  <text x="672.0" y="290.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">收：$495 − 手续费 $3.90</text>
+  <text x="672.0" y="309.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">= $491.10 credit</text>
+  <text x="672.0" y="328.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">手续费 $0.65/张 × 6 张期权</text>
+  <text x="672.0" y="347.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">Buying Power Effect $1,005</text>
+  <text x="672.0" y="366.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">= 3 × $335 ✔ 和自己算的对上</text>
+  <rect x="660.0" y="440.0" width="260.0" height="106.0" rx="8" fill="#f8fafc" stroke="#64748b" stroke-width="1.4"/>
+  <text x="672.0" y="462.0" font-size="14" fill="#64748b" text-anchor="start" font-weight="700">选腿依据（10:53–11:39）</text>
+  <text x="672.0" y="484.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">140P：bid/ask 5.50/5.85，Delta −0.32</text>
+  <text x="672.0" y="503.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">在支撑下方；135P 是下一档</text>
+  <text x="672.0" y="522.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">宽 $5：越宽，最大亏损越大</text>
+  <rect x="40.0" y="562.0" width="880.0" height="100.0" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="52.0" y="582.0" font-size="12.5" fill="#ea580c" text-anchor="start" font-weight="700">推算 / 笔者补充（不是片中原话）</text>
+  <text x="52.0" y="602.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">（推算）风险回报：赚 $165 / 亏 $335 ≈ 1 : 2 —— 「胜率高」的代价是亏的时候亏得多。</text>
+  <text x="52.0" y="620.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">（笔者补充）140P 链上的 Prob ITM 37.97% 是卖出那一条腿的数字，不是整组价差的亏损概率。</text>
+  <text x="52.0" y="638.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">（推算）盈亏平衡 138.35 由 140 − 1.65 算出，画面风险图上没有标这个数。</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker></defs>
+  <rect width="960" height="640" fill="#fff"/>
+  <text x="480.0" y="32.0" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">牛市看跌价差：卖高行权 put + 买低行权 put，先收钱、两头封顶</text>
+  <text x="480.0" y="55.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">对照片中 1:03 定义图、3:23 合成损益图、4:43–5:57 XYZ 算例、7:21–7:57 希腊字母画面重画</text>
+  <rect x="60.0" y="86.0" width="230.0" height="74.0" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+  <rect x="70.0" y="74.0" width="54.0" height="22.0" rx="5" fill="#ea580c" stroke="#ea580c" stroke-width="1"/>
+  <text x="97.0" y="90.0" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="700">卖 Sell</text>
+  <text x="175.0" y="122.0" font-size="14.5" fill="#2563eb" text-anchor="middle" font-weight="700">Short put（高行权）</text>
+  <text x="175.0" y="146.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">倾向：中性到看涨</text>
+  <text x="318.0" y="130.0" font-size="28" fill="#0f172a" text-anchor="middle" font-weight="700">+</text>
+  <rect x="345.0" y="86.0" width="230.0" height="74.0" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+  <rect x="355.0" y="74.0" width="54.0" height="22.0" rx="5" fill="#ea580c" stroke="#ea580c" stroke-width="1"/>
+  <text x="382.0" y="90.0" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="700">买 Buy</text>
+  <text x="460.0" y="122.0" font-size="14.5" fill="#2563eb" text-anchor="middle" font-weight="700">Long put（低行权）</text>
+  <text x="460.0" y="146.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">倾向：看跌（当保险）</text>
+  <text x="603.0" y="130.0" font-size="28" fill="#0f172a" text-anchor="middle" font-weight="700">=</text>
+  <rect x="630.0" y="86.0" width="270.0" height="74.0" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+  <rect x="640.0" y="74.0" width="54.0" height="22.0" rx="5" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+  <text x="667.0" y="90.0" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="700">合成</text>
+  <text x="765.0" y="122.0" font-size="14.5" fill="#2563eb" text-anchor="middle" font-weight="700">Short put vertical</text>
+  <text x="765.0" y="146.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">中性到看涨 · 风险和收益都封顶</text>
+  <rect x="40.0" y="186.0" width="580.0" height="380.0" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="330.0" y="210.0" font-size="13.5" fill="#0f172a" text-anchor="middle" font-weight="700">XYZ 例（现价 $99）：卖 97 put、买 95 put，到期损益（每组）</text>
+  <line x1="90.0" y1="350.0" x2="590.0" y2="350.0" stroke="#475569" stroke-width="1.4"/>
+  <text x="84.0" y="354.0" font-size="12" fill="#64748b" text-anchor="end" font-weight="400">0</text>
+  <line x1="152.5" y1="347.0" x2="152.5" y2="353.0" stroke="#475569" stroke-width="1.2"/>
+  <line x1="277.5" y1="347.0" x2="277.5" y2="353.0" stroke="#475569" stroke-width="1.2"/>
+  <line x1="402.5" y1="347.0" x2="402.5" y2="353.0" stroke="#475569" stroke-width="1.2"/>
+  <line x1="527.5" y1="347.0" x2="527.5" y2="353.0" stroke="#475569" stroke-width="1.2"/>
+  <line x1="277.5" y1="220.0" x2="277.5" y2="500.0" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text x="277.5" y="516.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">95 买</text>
+  <line x1="402.5" y1="220.0" x2="402.5" y2="500.0" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text x="402.5" y="516.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">97 卖</text>
+  <text x="527.5" y="516.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">99 现价</text>
+  <polyline points="90.0,465.5 277.5,465.5 402.5,255.5 590.0,255.5" fill="none" stroke="#2563eb" stroke-width="3.5" stroke-linejoin="round" stroke-opacity="1.0"/>
+  <rect x="402.5" y="255.5" width="187.5" height="94.5" fill="#16a34a" fill-opacity="0.1" stroke="none"/>
+  <rect x="90.0" y="350.0" width="187.5" height="115.5" fill="#dc2626" fill-opacity="0.1" stroke="none"/>
+  <text x="496.2" y="245.5" font-size="13" fill="#16a34a" text-anchor="middle" font-weight="700">最大盈利 +$90</text>
+  <text x="496.2" y="277.5" font-size="11.5" fill="#64748b" text-anchor="middle" font-weight="400">= 收到的净权利金</text>
+  <text x="183.8" y="487.5" font-size="13" fill="#dc2626" text-anchor="middle" font-weight="700">最大亏损 −$110</text>
+  <text x="183.8" y="505.5" font-size="11.5" fill="#64748b" text-anchor="middle" font-weight="400">两张都 ITM：被指派 / 行权</text>
+  <circle cx="346.2" cy="350.0" r="5" fill="#ea580c"/>
+  <rect x="196.2" y="364.0" width="140.0" height="40.0" rx="6" fill="#fff7ed" stroke="#ea580c" stroke-width="1.4" stroke-dasharray="5 3"/>
+  <text x="266.2" y="381.0" font-size="11.5" fill="#ea580c" text-anchor="middle" font-weight="700">盈亏平衡 ≈ 96.10</text>
+  <text x="266.2" y="397.0" font-size="11" fill="#ea580c" text-anchor="middle" font-weight="400">（推算：97 − 0.90）</text>
+  <text x="330.0" y="545.0" font-size="11.5" fill="#64748b" text-anchor="middle" font-weight="400">形状对照 3:23 画面：左平（亏损封顶）— 斜坡 — 右平（盈利封顶）</text>
+  <rect x="640.0" y="186.0" width="280.0" height="150.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+  <text x="652.0" y="208.0" font-size="14" fill="#2563eb" text-anchor="start" font-weight="700">算一遍（4:43、5:57 画面）</text>
+  <text x="652.0" y="230.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">卖 97P：$1.50 × 100 = 收 $150</text>
+  <text x="652.0" y="250.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">买 95P：$0.60 × 100 = 付 $60</text>
+  <text x="652.0" y="270.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">净收：$150 − $60 = $90</text>
+  <text x="652.0" y="290.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">最坏：−$9,700 + $9,500 = −$200</text>
+  <text x="652.0" y="310.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">−$200 + $90 = −$110</text>
+  <rect x="640.0" y="350.0" width="280.0" height="216.0" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.4"/>
+  <text x="652.0" y="372.0" font-size="14" fill="#16a34a" text-anchor="start" font-weight="700">希腊字母（7:21–7:57）</text>
+  <text x="652.0" y="394.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">Delta  为正：涨对你有利</text>
+  <text x="652.0" y="413.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">Theta  为正：时间流逝对你有利</text>
+  <text x="652.0" y="432.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">Vega   为负：IV 上升对你不利</text>
+  <text x="652.0" y="451.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400"></text>
+  <text x="652.0" y="470.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">指派（2:31、6:19）：临近到期、</text>
+  <text x="652.0" y="489.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">股价停在 95 和 97 之间 → 短腿 ITM、</text>
+  <text x="652.0" y="508.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">长腿 OTM，短腿可能被指派；</text>
+  <text x="652.0" y="527.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">片中做法：两腿一起平</text>
+  <text x="480.0" y="600.0" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">单张最大亏损 = （卖出行权价 − 买入行权价）× 100 − 收到的权利金 = (97 − 95) × 100 − 90 = $110</text>
+  <text x="480.0" y="622.0" font-size="11.5" fill="#64748b" text-anchor="middle" font-weight="400">片中 12:46 的规则幻灯：(Short strike − Long strike) − Credit</text>
+</svg>

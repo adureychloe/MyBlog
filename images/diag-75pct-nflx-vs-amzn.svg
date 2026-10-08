@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker></defs>
+  <rect width="960" height="620" fill="#fff"/>
+  <text x="480.0" y="32.0" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">75% 宽度规则：NFLX 合格，AMZN 太贵别做</text>
+  <text x="480.0" y="55.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">红条「PAY 75% OF THE WIDTH OR LESS」（6:26）；NFLX 对照 6:26–6:42，AMZN 对照 7:23–7:52 画面</text>
+  <rect x="30.0" y="76.0" width="440.0" height="400.0" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="1"/>
+  <text x="250.0" y="102.0" font-size="14.5" fill="#16a34a" text-anchor="middle" font-weight="700">✔ 例：NFLX（现价约 72.7，IV Rank ≈ 79.8）</text>
+  <text x="48.0" y="128.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">买 Aug 21 70 Call @6.50 + 卖 Jul 17 76 Call ≈ 2.16</text>
+  <text x="48.0" y="148.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">宽度 = 76 − 70 = 6 → 上限 6 × 0.75 = 4.50</text>
+  <text x="48.0" y="168.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">实付 4.25 ≈ 宽度的 71% → 在规则内（6:42 字幕）</text>
+  <text x="122.0" y="221.0" font-size="12.5" fill="#334155" text-anchor="end" font-weight="400">宽度</text>
+  <rect x="130.0" y="205.0" width="144.0" height="22.0" fill="#cbd5e1" fill-opacity="0.9" stroke="none"/>
+  <text x="282.0" y="221.0" font-size="12.5" fill="#0f172a" text-anchor="start" font-weight="700">6</text>
+  <text x="122.0" y="255.0" font-size="12.5" fill="#334155" text-anchor="end" font-weight="400">75% 上限</text>
+  <rect x="130.0" y="239.0" width="108.0" height="22.0" fill="#93c5fd" fill-opacity="0.9" stroke="none"/>
+  <text x="246.0" y="255.0" font-size="12.5" fill="#0f172a" text-anchor="start" font-weight="700">4.50</text>
+  <text x="122.0" y="289.0" font-size="12.5" fill="#334155" text-anchor="end" font-weight="400">实付借记</text>
+  <rect x="130.0" y="273.0" width="102.0" height="22.0" fill="#16a34a" fill-opacity="0.9" stroke="none"/>
+  <text x="246.0" y="289.0" font-size="12.5" fill="#0f172a" text-anchor="start" font-weight="700">4.25</text>
+  <line x1="238.0" y1="197.0" x2="238.0" y2="309.0" stroke="#2563eb" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <text x="48.0" y="350.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">Theta：单腿 −4.557（4:13）→ 对角 +5.126（5:26）</text>
+  <text x="48.0" y="370.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">P50：单腿 61% → 对角 92–93%（平台口径，见下方补充）</text>
+  <text x="48.0" y="390.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">Max Profit / Max Loss 显示 -- / 0：跨周期仓位</text>
+  <text x="48.0" y="410.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">平台算不出，不是真的零风险（5:13 章节）</text>
+  <text x="250.0" y="455.0" font-size="13.5" fill="#16a34a" text-anchor="middle" font-weight="700">结论：结构合理、价格合理</text>
+  <rect x="490.0" y="76.0" width="440.0" height="400.0" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1"/>
+  <text x="710.0" y="102.0" font-size="14.5" fill="#dc2626" text-anchor="middle" font-weight="700">✘ 反例：AMZN（现价约 239.8，IV Rank 53.4）</text>
+  <text x="508.0" y="128.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">买 Aug 21 235 Call ≈ 17.80 + 卖 Jul 17 245 Call ≈ 5.15–5.25</text>
+  <text x="508.0" y="148.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">宽度 = 245 − 235 = 10 → 上限 7.50</text>
+  <text x="508.0" y="168.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">实付 12.45（7:31；7:37 为 12.48）→ 比宽度本身还贵</text>
+  <text x="572.0" y="221.0" font-size="12.5" fill="#334155" text-anchor="end" font-weight="400">宽度</text>
+  <rect x="580.0" y="205.0" width="240.0" height="22.0" fill="#cbd5e1" fill-opacity="0.9" stroke="none"/>
+  <text x="828.0" y="221.0" font-size="12.5" fill="#0f172a" text-anchor="start" font-weight="700">10</text>
+  <text x="572.0" y="255.0" font-size="12.5" fill="#334155" text-anchor="end" font-weight="400">75% 上限</text>
+  <rect x="580.0" y="239.0" width="180.0" height="22.0" fill="#93c5fd" fill-opacity="0.9" stroke="none"/>
+  <text x="768.0" y="255.0" font-size="12.5" fill="#0f172a" text-anchor="start" font-weight="700">7.50</text>
+  <text x="572.0" y="289.0" font-size="12.5" fill="#334155" text-anchor="end" font-weight="400">实付借记</text>
+  <rect x="580.0" y="273.0" width="298.8" height="22.0" fill="#dc2626" fill-opacity="0.9" stroke="none"/>
+  <text x="886.8" y="289.0" font-size="12.5" fill="#0f172a" text-anchor="start" font-weight="700">12.45</text>
+  <line x1="760.0" y1="197.0" x2="760.0" y2="309.0" stroke="#2563eb" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <text x="508.0" y="350.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">Theta：单腿 −14.245（7:23）→ 对角 +6.667（7:31）</text>
+  <text x="508.0" y="370.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">Theta 照样翻正，但价格不合理</text>
+  <text x="508.0" y="390.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">主讲人大意（7:37）：不代表一定赚不到钱，</text>
+  <text x="508.0" y="410.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">但主动交易本来就难，别在价格上再给自己加难度</text>
+  <text x="710.0" y="455.0" font-size="13.5" fill="#dc2626" text-anchor="middle" font-weight="700">结论：Theta 翻正 ≠ 值得做 → 放弃</text>
+  <rect x="30.0" y="492.0" width="900.0" height="112.0" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="42.0" y="512.0" font-size="12.5" fill="#ea580c" text-anchor="start" font-weight="700">推算 / 笔者补充（片中只说「太贵」，没有展开）</text>
+  <text x="42.0" y="532.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">（推算）12.45 ÷ 10 ≈ 125% 宽度。若近月到期时 AMZN 远高于 245，组合价值大致趋近「宽度 10 + 长腿剩余时间价值」，</text>
+  <text x="42.0" y="550.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">          要靠长腿剩余的时间价值去覆盖多付的约 2.45，不划算。</text>
+  <text x="42.0" y="568.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">（笔者补充）P50 是「先摸到 50% 目标利润」的概率，不是胜率；借记变小、目标变近，P50 自然跳高，92% 不等于「几乎必赚」。</text>
+  <text x="42.0" y="586.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">（笔者补充）对角的最大亏损常近似借记（NFLX 例 $425），但跨到期路径依赖强，片中没有损益图可核对。</text>
+</svg>

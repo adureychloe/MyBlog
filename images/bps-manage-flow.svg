@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="710" viewBox="0 0 960 710">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker></defs>
+  <rect width="960" height="710" fill="#fff"/>
+  <text x="480.0" y="32.0" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">开仓前 5 步 + 持仓后 3 个片中案例</text>
+  <text x="480.0" y="55.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">步骤对照 8:47–13:30；案例对照 15:18–17:29 的 paperMoney 持仓画面（2021 年 2 月）</text>
+  <rect x="40.0" y="78.0" width="440.0" height="74.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+  <text x="54.0" y="102.0" font-size="13.5" fill="#2563eb" text-anchor="start" font-weight="700">1 选标的（8:47）</text>
+  <text x="54.0" y="124.0" font-size="11.5" fill="#334155" text-anchor="start" font-weight="400">流动性高、已在上升趋势；</text>
+  <text x="54.0" y="142.0" font-size="11.5" fill="#334155" text-anchor="start" font-weight="400">配合支撑反弹或突破阻力（EXPE 突破约 $145，9:26）</text>
+  <line x1="260.0" y1="152.0" x2="260.0" y2="166.0" stroke="#475569" stroke-width="1.6" marker-end="url(#arr)"/>
+  <rect x="40.0" y="168.0" width="440.0" height="74.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+  <text x="54.0" y="192.0" font-size="13.5" fill="#2563eb" text-anchor="start" font-weight="700">2 选到期（10:15）</text>
+  <text x="54.0" y="214.0" font-size="11.5" fill="#334155" text-anchor="start" font-weight="400">15–50 天：近一点赚得快、远一点概率高；</text>
+  <text x="54.0" y="232.0" font-size="11.5" fill="#334155" text-anchor="start" font-weight="400">例：Mar 19，36 天</text>
+  <line x1="260.0" y1="242.0" x2="260.0" y2="256.0" stroke="#475569" stroke-width="1.6" marker-end="url(#arr)"/>
+  <rect x="40.0" y="258.0" width="440.0" height="74.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+  <text x="54.0" y="282.0" font-size="13.5" fill="#2563eb" text-anchor="start" font-weight="700">3 选卖出行权价（10:53）</text>
+  <text x="54.0" y="304.0" font-size="11.5" fill="#334155" text-anchor="start" font-weight="400">在支撑位或以下，看 Delta：140P，Delta −0.32；</text>
+  <text x="54.0" y="322.0" font-size="11.5" fill="#334155" text-anchor="start" font-weight="400">买卖价差要够窄</text>
+  <line x1="260.0" y1="332.0" x2="260.0" y2="346.0" stroke="#475569" stroke-width="1.6" marker-end="url(#arr)"/>
+  <rect x="40.0" y="348.0" width="440.0" height="74.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+  <text x="54.0" y="372.0" font-size="13.5" fill="#2563eb" text-anchor="start" font-weight="700">4 选买入行权价（11:39）</text>
+  <text x="54.0" y="394.0" font-size="11.5" fill="#334155" text-anchor="start" font-weight="400">下一档 135（宽 $5）；越宽，单张风险越大</text>
+  <line x1="260.0" y1="422.0" x2="260.0" y2="436.0" stroke="#475569" stroke-width="1.6" marker-end="url(#arr)"/>
+  <rect x="40.0" y="438.0" width="440.0" height="74.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+  <text x="54.0" y="462.0" font-size="13.5" fill="#2563eb" text-anchor="start" font-weight="700">5 定张数（12:29–13:30）</text>
+  <text x="54.0" y="484.0" font-size="11.5" fill="#334155" text-anchor="start" font-weight="400">组合风险 $1,000 ÷ 单张风险 $335 ≈ 3 张</text>
+  <text x="260.0" y="542.0" font-size="12.5" fill="#64748b" text-anchor="middle" font-weight="400">开仓之后 → 看右边三个案例</text>
+  <rect x="500.0" y="78.0" width="420.0" height="146.0" rx="8" fill="#fffbeb" stroke="#b45309" stroke-width="1.4"/>
+  <text x="512.0" y="100.0" font-size="14" fill="#b45309" text-anchor="start" font-weight="700">NVDA 赢家（15:18–15:53）· 判断：弃用</text>
+  <text x="512.0" y="122.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">500/510 put 价差，还剩 9 天</text>
+  <text x="512.0" y="141.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">浮盈约 $400（画面 $402.50），只剩约 $9 可赚</text>
+  <text x="512.0" y="160.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">已拿到最大收益的约 98%，主讲人这时才用 0.09 买回平仓</text>
+  <text x="512.0" y="179.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">片中把它当「赢家」示范</text>
+  <rect x="500.0" y="238.0" width="420.0" height="146.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.4"/>
+  <text x="512.0" y="260.0" font-size="14" fill="#dc2626" text-anchor="start" font-weight="700">UNP 输家（16:17–16:41）· 判断：弃用</text>
+  <text x="512.0" y="282.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">205/210 put 价差，剩 2 天，两腿都 ITM</text>
+  <text x="512.0" y="301.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">主讲人：「再给一天，看能不能躲开最大亏损」</text>
+  <text x="512.0" y="320.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">这是片中的一次展示，不是规则</text>
+  <text x="512.0" y="339.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">画面：UNP 约 204.3，低于 205 和 210</text>
+  <rect x="500.0" y="398.0" width="420.0" height="146.0" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.4"/>
+  <text x="512.0" y="420.0" font-size="14" fill="#16a34a" text-anchor="start" font-weight="700">PEP 危险仓（16:54–17:29）· 判断：采用</text>
+  <text x="512.0" y="442.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">137/142 put 价差，剩 2 天，股价约 137.6</text>
+  <text x="512.0" y="461.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">刚在 137 上方，卖出的 142P 已 ITM → 有指派风险</text>
+  <text x="512.0" y="480.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">以 $3.50 买回整组：$350 + 手续费 $1.30 = $351.30</text>
+  <text x="512.0" y="499.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">受威胁就整组平，别等被指派</text>
+  <rect x="500.0" y="560.0" width="420.0" height="126.0" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="512.0" y="580.0" font-size="12.5" fill="#ea580c" text-anchor="start" font-weight="700">笔者补充（片中没说）</text>
+  <text x="512.0" y="600.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">NVDA：为最后约 2% 扛到期前全部尾部风险，不划算；</text>
+  <text x="512.0" y="618.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">很多卖方习惯在约 50% 最大收益时止盈（通用做法）。</text>
+  <text x="512.0" y="636.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">UNP：「再等一天」是赌回本，笔者不当规则用。</text>
+  <text x="512.0" y="654.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">15–50 天、约 0.30 Delta 只是起点，先观望。</text>
+  <rect x="40.0" y="560.0" width="440.0" height="112.0" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="54.0" y="584.0" font-size="13.5" fill="#0f172a" text-anchor="start" font-weight="700">一句话</text>
+  <text x="54.0" y="608.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">先问「最多亏多少」，再问「开几张」；</text>
+  <text x="54.0" y="630.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">临近到期短腿受威胁 → 整组平，不赌最后一天。</text>
+</svg>

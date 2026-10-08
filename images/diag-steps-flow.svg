@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="610" viewBox="0 0 960 610">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker></defs>
+  <rect width="960" height="610" fill="#fff"/>
+  <text x="480.0" y="32.0" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">搭一个多头 Call 对角：5 步 + 1 个片中没讲的缺口</text>
+  <text x="480.0" y="55.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">步骤与时间戳来自片中画面；橙色虚线框是笔者补充，不是片中内容</text>
+  <rect x="40.0" y="78.0" width="560.0" height="70.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+  <text x="56.0" y="104.0" font-size="14" fill="#2563eb" text-anchor="start" font-weight="700">1  定方向</text>
+  <text x="56.0" y="130.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">看涨 → 多头 Call 对角。片中只演示 Call 侧；Put 侧只留作业（7:52、8:06），没有画面</text>
+  <line x1="320.0" y1="148.0" x2="320.0" y2="162.0" stroke="#475569" stroke-width="1.6" marker-end="url(#arr)"/>
+  <rect x="40.0" y="164.0" width="560.0" height="70.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+  <text x="56.0" y="190.0" font-size="14" fill="#2563eb" text-anchor="start" font-weight="700">2  远月买长腿（方向）</text>
+  <text x="56.0" y="216.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">略 ITM 几档：NFLX 买 Aug 21（52 天）70 Call，Delta ≈ 0.62（4:00–4:13）</text>
+  <line x1="320.0" y1="234.0" x2="320.0" y2="248.0" stroke="#475569" stroke-width="1.6" marker-end="url(#arr)"/>
+  <rect x="40.0" y="250.0" width="560.0" height="70.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+  <text x="56.0" y="276.0" font-size="14" fill="#2563eb" text-anchor="start" font-weight="700">3  近月卖短腿（衰减）</text>
+  <text x="56.0" y="302.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">OTM 几档：卖 Jul 17（17 天）76 Call，Delta ≈ 0.38（红条 ITM LONG / OTM SHORT，3:25）</text>
+  <line x1="320.0" y1="320.0" x2="320.0" y2="334.0" stroke="#475569" stroke-width="1.6" marker-end="url(#arr)"/>
+  <rect x="40.0" y="336.0" width="560.0" height="70.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+  <text x="56.0" y="362.0" font-size="14" fill="#2563eb" text-anchor="start" font-weight="700">4  算价：借记 ≤ 宽度 × 75%</text>
+  <text x="56.0" y="388.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">NFLX 6 宽 → ≤ 4.50，付 4.25 ✔；AMZN 10 宽 → ≤ 7.50，付 12.45 ✘ 直接放弃</text>
+  <line x1="320.0" y1="406.0" x2="320.0" y2="420.0" stroke="#475569" stroke-width="1.6" marker-end="url(#arr)"/>
+  <rect x="40.0" y="422.0" width="560.0" height="70.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+  <text x="56.0" y="448.0" font-size="14" fill="#2563eb" text-anchor="start" font-weight="700">5  看平台数字，但别全信</text>
+  <text x="56.0" y="474.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">Theta 应由负转正（−4.56 → +5.13）；跨周期的 Max Profit/Loss 显示 0 / -- 别当真（5:13）</text>
+  <line x1="320.0" y1="492.0" x2="320.0" y2="506.0" stroke="#475569" stroke-width="1.6" marker-end="url(#arr)"/>
+  <rect x="40.0" y="508.0" width="560.0" height="82.0" rx="8" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.6" stroke-dasharray="4 4"/>
+  <text x="56.0" y="534.0" font-size="14" fill="#475569" text-anchor="start" font-weight="700">6  近月到期前处理短腿 —— 片中缺口</text>
+  <text x="56.0" y="558.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">片中只有一句横幅「ROLL THE SHORT, KEEP THE LONG」（8:02 起到片尾）</text>
+  <text x="56.0" y="578.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">何时滚、滚到哪个行权价、何时平仓：片中都没讲</text>
+  <rect x="625.0" y="78.0" width="300.0" height="140.0" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="637.0" y="98.0" font-size="12.5" fill="#ea580c" text-anchor="start" font-weight="700">笔者补充：滚动的常见做法</text>
+  <text x="637.0" y="118.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">短腿被打到 ITM，或剩余价值很低时：</text>
+  <text x="637.0" y="136.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">买回短腿，同时卖出下一周期</text>
+  <text x="637.0" y="154.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">同一或更高行权价的 call。</text>
+  <text x="637.0" y="172.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">这是通用知识，不是片中内容；</text>
+  <text x="637.0" y="190.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">滚动本身也有成本，不是免费续命。</text>
+  <rect x="625.0" y="234.0" width="300.0" height="120.0" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="637.0" y="254.0" font-size="12.5" fill="#ea580c" text-anchor="start" font-weight="700">笔者补充：P50 不是胜率</text>
+  <text x="637.0" y="274.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">单腿 P50 ≈ 61%，对角后 92–93%。</text>
+  <text x="637.0" y="292.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">P50 = 先摸到 50% 目标利润的概率；</text>
+  <text x="637.0" y="310.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">借记小了目标就近了，数字自然高。</text>
+  <text x="637.0" y="328.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">别把 92% 读成「几乎必赚」。</text>
+  <rect x="625.0" y="370.0" width="300.0" height="130.0" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="640.0" y="394.0" font-size="13.5" fill="#0f172a" text-anchor="start" font-weight="700">片尾口播总结（8:16 前后）</text>
+  <text x="640.0" y="418.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">远月买略 ITM 的 call 拿 Delta；</text>
+  <text x="640.0" y="439.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">近月卖 OTM 几档的 call 拿 Theta；</text>
+  <text x="640.0" y="460.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">盯住价格，别超过 75% 上限。</text>
+  <text x="640.0" y="481.0" font-size="12.5" fill="#334155" text-anchor="start" font-weight="400">（采用的就是这三句）</text>
+</svg>

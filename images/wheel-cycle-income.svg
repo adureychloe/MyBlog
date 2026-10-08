@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="700" viewBox="0 0 960 700">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker></defs>
+  <rect width="960" height="700" fill="#fff"/>
+  <text x="480.0" y="32.0" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">车轮策略：四步循环 + 两个赚钱来源（NOW 教学例）</text>
+  <text x="480.0" y="55.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">循环对照 1:06 循环图；赚钱来源对照 1:22–1:33 口播；NOW 数字对照 2:30–5:31 画面。NOW 只是片中例子，不是推荐</text>
+  <circle cx="250" cy="300" r="92" fill="none" stroke="#e2e8f0" stroke-width="14"/>
+  <text x="250.0" y="296.0" font-size="17" fill="#0f172a" text-anchor="middle" font-weight="700">THE WHEEL</text>
+  <text x="250.0" y="318.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">转完一圈再来</text>
+  <rect x="40.0" y="80.0" width="200.0" height="92.0" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.4"/>
+  <text x="52.0" y="102.0" font-size="14" fill="#16a34a" text-anchor="start" font-weight="700">① 卖现金担保 put（CSP）</text>
+  <text x="52.0" y="124.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">挑愿意持有的股票卖 put</text>
+  <text x="52.0" y="143.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">先收权利金；没被指派就再卖</text>
+  <rect x="270.0" y="80.0" width="200.0" height="92.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+  <text x="282.0" y="102.0" font-size="14" fill="#2563eb" text-anchor="start" font-weight="700">② 被指派，买入 100 股</text>
+  <text x="282.0" y="124.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">到期 put 在价内</text>
+  <text x="282.0" y="143.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">按行权价买下 100 股/张</text>
+  <rect x="270.0" y="420.0" width="200.0" height="92.0" rx="8" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.4"/>
+  <text x="282.0" y="442.0" font-size="14" fill="#7c3aed" text-anchor="start" font-weight="700">③ 卖备兑 call</text>
+  <text x="282.0" y="464.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">用这 100 股担保卖 call</text>
+  <text x="282.0" y="483.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">边等边收权利金</text>
+  <rect x="40.0" y="420.0" width="200.0" height="92.0" rx="8" fill="#fffbeb" stroke="#b45309" stroke-width="1.4"/>
+  <text x="52.0" y="442.0" font-size="14" fill="#b45309" text-anchor="start" font-weight="700">④ 被叫走，卖出 100 股</text>
+  <text x="52.0" y="464.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">到期 call 在价内</text>
+  <text x="52.0" y="483.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">按行权价卖出，回到 ①</text>
+  <line x1="242.0" y1="126.0" x2="266.0" y2="126.0" stroke="#475569" stroke-width="1.8" marker-end="url(#arr)"/>
+  <line x1="370.0" y1="174.0" x2="370.0" y2="414.0" stroke="#475569" stroke-width="1.8" marker-end="url(#arr)"/>
+  <line x1="266.0" y1="466.0" x2="244.0" y2="466.0" stroke="#475569" stroke-width="1.8" marker-end="url(#arr)"/>
+  <line x1="140.0" y1="414.0" x2="140.0" y2="176.0" stroke="#475569" stroke-width="1.8" marker-end="url(#arr)"/>
+  <rect x="500.0" y="80.0" width="420.0" height="118.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+  <text x="512.0" y="102.0" font-size="14" fill="#2563eb" text-anchor="start" font-weight="700">两个赚钱来源（1:22–1:33）</text>
+  <text x="512.0" y="124.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">1. 股票差价：put 被指派时买进、call 被指派时卖出</text>
+  <text x="512.0" y="143.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">2. 权利金：每卖一次期权先收一笔钱</text>
+  <text x="512.0" y="162.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">主讲人：两样都要成功；并预告后面会讲</text>
+  <text x="512.0" y="181.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">车轮「坏掉」的情形（1:29–1:59 口播）</text>
+  <rect x="500.0" y="212.0" width="420.0" height="196.0" rx="8" fill="#f8fafc" stroke="#64748b" stroke-width="1.4"/>
+  <text x="512.0" y="234.0" font-size="14" fill="#64748b" text-anchor="start" font-weight="700">NOW 例（画面数字）</text>
+  <text x="512.0" y="256.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">现价卡片 $112.45（2:30）</text>
+  <text x="512.0" y="275.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">Jun 12 '26（29 天）卖 80 put：bid/ask 1.65/2.00（3:08）</text>
+  <text x="512.0" y="294.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">画面：Max Return $165 · Break Even $78.34</text>
+  <text x="512.0" y="313.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">      市场隐含盈利概率 82% · Delta 19.7</text>
+  <text x="512.0" y="332.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">假设跌到 $78 被指派 → 再卖 100 call（盈利概率约 77%）</text>
+  <text x="512.0" y="351.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">5:31 卡片：Equity $2,000 + Options $450 ≈ $2,450</text>
+  <text x="512.0" y="370.0" font-size="12" fill="#334155" text-anchor="start" font-weight="400">注：口播 $183 / $290 等与画面报价对不上，以画面为准</text>
+  <rect x="500.0" y="424.0" width="420.0" height="250.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="2.2"/>
+  <text x="514.0" y="450.0" font-size="14" fill="#dc2626" text-anchor="start" font-weight="700">⚠ 5:22「2 Legs」票：只是教学演示，别照着下</text>
+  <text x="514.0" y="474.0" font-size="12" fill="#7f1d1d" text-anchor="start" font-weight="400">画面：Sell Jun12'26 100 Call + Sell Jun12'26 80 Put</text>
+  <text x="514.0" y="493.0" font-size="12" fill="#7f1d1d" text-anchor="start" font-weight="400">同时卖出，Order −$4.50 credit</text>
+  <text x="514.0" y="512.0" font-size="12" fill="#7f1d1d" text-anchor="start" font-weight="400">Max Loss 显示 ∞（无限），POP 67%</text>
+  <text x="514.0" y="531.0" font-size="12" fill="#7f1d1d" text-anchor="start" font-weight="400">主讲人只是借它把两笔权利金加在一起演示</text>
+  <rect x="512.0" y="556.0" width="396.0" height="106.0" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="524.0" y="576.0" font-size="12.5" fill="#ea580c" text-anchor="start" font-weight="700">笔者补充</text>
+  <text x="524.0" y="596.0" font-size="11.5" fill="#7c2d12" text-anchor="start" font-weight="400">这张票等于同时裸卖 put + 裸卖 call（卖出宽跨式），</text>
+  <text x="524.0" y="613.0" font-size="11.5" fill="#7c2d12" text-anchor="start" font-weight="400">不是车轮：车轮是先卖 put，被指派、手里有股票后，</text>
+  <text x="524.0" y="630.0" font-size="11.5" fill="#7c2d12" text-anchor="start" font-weight="400">才用股票担保卖 call。别照着下。</text>
+  <rect x="40.0" y="540.0" width="430.0" height="134.0" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="52.0" y="560.0" font-size="12.5" fill="#ea580c" text-anchor="start" font-weight="700">笔者补充：Delta 不等于盈利概率</text>
+  <text x="52.0" y="580.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">主讲人说「20 Delta ≈ 80% 盈利概率」。</text>
+  <text x="52.0" y="598.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">这是常见近似：画面上 Delta 19.7、POP 82% 刚好接近，</text>
+  <text x="52.0" y="616.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">但 Delta 更接近「到期价内概率」的粗略估计，</text>
+  <text x="52.0" y="634.0" font-size="12" fill="#7c2d12" text-anchor="start" font-weight="400">和 POP 定义上不是一回事。</text>
+</svg>

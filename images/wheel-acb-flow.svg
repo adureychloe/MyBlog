@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker></defs>
+  <rect width="960" height="720" fill="#fff"/>
+  <text x="480.0" y="32.0" font-size="19" fill="#0f172a" text-anchor="middle" font-weight="700">跑一轮车轮的步骤：每一步都看调整后成本（ACB）</text>
+  <text x="480.0" y="55.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">步骤对照 2:06–4:23 与 12:50–13:40 口播；ACB 瀑布对照 6:47（NVDA）、8:02（TSM）画面，纵轴截断，只示意相对大小</text>
+  <rect x="40.0" y="76.0" width="450.0" height="66.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+  <text x="54.0" y="98.0" font-size="13.5" fill="#2563eb" text-anchor="start" font-weight="700">1 选股（2:06、10:28）</text>
+  <text x="54.0" y="118.0" font-size="11.5" fill="#334155" text-anchor="start" font-weight="400">只做愿意被指派后长期持有的股票：</text>
+  <text x="54.0" y="136.0" font-size="11.5" fill="#334155" text-anchor="start" font-weight="400">中大盘、稳定盈利、利润率和自由现金流好；投机股不做</text>
+  <line x1="265.0" y1="142.0" x2="265.0" y2="154.0" stroke="#475569" stroke-width="1.6" marker-end="url(#arr)"/>
+  <rect x="40.0" y="156.0" width="450.0" height="66.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+  <text x="54.0" y="178.0" font-size="13.5" fill="#2563eb" text-anchor="start" font-weight="700">2 卖 CSP（2:42–3:23）</text>
+  <text x="54.0" y="198.0" font-size="11.5" fill="#334155" text-anchor="start" font-weight="400">30–45 天（月度节奏）；约 15–20 Delta</text>
+  <text x="54.0" y="216.0" font-size="11.5" fill="#334155" text-anchor="start" font-weight="400">（主讲人把它说成约 80% 盈利概率）</text>
+  <line x1="265.0" y1="222.0" x2="265.0" y2="234.0" stroke="#475569" stroke-width="1.6" marker-end="url(#arr)"/>
+  <rect x="40.0" y="236.0" width="450.0" height="48.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+  <text x="54.0" y="258.0" font-size="13.5" fill="#2563eb" text-anchor="start" font-weight="700">3 没被指派 → 继续卖或滚动；被指派 → 拿 100 股/张</text>
+  <text x="54.0" y="278.0" font-size="11.5" fill="#334155" text-anchor="start" font-weight="400">每收一笔权利金，都记进成本里</text>
+  <line x1="265.0" y1="284.0" x2="265.0" y2="296.0" stroke="#475569" stroke-width="1.6" marker-end="url(#arr)"/>
+  <rect x="40.0" y="298.0" width="450.0" height="66.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+  <text x="54.0" y="320.0" font-size="13.5" fill="#2563eb" text-anchor="start" font-weight="700">4 算 ACB（6:16–6:47）</text>
+  <text x="54.0" y="340.0" font-size="11.5" fill="#334155" text-anchor="start" font-weight="400">ACB = 行权价 − 每股累计权利金</text>
+  <text x="54.0" y="358.0" font-size="11.5" fill="#334155" text-anchor="start" font-weight="400">每股权利金 = 权利金总额 ÷ 100</text>
+  <line x1="265.0" y1="364.0" x2="265.0" y2="376.0" stroke="#475569" stroke-width="1.6" marker-end="url(#arr)"/>
+  <rect x="40.0" y="378.0" width="450.0" height="66.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+  <text x="54.0" y="400.0" font-size="13.5" fill="#2563eb" text-anchor="start" font-weight="700">5 卖 covered call：行权价 ≥ ACB</text>
+  <text x="54.0" y="420.0" font-size="11.5" fill="#334155" text-anchor="start" font-weight="400">被叫走也赚钱（7:13）；不想丢股就晚点卖，</text>
+  <text x="54.0" y="438.0" font-size="11.5" fill="#334155" text-anchor="start" font-weight="400">只卖在愿意卖的价格（TSM 到 $430 才开始卖 call，12:50–13:40）</text>
+  <line x1="265.0" y1="444.0" x2="265.0" y2="456.0" stroke="#475569" stroke-width="1.6" marker-end="url(#arr)"/>
+  <rect x="40.0" y="458.0" width="450.0" height="66.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+  <text x="54.0" y="480.0" font-size="13.5" fill="#2563eb" text-anchor="start" font-weight="700">6 被叫走 → 放手，进入下一轮</text>
+  <text x="54.0" y="500.0" font-size="11.5" fill="#334155" text-anchor="start" font-weight="400">call 进价内别一直滚、盼回调（12:50–13:40）</text>
+  <text x="54.0" y="518.0" font-size="11.5" fill="#334155" text-anchor="start" font-weight="400">释放资金，重新从 ① 开始</text>
+  <rect x="510.0" y="76.0" width="410.0" height="300.0" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="522.0" y="98.0" font-size="13.5" fill="#0f172a" text-anchor="start" font-weight="700">NVDA（还在卖 put 阶段，尚未指派）</text>
+  <rect x="536.0" y="126.4" width="62.0" height="165.6" fill="#64748b" fill-opacity="0.85" stroke="none"/>
+  <text x="567.0" y="308.0" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">行权价</text>
+  <text x="567.0" y="324.0" font-size="11.5" fill="#0f172a" text-anchor="middle" font-weight="700">180.00</text>
+  <rect x="610.0" y="126.4" width="62.0" height="20.4" fill="#16a34a" fill-opacity="0.9" stroke="none"/>
+  <text x="641.0" y="308.0" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">CSP</text>
+  <text x="641.0" y="324.0" font-size="11.5" fill="#0f172a" text-anchor="middle" font-weight="700">-9.85</text>
+  <rect x="684.0" y="146.7" width="62.0" height="122.2" fill="#16a34a" fill-opacity="0.9" stroke="none"/>
+  <text x="715.0" y="308.0" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">滚动</text>
+  <text x="715.0" y="324.0" font-size="11.5" fill="#0f172a" text-anchor="middle" font-weight="700">-59.00</text>
+  <rect x="758.0" y="268.2" width="62.0" height="2.0" fill="#ea580c" fill-opacity="0.9" stroke="none"/>
+  <text x="789.0" y="308.0" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">费用</text>
+  <text x="789.0" y="324.0" font-size="11.5" fill="#0f172a" text-anchor="middle" font-weight="700">+0.35</text>
+  <rect x="832.0" y="268.2" width="62.0" height="23.8" fill="#0f766e" fill-opacity="0.9" stroke="none"/>
+  <text x="863.0" y="308.0" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">ACB</text>
+  <text x="863.0" y="324.0" font-size="11.5" fill="#0f172a" text-anchor="middle" font-weight="700">111.50</text>
+  <line x1="524.0" y1="292.0" x2="906.0" y2="292.0" stroke="#94a3b8" stroke-width="1"/>
+  <text x="908.0" y="98.0" font-size="10.5" fill="#64748b" text-anchor="end" font-weight="400">纵轴从 100 起（截断）</text>
+  <text x="522.0" y="342.0" font-size="11" fill="#334155" text-anchor="start" font-weight="400">权利金 $6,849.91 ÷ 100 ≈ $68.50/股；180 − 68.50 = 111.50</text>
+  <text x="522.0" y="358.0" font-size="11" fill="#334155" text-anchor="start" font-weight="400">平台叫 Projected Cost Basis（预计成本）</text>
+  <rect x="510.0" y="392.0" width="410.0" height="300.0" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="522.0" y="414.0" font-size="13.5" fill="#0f172a" text-anchor="start" font-weight="700">TSM（两张 put 被指派后卖 call）</text>
+  <rect x="536.0" y="449.6" width="49.7" height="158.4" fill="#64748b" fill-opacity="0.85" stroke="none"/>
+  <text x="560.8" y="624.0" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">行权价</text>
+  <text x="560.8" y="640.0" font-size="11.5" fill="#0f172a" text-anchor="middle" font-weight="700">197.50</text>
+  <rect x="597.7" y="449.6" width="49.7" height="103.8" fill="#16a34a" fill-opacity="0.9" stroke="none"/>
+  <text x="622.5" y="624.0" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">CSP</text>
+  <text x="622.5" y="640.0" font-size="11.5" fill="#0f172a" text-anchor="middle" font-weight="700">-14.75</text>
+  <rect x="659.3" y="553.4" width="49.7" height="2.0" fill="#16a34a" fill-opacity="0.9" stroke="none"/>
+  <text x="684.2" y="624.0" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">CC</text>
+  <text x="684.2" y="640.0" font-size="11.5" fill="#0f172a" text-anchor="middle" font-weight="700">-0.20</text>
+  <rect x="721.0" y="541.7" width="49.7" height="13.2" fill="#ea580c" fill-opacity="0.9" stroke="none"/>
+  <text x="745.8" y="624.0" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">滚动</text>
+  <text x="745.8" y="640.0" font-size="11.5" fill="#0f172a" text-anchor="middle" font-weight="700">+1.87</text>
+  <rect x="782.7" y="541.2" width="49.7" height="2.0" fill="#ea580c" fill-opacity="0.9" stroke="none"/>
+  <text x="807.5" y="624.0" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">费用</text>
+  <text x="807.5" y="640.0" font-size="11.5" fill="#0f172a" text-anchor="middle" font-weight="700">+0.07</text>
+  <rect x="844.3" y="541.2" width="49.7" height="66.8" fill="#0f766e" fill-opacity="0.9" stroke="none"/>
+  <text x="869.2" y="624.0" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">ACB</text>
+  <text x="869.2" y="640.0" font-size="11.5" fill="#0f172a" text-anchor="middle" font-weight="700">184.49</text>
+  <line x1="524.0" y1="608.0" x2="906.0" y2="608.0" stroke="#94a3b8" stroke-width="1"/>
+  <text x="908.0" y="414.0" font-size="10.5" fill="#64748b" text-anchor="end" font-weight="400">纵轴从 175 起（截断）</text>
+  <text x="522.0" y="658.0" font-size="11" fill="#334155" text-anchor="start" font-weight="400">197.50 − 14.75 − 0.20 + 1.87 + 0.07 = 184.49</text>
+  <text x="522.0" y="674.0" font-size="11" fill="#334155" text-anchor="start" font-weight="400">权利金 $2,602.24；8:11 卡片 Equity $52,500 / Credit $2,600</text>
+  <text x="265.0" y="700.0" font-size="11.5" fill="#64748b" text-anchor="middle" font-weight="400">绿色 = 让成本下降，橙色 = 让成本上升（滚动倒贴、手续费）</text>
+</svg>
