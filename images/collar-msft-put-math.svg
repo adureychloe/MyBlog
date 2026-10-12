@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker></defs>
+  <rect width="960" height="600" fill="#fff"/>
+  <text x="480.0" y="30.0" font-size="17" fill="#0f172a" text-anchor="middle" font-weight="700">保护性 Put 算术：缓和 $2,250，暴跌到 $450 仍净亏 $750</text>
+  <text x="480.0" y="52.0" font-size="11.5" fill="#64748b" text-anchor="middle" font-weight="400">对照 2:07 权利金卡、4:49 MSFT 链、5:37 缓和卡、7:04 净亏公式（一律以画面为准）</text>
+  <rect x="30.0" y="70.0" width="220.0" height="100.0" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+  <text x="140.0" y="98.0" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="700">$2 PREMIUM = $200</text>
+  <text x="140.0" y="122.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">（2:07 画面）</text>
+  <text x="140.0" y="146.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">权利金 × 100 = 总成本</text>
+  <rect x="270.0" y="70.0" width="400.0" height="100.0" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+  <text x="470.0" y="95.0" font-size="13.5" fill="#0f172a" text-anchor="middle" font-weight="700">MSFT 例（4:49 链上）</text>
+  <text x="470.0" y="118.0" font-size="13" fill="#334155" text-anchor="middle" font-weight="400">现价 ~$501.34 · 买 490P</text>
+  <text x="470.0" y="140.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">到期 2025-12-19 · 108 DTE · ask $17.50</text>
+  <text x="470.0" y="160.0" font-size="12.5" fill="#2563eb" text-anchor="middle" font-weight="700">$17.50 × 100 = $1,750 保费</text>
+  <rect x="690.0" y="70.0" width="240.0" height="100.0" rx="10" fill="#fff7ed" stroke="#ea580c" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="810.0" y="95.0" font-size="13" fill="#ea580c" text-anchor="middle" font-weight="700">（弃用）ASR 误听</text>
+  <text x="810.0" y="120.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">口播像「$108 days」</text>
+  <text x="810.0" y="142.0" font-size="12.5" fill="#dc2626" text-anchor="middle" font-weight="700">→ 其实是 108 DTE</text>
+  <text x="810.0" y="162.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">不是 108 美元</text>
+  <rect x="30.0" y="190.0" width="440.0" height="160.0" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.4"/>
+  <text x="250.0" y="220.0" font-size="14" fill="#16a34a" text-anchor="middle" font-weight="700">缓和损失（5:37 画面）</text>
+  <text x="250.0" y="250.0" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="700">$5,000 − $2,750</text>
+  <text x="250.0" y="280.0" font-size="15" fill="#16a34a" text-anchor="middle" font-weight="700">= $2,250 MITIGATED LOSSES</text>
+  <text x="250.0" y="310.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">相对「没买 put」少亏 $2,250</text>
+  <text x="250.0" y="332.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">不是「赚了 $2,250」</text>
+  <rect x="490.0" y="190.0" width="440.0" height="160.0" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.4"/>
+  <text x="710.0" y="218.0" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="700">暴跌情景（7:04 画面算术）</text>
+  <text x="710.0" y="244.0" font-size="13" fill="#334155" text-anchor="middle" font-weight="400">MSFT ↓ $450 · put 值 $60/股</text>
+  <text x="710.0" y="268.0" font-size="12.5" fill="#dc2626" text-anchor="middle" font-weight="400">卖股亏 $5,000</text>
+  <text x="710.0" y="288.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">+ 卖 put 收 $6,000 − 已付 $1,750</text>
+  <text x="710.0" y="312.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="700">= $750 NET LOSS</text>
+  <text x="710.0" y="336.0" font-size="11.5" fill="#64748b" text-anchor="middle" font-weight="400">公式：$6,000 − ($5,000+$1,750)</text>
+  <rect x="30.0" y="370.0" width="900.0" height="100.0" rx="10" fill="#fff7ed" stroke="#ea580c" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="480.0" y="400.0" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="700">（弃用）「买了 put 就不亏」——片中极端例仍净亏 $750</text>
+  <text x="480.0" y="428.0" font-size="13" fill="#334155" text-anchor="middle" font-weight="400">put 把下行损失「买断」≠ 保证盈利；保费 $1,750 永远先付出去。</text>
+  <text x="480.0" y="452.0" font-size="12.5" fill="#64748b" text-anchor="middle" font-weight="400">ASR 把 Oct 15 净亏公式念糊——一律以画面 $750 NET LOSS 为准。</text>
+  <rect x="30.0" y="490.0" width="900.0" height="80.0" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+  <text x="480.0" y="518.0" font-size="13.5" fill="#0f172a" text-anchor="middle" font-weight="700">核对三笔账（画面一致）</text>
+  <text x="480.0" y="545.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">$17.50×100=$1,750 ✔ · $6,000−$5,000−$1,750=$750 ✔ · 缓和 $5,000−$2,750=$2,250 ✔</text>
+</svg>

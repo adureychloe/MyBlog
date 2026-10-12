@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker></defs>
+  <rect width="960" height="600" fill="#fff"/>
+  <text x="480.0" y="28.0" font-size="17" fill="#0f172a" text-anchor="middle" font-weight="700">合成表：$50/$60 净贷记 $2 → 最大亏 $8，盈亏平衡 $52</text>
+  <text x="480.0" y="50.0" font-size="11.5" fill="#64748b" text-anchor="middle" font-weight="400">对照 6:37 合成表、7:34 盈亏平衡高亮、8:55 最大亏封顶（表按每股展示）</text>
+  <rect x="30.0" y="68.0" width="280.0" height="100.0" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="1"/>
+  <text x="170.0" y="95.0" font-size="13.5" fill="#16a34a" text-anchor="middle" font-weight="700">短腿：卖 $50 call</text>
+  <text x="170.0" y="120.0" font-size="16" fill="#16a34a" text-anchor="middle" font-weight="700">收 +$5</text>
+  <text x="170.0" y="145.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">（4:38 Step 1）</text>
+  <rect x="340.0" y="68.0" width="280.0" height="100.0" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1"/>
+  <text x="480.0" y="95.0" font-size="13.5" fill="#dc2626" text-anchor="middle" font-weight="700">长腿：买 $60 call</text>
+  <text x="480.0" y="120.0" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="700">付 −$3</text>
+  <text x="480.0" y="145.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">（5:07 Step 2）</text>
+  <rect x="650.0" y="68.0" width="280.0" height="100.0" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+  <text x="790.0" y="95.0" font-size="13.5" fill="#2563eb" text-anchor="middle" font-weight="700">净贷记 / 最大赚</text>
+  <text x="790.0" y="120.0" font-size="18" fill="#2563eb" text-anchor="middle" font-weight="700">+$2</text>
+  <text x="790.0" y="145.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">宽 $10 − $2 = 最大亏 $8</text>
+  <rect x="30.0" y="190.0" width="520.0" height="280.0" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="290.0" y="215.0" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">Bear Call Spread 合成表（6:37）</text>
+  <text x="80.0" y="240.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="700">股价 S</text>
+  <text x="200.0" y="240.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="700">短 50</text>
+  <text x="320.0" y="240.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="700">长 60</text>
+  <text x="460.0" y="240.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="700">价差 P/L</text>
+  <line x1="50.0" y1="250.0" x2="530.0" y2="250.0" stroke="#94a3b8" stroke-width="1"/>
+  <text x="80.0" y="270.0" font-size="12.5" fill="#16a34a" text-anchor="middle" font-weight="400">$0</text>
+  <text x="200.0" y="270.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">+$5</text>
+  <text x="320.0" y="270.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">−$3</text>
+  <text x="460.0" y="270.0" font-size="13" fill="#16a34a" text-anchor="middle" font-weight="700">+$2</text>
+  <text x="80.0" y="296.0" font-size="12.5" fill="#16a34a" text-anchor="middle" font-weight="400">$50</text>
+  <text x="200.0" y="296.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">+$5</text>
+  <text x="320.0" y="296.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">−$3</text>
+  <text x="460.0" y="296.0" font-size="13" fill="#16a34a" text-anchor="middle" font-weight="700">+$2</text>
+  <text x="80.0" y="322.0" font-size="12.5" fill="#ea580c" text-anchor="middle" font-weight="700">$52 BE</text>
+  <text x="200.0" y="322.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">+$3</text>
+  <text x="320.0" y="322.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">−$3</text>
+  <text x="460.0" y="322.0" font-size="13" fill="#ea580c" text-anchor="middle" font-weight="700">$0</text>
+  <text x="80.0" y="348.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">$59</text>
+  <text x="200.0" y="348.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">−$4</text>
+  <text x="320.0" y="348.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">−$3</text>
+  <text x="460.0" y="348.0" font-size="13" fill="#334155" text-anchor="middle" font-weight="700">−$7</text>
+  <text x="80.0" y="374.0" font-size="12.5" fill="#dc2626" text-anchor="middle" font-weight="700">$60</text>
+  <text x="200.0" y="374.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">−$5</text>
+  <text x="320.0" y="374.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">−$3</text>
+  <text x="460.0" y="374.0" font-size="13" fill="#dc2626" text-anchor="middle" font-weight="700">−$8</text>
+  <text x="80.0" y="400.0" font-size="12.5" fill="#dc2626" text-anchor="middle" font-weight="400">$61</text>
+  <text x="200.0" y="400.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">−$6</text>
+  <text x="320.0" y="400.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">−$2</text>
+  <text x="460.0" y="400.0" font-size="13" fill="#dc2626" text-anchor="middle" font-weight="700">−$8</text>
+  <text x="80.0" y="426.0" font-size="12.5" fill="#dc2626" text-anchor="middle" font-weight="700">$100</text>
+  <text x="200.0" y="426.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">−$45</text>
+  <text x="320.0" y="426.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">+$37</text>
+  <text x="460.0" y="426.0" font-size="13" fill="#dc2626" text-anchor="middle" font-weight="700">−$8</text>
+  <rect x="570.0" y="190.0" width="360.0" height="280.0" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="750.0" y="215.0" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700">合成形状（6:37 / 8:55）</text>
+  <line x1="600.0" y1="320.0" x2="900.0" y2="320.0" stroke="#475569" stroke-width="1.2"/>
+  <polyline points="610.0,290.0 700.0,290.0 820.0,380.0 890.0,380.0" fill="none" stroke="#2563eb" stroke-width="3" stroke-linejoin="round" stroke-opacity="1.0"/>
+  <line x1="700.0" y1="240.0" x2="700.0" y2="420.0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="820.0" y1="240.0" x2="820.0" y2="420.0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="700.0" y="435.0" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">$50</text>
+  <text x="820.0" y="435.0" font-size="11" fill="#64748b" text-anchor="middle" font-weight="400">$60</text>
+  <text x="655.0" y="280.0" font-size="12" fill="#16a34a" text-anchor="middle" font-weight="700">+$2</text>
+  <text x="855.0" y="370.0" font-size="12" fill="#dc2626" text-anchor="middle" font-weight="700">−$8</text>
+  <text x="750.0" y="250.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">左平 → 斜下 → 右平</text>
+  <rect x="720.0" y="310.0" width="70.0" height="28.0" rx="5" fill="#fff7ed" stroke="#ea580c" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="755.0" y="329.0" font-size="11.5" fill="#ea580c" text-anchor="middle" font-weight="700">BE $52</text>
+  <rect x="30.0" y="490.0" width="920.0" height="90.0" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+  <text x="480.0" y="518.0" font-size="13.5" fill="#0f172a" text-anchor="middle" font-weight="700">记住三句公式（画面一致）</text>
+  <text x="480.0" y="545.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">净贷记 = 5 − 3 = $2  ·  最大亏 = 宽 10 − 贷记 2 = $8  ·  盈亏平衡 = 短腿 50 + 贷记 2 = $52</text>
+  <text x="480.0" y="568.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">$100 时短 −$45、长 +$37 → 仍 −$8（长腿把上行亏封顶）</text>
+</svg>

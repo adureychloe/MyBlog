@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="570" viewBox="0 0 960 570">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker></defs>
+  <rect width="960" height="570" fill="#fff"/>
+  <text x="480.0" y="28.0" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="700">两步搭价差 + 主讲人偏好：价差优于裸卖</text>
+  <text x="480.0" y="50.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">对照 4:38 Step 1、5:07 Step 2、9:06 结论口播</text>
+  <rect x="40.0" y="70.0" width="400.0" height="200.0" rx="10" fill="#fff7ed" stroke="#ea580c" stroke-width="1.4"/>
+  <rect x="50.0" y="60.0" width="90.0" height="24.0" rx="5" fill="#ea580c" stroke="#ea580c" stroke-width="1"/>
+  <text x="95.0" y="77.0" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="700">Step 1</text>
+  <text x="240.0" y="110.0" font-size="15" fill="#ea580c" text-anchor="middle" font-weight="700">卖低行权 Call</text>
+  <text x="240.0" y="140.0" font-size="14" fill="#334155" text-anchor="middle" font-weight="400">Sell $50 call · 收 +$5</text>
+  <text x="240.0" y="168.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">短腿左侧平坦最大赚</text>
+  <text x="240.0" y="192.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">越过 $50 开始亏</text>
+  <text x="240.0" y="220.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">单腿 BE ≈ $55（口播）</text>
+  <text x="240.0" y="245.0" font-size="11.5" fill="#64748b" text-anchor="middle" font-weight="400">（4:38 画面）</text>
+  <line x1="450.0" y1="170.0" x2="510.0" y2="170.0" stroke="#475569" stroke-width="2.5" marker-end="url(#arr)"/>
+  <text x="480.0" y="155.0" font-size="11.5" fill="#64748b" text-anchor="middle" font-weight="400">再买保险</text>
+  <rect x="520.0" y="70.0" width="400.0" height="200.0" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+  <rect x="530.0" y="60.0" width="90.0" height="24.0" rx="5" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+  <text x="575.0" y="77.0" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="700">Step 2</text>
+  <text x="720.0" y="110.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="700">买高行权 Call</text>
+  <text x="720.0" y="140.0" font-size="14" fill="#334155" text-anchor="middle" font-weight="400">Buy $60 call · 付 −$3</text>
+  <text x="720.0" y="168.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">长腿把上行亏封顶</text>
+  <text x="720.0" y="192.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">单腿 BE ≈ $63（口播，非价差）</text>
+  <text x="720.0" y="220.0" font-size="13" fill="#16a34a" text-anchor="middle" font-weight="700">合成后价差 BE = $52</text>
+  <text x="720.0" y="245.0" font-size="11.5" fill="#64748b" text-anchor="middle" font-weight="400">（5:07 画面）</text>
+  <rect x="40.0" y="290.0" width="880.0" height="110.0" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.4"/>
+  <text x="480.0" y="320.0" font-size="14" fill="#16a34a" text-anchor="middle" font-weight="700">搭完以后（6:37–8:55）</text>
+  <text x="200.0" y="355.0" font-size="14" fill="#16a34a" text-anchor="middle" font-weight="700">最大赚 +$2</text>
+  <text x="400.0" y="355.0" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="700">最大亏 −$8</text>
+  <text x="600.0" y="355.0" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="700">BE $52</text>
+  <text x="800.0" y="355.0" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="700">宽 $10</text>
+  <text x="480.0" y="385.0" font-size="13" fill="#334155" text-anchor="middle" font-weight="400">主讲人结论（9:06）：相对裸卖，更偏好 bear call spread</text>
+  <rect x="40.0" y="420.0" width="430.0" height="120.0" rx="10" fill="#fff7ed" stroke="#ea580c" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="255.0" y="450.0" font-size="13" fill="#ea580c" text-anchor="middle" font-weight="700">（推算）×100 合约乘数</text>
+  <text x="255.0" y="478.0" font-size="13" fill="#334155" text-anchor="middle" font-weight="400">最大赚 $200 · 最大亏 $800</text>
+  <text x="255.0" y="505.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">片中表按每股展示，未打乘数卡</text>
+  <text x="255.0" y="528.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">风险回报 赚 $2 / 亏 $8 = 1 : 4</text>
+  <rect x="490.0" y="420.0" width="430.0" height="120.0" rx="10" fill="#fff7ed" stroke="#ea580c" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="705.0" y="450.0" font-size="13" fill="#ea580c" text-anchor="middle" font-weight="700">（笔者补充）指派与仓位</text>
+  <text x="705.0" y="478.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">短腿临近到期、股价在 $50–$60</text>
+  <text x="705.0" y="500.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">之间仍有指派风险；管理可参考</text>
+  <text x="705.0" y="522.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">bull put「整组买回」——片中未演示</text>
+</svg>

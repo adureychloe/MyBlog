@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="590" viewBox="0 0 960 590">
+  <style>text{font-family:system-ui,-apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;}</style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker></defs>
+  <rect width="960" height="590" fill="#fff"/>
+  <text x="480.0" y="28.0" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="700">熊市看涨价差：用长 Call 给裸卖 Call 装天花板</text>
+  <text x="480.0" y="50.0" font-size="11.5" fill="#64748b" text-anchor="middle" font-weight="400">对照 1:28 裸卖损益、3:26 Bear Call 定义（画面标题为准，勿信 ASR「bare」）</text>
+  <rect x="20.0" y="70.0" width="450.0" height="280.0" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.4"/>
+  <rect x="30.0" y="60.0" width="110.0" height="24.0" rx="5" fill="#dc2626" stroke="#dc2626" stroke-width="1"/>
+  <text x="85.0" y="77.0" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="700">裸卖 Call</text>
+  <text x="245.0" y="105.0" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="700">Short Call（1:28）</text>
+  <text x="245.0" y="130.0" font-size="13.5" fill="#334155" text-anchor="middle" font-weight="400">卖 $50 call 收 $5</text>
+  <text x="245.0" y="152.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">公式：Premium − MAX(S−K, 0)</text>
+  <line x1="60.0" y1="230.0" x2="400.0" y2="230.0" stroke="#475569" stroke-width="1.2"/>
+  <polyline points="70.0,200.0 200.0,200.0 380.0,310.0" fill="none" stroke="#dc2626" stroke-width="2.8" stroke-linejoin="round" stroke-opacity="1.0"/>
+  <text x="245.0" y="180.0" font-size="13" fill="#dc2626" text-anchor="middle" font-weight="700">上行理论无限亏</text>
+  <text x="130.0" y="250.0" font-size="11.5" fill="#16a34a" text-anchor="middle" font-weight="400">+$5 平坦</text>
+  <text x="320.0" y="300.0" font-size="12" fill="#dc2626" text-anchor="middle" font-weight="700">$100 → −$45</text>
+  <text x="245.0" y="330.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">盈亏平衡 ≈ $55（短腿单腿）</text>
+  <rect x="490.0" y="70.0" width="450.0" height="280.0" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+  <rect x="500.0" y="60.0" width="130.0" height="24.0" rx="5" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+  <text x="565.0" y="77.0" font-size="11.5" fill="#fff" text-anchor="middle" font-weight="700">Bear Call Spread</text>
+  <text x="715.0" y="105.0" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="700">画面标题（3:26）</text>
+  <text x="715.0" y="130.0" font-size="13" fill="#334155" text-anchor="middle" font-weight="400">卖低行权 call + 买高行权 call</text>
+  <text x="715.0" y="152.0" font-size="12" fill="#64748b" text-anchor="middle" font-weight="400">同到期 · 开仓收钱（Credit / Vertical）</text>
+  <text x="715.0" y="180.0" font-size="13" fill="#16a34a" text-anchor="middle" font-weight="700">Limited profit · Limited risk</text>
+  <text x="715.0" y="204.0" font-size="12.5" fill="#334155" text-anchor="middle" font-weight="400">Moderately bearish（温和看跌）</text>
+  <line x1="530.0" y1="250.0" x2="900.0" y2="250.0" stroke="#475569" stroke-width="1.2"/>
+  <polyline points="540.0,220.0 650.0,220.0 780.0,280.0 890.0,280.0" fill="none" stroke="#2563eb" stroke-width="2.8" stroke-linejoin="round" stroke-opacity="1.0"/>
+  <text x="595.0" y="210.0" font-size="11.5" fill="#16a34a" text-anchor="middle" font-weight="700">最大赚 +$2</text>
+  <text x="835.0" y="270.0" font-size="11.5" fill="#dc2626" text-anchor="middle" font-weight="700">最大亏 −$8</text>
+  <text x="715.0" y="330.0" font-size="13" fill="#2563eb" text-anchor="middle" font-weight="700">两边都封顶</text>
+  <rect x="20.0" y="370.0" width="920.0" height="100.0" rx="10" fill="#fff7ed" stroke="#ea580c" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="480.0" y="400.0" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="700">（弃用）把 ASR「bare call / bare call spread」当成另一种策略</text>
+  <text x="480.0" y="428.0" font-size="13" fill="#334155" text-anchor="middle" font-weight="400">自动字幕多次把 bear 听成 bare；策略名一律以画面标题 Bear Call Spread 为准。</text>
+  <text x="480.0" y="452.0" font-size="12.5" fill="#64748b" text-anchor="middle" font-weight="400">「裸卖 call」是 naked short call；「熊市看涨价差」是 bear call spread——两者不是一回事。</text>
+  <rect x="20.0" y="490.0" width="920.0" height="70.0" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+  <text x="480.0" y="518.0" font-size="13" fill="#334155" text-anchor="middle" font-weight="400">与牛市看跌价差镜像：一个卖 call 信用、一个卖 put 信用；都是收钱、两边封顶</text>
+  <text x="480.0" y="542.0" font-size="11.5" fill="#64748b" text-anchor="middle" font-weight="400">（笔者认为的对照，片中未展开 bull put）</text>
+</svg>
