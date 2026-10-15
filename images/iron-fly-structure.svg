@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="420" font-family="Arial, sans-serif" font-size="12">
+  <rect width="680" height="420" fill="#fafafa"/>
+  <text x="340" y="22" text-anchor="middle" font-size="14" font-weight="bold">Iron Fly / 铁蝶 = STRADDLE WITH DEFINED RISK（白板例 75 / 80 / 85）</text>
+  <text x="340" y="40" text-anchor="middle" font-size="11" fill="#555">卖 80P+80C 收 $3.50 − 买 75P $0.60 − 买 85C $0.40 → 净贷记 $2.50 CR · LOWER RISK = LOWER CREDIT</text>
+
+  <!-- price line: map 70..90 -> x 80..600 ; 26 px per $ -->
+  <!-- x(75)=210  x(77.5)=275  x(80)=340  x(82.5)=405  x(85)=470 -->
+  <text x="80" y="62" font-size="11" font-weight="bold" fill="#333">① 白板结构（数字均来自视频）</text>
+  <line x1="80" y1="120" x2="600" y2="120" stroke="#444" stroke-width="2.5"/>
+
+  <!-- tent payoff dashed (schematic, matches board green dashed) -->
+  <polyline points="210,160 340,70 470,160" fill="none" stroke="#66bb6a" stroke-width="2.5" stroke-dasharray="8 5"/>
+
+  <!-- long 75 put (green P above) -->
+  <text x="210" y="108" text-anchor="middle" font-size="13" font-weight="bold">75</text>
+  <path d="M198,88 L222,88 L222,108 L210,116 L198,108 Z" fill="#2e7d32"/>
+  <text x="210" y="104" text-anchor="middle" fill="#fff" font-weight="bold">P</text>
+  <text x="210" y="78" text-anchor="middle" fill="#2e7d32" font-weight="bold" font-size="12">$0.60</text>
+  <text x="210" y="178" text-anchor="middle" font-size="10" fill="#2e7d32">买 put（翼）</text>
+
+  <!-- stock 80 + short straddle -->
+  <circle cx="340" cy="120" r="10" fill="#fff" stroke="#1f8fb4" stroke-width="4"/>
+  <text x="340" y="108" text-anchor="middle" font-size="13" font-weight="bold">80</text>
+  <!-- red P -->
+  <path d="M318,128 L340,118 L362,128 L362,148 L318,148 Z" fill="#c62828"/>
+  <text x="340" y="143" text-anchor="middle" fill="#fff" font-weight="bold">P</text>
+  <!-- red C below -->
+  <path d="M318,152 L340,142 L362,152 L362,172 L318,172 Z" fill="#c62828"/>
+  <text x="340" y="167" text-anchor="middle" fill="#fff" font-weight="bold">C</text>
+  <!-- bracket $3.50 -->
+  <path d="M366,128 L378,128 L378,172 L366,172" fill="none" stroke="#c62828" stroke-width="2"/>
+  <text x="400" y="154" fill="#c62828" font-weight="bold" font-size="13">$3.50</text>
+  <text x="340" y="192" text-anchor="middle" font-size="10" fill="#c62828">卖 put + 卖 call（短跨式）</text>
+
+  <!-- long 85 call (green C above) -->
+  <text x="470" y="108" text-anchor="middle" font-size="13" font-weight="bold">85</text>
+  <path d="M458,88 L482,88 L482,108 L470,116 L458,108 Z" fill="#2e7d32"/>
+  <text x="470" y="104" text-anchor="middle" fill="#fff" font-weight="bold">C</text>
+  <text x="470" y="78" text-anchor="middle" fill="#2e7d32" font-weight="bold" font-size="12">$0.40</text>
+  <text x="470" y="178" text-anchor="middle" font-size="10" fill="#2e7d32">买 call（翼）</text>
+
+  <!-- net credit box -->
+  <rect x="280" y="205" width="120" height="28" rx="4" fill="#00838f"/>
+  <text x="340" y="224" text-anchor="middle" fill="#fff" font-weight="bold" font-size="14">$2.50 CR</text>
+  <text x="340" y="252" text-anchor="middle" font-size="12" font-weight="bold">LOWER RISK = LOWER CREDIT</text>
+  <text x="340" y="268" text-anchor="middle" font-size="10" fill="#555">3.50 − 0.60 − 0.40 = 2.50 ✔</text>
+
+  <!-- panel 2: 推算 BE / max -->
+  <text x="80" y="298" font-size="11" font-weight="bold" fill="#333">② 推算（白板上没有写出这些数字）</text>
+  <text x="80" y="318" font-size="11">盈亏平衡 ≈ 80 ± 2.50 → <tspan font-weight="bold">77.50 / 82.50</tspan>（推算）</text>
+  <text x="80" y="338" font-size="11">最大盈利 ≈ 净贷记 <tspan font-weight="bold">$2.50/股</tspan>（到期价 = 80）</text>
+  <text x="80" y="358" font-size="11">最大亏损 ≈ 翼宽 − 贷记 = 5 − 2.50 = <tspan font-weight="bold">$2.50/股</tspan>（≤75 或 ≥85 到期）</text>
+  <text x="80" y="378" font-size="11" fill="#555">对照 VS 板：Iron Fly = ROC↑ · POP↓ · Defined Risk ｜ Short Straddle = ROC↓ · POP↑ · Undefined Risk</text>
+
+  <text x="640" y="408" text-anchor="end" font-size="10" fill="#777">对照 04-structure-strikes-0128.png、11-vs-straddle-full-0845.png · 仅供学习，不构成投资建议</text>
+</svg>
