@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="sans-serif" font-size="14"><rect width="800" height="420" fill="#fff"/><text x="400" y="30" text-anchor="middle" font-size="18" font-weight="bold">发布前漂移 vs 发布后反应（示意）</text>
+<line x1="420" y1="50" x2="420" y2="380" stroke="#888" stroke-dasharray="6,4"/><text x="420" y="400" text-anchor="middle" fill="#555">数据发布时刻</text>
+<polyline points="60,300 140,280 220,250 300,220 380,190 420,180" fill="none" stroke="#2a9d4a" stroke-width="3"/>
+<text x="200" y="320" fill="#2a9d4a">发布前：慢慢上涨（预期被提前计价）</text>
+<polyline points="420,180 440,160 460,240 520,280 600,310 700,340" fill="none" stroke="#d33" stroke-width="3"/>
+<text x="480" y="140" fill="#d33">冲高一下后反向下跌</text>
+<text x="540" y="370" fill="#d33">发布后：「利空」式反应</text>
+<rect x="40" y="60" width="300" height="50" fill="#fff6e0" stroke="#e0a000"/><text x="55" y="90">涨在前面 → 往往兑现为利空（经验倾向）</text></svg>

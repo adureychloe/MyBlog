@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="sans-serif" font-size="14"><rect width="800" height="420" fill="#fff"/><text x="400" y="30" text-anchor="middle" font-size="18" font-weight="bold">反例：发布前涨，强数据后继续涨（规律失效）</text>
+<line x1="420" y1="50" x2="420" y2="380" stroke="#888" stroke-dasharray="6,4"/><text x="420" y="400" text-anchor="middle">数据发布时刻</text>
+<line x1="60" y1="190" x2="760" y2="190" stroke="#e08000" stroke-dasharray="6,4"/><text x="70" y="182" fill="#e08000">发布前高点</text>
+<polyline points="60,300 160,270 260,240 360,210 420,195" fill="none" stroke="#2a9d4a" stroke-width="3"/>
+<polyline points="420,195 450,150 480,165 540,120 620,100 720,70" fill="none" stroke="#2a9d4a" stroke-width="3"/>
+<text x="470" y="230">K 线实体收在前高上方、回踩不破</text><text x="470" y="255">→ 放弃「反向」假设</text>
+<rect x="40" y="320" width="330" height="40" fill="#fde8e8" stroke="#d33"/><text x="55" y="345">倾向 ≠ 定律：必须有失效条件</text></svg>

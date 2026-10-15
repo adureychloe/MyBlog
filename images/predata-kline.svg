@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="sans-serif" font-size="14"><rect width="800" height="420" fill="#fff"/><text x="400" y="30" text-anchor="middle" font-size="18" font-weight="bold">发布后看 K 线：扫掉发布前高点并收回（示意）</text>
+<line x1="60" y1="140" x2="760" y2="140" stroke="#e08000" stroke-dasharray="6,4"/><text x="70" y="132" fill="#e08000">发布前高点</text>
+<line x1="60" y1="300" x2="760" y2="300" stroke="#06c" stroke-dasharray="6,4"/><text x="70" y="318" fill="#06c">发布前低点</text>
+<g fill="#2a9d4a"><rect x="120" y="230" width="22" height="50"/><rect x="170" y="200" width="22" height="50"/><rect x="220" y="160" width="22" height="50"/></g>
+<line x1="350" y1="60" x2="350" y2="390" stroke="#888" stroke-dasharray="3,3"/><text x="350" y="410" text-anchor="middle">发布</text>
+<line x1="391" y1="80" x2="391" y2="200" stroke="#d33" stroke-width="2"/><rect x="380" y="170" width="22" height="30" fill="#d33"/>
+<text x="410" y="80" fill="#d33">第一根：长上影，刺破前高又收回</text>
+<rect x="440" y="195" width="22" height="70" fill="#d33"/><rect x="490" y="250" width="22" height="70" fill="#d33"/>
+<text x="470" y="360">收盘确认后再考虑，不追第一下尖刺</text></svg>

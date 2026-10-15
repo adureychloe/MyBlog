@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="sans-serif" font-size="14"><rect width="800" height="420" fill="#fff"/><text x="400" y="30" text-anchor="middle" font-size="18" font-weight="bold">数据日操作流程</text>
+<g fill="#eef5ff" stroke="#06c"><rect x="20" y="150" width="140" height="110" rx="10"/>
+<rect x="176" y="150" width="140" height="110" rx="10"/>
+<rect x="332" y="150" width="140" height="110" rx="10"/>
+<rect x="488" y="150" width="140" height="110" rx="10"/>
+<rect x="644" y="150" width="140" height="110" rx="10"/></g>
+<g text-anchor="middle"><text x="90" y="200">① 标出</text><text x="90" y="222">数据时间</text>
+<text x="246" y="200">② 观察发布前</text><text x="246" y="222">走势方向</text>
+<text x="402" y="200">③ 发布时</text><text x="402" y="222">减仓 / 不追</text>
+<text x="558" y="190">④ 看 K 线是否</text><text x="558" y="212">反向扫掉前高/低</text><text x="558" y="234">并收回</text>
+<text x="714" y="200">⑤ 确认后再考虑</text><text x="714" y="222">+ 风控</text></g>
+<g stroke="#06c" stroke-width="2"><line x1="160" y1="205" x2="176" y2="205"/>
+<line x1="316" y1="205" x2="332" y2="205"/>
+<line x1="472" y1="205" x2="488" y2="205"/>
+<line x1="628" y1="205" x2="644" y2="205"/></g>
+<text x="400" y="330" text-anchor="middle" fill="#d33">没有确认信号 = 不动</text></svg>
