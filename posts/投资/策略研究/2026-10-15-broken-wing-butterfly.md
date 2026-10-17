@@ -6,59 +6,76 @@ category: "投资/策略研究"
 source: "tastylive — Mike and His White Board: What is a Broken Wing Butterfly?（学习笔记）"
 tags:
   - Broken Wing Butterfly
-  - Skip Strike Butterfly
+  - 不对称蝶式
   - Butterfly
   - POP
   - Credit Spread
 ---
 
-> 一句话：Broken Wing Butterfly（又名 **SKIP STRIKE BUTTERFLY**）= 普通蝶式把**一侧的翼往外挪、跳过一档**。本片 put 版算例：普通蝶式 **$0.10 借记** → 挪翼后 **$0.30 贷记**；标签从 LOW POP / LIMITED MINIMAL LOSS 变成 HIGH POP / LIMITED LARGER LOSS。
+> 一句话：Broken Wing Butterfly（BWB，不对称蝶式，白板别名 **SKIP STRIKE BUTTERFLY**）= 普通蝶式**把一只翅膀往外挪、跳过一档**。片中例子：同一组 put，普通蝶式要**付 $0.10**，挪远一翼后变成**收 $0.30**——胜率（POP）高了，但最坏情况的亏损也变大了。
 
-## 1. 普通蝶式 vs BWB（白板两组算例）
+白板是 2016 年录制的（台标 01/14/16）。**白板全程没写行权价，只写了权利金**，所以本文的图也只画相对位置，不画任何行权价数字。
 
-白板（0:56–5:26）：上行 NORMAL 两翼等距；下行 BWB 左翼被挪远。现价圈 **STOCK** 在所有 put 右侧（三档都在现价下方）。
+## 0. 先认识几个词（第一次学看这里）
 
-- **普通**：买 $0.50 + 买 $1.60 − 卖 $1.00×2 = **$0.10 DB**。标签：LOW POP、BEARISH、LIMITED MINIMAL LOSS。
-- **BWB**：左翼只要 $0.10 → $0.10 + $1.60 − $1.00×2 = **$0.30 CR**。标签：HIGH POP、NEUTRAL - BULLISH、LIMITED LARGER LOSS。
+- **蝶式（butterfly）**：买 1 张、卖 2 张、再买 1 张，三个行权价，中间卖两张，两边各买一张当「翅膀」。普通蝶式两翼与中间**等距**。
+- **借记（DB, debit）/ 贷记（CR, credit）**：开仓净付钱 / 净收钱。
+- **垂直价差**：同到期、不同行权价，一买一卖。蝶式可以拆成两个垂直价差。
+- **POP**：盈利概率。片中只说高低，没给数字。
 
-![BWB 与普通蝶式对照](../../../images/bwb-structure.svg)
+## 1. 概念：跳过一档，借记变贷记
 
-**读图**
-- 白板**全程没写行权价**，只写权利金（台标 01/14/16）。
-- 算术核对：0.50+1.60−2.00 = 0.10 ✔；0.10+1.60−2.00 → 0.30 贷记 ✔。
-- TAKEAWAYS 第 4 条有一个词被打码（「This is the ████ preferred butterfly」），无法辨认，文中不猜。
-
-## 2. 拆开看 + 开仓前检查
-
-![BWB 拆解与检查](../../../images/bwb-split-flow.svg)
+![BWB 概念：NORMAL 等距 vs BWB 挪远一翼](../../../images/bwb-skip-strike-concept.svg)
 
 **读图**
-- 口播（6:37）：下半段是收 **90 美分**的 short put spread（卖 1.00 − 买 0.10）；上半段是付 0.60 的 long put spread；0.90 − 0.60 = 0.30 ✔。
-- 怎么赚（口播）：股价可以待在原地、上涨、或只小跌一点——比「必须跌到正中间」有更多做对的方式。
-- 代价（口播 7:42–8:44）：亏损仍有上限，但更大。口播出现「5 点宽 / $800 / $300」碎片——**白板没画**，不要当板面算例。
-- 橙框推算：若窄翼 5、宽翼 8，跌破最低行权价时亏损 ≈ (8−5) − 0.30；口播「$300」更像没扣贷记的 8−5。最大盈利（短行权价处）≈ 窄翼宽 + 贷记——白板没写。
+- 白板（0:56）上下两行：**NORMAL** 两只绿 P 与中间红 P「2」等距，右边写绿色 **DB**；**BWB** 左边那只绿 P 挪得更远（长横杠带箭头），右边写红色 **CR**。
+- 口播（0:56）：普通蝶式的两边「equal equidistant」；（2:07）挪翼是为了「create a credit scenario as opposed to a debit」。
+- 片中是 **put 版**：三档都在现价（蓝圈）**下方**。
+- 图里不标行权价——因为白板上就没有。
 
-对照（笔者补充）：
-- 和 [Jade Lizard](./2026-10-13-jade-lizard.md)：都是让一侧更「安全」、风险集中到另一侧。
-- 和 [Iron Fly](./2026-10-14-iron-fly.md)：Iron Fly 用 put+call 搭在平值；本片 BWB 全用 put、在现价下方，偏中性偏多。被挪远的是**下方**翼 → 大跌那侧风险变大。
+## 2. 正例 vs 反例：同一组 put，两种开法
 
-## 3. 采用前先算被跳过那侧
+![NORMAL $0.10 DB vs BWB $0.30 CR](../../../images/bwb-debit-vs-credit-boards.svg)
 
-贷记开仓 ≠ 没风险。开仓前：① 核贷记算术；② 先算「被跳过那侧」最多亏多少；③ 口播金额只当线索，不写进板面数字。
+**读图**
+- 左（白板 2:46）：$0.50 + $1.60 − $1.00×2 = **$0.10 DB**；标签 **LOW POP / BEARISH / LIMITED MINIMAL LOSS**——最多只亏付出的 $0.10，但要股价正好跌到中间那档才赚得多。（LOW POP、BEARISH 在截图里被字幕遮住，是 2:29 播放时读到的。）
+- 右（白板 5:26）：最远那张 put 只要 **$0.10**，$0.10 + $1.60 − $1.00×2 = **$0.30 CR**；标签 **HIGH POP / NEUTRAL - BULLISH / LIMITED LARGER LOSS**。
+- 口播拆解（6:37）：卖 $1.00 put + 买 $0.10 put = 一个收 **90 美分**的 short put spread；另一半买 $1.60 + 卖 $1.00 = 付 $0.60（这个数是**推算**）；0.90 − 0.60 = 0.30 ✔。
+- 怎么赚（口播 7:01–7:26）：股价**不动、上涨、或只小跌一点**都能赚——比普通蝶式「得正好跌到中间」有更多做对的方式。
+- 代价（7:42）：「this trade has a **limited larger loss**」——亏损仍有上限，但更大。
+- 橙框：7:42–8:44 口播里提到的「**5 点宽 / $800 / $300**」**只是口播**，白板上没画，句子还跨帧被截断，不能当作板面算例。
 
-片中没有行权价、DTE、止盈止损或调整规则；POP 无具体百分比。
+## 3. 步骤：开 BWB 前先算被跳过那一侧
+
+![BWB 5 步风险检查](../../../images/bwb-five-step-risk-check.svg)
+
+**读图**
+- ①② 来自白板：先画等距蝶式（付 $0.10）→ 挪远下方那只翼（变成收 $0.30）。
+- ③ 拆成两个垂直价差：short put spread 收 $0.90 是口播；long put spread 付 $0.60 是推算。
+- ④ 橙框**（推算）**：最大亏损 ≈（宽翼宽度 − 窄翼宽度）− 贷记，发生在股价跌穿最低那一档时。片中**没写这个公式**。
+- ⑤ 橙框**（推算）**：最大盈利 ≈ 窄翼宽度 + 贷记（到期正好落在短行权价）；股价停在所有行权价上方时，所有 put 作废，留下 $0.30 贷记。
+- TAKEAWAYS（9:29）四条照抄白板；**第 4 条「This is the ████ preferred butterfly」有一个词被打码，无法辨认，本文不猜**。
+
+一个**（推算）**小练习：如果按口播的说法，窄翼 5 点、宽翼 8 点，那么跌穿最低档时亏损 ≈ (8 − 5) − 0.30 = $2.70/股 ≈ $270/张。口播里的「$300」看起来像是没扣贷记的 8 − 5 = 3，但字幕句子被截断，无法确认原话。这只是帮助理解公式，**不是视频里的白板算例**。
+
+## 4. 和已学结构对照（笔者补充）
+
+- **[Jade Lizard](./2026-10-13-jade-lizard.md)**：思路相似——用结构让「一侧不亏甚至留贷记」，把风险集中到另一侧。Jade Lizard 是「贷记 > call 价差宽度 → 上方无风险」；BWB 是「贷记开仓 → 现价侧无风险，被跳过的一侧风险变大」。
+- **[Iron Fly](./2026-10-14-iron-fly.md)**：Iron Fly 用 put + call 搭在平值、两翼对称；本片 BWB 全用 put、搭在现价下方、两翼不对称，偏中性偏多。
+- **[普通 Butterfly](./2026-09-25-Butterfly%EF%BC%9A1-2-1%E5%AF%B9%E7%A7%B0%E7%BF%BC%EF%BC%8C%E5%88%AB%E6%8A%8A%E6%95%99%E5%AD%A619%E6%AF%941%E5%BD%93%E6%88%90%E5%AE%9E%E7%9B%98.md)**：1-2-1 对称翼是 BWB 的起点；BWB 就是「把对称打破」。
+- 方向：片中挪远的是**下方**那只翼，所以风险在**大跌**那侧；若用 call 并挪远上方翼，就是镜像（偏中性偏空）。
 
 ## 价值判断
 
 | 判断 | 内容 |
 |---|---|
-| 采用 | BWB = 普通蝶式挪远一只翼；两组算例（0.10 DB → 0.30 CR）与 short put spread 收 0.90 的拆解；**HIGH POP ↔ LARGER LOSS**；开仓前先算被跳过那侧最坏亏损 |
-| 观望 | 无行权价/DTE/管理规则；「更多做对的方式」无 POP 数字；打码的 preferred butterfly |
-| 弃用 | 把贷记开仓理解成没风险；把口播 $300/$800 当白板算例；在没有板面证据时编造行权价 |
+| 采用 | BWB = 普通蝶式挪远一只翼；两组白板算例（$0.10 DB → $0.30 CR）与「short put spread 收 $0.90」的拆解；**HIGH POP ↔ LIMITED LARGER LOSS** 的取舍；开仓前先算被跳过那侧最多亏多少 |
+| 观望 | 白板没给行权价、DTE、止盈止损或调整规则；「更多做对的方式」只是定性说法，POP 没有数字；最大亏损 / 最大盈利公式只能作推算 |
+| 弃用 | 把「贷记开仓」理解成「没风险」；把口播「5 点宽 / $800 / $300」当成白板算例；猜 TAKEAWAYS 第 4 条被打码的词；在没有板面证据时编造行权价 |
 
 ## 参考来源
 
-1. tastylive, *What is a Broken Wing Butterfly?*（Mike and His White Board；https://www.youtube.com/watch?v=sjCWOmn4OgA ；浏览器完整观看 11:46/11:46，台标 01/14/16）。关键帧：0:56 SKIP STRIKE 结构；2:46 普通 $0.10 DB；5:26 BWB $0.30 CR；6:37「90 cents」拆解；9:29 TAKEAWAYS。
-2. 配图 `bwb-structure.svg`、`bwb-split-flow.svg` 依白板与口播重画；推算单独标出。
+1. tastylive, *What is a Broken Wing Butterfly? | Options Trading Concepts*（Mike and His White Board；https://www.youtube.com/watch?v=sjCWOmn4OgA ；浏览器完整观看 11:46/11:46，台标 01/14/16 录制）。画面时间点：0:56 BROKEN WING BUTTERFLY / SKIP STRIKE BUTTERFLY 与 NORMAL vs BWB；2:07 credit vs debit；2:46 NORMAL 算例 $0.10 DB；4:33 口播 5 点宽举例；5:26 BWB 算例 $0.30 CR；6:37 口播 short put spread 90 美分；7:42 limited larger loss；8:44 口播 $300；9:29 TAKEAWAYS。
+2. 配图 `bwb-skip-strike-concept.svg`、`bwb-debit-vs-credit-boards.svg`、`bwb-five-step-risk-check.svg` 依白板重画；橙色虚线框为笔者补充、推算或口播，不是白板内容。
 
-*仅供学习，不构成投资建议。期权有到期、指派、保证金与流动性风险；文中数字均为视频教学例或明确标注的推算，不是当前报价，也不是推荐。*
+*仅供学习，不构成投资建议。期权有到期、指派、保证金与流动性风险；文中数字均为视频里的教学例，不是当前报价，也不是推荐。*
