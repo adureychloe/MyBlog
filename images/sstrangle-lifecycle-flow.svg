@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" width="820" height="560">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fb8"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<style>text{font-family:'PingFang SC','Noto Sans CJK SC','Microsoft YaHei','Source Han Sans SC',sans-serif;fill:#222} .t{font-size:22px;font-weight:700} .st{font-size:14px;fill:#2a7fb8} .s{font-size:13px} .m{font-size:15px} .b{font-weight:700} .red{fill:#c62828} .grn{fill:#2e7d32} .blu{fill:#2a7fb8} .org{fill:#b35c00} .gry{fill:#666} .wht{fill:#fff}</style>
+<rect width="820" height="560" fill="#ffffff"/>
+<text x="24" y="38" class="t">一笔 Short Strangle 的生命周期：START → FINISH</text>
+<text x="24" y="62" class="st">白板生命周期板（4:56–6:12）+ TAKEAWAYS（8:56）</text>
+<rect x="60" y="84" width="700" height="64" rx="8" fill="#f5f9fc" stroke="#2a7fb8" stroke-width="1.5"/>
+<text x="72" y="108" class="m" text-anchor="start">① START 开仓</text>
+<text x="72" y="132" class="m" text-anchor="start">同时卖一张 OTM put + 一张 OTM call，收两份权利金（4:56）</text>
+<line x1="410" y1="148" x2="410" y2="168" stroke="#2a7fb8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="60" y="170" width="700" height="64" rx="8" fill="#f5f9fc" stroke="#2a7fb8" stroke-width="1.5"/>
+<text x="72" y="194" class="m" text-anchor="start">② 持仓中</text>
+<text x="72" y="218" class="m" text-anchor="start">股价在 P 与 C 之间来回扭动；口播：两条腿「battling each other constantly」（5:26）</text>
+<line x1="410" y1="234" x2="410" y2="254" stroke="#2a7fb8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="60" y="256" width="700" height="64" rx="8" fill="#f5f9fc" stroke="#2a7fb8" stroke-width="1.5"/>
+<text x="72" y="280" class="m" text-anchor="start">③ FINISH 了结</text>
+<text x="72" y="304" class="m" text-anchor="start">想提前结束就要「buy it back」买回平仓（6:12）；到期两腿都 OTM → 最大盈利（8:56）</text>
+<line x1="410" y1="320" x2="410" y2="340" stroke="#2a7fb8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="60" y="342" width="700" height="64" rx="8" fill="#fdf1f1" stroke="#c62828" stroke-width="1.5"/>
+<text x="72" y="366" class="m" text-anchor="start">④ 出界</text>
+<text x="72" y="390" class="m" text-anchor="start">股价越过 P 或 C → 进入亏损方向；两边都没有封顶（Undefined Risk）</text>
+<rect x="60" y="432" width="700" height="84" rx="8" fill="#fff7ee" stroke="#f28c28" stroke-width="2" stroke-dasharray="7 4"/>
+<text x="72" y="456" class="s org" text-anchor="start">（笔者补充）片中「buy it back」没给任何具体规则：止盈百分比、到期天数（DTE）、Delta、何时止损都没讲。</text>
+<text x="72" y="475" class="s org" text-anchor="start">开仓前要自己把这些写下来；否则 ④ 出界时只能临场拍脑袋。</text>
+<text x="72" y="494" class="s org" text-anchor="start">（笔者补充）对照 Long Strangle：那边是买两张、中间亏两边赚，方向正好相反。</text>
+<text x="804" y="548" text-anchor="end" class="s gry">仅供学习，不构成投资建议</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 650" width="820" height="650">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fb8"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<style>text{font-family:'PingFang SC','Noto Sans CJK SC','Microsoft YaHei','Source Han Sans SC',sans-serif;fill:#222} .t{font-size:22px;font-weight:700} .st{font-size:14px;fill:#2a7fb8} .s{font-size:13px} .m{font-size:15px} .b{font-weight:700} .red{fill:#c62828} .grn{fill:#2e7d32} .blu{fill:#2a7fb8} .org{fill:#b35c00} .gry{fill:#666} .wht{fill:#fff}</style>
+<rect width="820" height="650" fill="#ffffff"/>
+<text x="24" y="38" class="t">先结构、后斐波那契：示范第 1 笔的 6 步</text>
+<text x="24" y="62" class="st">STRATEGY MAP（4:50）+ BTCUSD 1h 第 1 笔（6:47–9:52，事后回看）</text>
+<rect x="40" y="78" width="560" height="62" rx="8" fill="#f5f9fc" stroke="#2a7fb8" stroke-width="1.5"/>
+<text x="52" y="102" class="s" text-anchor="start">① 读结构</text>
+<text x="52" y="124" class="s" text-anchor="start">下跌里先标 LH / LL，不急着画斐波那契做多（6:47–6:52）</text>
+<line x1="320" y1="140" x2="320" y2="156" stroke="#2a7fb8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="40" y="156" width="560" height="62" rx="8" fill="#f5f9fc" stroke="#2a7fb8" stroke-width="1.5"/>
+<text x="52" y="180" class="s" text-anchor="start">② 等 CHoCH</text>
+<text x="52" y="202" class="s" text-anchor="start">一根大阳线收在最近 LH 的 CHoCH-Long 线上方（7:42，价格标签 94,522.26）</text>
+<line x1="320" y1="218" x2="320" y2="234" stroke="#2a7fb8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="40" y="234" width="560" height="62" rx="8" fill="#f5f9fc" stroke="#2a7fb8" stroke-width="1.5"/>
+<text x="52" y="258" class="s" text-anchor="start">③ 画回撤</text>
+<text x="52" y="280" class="s" text-anchor="start">从摆动低点 91,401.20 拉到新高 94,948.80；出现更高高点就把 0% 挪过去（8:02–8:12）</text>
+<line x1="320" y1="296" x2="320" y2="312" stroke="#2a7fb8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="40" y="312" width="560" height="62" rx="8" fill="#f5f9fc" stroke="#2a7fb8" stroke-width="1.5"/>
+<text x="52" y="336" class="s" text-anchor="start">④ 等收回确认</text>
+<text x="52" y="358" class="s" text-anchor="start">收盘跌破 61.8% 后，下一根收回 61.8% 上方才入场（8:32–8:42，标签 92,806.93）</text>
+<line x1="320" y1="374" x2="320" y2="390" stroke="#2a7fb8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="40" y="390" width="560" height="62" rx="8" fill="#f5f9fc" stroke="#2a7fb8" stroke-width="1.5"/>
+<text x="52" y="414" class="s" text-anchor="start">⑤ 定止损 / 目标</text>
+<text x="52" y="436" class="s" text-anchor="start">止损 = 摆动低点（回撤 100%）；目标 = 扩展 100%（9:02）</text>
+<line x1="320" y1="452" x2="320" y2="468" stroke="#2a7fb8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="40" y="468" width="560" height="62" rx="8" fill="#f5f9fc" stroke="#2a7fb8" stroke-width="1.5"/>
+<text x="52" y="492" class="s" text-anchor="start">⑥ 结果</text>
+<text x="52" y="514" class="s" text-anchor="start">大阳线越过 BOS-Long、碰到扩展 100% 线，收 95,500.53（9:22）</text>
+<rect x="616" y="78" width="184" height="200" rx="8" fill="#fafafa" stroke="#999" stroke-width="1.5"/>
+<text x="628" y="102" class="s" text-anchor="start">✗ FIBONACCI ALONE</text>
+<text x="628" y="123" class="s" text-anchor="start">→ PREDICTION</text>
+<text x="628" y="144" class="s" text-anchor="start">→ GUESSING</text>
+<text x="628" y="165" class="s" text-anchor="start"></text>
+<text x="628" y="186" class="s" text-anchor="start">✓ FIBONACCI</text>
+<text x="628" y="207" class="s" text-anchor="start">  PLUS CONTEXT</text>
+<text x="628" y="228" class="s" text-anchor="start">→ REACTION MAP</text>
+<text x="628" y="249" class="s" text-anchor="start">→ PREPARED DECISION</text>
+<text x="708" y="296" class="s gry" text-anchor="middle">幻灯片（约 12:58）</text>
+<rect x="616" y="316" width="184" height="176" rx="8" fill="#fff7ee" stroke="#f28c28" stroke-width="2" stroke-dasharray="7 4"/>
+<text x="628" y="340" class="s org" text-anchor="start">（推算）入场前那根</text>
+<text x="628" y="361" class="s org" text-anchor="start">长阴线低点 91,839.38，</text>
+<text x="628" y="382" class="s org" text-anchor="start">回撤约 87.6%，离止损</text>
+<text x="628" y="403" class="s org" text-anchor="start">只差约 438 点。</text>
+<text x="628" y="424" class="s org" text-anchor="start">这一笔也是「差点</text>
+<text x="628" y="445" class="s org" text-anchor="start">被止损」后才赢。</text>
+<rect x="40" y="550" width="760" height="62" rx="8" fill="#fff7ee" stroke="#f28c28" stroke-width="2" stroke-dasharray="7 4"/>
+<text x="52" y="574" class="s org" text-anchor="start">（笔者补充）③ 只画了重新锚定之后的那版回撤；锚定之前的版本没有截图，本文不画、不引用其数值。</text>
+<text x="52" y="595" class="s org" text-anchor="start">61.8% 和扩展 100% 的具体价格屏幕上没有标签，本图不写数字。</text>
+<text x="804" y="638" text-anchor="end" class="s gry">仅供学习，不构成投资建议</text>
+</svg>

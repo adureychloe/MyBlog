@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 600" width="820" height="600">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fb8"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<style>text{font-family:'PingFang SC','Noto Sans CJK SC','Microsoft YaHei','Source Han Sans SC',sans-serif;fill:#222} .t{font-size:22px;font-weight:700} .st{font-size:14px;fill:#2a7fb8} .s{font-size:13px} .m{font-size:15px} .b{font-weight:700} .red{fill:#c62828} .grn{fill:#2e7d32} .blu{fill:#2a7fb8} .org{fill:#b35c00} .gry{fill:#666} .wht{fill:#fff}</style>
+<rect width="820" height="600" fill="#ffffff"/>
+<text x="24" y="38" class="t">回撤往回看，扩展往前看</text>
+<text x="24" y="62" class="st">ComLucro 幻灯片：HOW FAR CAN PRICE PULL BACK?（2:20）/ WHERE CAN THE TREND GO NEXT?（3:00）</text>
+<rect x="24" y="80" width="378" height="380" rx="10" fill="#f5f9fc" stroke="#2a7fb8" stroke-width="1.5"/>
+<text x="213" y="108" class="m b" text-anchor="middle">RETRACEMENT 回撤：LOOKS BACK</text>
+<polyline points="50,400 190,150 330,330" fill="none" stroke="#1f3b57" stroke-width="3"/>
+<circle cx="50" cy="400" r="5" fill="#1f3b57"/><circle cx="190" cy="150" r="5" fill="#1f3b57"/>
+<text x="50" y="424" class="s b" text-anchor="middle">LOW</text>
+<text x="190" y="140" class="s b" text-anchor="middle">HIGH</text>
+<text x="36" y="262" class="s b" text-anchor="start">IMPULSE</text>
+<line x1="130" y1="245" x2="380" y2="245" stroke="#5b7fa6" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="384" y="241" class="s b" style="fill:#5b7fa6" text-anchor="end">38.2%</text>
+<line x1="130" y1="275" x2="380" y2="275" stroke="#e07b39" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="384" y="271" class="s b" style="fill:#e07b39" text-anchor="end">50%</text>
+<line x1="130" y1="305" x2="380" y2="305" stroke="#2e7d32" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="384" y="301" class="s b" style="fill:#2e7d32" text-anchor="end">61.8%</text>
+<text x="262" y="200" class="s b org" text-anchor="start">RETRACEMENT</text>
+<text x="40" y="448" class="s b" text-anchor="start">89 ÷ 144 = 61.8%　　55 ÷ 144 = 38.2%</text>
+<rect x="418" y="80" width="378" height="380" rx="10" fill="#f1f8f1" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="607" y="108" class="m b" text-anchor="middle">EXTENSION 扩展：LOOKS FORWARD</text>
+<polyline points="440,420 500,310 540,370 590,190" fill="none" stroke="#1f3b57" stroke-width="3" marker-end="url(#ag)"/>
+<text x="436" y="330" class="s b" text-anchor="start">① MOVE</text>
+<text x="540" y="396" class="s b" text-anchor="middle">② RETRACEMENT</text>
+<text x="560" y="260" class="s b" text-anchor="start">③</text>
+<text x="560" y="278" class="s b" text-anchor="middle">CONTINUATION</text>
+<line x1="604" y1="150" x2="784" y2="150" stroke="#c62828" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="608" y="144" class="s" text-anchor="start">261.8%  AGGRESSIVE TARGET</text>
+<line x1="604" y1="190" x2="784" y2="190" stroke="#c62828" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="608" y="184" class="s" text-anchor="start">200%  FULL DOUBLING</text>
+<line x1="604" y1="230" x2="784" y2="230" stroke="#2e7d32" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="608" y="224" class="s" text-anchor="start">161.8%  MAIN TARGET</text>
+<line x1="604" y1="270" x2="784" y2="270" stroke="#c62828" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="608" y="264" class="s" text-anchor="start">127.2%  EARLY PROFIT</text>
+<rect x="24" y="474" width="772" height="58" rx="8" fill="#f5f9fc" stroke="#2a7fb8" stroke-width="1.5"/>
+<text x="36" y="498" class="s" text-anchor="start">工具精简（屏幕操作）：回撤只留 0 / 38.2 / 50 / 61.8 / 100，Levels 选 Percents，关背景（3:42–4:14）；</text>
+<text x="36" y="519" class="s" text-anchor="start">扩展口播只保留 100% / 161.8% / 200% / 261.8%（6:27）。</text>
+<rect x="24" y="540" width="772" height="40" rx="8" fill="#fff7ee" stroke="#f28c28" stroke-width="2" stroke-dasharray="7 4"/>
+<text x="36" y="564" class="s org" text-anchor="start">（笔者补充）幻灯片说 161.8% 是 MAIN TARGET，但片中两笔示范都用扩展 100% 当目标，片中没解释怎么选。</text>
+<text x="804" y="588" text-anchor="end" class="s gry">仅供学习，不构成投资建议</text>
+</svg>

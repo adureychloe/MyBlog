@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 580" width="820" height="580">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fb8"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<style>text{font-family:'PingFang SC','Noto Sans CJK SC','Microsoft YaHei','Source Han Sans SC',sans-serif;fill:#222} .t{font-size:22px;font-weight:700} .st{font-size:14px;fill:#2a7fb8} .s{font-size:13px} .m{font-size:15px} .b{font-weight:700} .red{fill:#c62828} .grn{fill:#2e7d32} .blu{fill:#2a7fb8} .org{fill:#b35c00} .gry{fill:#666} .wht{fill:#fff}</style>
+<rect width="820" height="580" fill="#ffffff"/>
+<text x="24" y="38" class="t">Broken Wing Butterfly：把一只翅膀挪远，跳过一档</text>
+<text x="24" y="62" class="st">白板别名：SKIP STRIKE BUTTERFLY（0:56–2:21，台标 01/14/16）</text>
+<rect x="40" y="122" width="110" height="30" fill="#2a7fb8"/><text x="95" y="143" class="m wht b" text-anchor="middle">NORMAL</text>
+<line x1="170" y1="170" x2="640" y2="170" stroke="#888" stroke-width="2"/>
+<polygon points="246,106 274,106 274,134 260,146 246,134" fill="#fff" stroke="#2e7d32" stroke-width="2.5"/>
+<text x="260" y="127" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#2e7d32">P</text>
+<polygon points="426,106 454,106 454,134 440,146 426,134" fill="#fff" stroke="#2e7d32" stroke-width="2.5"/>
+<text x="440" y="127" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#2e7d32">P</text>
+<line x1="282" y1="120" x2="418" y2="120" stroke="#333" stroke-width="2"/>
+<line x1="282" y1="112" x2="282" y2="128" stroke="#333" stroke-width="2"/>
+<line x1="418" y1="112" x2="418" y2="128" stroke="#333" stroke-width="2"/>
+<polygon points="350,184 364,196 364,224 336,224 336,196" fill="#fff" stroke="#c62828" stroke-width="2.5"/>
+<text x="350" y="216" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#c62828">P</text>
+<text x="350" y="242" text-anchor="middle" style="font-size:13px;font-weight:700;fill:#c62828">2</text>
+<circle cx="590" cy="170" r="10" fill="#fff" stroke="#2a7fb8" stroke-width="4"/>
+<text x="680" y="140" class="t" style="fill:#2e7d32" text-anchor="start">DB</text>
+<text x="350" y="272" class="s" text-anchor="middle">两翼与中间等距：买 1 / 卖 2 / 买 1 → 付钱开仓（借记 DB）</text>
+<rect x="40" y="312" width="110" height="30" fill="#2a7fb8"/><text x="95" y="333" class="m wht b" text-anchor="middle">BWB</text>
+<line x1="170" y1="360" x2="640" y2="360" stroke="#888" stroke-width="2"/>
+<polygon points="186,296 214,296 214,324 200,336 186,324" fill="#fff" stroke="#2e7d32" stroke-width="2.5"/>
+<text x="200" y="317" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#2e7d32">P</text>
+<polygon points="426,296 454,296 454,324 440,336 426,324" fill="#fff" stroke="#2e7d32" stroke-width="2.5"/>
+<text x="440" y="317" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#2e7d32">P</text>
+<line x1="222" y1="310" x2="418" y2="310" stroke="#333" stroke-width="2"/>
+<line x1="222" y1="302" x2="222" y2="318" stroke="#333" stroke-width="2"/>
+<line x1="462" y1="310" x2="510" y2="310" stroke="#333" stroke-width="2" marker-end="url(#ag)"/>
+<polygon points="350,374 364,386 364,414 336,414 336,386" fill="#fff" stroke="#c62828" stroke-width="2.5"/>
+<text x="350" y="406" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#c62828">P</text>
+<text x="350" y="432" text-anchor="middle" style="font-size:13px;font-weight:700;fill:#c62828">2</text>
+<circle cx="590" cy="360" r="10" fill="#fff" stroke="#2a7fb8" stroke-width="4"/>
+<text x="680" y="330" class="t" style="fill:#c62828" text-anchor="start">CR</text>
+<text x="350" y="462" class="s" text-anchor="middle">左边那只翼挪远（跳过一档）→ 收钱开仓（贷记 CR）</text>
+<rect x="40" y="484" width="740" height="60" rx="8" fill="#fafafa" stroke="#999" stroke-width="1.5"/>
+<text x="52" y="508" class="s" text-anchor="start">片中是 put 版：三档都在现价（蓝圈）下方；绿 = 买入，红「2」= 卖出两张。</text>
+<text x="52" y="528" class="s" text-anchor="start">白板全程没写行权价，所以本图只画相对位置、不标任何行权价数字。</text>
+<text x="804" y="568" text-anchor="end" class="s gry">仅供学习，不构成投资建议</text>
+</svg>

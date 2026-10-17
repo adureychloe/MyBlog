@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 600" width="820" height="600">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fb8"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<style>text{font-family:'PingFang SC','Noto Sans CJK SC','Microsoft YaHei','Source Han Sans SC',sans-serif;fill:#222} .t{font-size:22px;font-weight:700} .st{font-size:14px;fill:#2a7fb8} .s{font-size:13px} .m{font-size:15px} .b{font-weight:700} .red{fill:#c62828} .grn{fill:#2e7d32} .blu{fill:#2a7fb8} .org{fill:#b35c00} .gry{fill:#666} .wht{fill:#fff}</style>
+<rect width="820" height="600" fill="#ffffff"/>
+<text x="24" y="38" class="t">Iron Fly：80 卖跨式 + 75P / 85C 两翼 = 净收 $2.50</text>
+<text x="24" y="62" class="st">白板：IRON FLY — STRADDLE WITH DEFINED RISK（1:28–6:45，台标 10/21/15）</text>
+<path d="M 210 248 L 400 140 L 590 248" fill="none" stroke="#2e7d32" stroke-width="3" stroke-dasharray="8 6"/>
+<line x1="120" y1="250" x2="680" y2="250" stroke="#888" stroke-width="2"/>
+<polygon points="176,204 204,204 204,232 190,244 176,232" fill="#fff" stroke="#2e7d32" stroke-width="2.5"/>
+<text x="190" y="225" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#2e7d32">P</text>
+<text x="190" y="194" class="m grn b" text-anchor="middle">$0.60</text>
+<text x="190" y="276" class="m b" text-anchor="middle">75</text>
+<polygon points="596,204 624,204 624,232 610,244 596,232" fill="#fff" stroke="#2e7d32" stroke-width="2.5"/>
+<text x="610" y="225" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#2e7d32">C</text>
+<text x="610" y="194" class="m grn b" text-anchor="middle">$0.40</text>
+<text x="610" y="276" class="m b" text-anchor="middle">85</text>
+<circle cx="400" cy="250" r="10" fill="#fff" stroke="#2a7fb8" stroke-width="4"/>
+<text x="400" y="230" class="m b" text-anchor="middle">80</text>
+<polygon points="400,266 414,278 414,306 386,306 386,278" fill="#fff" stroke="#c62828" stroke-width="2.5"/>
+<text x="400" y="298" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#c62828">P</text>
+<polygon points="400,310 414,322 414,350 386,350 386,322" fill="#fff" stroke="#c62828" stroke-width="2.5"/>
+<text x="400" y="342" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#c62828">C</text>
+<path d="M 428 270 q 14 0 14 14 v 24 q 0 8 8 8 q -8 0 -8 8 v 24 q 0 14 -14 14" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<text x="458" y="322" class="m red b" text-anchor="start">$3.50</text>
+<text x="60" y="120" class="s" text-anchor="start">绿 = 买入（两翼）</text>
+<text x="60" y="138" class="s" text-anchor="start">红 = 卖出（中间同价 put + call）</text>
+<text x="60" y="156" class="s" text-anchor="start">蓝圈 = 现价 80</text>
+<rect x="330" y="372" width="140" height="34" fill="#2a7fb8"/>
+<text x="400" y="395" class="m wht b" text-anchor="middle">$2.50 CR</text>
+<text x="400" y="436" class="m b" text-anchor="middle">LOWER RISK = LOWER CREDIT</text>
+<rect x="40" y="452" width="360" height="74" rx="8" fill="#f5f9fc" stroke="#2a7fb8" stroke-width="1.5"/>
+<text x="52" y="476" class="s" text-anchor="start">白板算术核对：</text>
+<text x="52" y="496" class="s" text-anchor="start">3.50 − 0.60 − 0.40 = 2.50 ✔</text>
+<text x="52" y="516" class="s" text-anchor="start">与板上 $2.50 CR 一致</text>
+<rect x="420" y="452" width="360" height="110" rx="8" fill="#fff7ee" stroke="#f28c28" stroke-width="2" stroke-dasharray="7 4"/>
+<text x="432" y="476" class="s org" text-anchor="start">（推算，白板没写）</text>
+<text x="432" y="495" class="s org" text-anchor="start">盈亏平衡：80 ∓ 2.50 → 77.50 / 82.50</text>
+<text x="432" y="514" class="s org" text-anchor="start">最大盈利：到期正好 80，留 $2.50/股</text>
+<text x="432" y="533" class="s org" text-anchor="start">最大亏损：翼宽 5 − 2.50 = $2.50/股</text>
+<text x="432" y="552" class="s org" text-anchor="start">（到期 ≤75 或 ≥85）</text>
+<text x="804" y="588" text-anchor="end" class="s gry">仅供学习，不构成投资建议</text>
+</svg>

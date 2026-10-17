@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" width="820" height="560">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fb8"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<style>text{font-family:'PingFang SC','Noto Sans CJK SC','Microsoft YaHei','Source Han Sans SC',sans-serif;fill:#222} .t{font-size:22px;font-weight:700} .st{font-size:14px;fill:#2a7fb8} .s{font-size:13px} .m{font-size:15px} .b{font-weight:700} .red{fill:#c62828} .grn{fill:#2e7d32} .blu{fill:#2a7fb8} .org{fill:#b35c00} .gry{fill:#666} .wht{fill:#fff}</style>
+<rect width="820" height="560" fill="#ffffff"/>
+<text x="24" y="38" class="t">Short Strangle：卖两张虚值期权，中间造出利润区</text>
+<text x="24" y="62" class="st">白板原文：SELLING TWO OTM OPTIONS TO CREATE A PROFIT ZONE（1:12–4:07，台标 09/17/15）</text>
+<line x1="60" y1="150" x2="560" y2="150" stroke="#888" stroke-width="2"/>
+<line x1="140" y1="92" x2="330" y2="92" stroke="#2a7fb8" stroke-width="6" marker-end="url(#ar)"/>
+<polygon points="170,150 184,162 184,190 156,190 156,162" fill="#fff" stroke="#c62828" stroke-width="2.5"/>
+<text x="170" y="182" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#c62828">P</text>
+<circle cx="330" cy="150" r="10" fill="#fff" stroke="#2a7fb8" stroke-width="4"/>
+<text x="330" y="180" text-anchor="middle" class="s blu b">现价</text>
+<text x="590" y="120" class="s" text-anchor="start">① 卖虚值 put（short put）</text>
+<text x="590" y="140" class="s" text-anchor="start">在现价下方；希望股价</text>
+<text x="590" y="160" class="s" text-anchor="start">待在 P 上方 →（1:51）</text>
+<line x1="60" y1="270" x2="560" y2="270" stroke="#888" stroke-width="2"/>
+<line x1="470" y1="212" x2="330" y2="212" stroke="#2a7fb8" stroke-width="6" marker-end="url(#ar)"/>
+<polygon points="470,270 484,282 484,310 456,310 456,282" fill="#fff" stroke="#c62828" stroke-width="2.5"/>
+<text x="470" y="302" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#c62828">C</text>
+<circle cx="330" cy="270" r="10" fill="#fff" stroke="#2a7fb8" stroke-width="4"/>
+<text x="330" y="300" text-anchor="middle" class="s blu b">现价</text>
+<text x="590" y="240" class="s" text-anchor="start">② 卖虚值 call（naked short call）</text>
+<text x="590" y="260" class="s" text-anchor="start">在现价上方；希望股价</text>
+<text x="590" y="280" class="s" text-anchor="start">待在 C 下方 ←（3:03）</text>
+<rect x="170" y="374" width="300" height="16" fill="#26a69a"/>
+<line x1="60" y1="410" x2="560" y2="410" stroke="#888" stroke-width="2"/>
+<polygon points="170,410 184,422 184,450 156,450 156,422" fill="#fff" stroke="#c62828" stroke-width="2.5"/>
+<text x="170" y="442" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#c62828">P</text>
+<polygon points="470,410 484,422 484,450 456,450 456,422" fill="#fff" stroke="#c62828" stroke-width="2.5"/>
+<text x="470" y="442" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#c62828">C</text>
+<circle cx="330" cy="410" r="10" fill="#fff" stroke="#2a7fb8" stroke-width="4"/>
+<text x="320" y="364" class="s b" text-anchor="middle">③ P 与 C 之间 = 利润区（4:07）</text>
+<text x="150" y="350" class="s b" text-anchor="end">BREAK EVEN</text>
+<text x="490" y="350" class="s b" text-anchor="start">BREAK EVEN</text>
+<text x="90" y="440" class="s red b" text-anchor="middle">← 风险不封顶</text>
+<text x="540" y="440" class="s red b" text-anchor="middle">风险不封顶 →</text>
+<text x="590" y="390" class="s red" text-anchor="start">两端外侧 = 亏损区</text>
+<text x="590" y="410" class="s red" text-anchor="start">TAKEAWAYS：Undefined Risk（8:56）</text>
+<rect x="40" y="458" width="740" height="62" rx="8" fill="#fff7ee" stroke="#f28c28" stroke-width="2" stroke-dasharray="7 4"/>
+<text x="52" y="482" class="s org" text-anchor="start">（推算）白板没写公式：下方 BE ≈ P 行权价 − 两腿总权利金；上方 BE ≈ C 行权价 + 两腿总权利金。</text>
+<text x="52" y="501" class="s org" text-anchor="start">白板全程没有任何行权价 / 权利金数字，所以图里 P、C、BE 都不标价。</text>
+<text x="804" y="548" text-anchor="end" class="s gry">仅供学习，不构成投资建议</text>
+</svg>

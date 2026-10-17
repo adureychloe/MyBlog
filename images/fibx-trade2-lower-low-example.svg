@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 640" width="820" height="640">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fb8"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<style>text{font-family:'PingFang SC','Noto Sans CJK SC','Microsoft YaHei','Source Han Sans SC',sans-serif;fill:#222} .t{font-size:22px;font-weight:700} .st{font-size:14px;fill:#2a7fb8} .s{font-size:13px} .m{font-size:15px} .b{font-weight:700} .red{fill:#c62828} .grn{fill:#2e7d32} .blu{fill:#2a7fb8} .org{fill:#b35c00} .gry{fill:#666} .wht{fill:#fff}</style>
+<rect width="820" height="640" fill="#ffffff"/>
+<text x="24" y="38" class="t">示范第 2 笔：入场后先创新低，调整扩展后才到目标</text>
+<text x="24" y="62" class="st">BTCUSD 1h，2024-12-31 → 2025-01-03，事后回看（截图 11:02 / 11:22 / 11:32）；纵轴不按比例</text>
+<line x1="150" y1="90" x2="150" y2="470" stroke="#888" stroke-width="2"/>
+<line x1="150" y1="110" x2="560" y2="110" stroke="#2e7d32" stroke-width="2"/>
+<text x="142" y="115" class="s b" text-anchor="end">97,145.53</text>
+<text x="570" y="115" class="s" style="fill:#2e7d32" text-anchor="start">目标：调整后扩展 100%（11:32）</text>
+<line x1="150" y1="240" x2="560" y2="240" stroke="#2a7fb8" stroke-width="2"/>
+<text x="142" y="245" class="s b" text-anchor="end">93,792.32</text>
+<text x="570" y="245" class="s" style="fill:#2a7fb8" text-anchor="start">入场线（11:02）</text>
+<line x1="150" y1="280" x2="560" y2="280" stroke="#b35c00" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="142" y="285" class="s b" text-anchor="end">93,435.60</text>
+<text x="570" y="285" class="s" style="fill:#b35c00" text-anchor="start">11:02 现价：浮亏标签 −356.72，R:R 1.9</text>
+<line x1="150" y1="420" x2="560" y2="420" stroke="#c62828" stroke-width="2"/>
+<text x="142" y="425" class="s b" text-anchor="end">91,839.38</text>
+<text x="570" y="425" class="s" style="fill:#c62828" text-anchor="start">止损：标签 1,952.94 (2.08%)（11:02）</text>
+<rect x="160" y="110" width="380" height="130" fill="#2e7d32" opacity="0.08"/><rect x="160" y="240" width="380" height="180" fill="#c62828" opacity="0.08"/>
+<polyline points="170,240 230,280 290,330 350,250 420,170 520,104" fill="none" stroke="#1f3b57" stroke-width="3" marker-end="url(#ag)"/>
+<text x="300" y="372" class="s b" text-anchor="middle">入场后创出更低低点 → 扩展第③点挪到新低（11:22）</text>
+<text x="420" y="128" class="s b grn" text-anchor="start">到达目标</text>
+<rect x="30" y="486" width="360" height="92" rx="8" fill="#f5f9fc" stroke="#2a7fb8" stroke-width="1.5"/>
+<text x="42" y="510" class="s" text-anchor="start">11:32 截图（结果帧）：</text>
+<text x="42" y="530" class="s" text-anchor="start">标签 3,353.21 (3.58%)，R:R 1.72</text>
+<text x="42" y="550" class="s" text-anchor="start">口播：R:R 从 1.9:1 降到 1.72:1</text>
+<text x="42" y="570" class="s" text-anchor="start">顶部标签末尾的 2.72 含义看不出，不解读</text>
+<rect x="400" y="486" width="396" height="92" rx="8" fill="#fff7ee" stroke="#f28c28" stroke-width="2" stroke-dasharray="7 4"/>
+<text x="412" y="510" class="s org" text-anchor="start">（推算）93,792.32 − 91,839.38 = 1,952.94 ✔</text>
+<text x="412" y="530" class="s org" text-anchor="start">97,145.53 − 93,792.32 = 3,353.21 ✔；÷ 1,952.94 ≈ 1.72 ✔</text>
+<text x="412" y="550" class="s org" text-anchor="start">（推算）入场后最低约 92.8k，浮亏约 0.5R——</text>
+<text x="412" y="570" class="s org" text-anchor="start">差点被打止损，这一点片中没强调</text>
+<text x="40" y="600" class="s gry" text-anchor="start">注：截图 46（约 11:34）是插播广告，不是交易结果；结果以 11:32 那一帧为准。</text>
+<text x="804" y="628" text-anchor="end" class="s gry">仅供学习，不构成投资建议</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 600" width="820" height="600">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fb8"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<style>text{font-family:'PingFang SC','Noto Sans CJK SC','Microsoft YaHei','Source Han Sans SC',sans-serif;fill:#222} .t{font-size:22px;font-weight:700} .st{font-size:14px;fill:#2a7fb8} .s{font-size:13px} .m{font-size:15px} .b{font-weight:700} .red{fill:#c62828} .grn{fill:#2e7d32} .blu{fill:#2a7fb8} .org{fill:#b35c00} .gry{fill:#666} .wht{fill:#fff}</style>
+<rect width="820" height="600" fill="#ffffff"/>
+<text x="24" y="38" class="t">同一组 put，挪一只翼：$0.10 借记 → $0.30 贷记</text>
+<text x="24" y="62" class="st">左：NORMAL 算例（2:46）；右：BWB 算例（5:26）</text>
+<rect x="30" y="80" width="370" height="330" rx="10" fill="#f1f8f1" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="215" y="108" class="m b" text-anchor="middle">普通蝶式 NORMAL</text>
+<line x1="50" y1="190" x2="380" y2="190" stroke="#888" stroke-width="2"/>
+<polygon points="76,144 104,144 104,172 90,184 76,172" fill="#fff" stroke="#2e7d32" stroke-width="2.5"/>
+<text x="90" y="165" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#2e7d32">P</text>
+<polygon points="256,144 284,144 284,172 270,184 256,172" fill="#fff" stroke="#2e7d32" stroke-width="2.5"/>
+<text x="270" y="165" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#2e7d32">P</text>
+<polygon points="180,198 194,210 194,238 166,238 166,210" fill="#fff" stroke="#c62828" stroke-width="2.5"/>
+<text x="180" y="230" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#c62828">P</text>
+<text x="180" y="256" text-anchor="middle" style="font-size:13px;font-weight:700;fill:#c62828">2</text>
+<circle cx="340" cy="190" r="10" fill="#fff" stroke="#2a7fb8" stroke-width="4"/>
+<text x="340" y="220" text-anchor="middle" class="s blu b">STOCK</text>
+<text x="90" y="282" class="s b grn" text-anchor="middle">$0.50</text>
+<text x="180" y="282" class="s b red" text-anchor="middle">$1.00 ×2</text>
+<text x="270" y="282" class="s b grn" text-anchor="middle">$1.60</text>
+<text x="215" y="320" class="m b" text-anchor="middle">$0.50 + $1.60 − $1.00×2 = $0.10 DB</text>
+<rect x="50" y="336" width="0" height="0"/><rect x="50" y="336" width="0" height="0"/><rect x="50" y="336" width="0" height="0"/><text x="215" y="355" class="s b blu" text-anchor="middle">LOW POP / BEARISH / LIMITED MINIMAL LOSS</text>
+<text x="215" y="380" class="s gry" text-anchor="middle">（LOW POP、BEARISH 在截图中被字幕遮住，播放 2:29 时读到）</text>
+<rect x="420" y="80" width="370" height="330" rx="10" fill="#fdf1f1" stroke="#c62828" stroke-width="1.5"/>
+<text x="605" y="108" class="m b" text-anchor="middle">不对称蝶式 BWB</text>
+<line x1="440" y1="190" x2="770" y2="190" stroke="#888" stroke-width="2"/>
+<polygon points="446,144 474,144 474,172 460,184 446,172" fill="#fff" stroke="#2e7d32" stroke-width="2.5"/>
+<text x="460" y="165" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#2e7d32">P</text>
+<polygon points="646,144 674,144 674,172 660,184 646,172" fill="#fff" stroke="#2e7d32" stroke-width="2.5"/>
+<text x="660" y="165" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#2e7d32">P</text>
+<polygon points="570,198 584,210 584,238 556,238 556,210" fill="#fff" stroke="#c62828" stroke-width="2.5"/>
+<text x="570" y="230" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#c62828">P</text>
+<text x="570" y="256" text-anchor="middle" style="font-size:13px;font-weight:700;fill:#c62828">2</text>
+<circle cx="730" cy="190" r="10" fill="#fff" stroke="#2a7fb8" stroke-width="4"/>
+<text x="730" y="220" text-anchor="middle" class="s blu b">STOCK</text>
+<text x="460" y="282" class="s b grn" text-anchor="middle">$0.10</text>
+<text x="570" y="282" class="s b red" text-anchor="middle">$1.00 ×2</text>
+<text x="660" y="282" class="s b grn" text-anchor="middle">$1.60</text>
+<text x="605" y="320" class="m b" text-anchor="middle">$0.10 + $1.60 − $1.00×2 = $0.30 CR</text>
+<rect x="440" y="336" width="0" height="0"/><rect x="440" y="336" width="0" height="0"/><rect x="440" y="336" width="0" height="0"/><text x="605" y="355" class="s b blu" text-anchor="middle">HIGH POP / NEUTRAL - BULLISH / LIMITED LARGER LOSS</text>
+<text x="605" y="380" class="s gry" text-anchor="middle">（后两项在截图中部分被字幕遮住）</text>
+<rect x="30" y="424" width="760" height="74" rx="8" fill="#f5f9fc" stroke="#2a7fb8" stroke-width="1.5"/>
+<text x="42" y="448" class="s" text-anchor="start">口播拆解（6:37）：卖 $1.00 put + 买 $0.10 put = 一个收 90 美分的 short put spread；</text>
+<text x="42" y="469" class="s" text-anchor="start">另一半：买 $1.60 put + 卖 $1.00 put = 付 $0.60（推算）；0.90 − 0.60 = 0.30 ✔，与白板 $0.30 CR 对上。</text>
+<text x="42" y="490" class="s" text-anchor="start">代价：亏损仍有上限（LIMITED），但更大（LARGER）。</text>
+<rect x="30" y="510" width="760" height="62" rx="8" fill="#fff7ee" stroke="#f28c28" stroke-width="2" stroke-dasharray="7 4"/>
+<text x="42" y="534" class="s org" text-anchor="start">（口播，非板面）7:42–8:44 讲风险时口头举了「5 点宽 / $800 / $300」，白板上没画；</text>
+<text x="42" y="553" class="s org" text-anchor="start">这些只能当口播碎片，不能当作白板算例。</text>
+<text x="804" y="588" text-anchor="end" class="s gry">仅供学习，不构成投资建议</text>
+</svg>
