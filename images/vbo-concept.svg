@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" font-family="Noto Sans CJK SC, sans-serif"><rect width="960" height="640" fill="#fff"/>
+<text x="480" y="40" font-size="24" text-anchor="middle" font-weight="bold">放量大阳线突破 → 第一时间追进（示意）</text>
+<line x1="40" y1="200" x2="640" y2="200" stroke="#c53030" stroke-width="2" stroke-dasharray="6 4"/><text x="50" y="190" font-size="14" fill="#c53030">阻力位（前面多次涨不上去的价位）</text>
+<g fill="#a0aec0" stroke="#4a5568">
+<rect x="70" y="250" width="22" height="40"/><rect x="110" y="240" width="22" height="50"/><rect x="150" y="225" width="22" height="45"/><rect x="190" y="235" width="22" height="50"/><rect x="230" y="220" width="22" height="40"/><rect x="270" y="230" width="22" height="45"/><rect x="310" y="215" width="22" height="45"/><rect x="350" y="225" width="22" height="40"/></g>
+<line x1="401" y1="245" x2="401" y2="295" stroke="#2f855a" stroke-width="2"/><rect x="390" y="130" width="22" height="130" fill="#38a169" stroke="#2f855a" stroke-width="2"/><line x1="401" y1="120" x2="401" y2="130" stroke="#2f855a" stroke-width="2"/>
+<text x="420" y="125" font-size="15" fill="#2f855a" font-weight="bold">大阳线：实体长，收在阻力位上方</text>
+<circle cx="401" cy="130" r="14" fill="none" stroke="#2b6cb0" stroke-width="3"/><text x="425" y="160" font-size="15" fill="#2b6cb0" font-weight="bold">← 我的原话：第一时间追进</text>
+<line x1="40" y1="420" x2="640" y2="420" stroke="#718096"/><text x="50" y="345" font-size="14" fill="#4a5568">成交量</text>
+<g fill="#cbd5e0"><rect x="70" y="395" width="22" height="25"/><rect x="110" y="390" width="22" height="30"/><rect x="150" y="398" width="22" height="22"/><rect x="190" y="392" width="22" height="28"/><rect x="230" y="396" width="22" height="24"/><rect x="270" y="390" width="22" height="30"/><rect x="310" y="394" width="22" height="26"/><rect x="350" y="392" width="22" height="28"/></g>
+<rect x="390" y="345" width="22" height="75" fill="#38a169"/><text x="420" y="375" font-size="15" fill="#2f855a" font-weight="bold">放量：明显比前面高</text>
+<line x1="60" y1="391" x2="380" y2="391" stroke="#dd6b20" stroke-dasharray="4 3"/><text x="70" y="440" font-size="13" fill="#dd6b20">近期平均量</text>
+<rect x="660" y="80" width="280" height="350" rx="8" fill="#fffaf0" stroke="#dd6b20" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="680" y="110" font-size="17" font-weight="bold" fill="#dd6b20">笔者补充</text>
+<text x="680" y="145" font-size="14">· 放量：约为近 20 根均量</text><text x="692" y="165" font-size="14">的 1.5～2 倍以上（自定）</text>
+<text x="680" y="200" font-size="14">· 收盘确认在阻力上方</text>
+<text x="680" y="235" font-size="14">· 止损：大阳线低点下方，</text><text x="692" y="255" font-size="14">或跌回区间内即认错</text>
+<text x="680" y="290" font-size="14">· 按止损距离算仓位</text>
+<text x="680" y="325" font-size="14">· 4H 以上看趋势，</text><text x="692" y="345" font-size="14">15/30min 找进场</text>
+<text x="680" y="380" font-size="14">· 已远离突破位就不追</text>
+<text x="480" y="500" font-size="15" text-anchor="middle" fill="#4a5568">示意图，无真实价格；灰色 = 普通 K 线 / 普通成交量</text>
+</svg>

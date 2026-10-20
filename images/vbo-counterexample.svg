@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" font-family="Noto Sans CJK SC, sans-serif"><rect width="960" height="640" fill="#fff"/>
+<text x="480" y="40" font-size="24" text-anchor="middle" font-weight="bold">反例：碰到阻力位快速回落（长上影）→ 不追</text>
+<line x1="40" y1="200" x2="640" y2="200" stroke="#c53030" stroke-width="2" stroke-dasharray="6 4"/><text x="50" y="190" font-size="14" fill="#c53030">阻力位</text>
+<g fill="#a0aec0" stroke="#4a5568"><rect x="70" y="270" width="22" height="40"/><rect x="110" y="260" width="22" height="45"/><rect x="150" y="250" width="22" height="45"/><rect x="190" y="255" width="22" height="40"/><rect x="230" y="245" width="22" height="45"/><rect x="270" y="250" width="22" height="40"/></g>
+<line x1="321" y1="160" x2="321" y2="245" stroke="#c53030" stroke-width="2"/><rect x="310" y="245" width="22" height="30" fill="#fff" stroke="#c53030" stroke-width="2"/>
+<circle cx="321" cy="175" r="16" fill="none" stroke="#c53030" stroke-width="3"/>
+<text x="345" y="150" font-size="15" fill="#c53030" font-weight="bold">冲过阻力又被打回：长上影线</text>
+<text x="345" y="172" font-size="15" fill="#c53030" font-weight="bold">我的原话：这种情况不追</text>
+<rect x="350" y="265" width="22" height="45" fill="#e53e3e" stroke="#c53030"/><rect x="390" y="290" width="22" height="50" fill="#e53e3e" stroke="#c53030"/>
+<text x="425" y="320" font-size="14" fill="#4a5568">随后继续回落，追进去的人被套</text>
+<rect x="660" y="80" width="280" height="300" rx="8" fill="#fffaf0" stroke="#dd6b20" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="680" y="110" font-size="17" font-weight="bold" fill="#dd6b20">笔者补充</text>
+<text x="680" y="145" font-size="14">· 收盘回到阻力下方</text><text x="692" y="165" font-size="14">= 突破失败</text>
+<text x="680" y="200" font-size="14">· 上影线越长，</text><text x="692" y="220" font-size="14">上方卖压越重</text>
+<text x="680" y="255" font-size="14">· 放量冲高回落更危险：</text><text x="692" y="275" font-size="14">大量买单被卖方接走</text>
+<text x="680" y="310" font-size="14">· 参见假突破长上影一文</text>
+<text x="480" y="440" font-size="15" text-anchor="middle" fill="#4a5568">示意图，无真实价格</text>
+</svg>
