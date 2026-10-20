@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" font-family="Noto Sans CJK SC, sans-serif">
+<rect width="960" height="640" fill="#fff"/>
+<text x="480" y="40" font-size="24" text-anchor="middle" font-weight="bold">反例：用 15min 的小止损，被一根针扫掉，4H 趋势照走</text>
+<polyline points="60,500 200,420 280,450 380,360 440,380 470,470 520,400 650,300 760,260 900,215" fill="none" stroke="#2b6cb0" stroke-width="4"/>
+<line x1="60" y1="420" x2="560" y2="420" stroke="#c53030" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="70" y="410" font-size="15" fill="#c53030">15min 止损（太近）</text>
+<circle cx="470" cy="470" r="12" fill="none" stroke="#c53030" stroke-width="3"/>
+<text x="490" y="500" font-size="15" fill="#c53030">插针打掉止损 ✗</text>
+<line x1="60" y1="540" x2="900" y2="540" stroke="#2f855a" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="70" y="565" font-size="15" fill="#2f855a">4H 结构止损（没被碰到）</text>
+<text x="640" y="320" font-size="16" fill="#2b6cb0">4H 上升趋势继续 →</text>
+<rect x="560" y="70" width="370" height="120" rx="10" fill="#fffaf0" stroke="#dd6b20" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="580" y="100" font-size="17" fill="#dd6b20" font-weight="bold">（笔者补充）另一种反例</text>
+<text x="580" y="130" font-size="15">4H 下跌中，15min 出现做多信号</text>
+<text x="580" y="155" font-size="15">→ 逆大周期，直接跳过</text>
+<text x="580" y="178" font-size="15">常见结局：小反弹后继续下跌</text>
+</svg>

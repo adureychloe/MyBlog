@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" font-family="Noto Sans CJK SC, sans-serif"><rect width="960" height="640" fill="#fff"/><text x="480" y="40" font-size="24" text-anchor="middle" font-weight="bold">多周期操作流程</text>
+<rect x="40" y="70" width="400" height="70" rx="8" fill="#eef4ff" stroke="#2b6cb0" stroke-width="2" /><text x="60" y="100" font-size="17" font-weight="bold">1. 打开 4H（或日线）</text><text x="60" y="126" font-size="14">判断趋势方向：上 / 下 / 震荡</text>
+<rect x="40" y="170" width="400" height="70" rx="8" fill="#eef4ff" stroke="#2b6cb0" stroke-width="2" /><text x="60" y="200" font-size="17" font-weight="bold">2. 在 4H 上画止盈止损</text><text x="60" y="226" font-size="14">止损放结构位之外，止盈看 4H 目标位</text>
+<rect x="40" y="270" width="400" height="70" rx="8" fill="#fffaf0" stroke="#dd6b20" stroke-width="2" stroke-dasharray="8 5"/><text x="60" y="300" font-size="17" font-weight="bold">3.（笔者补充）可选看 1H</text><text x="60" y="326" font-size="14">确认回调是否接近结束</text>
+<rect x="40" y="370" width="400" height="70" rx="8" fill="#eef4ff" stroke="#2b6cb0" stroke-width="2" /><text x="60" y="400" font-size="17" font-weight="bold">4. 切到 15min / 30min</text><text x="60" y="426" font-size="14">等顺 4H 方向的进场信号</text>
+<rect x="40" y="470" width="400" height="70" rx="8" fill="#fffaf0" stroke="#dd6b20" stroke-width="2" stroke-dasharray="8 5"/><text x="60" y="500" font-size="17" font-weight="bold">5.（笔者补充）信号逆 4H → 跳过</text><text x="60" y="526" font-size="14">例如 4H 跌、15min 做多信号</text>
+<rect x="520" y="170" width="400" height="70" rx="8" fill="#fffaf0" stroke="#dd6b20" stroke-width="2" stroke-dasharray="8 5"/><text x="540" y="200" font-size="17" font-weight="bold">6.（笔者补充）算盈亏比</text><text x="540" y="226" font-size="14">进场越精细，R:R 越好</text>
+<rect x="520" y="270" width="400" height="70" rx="8" fill="#fffaf0" stroke="#dd6b20" stroke-width="2" stroke-dasharray="8 5"/><text x="540" y="300" font-size="17" font-weight="bold">7.（笔者补充）按止损宽度算仓位</text><text x="540" y="326" font-size="14">风险金额 ÷ 止损距离</text>
+<rect x="520" y="370" width="400" height="70" rx="8" fill="#eef4ff" stroke="#2b6cb0" stroke-width="2" /><text x="540" y="400" font-size="17" font-weight="bold">8. 进场，止盈止损不随 15min 乱改</text><text x="540" y="426" font-size="14">按 4H 计划执行</text>
+<line x1="240" y1="140" x2="240" y2="170" stroke="#555" stroke-width="2"/>
+<line x1="240" y1="240" x2="240" y2="270" stroke="#555" stroke-width="2"/>
+<line x1="240" y1="340" x2="240" y2="370" stroke="#555" stroke-width="2"/>
+<line x1="240" y1="440" x2="240" y2="470" stroke="#555" stroke-width="2"/>
+<path d="M440,405 L480,405 L480,205 L520,205" fill="none" stroke="#555" stroke-width="2"/><line x1="720" y1="240" x2="720" y2="270" stroke="#555" stroke-width="2"/><line x1="720" y1="340" x2="720" y2="370" stroke="#555" stroke-width="2"/>
+<text x="520" y="500" font-size="15">蓝色实线 = 我的原话；橙色虚线 = 笔者补充</text></svg>
