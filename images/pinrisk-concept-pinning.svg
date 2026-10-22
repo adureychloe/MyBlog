@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" font-family="Noto Sans CJK SC, Arial, sans-serif">
+  <rect width="1000" height="700" fill="#fafafa"/>
+  <text x="500" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">钉住（Pinning）与 Pin Risk 是什么</text>
+  <text x="500" y="52" text-anchor="middle" font-size="12" fill="#666">对照 Schwab 片约 0:20–0:53 · 结构示意 · 教学假票场景数字</text>
+
+  <!-- who is vulnerable -->
+  <rect x="40" y="70" width="450" height="200" rx="8" fill="#fff" stroke="#90a4ae"/>
+  <text x="265" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#37474f">易受影响的同到期多腿结构</text>
+  <rect x="70" y="120" width="180" height="36" rx="4" fill="#eceff1" stroke="#607d8b"/><text x="160" y="143" text-anchor="middle" font-size="13">Vertical spreads</text>
+  <rect x="270" y="120" width="180" height="36" rx="4" fill="#eceff1" stroke="#607d8b"/><text x="360" y="143" text-anchor="middle" font-size="13">Butterfly spreads</text>
+  <rect x="70" y="170" width="180" height="36" rx="4" fill="#eceff1" stroke="#607d8b"/><text x="160" y="193" text-anchor="middle" font-size="13">Short straddles</text>
+  <rect x="270" y="170" width="180" height="36" rx="4" fill="#ffe0b2" stroke="#ef6c00" stroke-width="2"/><text x="360" y="193" text-anchor="middle" font-size="13" font-weight="bold" fill="#e65100">Iron condors ★</text>
+  <text x="265" y="240" text-anchor="middle" font-size="12" fill="#555">片中用铁秃鹰当「尤其脆弱」主例</text>
+
+  <!-- pinning def -->
+  <rect x="510" y="70" width="450" height="200" rx="8" fill="#fff" stroke="#1565c0" stroke-width="2"/>
+  <text x="735" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#1565c0">Pinning 钉住</text>
+  <text x="735" y="130" text-anchor="middle" font-size="13" fill="#37474f">到期收盘价落在（或非常靠近）</text>
+  <text x="735" y="155" text-anchor="middle" font-size="13" fill="#37474f">你**卖出**期权的行权价</text>
+  <rect x="580" y="175" width="310" height="70" rx="6" fill="#e3f2fd" stroke="#1565c0"/>
+  <text x="735" y="205" text-anchor="middle" font-size="14" fill="#0d47a1" font-weight="bold">示意：Short call Strike $70</text>
+  <text x="735" y="228" text-anchor="middle" font-size="12" fill="#37474f">价轴刻度 60 / 65 / 70 / 75 / 80</text>
+
+  <!-- pin risk -->
+  <rect x="40" y="290" width="920" height="220" rx="8" fill="#fff" stroke="#c62828" stroke-width="2"/>
+  <text x="500" y="325" text-anchor="middle" font-size="16" font-weight="bold" fill="#c62828">Pin Risk：钉住之后你可能当天还不知道会不会被指派</text>
+  <text x="500" y="360" text-anchor="middle" font-size="14" fill="#37474f">收盘铃后的走势若把短腿推到实值 → 多方可能行权</text>
+  <text x="500" y="390" text-anchor="middle" font-size="14" fill="#37474f">你被指派后，要到**下一交易时段**才能在公开市场按可能完全不同的价格买/卖股票</text>
+
+  <!-- three paths Fri -> Mon -->
+  <circle cx="200" cy="450" r="28" fill="#fff3e0" stroke="#ef6c00" stroke-width="2"/>
+  <text x="200" y="455" text-anchor="middle" font-size="12" font-weight="bold">周五钉</text>
+  <line x1="230" y1="440" x2="380" y2="420" stroke="#999" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="230" y1="450" x2="380" y2="450" stroke="#999" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="230" y1="460" x2="380" y2="480" stroke="#999" stroke-width="2" stroke-dasharray="4,3"/>
+  <rect x="380" y="400" width="140" height="30" rx="4" fill="#e8f5e9" stroke="#2e7d32"/><text x="450" y="420" text-anchor="middle" font-size="12">周一偏低</text>
+  <rect x="380" y="435" width="140" height="30" rx="4" fill="#fff8e1" stroke="#f9a825"/><text x="450" y="455" text-anchor="middle" font-size="12">周一附近</text>
+  <rect x="380" y="470" width="140" height="30" rx="4" fill="#ffebee" stroke="#c62828"/><text x="450" y="490" text-anchor="middle" font-size="12">周一偏高</text>
+  <text x="700" y="455" text-anchor="middle" font-size="13" fill="#b71c1c" font-weight="bold">Assigned? → 价格可能已跑</text>
+
+  <rect x="40" y="535" width="920" height="70" rx="8" fill="#fff6ec" stroke="#e67e22" stroke-width="2" stroke-dasharray="8,5"/>
+  <text x="500" y="565" text-anchor="middle" font-size="13" fill="#b35400">人话：「钉在短腿行权价上 = 过周末前不确定有没有义务，等你能动仓时价格可能已经跑了。」</text>
+  <text x="500" y="590" text-anchor="middle" font-size="12" fill="#b35400">（笔者补充）片中是带 100 股义务的**股票期权**教学例；不要自动套到所有指数产品。</text>
+
+  <text x="500" y="640" text-anchor="middle" font-size="12" fill="#888">下一张：教学假票场景如何从「计划亏 $350」裂成裸短 call</text>
+  <text x="500" y="670" text-anchor="middle" font-size="11" fill="#999">ZYX 为教学假票，不是可交易标的 · 仅供学习</text>
+</svg>

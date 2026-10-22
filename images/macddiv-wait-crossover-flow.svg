@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" font-family="Noto Sans CJK SC, Arial, sans-serif">
+  <rect width="1000" height="700" fill="#fafafa"/>
+  <text x="500" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">为什么片中还要你等交叉确认</text>
+  <text x="500" y="54" text-anchor="middle" font-size="12" fill="#666">对照 8:43 / 9:27 / 9:47 · 背离线出现 ≠ 立刻进场</text>
+
+  <rect x="80" y="80" width="840" height="70" rx="10" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+  <text x="500" y="110" text-anchor="middle" font-size="16" font-weight="bold" fill="#1565c0">① 先认出背离：价 LL+MACD HL（看涨）或 价 HH+MACD LH（看跌）</text>
+  <text x="500" y="135" text-anchor="middle" font-size="12" fill="#37474f">此时只是「动能衰减提示」，还不是入场指令</text>
+
+  <line x1="500" y1="150" x2="500" y2="175" stroke="#555" stroke-width="3"/>
+  <polygon points="500,185 492,170 508,170" fill="#555"/>
+
+  <rect x="80" y="190" width="840" height="90" rx="10" fill="#fff8e1" stroke="#f9a825" stroke-width="2"/>
+  <text x="500" y="225" text-anchor="middle" font-size="16" font-weight="bold" fill="#f57f17">② 等 MACD 线与信号线交叉</text>
+  <text x="500" y="250" text-anchor="middle" font-size="13" fill="#37474f">看涨侧：多头交叉后画面标 BUY（约 8:43）</text>
+  <text x="500" y="270" text-anchor="middle" font-size="13" fill="#37474f">看跌侧：空头交叉；且 CC「previous MACD high is not broken」（约 9:27）</text>
+
+  <line x1="500" y1="280" x2="500" y2="305" stroke="#555" stroke-width="3"/>
+  <polygon points="500,315 492,300 508,300" fill="#555"/>
+
+  <rect x="80" y="320" width="840" height="80" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+  <text x="500" y="355" text-anchor="middle" font-size="16" font-weight="bold" fill="#2e7d32">③ 同样先框 SL / TP</text>
+  <text x="500" y="382" text-anchor="middle" font-size="13" fill="#37474f">SL 在摆动极值外；TP = 1.5 × 止损距离（24 / 26 帧）</text>
+
+  <!-- mini confirm schematic -->
+  <rect x="80" y="430" width="400" height="160" rx="8" fill="#fff" stroke="#90a4ae"/>
+  <text x="280" y="455" text-anchor="middle" font-size="13" font-weight="bold" fill="#2e7d32">看涨：交叉虚线圈 → BUY</text>
+  <polyline points="110,560 160,540 210,550 260,520 310,500 360,490" fill="none" stroke="#1976d2" stroke-width="2"/>
+  <polyline points="110,555 160,545 210,548 260,530 310,515 360,505" fill="none" stroke="#ef6c00" stroke-width="2"/>
+  <circle cx="340" cy="497" r="18" fill="none" stroke="#333" stroke-dasharray="3,2" stroke-width="1.5"/>
+  <text x="280" y="580" text-anchor="middle" font-size="11" fill="#555">结构示意（非真实盘）</text>
+
+  <rect x="520" y="430" width="400" height="160" rx="8" fill="#fff" stroke="#90a4ae"/>
+  <text x="720" y="455" text-anchor="middle" font-size="13" font-weight="bold" fill="#c62828">看跌：不破前 MACD 高 + 下穿</text>
+  <polyline points="550,480 600,470 650,490 700,510 750,530 850,545" fill="none" stroke="#1976d2" stroke-width="2"/>
+  <polyline points="550,485 600,480 650,495 700,515 750,535 850,550" fill="none" stroke="#ef6c00" stroke-width="2"/>
+  <line x1="600" y1="470" x2="750" y2="530" stroke="#333" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <circle cx="800" cy="540" r="18" fill="none" stroke="#333" stroke-dasharray="3,2" stroke-width="1.5"/>
+  <text x="720" y="580" text-anchor="middle" font-size="11" fill="#555">虚线 = 前 MACD 高点连线</text>
+
+  <rect x="80" y="610" width="840" height="70" rx="8" fill="#fff6ec" stroke="#e67e22" stroke-width="2" stroke-dasharray="8,5"/>
+  <text x="500" y="640" text-anchor="middle" font-size="13" fill="#b35400">缺口脚注：文件名含「do not enter yet」的 25b 帧，与 Read 到的时间/CC 不完全对齐；</text>
+  <text x="500" y="665" text-anchor="middle" font-size="12" fill="#b35400">「先别进场」以 24b / 25 / 26 的交叉确认规则为准，不编造该帧字幕。</text>
+</svg>

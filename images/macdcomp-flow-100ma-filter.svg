@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" font-family="Noto Sans CJK SC, Arial, sans-serif">
+  <rect width="1000" height="700" fill="#fafafa"/>
+  <text x="500" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">Strategy #1 步骤流：100 MA 过滤后再等交叉</text>
+  <text x="500" y="54" text-anchor="middle" font-size="12" fill="#666">对照片中 4:48 / 5:14 / 5:27 · 结构示意，非真实行情</text>
+
+  <!-- step boxes -->
+  <rect x="60" y="80" width="880" height="80" rx="10" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+  <text x="500" y="115" text-anchor="middle" font-size="18" font-weight="bold" fill="#1565c0">① Identify The Long-term Trend · 用 100 MA 定长期趋势</text>
+  <text x="500" y="142" text-anchor="middle" font-size="13" fill="#37474f">价在 100 MA 之上 → 偏多环境｜价在之下 → 偏空环境（片中左右对照图）</text>
+
+  <line x1="500" y1="160" x2="500" y2="185" stroke="#555" stroke-width="3"/>
+  <polygon points="500,195 492,180 508,180" fill="#555"/>
+
+  <rect x="60" y="200" width="880" height="80" rx="10" fill="#fff8e1" stroke="#f9a825" stroke-width="2"/>
+  <text x="500" y="235" text-anchor="middle" font-size="18" font-weight="bold" fill="#f57f17">② Wait For A MACD Crossover · 只等顺势交叉</text>
+  <text x="500" y="262" text-anchor="middle" font-size="13" fill="#37474f">偏多时：只考虑 MACD 上穿信号线｜偏空时：只考虑下穿（CC：only upward / only downward）</text>
+
+  <line x1="500" y1="280" x2="500" y2="305" stroke="#555" stroke-width="3"/>
+  <polygon points="500,315 492,300 508,300" fill="#555"/>
+
+  <rect x="60" y="320" width="880" height="100" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+  <text x="500" y="355" text-anchor="middle" font-size="18" font-weight="bold" fill="#2e7d32">③ 先框 SL / TP，再谈入场</text>
+  <text x="500" y="382" text-anchor="middle" font-size="13" fill="#37474f">多：SL 放在最近摆动低点下方｜空：SL 放在最近摆动高点上方</text>
+  <text x="500" y="405" text-anchor="middle" font-size="13" fill="#37474f">TP ≈ 止损距离的 1.5 倍（片中反复：1.5 times the stop loss）</text>
+
+  <!-- mini schematic: price above 100MA -->
+  <rect x="60" y="450" width="420" height="160" rx="8" fill="#fff" stroke="#90a4ae"/>
+  <text x="270" y="475" text-anchor="middle" font-size="13" font-weight="bold" fill="#1565c0">示意：价在 100 MA 上方</text>
+  <polyline points="90,560 150,540 210,530 270,510 330,500 390,490" fill="none" stroke="#1565c0" stroke-width="2"/>
+  <text x="400" y="488" font-size="11" fill="#1565c0">100 MA</text>
+  <polyline points="90,545 150,520 210,505 270,485 330,470 390,460" fill="none" stroke="#333" stroke-width="1.8"/>
+  <text x="270" y="595" text-anchor="middle" font-size="12" fill="#2e7d32">→ 只等向上交叉</text>
+
+  <rect x="520" y="450" width="420" height="160" rx="8" fill="#fff" stroke="#90a4ae"/>
+  <text x="730" y="475" text-anchor="middle" font-size="13" font-weight="bold" fill="#c62828">示意：价在 100 MA 下方</text>
+  <polyline points="550,490 610,510 670,525 730,545 790,555 850,565" fill="none" stroke="#1565c0" stroke-width="2"/>
+  <text x="860" y="568" font-size="11" fill="#1565c0">100 MA</text>
+  <polyline points="550,510 610,530 670,550 730,570 790,580 850,590" fill="none" stroke="#333" stroke-width="1.8"/>
+  <text x="730" y="595" text-anchor="middle" font-size="12" fill="#c62828">→ 只等向下交叉</text>
+
+  <rect x="60" y="630" width="880" height="55" rx="8" fill="#fff6ec" stroke="#e67e22" stroke-width="2" stroke-dasharray="8,5"/>
+  <text x="500" y="655" text-anchor="middle" font-size="13" fill="#b35400">（笔者补充）片中只示范「100」周期；未标明 SMA/EMA，也未对比 50/200。死用 100 → 笔记标「观望」。</text>
+  <text x="500" y="675" text-anchor="middle" font-size="12" fill="#b35400">（推算用语）文中写 1.5R 是「1.5×止损」的简称，幻灯未写「R」字。</text>
+</svg>

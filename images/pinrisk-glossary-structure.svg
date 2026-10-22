@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="12">
+  <rect width="960" height="720" fill="#fafafa"/>
+  <text x="480" y="22" text-anchor="middle" font-size="15" font-weight="bold">Pin Risk 结构示意：ZYX 60-65-70-75 铁秃鹰（Charles Schwab 片）</text>
+  <text x="480" y="40" text-anchor="middle" font-size="11" fill="#555">结构示意，数字照抄片中：$150 净贷记 · 翼宽 5 点=$500 · 计划最大亏损 $350 · 钉在 70 后变裸短 call。非投资建议。ZYX 为教学假票。</text>
+
+  <!-- ===== Left: IC structure ===== -->
+  <rect x="24" y="55" width="440" height="320" rx="8" fill="#fff" stroke="#90a4ae"/>
+  <text x="244" y="78" text-anchor="middle" font-size="13" font-weight="bold" fill="#37474f">① 开仓：卖两张 60-65-70-75 Iron Condor</text>
+  <text x="244" y="96" text-anchor="middle" font-size="11" fill="#555">标的 ZYX（教学例）· 同到期</text>
+
+  <!-- strike ladder -->
+  <line x1="80" y1="120" x2="80" y2="340" stroke="#bdbdbd" stroke-width="1"/>
+  <text x="48" y="128" font-size="11" fill="#1565c0" font-weight="bold">75</text>
+  <rect x="100" y="112" width="200" height="28" rx="4" fill="#e3f2fd" stroke="#1565c0"/>
+  <text x="200" y="131" text-anchor="middle" font-size="12" fill="#1565c0">Long call 75</text>
+
+  <text x="48" y="178" font-size="11" fill="#c62828" font-weight="bold">70</text>
+  <rect x="100" y="162" width="200" height="28" rx="4" fill="#ffebee" stroke="#c62828"/>
+  <text x="200" y="181" text-anchor="middle" font-size="12" fill="#c62828" font-weight="bold">Short call 70</text>
+
+  <text x="48" y="228" font-size="11" fill="#c62828" font-weight="bold">65</text>
+  <rect x="100" y="212" width="200" height="28" rx="4" fill="#ffebee" stroke="#c62828"/>
+  <text x="200" y="231" text-anchor="middle" font-size="12" fill="#c62828" font-weight="bold">Short put 65</text>
+
+  <text x="48" y="278" font-size="11" fill="#1565c0" font-weight="bold">60</text>
+  <rect x="100" y="262" width="200" height="28" rx="4" fill="#e3f2fd" stroke="#1565c0"/>
+  <text x="200" y="281" text-anchor="middle" font-size="12" fill="#1565c0">Long put 60</text>
+
+  <rect x="320" y="150" width="128" height="110" rx="6" fill="#fff8e1" stroke="#f9a825"/>
+  <text x="384" y="172" text-anchor="middle" font-size="11" fill="#e65100" font-weight="bold">计划风控</text>
+  <text x="384" y="194" text-anchor="middle" font-size="12" fill="#37474f">净贷记 $150</text>
+  <text x="384" y="214" text-anchor="middle" font-size="12" fill="#37474f">翼宽 5 点=$500</text>
+  <text x="384" y="236" text-anchor="middle" font-size="13" fill="#c62828" font-weight="bold">MaxL $350</text>
+  <text x="384" y="252" text-anchor="middle" font-size="10" fill="#777">$500−$150</text>
+
+  <text x="244" y="318" text-anchor="middle" font-size="11" fill="#2e7d32">两翼都开着时 = 定义风险</text>
+  <text x="244" y="338" text-anchor="middle" font-size="10" fill="#777">（仅当四腿结构完整）</text>
+
+  <!-- ===== Right: pin at 70 ===== -->
+  <rect x="490" y="55" width="446" height="320" rx="8" fill="#fff" stroke="#90a4ae"/>
+  <text x="713" y="78" text-anchor="middle" font-size="13" font-weight="bold" fill="#37474f">② 到期周五钉在 $70（Pinning）</text>
+  <text x="713" y="96" text-anchor="middle" font-size="11" fill="#555">收盘价 ≈ Short call 行权价</text>
+
+  <rect x="520" y="112" width="180" height="36" rx="4" fill="#eeeeee" stroke="#9e9e9e"/>
+  <text x="610" y="128" text-anchor="middle" font-size="11" fill="#616161">Long call 75</text>
+  <text x="610" y="142" text-anchor="middle" font-size="12" fill="#616161" font-weight="bold">Expired OTM</text>
+
+  <rect x="720" y="112" width="190" height="52" rx="4" fill="#ffebee" stroke="#c62828" stroke-width="2"/>
+  <text x="815" y="132" text-anchor="middle" font-size="12" fill="#c62828" font-weight="bold">Short call 70 存活</text>
+  <text x="815" y="150" text-anchor="middle" font-size="11" fill="#c62828">Assigned?</text>
+
+  <rect x="520" y="172" width="180" height="36" rx="4" fill="#eeeeee" stroke="#9e9e9e"/>
+  <text x="610" y="188" text-anchor="middle" font-size="11" fill="#616161">Short put 65</text>
+  <text x="610" y="202" text-anchor="middle" font-size="12" fill="#616161" font-weight="bold">Expired OTM</text>
+
+  <rect x="720" y="172" width="190" height="36" rx="4" fill="#eeeeee" stroke="#9e9e9e"/>
+  <text x="815" y="188" text-anchor="middle" font-size="11" fill="#616161">Long put 60</text>
+  <text x="815" y="202" text-anchor="middle" font-size="12" fill="#616161" font-weight="bold">Expired OTM</text>
+
+  <rect x="520" y="230" width="390" height="78" rx="6" fill="#fce4ec" stroke="#c62828" stroke-width="2"/>
+  <text x="715" y="254" text-anchor="middle" font-size="13" fill="#b71c1c" font-weight="bold">周末留下：两张裸 ATM 短 call @ $70</text>
+  <text x="715" y="276" text-anchor="middle" font-size="11" fill="#37474f">义务：每张被指派 → 按 $70 卖 100 股 ZYX</text>
+  <text x="715" y="296" text-anchor="middle" font-size="11" fill="#37474f">可能：两张都指派 / 一张 / 都不（部分指派）</text>
+
+  <text x="713" y="340" text-anchor="middle" font-size="12" fill="#c62828" font-weight="bold">定义风险 → 未定义风险（长翼作废）</text>
+
+  <!-- ===== Bottom: Monday scenarios ===== -->
+  <rect x="24" y="390" width="912" height="300" rx="8" fill="#fff" stroke="#90a4ae"/>
+  <text x="480" y="414" text-anchor="middle" font-size="13" font-weight="bold" fill="#37474f">③ 周一开盘：三种画面数字（每张合同）</text>
+
+  <!-- good -->
+  <rect x="40" y="430" width="280" height="160" rx="6" fill="#e8f5e9" stroke="#2e7d32"/>
+  <text x="180" y="454" text-anchor="middle" font-size="13" font-weight="bold" fill="#2e7d32">周一开 $68（偏有利）</text>
+  <text x="180" y="480" text-anchor="middle" font-size="11" fill="#37474f">若两张都指派：</text>
+  <text x="180" y="502" text-anchor="middle" font-size="12" fill="#37474f">卖 $70 → 可约 $68 买回</text>
+  <text x="180" y="526" text-anchor="middle" font-size="14" fill="#2e7d32" font-weight="bold">+$200 / 合同</text>
+  <text x="180" y="548" text-anchor="middle" font-size="11" fill="#555">另可保留原 $150 贷记</text>
+  <text x="180" y="570" text-anchor="middle" font-size="10" fill="#777">（减佣金费用）</text>
+
+  <!-- bad -->
+  <rect x="340" y="430" width="280" height="160" rx="6" fill="#ffebee" stroke="#c62828"/>
+  <text x="480" y="454" text-anchor="middle" font-size="13" font-weight="bold" fill="#c62828">周一开 $80（很糟）</text>
+  <text x="480" y="480" text-anchor="middle" font-size="11" fill="#37474f">($80−$70)×100 =</text>
+  <text x="480" y="506" text-anchor="middle" font-size="16" fill="#c62828" font-weight="bold">亏约 $1,000 / 合同</text>
+  <text x="480" y="532" text-anchor="middle" font-size="12" fill="#b71c1c" font-weight="bold">≈ 近 3× 计划 MaxL $350</text>
+  <text x="480" y="556" text-anchor="middle" font-size="10" fill="#777">原「定义风险」已失效</text>
+  <text x="480" y="574" text-anchor="middle" font-size="10" fill="#777">另有 $850 = $1000−$150 画面算式</text>
+
+  <!-- alt -->
+  <rect x="640" y="430" width="280" height="160" rx="6" fill="#fff3e0" stroke="#ef6c00"/>
+  <text x="780" y="454" text-anchor="middle" font-size="13" font-weight="bold" fill="#e65100">周五收 $72（短 call ITM）</text>
+  <text x="780" y="480" text-anchor="middle" font-size="11" fill="#37474f">短 70 很可能被指派</text>
+  <text x="780" y="502" text-anchor="middle" font-size="11" fill="#37474f">周末跳空（片中约向 ~77）</text>
+  <text x="780" y="524" text-anchor="middle" font-size="11" fill="#37474f">盘后无法立刻履约补仓</text>
+  <text x="780" y="548" text-anchor="middle" font-size="12" fill="#e65100" font-weight="bold">风险同样失控</text>
+  <text x="780" y="570" text-anchor="middle" font-size="10" fill="#777">见笔记：与 $850 算式帧对照</text>
+
+  <text x="480" y="620" text-anchor="middle" font-size="12" fill="#37474f" font-weight="bold">片中 takeaway：避免 pin/指派风险；仔细盯仓；短腿贴近/实值时考虑提前几天平掉价差</text>
+  <text x="480" y="644" text-anchor="middle" font-size="11" fill="#777">「提前几天」无统计阈值 → 笔记标观望。易受影响结构：垂直价差、蝶式、短跨式、铁秃鹰。</text>
+  <text x="480" y="668" text-anchor="middle" font-size="10" fill="#9e9e9e">出处：Charles Schwab《It's Expiration Day: Do You Know Where Your Pin Risk Is?》· 仅供学习</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" font-family="Noto Sans CJK SC, Arial, sans-serif">
+  <rect width="1000" height="700" fill="#fafafa"/>
+  <text x="500" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">看涨背离 vs 看跌背离（片中定义）</text>
+  <text x="500" y="52" text-anchor="middle" font-size="12" fill="#666">左对照约 7:12；右对照约 7:42 · 结构示意</text>
+
+  <!-- LEFT bullish -->
+  <rect x="30" y="70" width="460" height="520" rx="8" fill="#fff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="260" y="100" text-anchor="middle" font-size="18" font-weight="bold" fill="#2e7d32">Bullish Divergence 看涨背离</text>
+  <text x="50" y="135" font-size="13" font-weight="bold">Price</text>
+  <polyline points="70,220 140,180 210,240 280,200 350,280 420,250" fill="none" stroke="#8d6e63" stroke-width="2.5"/>
+  <line x1="210" y1="240" x2="350" y2="280" stroke="#333" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="280" y="300" font-size="13" font-weight="bold" fill="#333">Lower Low</text>
+  <text x="50" y="340" font-size="13" font-weight="bold" fill="#1976d2">MACD</text>
+  <polyline points="70,420 140,450 210,480 280,430 350,400 420,380" fill="none" stroke="#1976d2" stroke-width="2.5"/>
+  <line x1="210" y1="480" x2="350" y2="400" stroke="#333" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="280" y="390" font-size="13" font-weight="bold" fill="#333">Higher Low</text>
+  <rect x="60" y="520" width="400" height="50" rx="6" fill="#e8f5e9" stroke="#2e7d32"/>
+  <text x="260" y="550" text-anchor="middle" font-size="13" fill="#1b5e20">口播：价还在跌，但卖压动能在变弱</text>
+
+  <!-- RIGHT bearish -->
+  <rect x="510" y="70" width="460" height="520" rx="8" fill="#fff" stroke="#c62828" stroke-width="2"/>
+  <text x="740" y="100" text-anchor="middle" font-size="18" font-weight="bold" fill="#c62828">Bearish Divergence 看跌背离</text>
+  <text x="530" y="135" font-size="13" font-weight="bold">Price</text>
+  <polyline points="550,250 620,200 690,230 760,150 830,190 900,120" fill="none" stroke="#8d6e63" stroke-width="2.5"/>
+  <line x1="620" y1="200" x2="900" y2="120" stroke="#333" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="760" y="145" font-size="13" font-weight="bold" fill="#333">Higher High</text>
+  <text x="530" y="340" font-size="13" font-weight="bold" fill="#1976d2">MACD</text>
+  <polyline points="550,380 620,400 690,390 760,450 830,430 900,490" fill="none" stroke="#1976d2" stroke-width="2.5"/>
+  <line x1="620" y1="400" x2="900" y2="490" stroke="#333" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="760" y="515" font-size="13" font-weight="bold" fill="#333">Lower High</text>
+  <rect x="540" y="520" width="400" height="50" rx="6" fill="#ffebee" stroke="#c62828"/>
+  <text x="740" y="550" text-anchor="middle" font-size="13" fill="#b71c1c">口播：价还在涨，但买压动能在变弱</text>
+
+  <rect x="30" y="610" width="940" height="70" rx="8" fill="#fff6ec" stroke="#e67e22" stroke-width="2" stroke-dasharray="8,5"/>
+  <text x="500" y="640" text-anchor="middle" font-size="13" fill="#b35400">（笔者补充）这是 classical / regular 背离形态；片中**没有**讲 hidden 背离。</text>
+  <text x="500" y="665" text-anchor="middle" font-size="12" fill="#b35400">可与库内 RSI 背离词条对照：同类「价与指标拧着走」，但指标不同，信号不会 1:1 重合。</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="720" viewBox="0 0 1000 720" font-family="Noto Sans CJK SC, Arial, sans-serif">
+  <rect width="1000" height="720" fill="#fafafa"/>
+  <text x="500" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">周一开盘三种画面数字 + 片中 takeaway</text>
+  <text x="500" y="50" text-anchor="middle" font-size="12" fill="#666">数字照抄截图 · 教学假票场景 · 每张合同口径</text>
+
+  <!-- three scenarios -->
+  <rect x="30" y="70" width="300" height="220" rx="8" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+  <text x="180" y="105" text-anchor="middle" font-size="15" font-weight="bold" fill="#2e7d32">周一开 $68</text>
+  <text x="180" y="135" text-anchor="middle" font-size="12" fill="#37474f">口播：可能是好消息</text>
+  <text x="180" y="165" text-anchor="middle" font-size="13" fill="#37474f">若两张都指派：</text>
+  <text x="180" y="195" text-anchor="middle" font-size="14" fill="#2e7d32" font-weight="bold">约 +$200 / 合同</text>
+  <text x="180" y="225" text-anchor="middle" font-size="12" fill="#555">（画面括号 $200）</text>
+  <text x="180" y="255" text-anchor="middle" font-size="11" fill="#777">另可保留原 $150 贷记</text>
+  <text x="180" y="275" text-anchor="middle" font-size="11" fill="#777">减佣金费用</text>
+
+  <rect x="350" y="70" width="300" height="220" rx="8" fill="#ffebee" stroke="#c62828" stroke-width="2"/>
+  <text x="500" y="105" text-anchor="middle" font-size="15" font-weight="bold" fill="#c62828">周一开 $80</text>
+  <text x="500" y="135" text-anchor="middle" font-size="12" fill="#37474f">画面标 −$1,000</text>
+  <text x="500" y="165" text-anchor="middle" font-size="14" fill="#c62828" font-weight="bold">亏约 $1,000 / 合同</text>
+  <text x="500" y="195" text-anchor="middle" font-size="13" fill="#b71c1c" font-weight="bold">≈ 近 3× 计划 MaxL $350</text>
+  <text x="500" y="225" text-anchor="middle" font-size="12" fill="#555">口播 nearly three times</text>
+  <text x="500" y="255" text-anchor="middle" font-size="11" fill="#777">原「定义风险」已失效</text>
+  <text x="500" y="275" text-anchor="middle" font-size="11" fill="#777">对照截图 17 / 17b</text>
+
+  <rect x="670" y="70" width="300" height="220" rx="8" fill="#fff3e0" stroke="#ef6c00" stroke-width="2"/>
+  <text x="820" y="105" text-anchor="middle" font-size="15" font-weight="bold" fill="#e65100">周五收 $72（ITM）</text>
+  <text x="820" y="135" text-anchor="middle" font-size="12" fill="#37474f">短 call 很可能被指派</text>
+  <text x="820" y="165" text-anchor="middle" font-size="12" fill="#37474f">周末跳空（片中约向 ~77）</text>
+  <text x="820" y="195" text-anchor="middle" font-size="12" fill="#37474f">盘后无法立刻履约补仓</text>
+  <text x="820" y="225" text-anchor="middle" font-size="14" fill="#e65100" font-weight="bold">画面算式：</text>
+  <text x="820" y="255" text-anchor="middle" font-size="16" fill="#c62828" font-weight="bold">$1,000 − $150 = $850</text>
+  <text x="820" y="275" text-anchor="middle" font-size="11" fill="#777">不把开盘价写成必须 77</text>
+
+  <!-- flow takeaway -->
+  <rect x="30" y="315" width="940" height="200" rx="8" fill="#fff" stroke="#90a4ae"/>
+  <text x="500" y="350" text-anchor="middle" font-size="15" font-weight="bold" fill="#37474f">片中 takeaway 步骤</text>
+  <rect x="60" y="370" width="270" height="55" rx="6" fill="#e3f2fd" stroke="#1565c0"/>
+  <text x="195" y="405" text-anchor="middle" font-size="14" fill="#1565c0" font-weight="bold">① 避免 pin / 指派风险</text>
+  <line x1="330" y1="397" x2="360" y2="397" stroke="#555" stroke-width="2"/>
+  <polygon points="370,397 360,392 360,402" fill="#555"/>
+  <rect x="370" y="370" width="270" height="55" rx="6" fill="#fff8e1" stroke="#f9a825"/>
+  <text x="505" y="405" text-anchor="middle" font-size="14" fill="#f57f17" font-weight="bold">② 仔细盯仓</text>
+  <line x1="640" y1="397" x2="670" y2="397" stroke="#555" stroke-width="2"/>
+  <polygon points="680,397 670,392 670,402" fill="#555"/>
+  <rect x="680" y="370" width="260" height="55" rx="6" fill="#e8f5e9" stroke="#2e7d32"/>
+  <text x="810" y="395" text-anchor="middle" font-size="13" fill="#2e7d32" font-weight="bold">③ 短腿近/ITM 时</text>
+  <text x="810" y="415" text-anchor="middle" font-size="12" fill="#2e7d32">考虑提前几天平掉价差</text>
+  <text x="500" y="470" text-anchor="middle" font-size="13" fill="#37474f">另：可能部分指派（只一张被指派）——仓位更乱，更需要监控</text>
+  <text x="500" y="495" text-anchor="middle" font-size="12" fill="#888">对照截图 18 / 21 / 22</text>
+
+  <rect x="30" y="540" width="940" height="100" rx="8" fill="#fff6ec" stroke="#e67e22" stroke-width="2" stroke-dasharray="8,5"/>
+  <text x="500" y="575" text-anchor="middle" font-size="13" fill="#b35400">（推算核对，非幻灯公式）($70−$68)×100=$200；($80−$70)×100=$1,000；相对 $350 ≈ 2.86× ≈ 近 3 倍</text>
+  <text x="500" y="600" text-anchor="middle" font-size="12" fill="#b35400">（笔者补充）「提前几天」无统计、无 Delta/DTE 表 → 观望，不要写成固定 N 日硬规则。</text>
+  <text x="500" y="625" text-anchor="middle" font-size="12" fill="#b35400">$850 以画面大字为准；与 $72 / ~80 场景帧相邻，不发明中间价。</text>
+
+  <text x="500" y="680" text-anchor="middle" font-size="12" fill="#888">弃用：短腿贴钱还 set-and-forget 拿到到期｜把假票数字当实盘｜假设券商兜底</text>
+  <text x="500" y="705" text-anchor="middle" font-size="11" fill="#999">仅供学习，不构成投资建议 · Alex 不推仓</text>
+</svg>

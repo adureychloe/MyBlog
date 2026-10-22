@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" font-family="Noto Sans CJK SC, Arial, sans-serif">
+  <rect width="1000" height="700" fill="#fafafa"/>
+  <text x="500" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">反例：下跌结构里跟多头交叉 = 逆主趋势</text>
+  <text x="500" y="54" text-anchor="middle" font-size="12" fill="#666">对照片中 Strategy #1「Entering a Buy Trade Against The Main Trend」（约 3:43）· 结构示意</text>
+
+  <rect x="40" y="70" width="920" height="280" fill="#fff" stroke="#ccc" rx="4"/>
+  <text x="55" y="95" font-size="13" font-weight="bold" fill="#c62828">价格：Lower Highs / Lower Lows（主趋势向下）</text>
+  <!-- downtrend arrow -->
+  <defs>
+    <marker id="arrRed" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#c62828"/></marker>
+  </defs>
+  <line x1="80" y1="120" x2="700" y2="300" stroke="#c62828" stroke-width="4" marker-end="url(#arrRed)"/>
+  <text x="360" y="180" font-size="16" font-weight="bold" fill="#c62828">Downtrend</text>
+  <!-- simplified staircase price -->
+  <polyline points="90,130 150,145 200,140 260,165 310,160 380,195 440,190 520,230 580,225 660,270 720,265" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="200" cy="140" r="8" fill="none" stroke="#2e7d32" stroke-width="2"/>
+  <circle cx="310" cy="160" r="8" fill="none" stroke="#2e7d32" stroke-width="2"/>
+  <circle cx="440" cy="190" r="8" fill="none" stroke="#2e7d32" stroke-width="2"/>
+  <text x="250" y="125" font-size="12" fill="#2e7d32" font-weight="bold">Lower Highs</text>
+  <circle cx="260" cy="165" r="8" fill="none" stroke="#c62828" stroke-width="2"/>
+  <circle cx="380" cy="195" r="8" fill="none" stroke="#c62828" stroke-width="2"/>
+  <circle cx="520" cy="230" r="8" fill="none" stroke="#c62828" stroke-width="2"/>
+  <text x="400" y="260" font-size="12" fill="#c62828" font-weight="bold">Lower Lows</text>
+  <text x="500" y="110" text-anchor="middle" font-size="18" font-weight="bold" fill="#b71c1c">Entering a Buy Trade Against The Main Trend</text>
+
+  <!-- MACD panel -->
+  <rect x="40" y="370" width="920" height="200" fill="#fff" stroke="#ccc" rx="4"/>
+  <text x="55" y="395" font-size="13" font-weight="bold" fill="#333">MACD：此处出现多头交叉（虚线圈）——单独看会想买</text>
+  <line x1="60" y1="470" x2="940" y2="470" stroke="#9e9e9e" stroke-dasharray="4,3"/>
+  <polyline points="80,490 160,500 240,485 320,510 400,495 480,460 560,440 640,420 720,400 800,390" fill="none" stroke="#1976d2" stroke-width="2.5"/>
+  <polyline points="80,500 160,505 240,495 320,505 400,500 480,480 560,465 640,450 720,435 800,420" fill="none" stroke="#ef6c00" stroke-width="2.5"/>
+  <!-- bullish cross circle -->
+  <circle cx="520" cy="470" r="28" fill="none" stroke="#ef6c00" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="560" y="455" font-size="13" fill="#ef6c00" font-weight="bold">多头交叉</text>
+  <defs><marker id="arrOrange" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#ef6c00"/></marker></defs>
+  <line x1="520" y1="440" x2="520" y2="200" stroke="#ef6c00" stroke-width="2" marker-end="url(#arrOrange)"/>
+  <text x="535" y="280" font-size="12" fill="#ef6c00">指向上方价格（仍在下跌）</text>
+  <!-- histogram sketch -->
+  <rect x="500" y="440" width="10" height="30" fill="#26a69a"/><rect x="515" y="430" width="10" height="40" fill="#26a69a"/>
+
+  <rect x="40" y="590" width="920" height="90" rx="8" fill="#ffebee" stroke="#c62828" stroke-width="2"/>
+  <text x="500" y="625" text-anchor="middle" font-size="15" font-weight="bold" fill="#b71c1c">片中结论：不要单靠 MACD 交叉 —— 尤其不要逆主趋势</text>
+  <text x="500" y="655" text-anchor="middle" font-size="13" fill="#37474f">下一步才用 100 MA 定长期趋势，再只做顺势交叉（见下一张流程图）</text>
+</svg>
