@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" font-family="Noto Sans CJK SC, sans-serif">
+<rect width="960" height="640" fill="#fff"/>
+<text x="480" y="40" font-size="22" text-anchor="middle" font-weight="bold">检查清单：美股未开盘交易 — 以后怎么做</text>
+
+<!-- Left column: original words -->
+<rect x="40" y="70" width="440" height="90" rx="8" fill="#eef4ff" stroke="#2b6cb0" stroke-width="2"/>
+<text x="60" y="105" font-size="17" font-weight="bold">1. 现在是美股未开盘吗？</text>
+<text x="60" y="135" font-size="14">常规时段开盘前（约 9:30 ET 前）→ 默认不做</text>
+
+<rect x="40" y="180" width="440" height="90" rx="8" fill="#eef4ff" stroke="#2b6cb0" stroke-width="2"/>
+<text x="60" y="215" font-size="17" font-weight="bold">2. 我的原话：不要做</text>
+<text x="60" y="245" font-size="14">「以后不要在做美股未开盘时的交易了」</text>
+
+<rect x="40" y="290" width="440" height="90" rx="8" fill="#eef4ff" stroke="#2b6cb0" stroke-width="2"/>
+<text x="60" y="325" font-size="17" font-weight="bold">3. 经验提醒：基本输多赢少</text>
+<text x="60" y="355" font-size="14">个人复盘经验，大概率不利（非胜率）</text>
+
+<rect x="40" y="400" width="440" height="90" rx="8" fill="#eef4ff" stroke="#2b6cb0" stroke-width="2"/>
+<text x="60" y="435" font-size="17" font-weight="bold">4. 已开盘？才进入正常流程</text>
+<text x="60" y="465" font-size="14">开盘后按既有规则判断，而非盘前冲动</text>
+
+<!-- Right column: 笔者补充 -->
+<rect x="500" y="70" width="420" height="90" rx="8" fill="#fffaf0" stroke="#dd6b20" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="520" y="105" font-size="17" font-weight="bold">5.（笔者补充）盘前可看关键位</text>
+<text x="520" y="135" font-size="14">标高低点 / 缺口，但不下单</text>
+
+<rect x="500" y="180" width="420" height="90" rx="8" fill="#fffaf0" stroke="#dd6b20" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="520" y="215" font-size="17" font-weight="bold">6.（笔者补充）等开盘确认</text>
+<text x="520" y="245" font-size="14">开盘后前几分钟看方向是否站稳</text>
+
+<rect x="500" y="290" width="420" height="90" rx="8" fill="#fffaf0" stroke="#dd6b20" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="520" y="325" font-size="17" font-weight="bold">7.（笔者补充）搭配多周期</text>
+<text x="520" y="355" font-size="14">4H+ 趋势 + 15/30m 进场；远离突破不追</text>
+
+<rect x="500" y="400" width="420" height="90" rx="8" fill="#fffaf0" stroke="#dd6b20" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="520" y="435" font-size="17" font-weight="bold">8.（笔者补充）事后复盘</text>
+<text x="520" y="465" font-size="14">若仍忍不住盘前下单，记录结果对照原话</text>
+
+<text x="480" y="550" font-size="14" text-anchor="middle" fill="#4a5568">蓝色实线 = 我的原话拆解；橙色虚线 = 笔者补充</text>
+<text x="480" y="580" font-size="13" text-anchor="middle" fill="#a0aec0">示意图检查清单，无真实价格 / 无买卖建议</text>
+</svg>
