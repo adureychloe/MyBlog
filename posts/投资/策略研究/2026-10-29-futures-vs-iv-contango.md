@@ -42,8 +42,6 @@ tags: [futures-contango, futures-backwardation, cost-of-carry, 期货]
 - 灰框：片中没给 3M/6M 价格，所以算不出升水点数或年化持有成本。
 - 橙色虚线框是（笔者补充）：中文"升水/贴水"叫法、Cost of Carry ≠ Carry Trade、2011 年的例子不代表现在行情。
 
-本片没有讲展期相关内容，本文也不涉及。
-
 ## 5. 采用 / 观望 / 弃用
 
 | 内容 | 判断 | 理由 |
