@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" font-family="Noto Sans CJK SC, PingFang SC, sans-serif">
+<rect width="960" height="520" fill="#fff"/>
+<text x="480" y="34" font-size="21" fill="#222" text-anchor="middle" font-weight="bold">学生向步骤：从定义读到叠加图</text>
+<defs><marker id="a3" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker></defs>
+<!-- steps row -->
+<rect x="30" y="55" width="150" height="95" rx="10" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+<text x="105" y="90" font-size="14" fill="#0369a1" text-anchor="middle" font-weight="bold">1. 算比值</text>
+<text x="105" y="115" font-size="12" fill="#222" text-anchor="middle">puts ÷ calls</text>
+<text x="105" y="135" font-size="11" fill="#64748b" text-anchor="middle">量版 / OI 版</text>
+<line x1="180" y1="100" x2="210" y2="100" stroke="#64748b" stroke-width="2" marker-end="url(#a3)"/>
+<rect x="210" y="55" width="150" height="95" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="285" y="90" font-size="14" fill="#15803d" text-anchor="middle" font-weight="bold">2. 对页脚</text>
+<text x="285" y="115" font-size="12" fill="#222" text-anchor="middle">&lt;0.7 偏多</text>
+<text x="285" y="135" font-size="12" fill="#222" text-anchor="middle">&gt;1.0 偏空</text>
+<line x1="360" y1="100" x2="390" y2="100" stroke="#64748b" stroke-width="2" marker-end="url(#a3)"/>
+<rect x="390" y="55" width="150" height="95" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<text x="465" y="90" font-size="14" fill="#b45309" text-anchor="middle" font-weight="bold">3. 拆到期</text>
+<text x="465" y="115" font-size="12" fill="#222" text-anchor="middle">近月 vs 远月</text>
+<text x="465" y="135" font-size="11" fill="#64748b" text-anchor="middle">情绪偏哪边</text>
+<line x1="540" y1="100" x2="570" y2="100" stroke="#64748b" stroke-width="2" marker-end="url(#a3)"/>
+<rect x="570" y="55" width="150" height="95" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+<text x="645" y="90" font-size="14" fill="#6d28d9" text-anchor="middle" font-weight="bold">4. 叠 K 线</text>
+<text x="645" y="115" font-size="12" fill="#222" text-anchor="middle">OPTOIPC</text>
+<text x="645" y="135" font-size="12" fill="#222" text-anchor="middle">OPTOVLPC</text>
+<line x1="720" y1="100" x2="750" y2="100" stroke="#64748b" stroke-width="2" marker-end="url(#a3)"/>
+<rect x="750" y="55" width="180" height="95" rx="10" fill="#fff7ed" stroke="#f97316" stroke-width="2"/>
+<text x="840" y="90" font-size="14" fill="#c2410c" text-anchor="middle" font-weight="bold">5. 问对冲</text>
+<text x="840" y="115" font-size="12" fill="#222" text-anchor="middle">价涨+PCR升？</text>
+<text x="840" y="135" font-size="11" fill="#64748b" text-anchor="middle">可能买 put 保险</text>
+<!-- snapshot example -->
+<rect x="30" y="175" width="900" height="130" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="50" y="210" font-size="15" fill="#222" font-weight="bold">教学快照核对（约 2025-03-21，不作信号）</text>
+<text x="50" y="245" font-size="14" fill="#222">到期日表合计：Put Vol 642,293 / Call Vol 1,072,816 → P/C Vol ≈ 0.60；P/C OI ≈ 0.95</text>
+<text x="50" y="275" font-size="14" fill="#222">Most Active：TSLA P/C Vol 0.95；NVDA 0.61（页头说明：低比值偏多）</text>
+<!-- judgments -->
+<rect x="30" y="325" width="290" height="165" rx="10" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+<text x="175" y="360" font-size="15" fill="#15803d" text-anchor="middle" font-weight="bold">采用</text>
+<text x="50" y="390" font-size="13" fill="#222">两版定义；页脚阈值</text>
+<text x="50" y="415" font-size="13" fill="#222">量→OI 仓位解读</text>
+<text x="50" y="440" font-size="13" fill="#222">对冲 caveat</text>
+<text x="50" y="465" font-size="12" fill="#64748b">直接情绪，非逆向课</text>
+<rect x="340" y="325" width="290" height="165" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+<text x="485" y="360" font-size="15" fill="#b45309" text-anchor="middle" font-weight="bold">观望</text>
+<text x="360" y="395" font-size="13" fill="#222">0.7 / 1.0 是否普适</text>
+<text x="360" y="425" font-size="13" fill="#222">（无胜率、无跨市场样本）</text>
+<text x="360" y="455" font-size="12" fill="#64748b">作该片约定即可</text>
+<rect x="650" y="325" width="280" height="165" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="790" y="360" font-size="15" fill="#b91c1c" text-anchor="middle" font-weight="bold">弃用</text>
+<text x="670" y="390" font-size="13" fill="#222">错误蓝卡措辞</text>
+<text x="670" y="415" font-size="13" fill="#222">独立预测 / 快照当信号</text>
+<text x="670" y="440" font-size="13" fill="#222">写成逆向指标课</text>
+<text x="670" y="465" font-size="12" fill="#64748b">Alex 不推仓</text>
+</svg>

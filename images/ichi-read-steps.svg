@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" font-family="Noto Sans CJK SC, PingFang SC, sans-serif">
+<rect width="960" height="520" fill="#fff"/>
+<text x="480" y="36" font-size="21" fill="#222" text-anchor="middle" font-weight="bold">学生向读图步骤（结构 → 云 → 价 → Lagging）</text>
+<!-- steps -->
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker></defs>
+<rect x="40" y="70" width="160" height="110" rx="10" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+<text x="120" y="105" font-size="16" fill="#0369a1" text-anchor="middle" font-weight="bold">1. 认参数</text>
+<text x="120" y="135" font-size="13" fill="#222" text-anchor="middle">图例 (9,26,52,26)</text>
+<text x="120" y="158" font-size="12" fill="#64748b" text-anchor="middle">五条线 + 云</text>
+<line x1="200" y1="125" x2="240" y2="125" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="240" y="70" width="160" height="110" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="320" y="105" font-size="16" fill="#15803d" text-anchor="middle" font-weight="bold">2. 看云色厚薄</text>
+<text x="320" y="135" font-size="13" fill="#222" text-anchor="middle">绿偏多 / 红偏空</text>
+<text x="320" y="158" font-size="12" fill="#64748b" text-anchor="middle">厚强、薄易破</text>
+<line x1="400" y1="125" x2="440" y2="125" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="440" y="70" width="160" height="110" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<text x="520" y="105" font-size="16" fill="#b45309" text-anchor="middle" font-weight="bold">3. 价相对云</text>
+<text x="520" y="135" font-size="13" fill="#222" text-anchor="middle">上 / 下 / 内</text>
+<text x="520" y="158" font-size="12" fill="#64748b" text-anchor="middle">先定大方向</text>
+<line x1="600" y1="125" x2="640" y2="125" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="640" y="70" width="160" height="110" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+<text x="720" y="105" font-size="16" fill="#6d28d9" text-anchor="middle" font-weight="bold">4. Lagging</text>
+<text x="720" y="135" font-size="13" fill="#222" text-anchor="middle">迟行线确认</text>
+<text x="720" y="158" font-size="12" fill="#64748b" text-anchor="middle">别忽略 Chikou</text>
+<line x1="800" y1="125" x2="840" y2="125" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="820" y="70" width="110" height="110" rx="10" fill="#f1f5f9" stroke="#475569" stroke-width="2"/>
+<text x="875" y="115" font-size="15" fill="#334155" text-anchor="middle" font-weight="bold">5. 周期</text>
+<text x="875" y="145" font-size="12" fill="#222" text-anchor="middle">偏好 4h/日</text>
+<!-- rules box -->
+<rect x="40" y="210" width="880" height="120" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="60" y="245" font-size="16" fill="#222" font-weight="bold">片中规则（~12:45 切 4h 段）</text>
+<text x="60" y="275" font-size="14" fill="#222">· 别用在太短周期；偏好 4h / daily</text>
+<text x="60" y="300" font-size="14" fill="#222">· 别忽略 Lagging；可用 OBV / RSI 作确认；水平支撑 + 云更强</text>
+<!-- watch box -->
+<rect x="40" y="350" width="430" height="140" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+<text x="255" y="385" font-size="15" fill="#b45309" text-anchor="middle" font-weight="bold">观望（不作独立买卖信号）</text>
+<text x="60" y="420" font-size="13" fill="#222">· Tenkan–Kijun 交叉作「时机」介绍</text>
+<text x="60" y="445" font-size="13" fill="#222">· Cloud bounce / 薄云 breakout 教学命名</text>
+<text x="60" y="470" font-size="12" fill="#64748b">无回测、无胜率 → 学习结构即可</text>
+<!-- discard -->
+<rect x="490" y="350" width="430" height="140" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="705" y="385" font-size="15" fill="#b91c1c" text-anchor="middle" font-weight="bold">弃用</text>
+<text x="510" y="420" font-size="13" fill="#222">· 单靠 Ichimoku 下单</text>
+<text x="510" y="445" font-size="13" fill="#222">· 把 MSFT 示意价当信号</text>
+<text x="510" y="470" font-size="12" fill="#64748b">Alex 不推仓；教学图 ≠ 实盘建议</text>
+</svg>

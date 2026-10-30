@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" font-family="Noto Sans CJK SC, PingFang SC, sans-serif">
+<rect width="960" height="560" fill="#fff"/>
+<text x="480" y="34" font-size="21" fill="#222" text-anchor="middle" font-weight="bold">价与云的三种关系 + 厚薄（教学示意）</text>
+<!-- panel 1 above -->
+<rect x="30" y="55" width="290" height="280" rx="10" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+<text x="175" y="85" font-size="17" fill="#15803d" text-anchor="middle" font-weight="bold">① 价在云上 → 偏多</text>
+<path d="M50,200 C100,190 150,195 200,185 L200,240 C150,250 100,245 50,250 Z" fill="#86efac"/>
+<path d="M50,200 C100,190 150,195 200,185" fill="none" stroke="#16a34a" stroke-width="2"/>
+<path d="M50,250 C100,245 150,250 200,240" fill="none" stroke="#e879a9" stroke-width="2"/>
+<rect x="120" y="130" width="16" height="35" fill="#22c55e"/><line x1="128" y1="120" x2="128" y2="175" stroke="#166534" stroke-width="2"/>
+<rect x="160" y="115" width="16" height="40" fill="#22c55e"/><line x1="168" y1="105" x2="168" y2="165" stroke="#166534" stroke-width="2"/>
+<text x="175" y="300" font-size="13" fill="#166534" text-anchor="middle">片中：价在绿云上方称 bullish</text>
+<text x="175" y="320" font-size="12" fill="#64748b" text-anchor="middle">（对照帧 ~7:21）</text>
+<!-- panel 2 below -->
+<rect x="335" y="55" width="290" height="280" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="480" y="85" font-size="17" fill="#b91c1c" text-anchor="middle" font-weight="bold">② 价在云下 → 偏空</text>
+<path d="M355,130 C405,120 455,125 505,115 L505,175 C455,185 405,180 355,185 Z" fill="#fca5a5"/>
+<path d="M355,130 C405,120 455,125 505,115" fill="none" stroke="#e879a9" stroke-width="2"/>
+<path d="M355,185 C405,180 455,185 505,175" fill="none" stroke="#16a34a" stroke-width="2"/>
+<rect x="420" y="220" width="16" height="40" fill="#ef4444"/><line x1="428" y1="210" x2="428" y2="270" stroke="#991b1b" stroke-width="2"/>
+<rect x="460" y="235" width="16" height="35" fill="#ef4444"/><line x1="468" y1="225" x2="468" y2="280" stroke="#991b1b" stroke-width="2"/>
+<text x="480" y="300" font-size="13" fill="#991b1b" text-anchor="middle">红云在头顶可作阻力示意</text>
+<text x="480" y="320" font-size="12" fill="#64748b" text-anchor="middle">（对照帧 ~4:49）</text>
+<!-- panel 3 inside -->
+<rect x="640" y="55" width="290" height="280" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
+<text x="785" y="85" font-size="17" fill="#334155" text-anchor="middle" font-weight="bold">③ 价在云内 → 整理</text>
+<path d="M670,160 C720,150 770,165 810,155 L810,230 C770,240 720,225 670,235 Z" fill="#d1fae5"/>
+<path d="M670,160 C720,150 770,165 810,155" fill="none" stroke="#16a34a" stroke-width="2"/>
+<path d="M670,235 C720,225 770,240 810,230" fill="none" stroke="#e879a9" stroke-width="2"/>
+<rect x="730" y="185" width="16" height="30" fill="#94a3b8"/><line x1="738" y1="175" x2="738" y2="225" stroke="#475569" stroke-width="2"/>
+<rect x="770" y="190" width="16" height="28" fill="#94a3b8"/><line x1="778" y1="180" x2="778" y2="228" stroke="#475569" stroke-width="2"/>
+<text x="785" y="300" font-size="13" fill="#475569" text-anchor="middle">片中：sideways / consolidating</text>
+<text x="785" y="320" font-size="12" fill="#64748b" text-anchor="middle">（对照帧 ~7:55，Mon 23 Dec &#39;24）</text>
+<!-- thickness row -->
+<rect x="30" y="355" width="595" height="175" rx="10" fill="#fff" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="327" y="385" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">厚云 vs 薄云（同片对照）</text>
+<path d="M60,420 C100,400 140,405 180,395 L180,500 C140,510 100,505 60,510 Z" fill="#86efac"/>
+<text x="120" y="470" font-size="14" fill="#166534" text-anchor="middle" font-weight="bold">厚云</text>
+<text x="120" y="490" font-size="12" fill="#64748b" text-anchor="middle">更强支撑/阻力</text>
+<path d="M240,445 C280,442 320,448 360,444 L360,458 C320,462 280,456 240,460 Z" fill="#fca5a5"/>
+<text x="300" y="485" font-size="14" fill="#991b1b" text-anchor="middle" font-weight="bold">薄/平云</text>
+<text x="300" y="505" font-size="12" fill="#64748b" text-anchor="middle">更易被突破</text>
+<text x="500" y="450" font-size="13" fill="#222">例：厚绿云边标签可见</text>
+<text x="500" y="475" font-size="13" fill="#222">Span B ≈ 479.04（~5:39）</text>
+<text x="500" y="500" font-size="12" fill="#64748b">示意读数不作信号</text>
+<!-- future span note -->
+<rect x="640" y="355" width="290" height="175" rx="10" fill="#fff7ed" stroke="#f97316" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="785" y="385" font-size="15" fill="#c2410c" text-anchor="middle" font-weight="bold">（核对画面）</text>
+<text x="660" y="420" font-size="13" fill="#7c2d12">未来空档 Leading Span 标签</text>
+<text x="660" y="445" font-size="14" fill="#9a3412" font-weight="bold">444.37（非 ASR「$44」）</text>
+<text x="660" y="475" font-size="13" fill="#7c2d12">另一帧空档阻力示意 478.83</text>
+<text x="660" y="505" font-size="12" fill="#9a3412">教学标签，不作买卖建议</text>
+</svg>

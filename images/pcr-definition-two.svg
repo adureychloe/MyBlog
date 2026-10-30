@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" font-family="Noto Sans CJK SC, PingFang SC, sans-serif">
+<rect width="960" height="540" fill="#fff"/>
+<text x="480" y="34" font-size="21" fill="#222" text-anchor="middle" font-weight="bold">Put/Call Ratio = puts ÷ calls（两版）</text>
+<!-- definition -->
+<rect x="60" y="55" width="840" height="70" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="480" y="85" font-size="16" fill="#1e40af" text-anchor="middle" font-weight="bold">定义卡（~2:27）：总 put 合约数 ÷ call（volume 与 open interest）</text>
+<text x="480" y="108" font-size="13" fill="#1e3a8a" text-anchor="middle">直接情绪读法：高偏空、低偏多 · 片中无 contrarian 字样</text>
+<!-- two columns -->
+<rect x="60" y="145" width="400" height="200" rx="10" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+<text x="260" y="180" font-size="17" fill="#15803d" text-anchor="middle" font-weight="bold">成交量版 Volume</text>
+<text x="80" y="215" font-size="14" fill="#222">当日 put 成交量 ÷ call 成交量</text>
+<text x="80" y="245" font-size="14" fill="#222">Barchart 指标：Put Call Volume Ratio</text>
+<text x="80" y="275" font-size="14" fill="#222">图例代号：OPTOVLPC</text>
+<text x="80" y="310" font-size="13" fill="#64748b">更敏感，短线投机也会推高</text>
+<rect x="500" y="145" width="400" height="200" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<text x="700" y="180" font-size="17" fill="#b45309" text-anchor="middle" font-weight="bold">未平仓版 Open Interest</text>
+<text x="520" y="215" font-size="14" fill="#222">put OI ÷ call OI</text>
+<text x="520" y="245" font-size="14" fill="#222">Barchart：Put Call Open Interest Ratio</text>
+<text x="520" y="275" font-size="14" fill="#222">图例代号：OPTOIPC</text>
+<text x="520" y="310" font-size="13" fill="#64748b">更平滑，偏持续仓位</text>
+<!-- footer rules -->
+<rect x="60" y="365" width="840" height="145" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="480" y="400" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">页脚约定（~2:52 到期日表，与 Most Active 说明一致）</text>
+<rect x="100" y="420" width="340" height="60" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+<text x="270" y="455" font-size="16" fill="#15803d" text-anchor="middle" font-weight="bold">P/C &lt; 0.7 → 一般偏多（bullish）</text>
+<rect x="520" y="420" width="340" height="60" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="690" y="455" font-size="16" fill="#b91c1c" text-anchor="middle" font-weight="bold">P/C &gt; 1.0 → 一般偏空（bearish）</text>
+</svg>

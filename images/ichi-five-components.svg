@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="580" viewBox="0 0 960 580" font-family="Noto Sans CJK SC, PingFang SC, sans-serif">
+<rect width="960" height="580" fill="#fff"/>
+<text x="480" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold">一目均衡表五件套：TradingView 默认 (9, 26, 52, 26)</text>
+<!-- cloud band -->
+<path d="M80,220 C160,180 240,200 320,190 C400,180 480,210 560,200 L560,280 C480,290 400,260 320,270 C240,280 160,250 80,260 Z" fill="#bbf7d0" opacity="0.85"/>
+<path d="M560,200 C640,190 720,230 840,220 L840,300 C720,310 640,270 560,280 Z" fill="#fecaca" opacity="0.85"/>
+<!-- Span A green -->
+<path d="M80,220 C160,180 240,200 320,190 C400,180 480,210 560,200 C640,190 720,230 840,220" fill="none" stroke="#16a34a" stroke-width="3"/>
+<!-- Span B pink -->
+<path d="M80,260 C160,250 240,280 320,270 C400,260 480,290 560,280 C640,270 720,310 840,300" fill="none" stroke="#e879a9" stroke-width="3"/>
+<!-- Tenkan blue -->
+<path d="M100,320 C180,300 260,340 340,310 C420,280 500,330 580,300 C660,270 720,290 800,275" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+<!-- Kijun red -->
+<path d="M100,350 C200,340 300,360 400,345 C500,330 600,355 700,340 C760,330 820,335 860,330" fill="none" stroke="#dc2626" stroke-width="2.5"/>
+<!-- Chikou dashed green lag -->
+<path d="M60,300 C140,280 220,310 300,290 C380,270 460,300 520,285" fill="none" stroke="#15803d" stroke-width="2" stroke-dasharray="6 4"/>
+<!-- candles schematic -->
+<rect x="200" y="300" width="14" height="40" fill="#22c55e"/><line x1="207" y1="290" x2="207" y2="350" stroke="#166534" stroke-width="2"/>
+<rect x="280" y="285" width="14" height="50" fill="#ef4444"/><line x1="287" y1="275" x2="287" y2="345" stroke="#991b1b" stroke-width="2"/>
+<rect x="360" y="270" width="14" height="45" fill="#22c55e"/><line x1="367" y1="260" x2="367" y2="325" stroke="#166534" stroke-width="2"/>
+<!-- legend boxes -->
+<rect x="40" y="400" width="880" height="150" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<circle cx="70" cy="430" r="6" fill="#2563eb"/><text x="88" y="435" font-size="15" fill="#222">Conversion / Tenkan（蓝）：近 9 期高低均值 · 短线尺</text>
+<circle cx="70" cy="460" r="6" fill="#dc2626"/><text x="88" y="465" font-size="15" fill="#222">Base / Kijun（红）：近 26 期高低均值 · 更慢的基础线</text>
+<circle cx="70" cy="490" r="6" fill="#16a34a"/><text x="88" y="495" font-size="15" fill="#222">Leading Span A / Senkou A（浅绿）：(Tenkan+Kijun)/2，向前投影 26 根</text>
+<circle cx="500" cy="430" r="6" fill="#e879a9"/><text x="518" y="435" font-size="15" fill="#222">Leading Span B / Senkou B（粉）：52 期高低均值，同样前投</text>
+<circle cx="500" cy="460" r="6" fill="#15803d"/><text x="518" y="465" font-size="15" fill="#222">Lagging / Chikou（绿）：今日收盘画在 26 根之前</text>
+<text x="70" y="530" font-size="14" fill="#64748b">Span A 与 Span B 夹出云（Kumo）：A 在 B 上→绿云；A 在 B 下→红云（片中配色/读法）</text>
+<text x="480" y="70" font-size="13" fill="#64748b" text-anchor="middle">示意结构图 · 非实盘价位 · 参数来自图例 Ichimoku (9, 26, 52, 26)</text>
+</svg>

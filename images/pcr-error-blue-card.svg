@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" font-family="Noto Sans CJK SC, PingFang SC, sans-serif">
+<rect width="960" height="560" fill="#fff"/>
+<text x="480" y="34" font-size="21" fill="#222" text-anchor="middle" font-weight="bold">反例：那张印错的蓝卡 —— 弃用该卡措辞</text>
+<!-- wrong card -->
+<rect x="80" y="60" width="380" height="200" rx="14" fill="#3b82f6" stroke="#1d4ed8" stroke-width="3"/>
+<text x="270" y="110" font-size="22" fill="#fff" text-anchor="middle" font-weight="bold">P/C RATIO &lt; 0.70</text>
+<text x="270" y="155" font-size="16" fill="#fee2e2" text-anchor="middle">More puts than calls</text>
+<text x="270" y="185" font-size="16" fill="#fee2e2" text-anchor="middle">— bearish sentiment</text>
+<text x="270" y="230" font-size="18" fill="#fef08a" text-anchor="middle" font-weight="bold">✗ 弃用此卡正文</text>
+<!-- stamp -->
+<rect x="200" y="70" width="140" height="36" rx="4" fill="#dc2626" transform="rotate(-12 270 88)"/>
+<text x="270" y="94" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold" transform="rotate(-12 270 88)">弃用 DISCARD</text>
+<!-- correct side -->
+<rect x="500" y="60" width="400" height="200" rx="14" fill="#ecfdf5" stroke="#16a34a" stroke-width="3"/>
+<text x="700" y="100" font-size="17" fill="#15803d" text-anchor="middle" font-weight="bold">同片正确口径</text>
+<text x="520" y="140" font-size="14" fill="#222">字幕（~2:45）：favoring calls → generally bullish</text>
+<text x="520" y="170" font-size="14" fill="#222">页脚：below 0.7 … bullish；above 1.0 … bearish</text>
+<text x="520" y="200" font-size="14" fill="#222">Most Active：低比值 = 偏多（更多 call）</text>
+<text x="520" y="235" font-size="14" fill="#166534" font-weight="bold">&gt;1.0 蓝卡（more puts / bearish）与旁白一致 ✓</text>
+<!-- why wrong -->
+<rect x="80" y="290" width="800" height="100" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="480" y="325" font-size="15" fill="#b91c1c" text-anchor="middle" font-weight="bold">为什么错：&lt;0.70 数学上是 call 更多（分母更大），不是 more puts</text>
+<text x="480" y="360" font-size="14" fill="#7f1d1d" text-anchor="middle">与同片口播、页脚、列表说明三重矛盾 → 当作印刷错误，不采信该卡措辞</text>
+<!-- hedge -->
+<rect x="80" y="410" width="800" height="120" rx="10" fill="#fff7ed" stroke="#f97316" stroke-width="2"/>
+<text x="100" y="445" font-size="15" fill="#c2410c" font-weight="bold">采用 caveat（~4:07 OPTOIPC）：价涨同时 PCR 升</text>
+<text x="100" y="475" font-size="14" fill="#7c2d12">可能是买 put 对冲，不是单纯看空。例：悬停 01/13 附近 OI 比约 1.02</text>
+<text x="100" y="505" font-size="13" fill="#9a3412">示意数据约 2025-03-21 教学快照，不作今日信号</text>
+</svg>
