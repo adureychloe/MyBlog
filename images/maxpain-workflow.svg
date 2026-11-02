@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="370" viewBox="0 0 1000 370" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif">
+<rect width="1000" height="370" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" font-weight="bold" text-anchor="middle" fill="#1f2937">到期周怎么用最大痛点：5 步（背景信息，不是信号）</text>
+<rect x="20" y="70" width="176" height="160" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="108" cy="100" r="18" fill="#2563eb"/><text x="108" y="106" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">1</text>
+<text x="108" y="145" font-size="15" fill="#1e3a8a" text-anchor="middle" font-weight="bold">找到期日</text>
+<text x="108" y="178" font-size="13" fill="#374151" text-anchor="middle">例：BTC 季度</text>
+<text x="108" y="200" font-size="13" fill="#374151" text-anchor="middle">/月度到期</text>
+<line x1="198" y1="150" x2="214" y2="150" stroke="#374151" stroke-width="3"/>
+<rect x="216" y="70" width="176" height="160" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="304" cy="100" r="18" fill="#2563eb"/><text x="304" y="106" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">2</text>
+<text x="304" y="145" font-size="15" fill="#1e3a8a" text-anchor="middle" font-weight="bold">看 OI 分布</text>
+<text x="304" y="178" font-size="13" fill="#374151" text-anchor="middle">各行权价看涨</text>
+<text x="304" y="200" font-size="13" fill="#374151" text-anchor="middle">看跌各多少</text>
+<line x1="394" y1="150" x2="410" y2="150" stroke="#374151" stroke-width="3"/>
+<rect x="412" y="70" width="176" height="160" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="500" cy="100" r="18" fill="#2563eb"/><text x="500" y="106" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">3</text>
+<text x="500" y="145" font-size="15" fill="#1e3a8a" text-anchor="middle" font-weight="bold">算/查痛点</text>
+<text x="500" y="178" font-size="13" fill="#374151" text-anchor="middle">数据平台或</text>
+<text x="500" y="200" font-size="13" fill="#374151" text-anchor="middle">按示例手算</text>
+<line x1="590" y1="150" x2="606" y2="150" stroke="#374151" stroke-width="3"/>
+<rect x="608" y="70" width="176" height="160" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="696" cy="100" r="18" fill="#2563eb"/><text x="696" y="106" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">4</text>
+<text x="696" y="145" font-size="15" fill="#1e3a8a" text-anchor="middle" font-weight="bold">配合 PCR</text>
+<text x="696" y="178" font-size="13" fill="#374151" text-anchor="middle">低=偏多</text>
+<text x="696" y="200" font-size="13" fill="#374151" text-anchor="middle">高=偏空</text>
+<line x1="786" y1="150" x2="802" y2="150" stroke="#374151" stroke-width="3"/>
+<rect x="804" y="70" width="176" height="160" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="892" cy="100" r="18" fill="#2563eb"/><text x="892" y="106" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">5</text>
+<text x="892" y="145" font-size="15" fill="#1e3a8a" text-anchor="middle" font-weight="bold">只当背景</text>
+<text x="892" y="178" font-size="13" fill="#374151" text-anchor="middle">到期周留意</text>
+<text x="892" y="200" font-size="13" fill="#374151" text-anchor="middle">Pin Risk</text>
+<rect x="20" y="255" width="960" height="95" rx="8" fill="#fff7ed" stroke="#f97316" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="40" y="285" font-size="14" fill="#9a3412" text-anchor="start">（笔者补充）Pin Risk：到期时价格贴着某个行权价，卖方不知道会不会被行权，</text>
+<text x="40" y="310" font-size="14" fill="#9a3412" text-anchor="start">风险不对称 —— 这也是“卖方并不总舒服”的原因之一。</text>
+<text x="40" y="335" font-size="14" fill="#374151" text-anchor="start">PCR 读法与片中文档一致（截图 02/03）：认沽成交量 ÷ 认购成交量。</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif">
+<rect width="1000" height="500" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" font-weight="bold" text-anchor="middle" fill="#1f2937">定义纠错：片中说法 vs 正确说法</text>
+<rect x="30" y="60" width="450" height="300" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="255" y="92" font-size="15" fill="#991b1b" text-anchor="middle" font-weight="bold">✗ 弃用：片中文档的说法（截图 08/10/16）</text>
+<text x="50" y="130" font-size="14" fill="#1f2937" text-anchor="start">“最大痛点 = 按未平仓合约数量挑出的</text>
+<text x="50" y="155" font-size="14" fill="#1f2937" text-anchor="start">那个行权价”（笔记记为“未平仓最少”）</text>
+<text x="50" y="195" font-size="14" fill="#991b1b" text-anchor="start">问题：只数合约张数，没算</text>
+<text x="50" y="220" font-size="14" fill="#991b1b" text-anchor="start">“实值多少 × 多少张”，</text>
+<text x="50" y="245" font-size="14" fill="#991b1b" text-anchor="start">和同一文档第 1 条“美元价值之和”自相矛盾</text>
+<line x1="50" y1="275" x2="460" y2="345" stroke="#dc2626" stroke-width="4"/><line x1="460" y1="275" x2="50" y2="345" stroke="#dc2626" stroke-width="4"/>
+<rect x="520" y="60" width="450" height="300" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+<text x="745" y="92" font-size="15" fill="#166534" text-anchor="middle" font-weight="bold">✓ 采用：本文的定义</text>
+<text x="540" y="130" font-size="14" fill="#1f2937" text-anchor="start">按 OI 加权，到期时期权买方</text>
+<text x="540" y="155" font-size="14" fill="#166534" text-anchor="start" font-weight="bold">实值赔付总额最小的行权价</text>
+<text x="540" y="195" font-size="14" fill="#1f2937" text-anchor="start">往往落在 OI 集中的区域附近，</text>
+<text x="540" y="220" font-size="14" fill="#1f2937" text-anchor="start">而不是 OI 最少的地方</text>
+<text x="540" y="260" font-size="14" fill="#374151" text-anchor="start">→ 见上一张示例图</text>
+<rect x="30" y="380" width="940" height="100" rx="8" fill="#f9fafb" stroke="#6b7280" stroke-width="2"/>
+<text x="50" y="410" font-size="14" fill="#1f2937" text-anchor="start">同样弃用：① 主讲人“卖方舒服，所以我最近都在卖期权”—— 个人立场，卖方有 Pin Risk、亏损可很大；</text>
+<text x="50" y="438" font-size="14" fill="#1f2937" text-anchor="start">② “约 60% 平仓 / 30% 作废 / 10% 行权”—— 片中提到但未给来源，不作事实。</text>
+<text x="50" y="466" font-size="14" fill="#92400e" text-anchor="start">观望：“价格会被吸向痛点”—— 文档自己写了争议（偶然 vs 操纵，截图 16），未给数据。</text>
+</svg>

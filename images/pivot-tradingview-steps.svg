@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif">
+<rect width="1000" height="400" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" font-weight="bold" text-anchor="middle" fill="#1f2937">TradingView 加枢轴点：5 步（片中 2:50–3:55）</text>
+<rect x="20" y="70" width="176" height="170" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="108" cy="100" r="18" fill="#2563eb"/><text x="108" y="106" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">1</text>
+<text x="108" y="148" font-size="15" fill="#1e3a8a" text-anchor="middle" font-weight="bold">打开图表</text>
+<text x="108" y="182" font-size="13" fill="#374151" text-anchor="middle">片中：BTCUSD</text>
+<text x="108" y="204" font-size="13" fill="#374151" text-anchor="middle">1 小时图（08）</text>
+<line x1="198" y1="155" x2="214" y2="155" stroke="#374151" stroke-width="3"/>
+<rect x="216" y="70" width="176" height="170" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="304" cy="100" r="18" fill="#2563eb"/><text x="304" y="106" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">2</text>
+<text x="304" y="148" font-size="15" fill="#1e3a8a" text-anchor="middle" font-weight="bold">指标搜“枢轴点”</text>
+<text x="304" y="182" font-size="13" fill="#374151" text-anchor="middle">选 Pivot Points</text>
+<text x="304" y="204" font-size="13" fill="#374151" text-anchor="middle">Standard（09）</text>
+<line x1="394" y1="155" x2="410" y2="155" stroke="#374151" stroke-width="3"/>
+<rect x="412" y="70" width="176" height="170" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="500" cy="100" r="18" fill="#2563eb"/><text x="500" y="106" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">3</text>
+<text x="500" y="148" font-size="15" fill="#1e3a8a" text-anchor="middle" font-weight="bold">齿轮设置</text>
+<text x="500" y="182" font-size="13" fill="#374151" text-anchor="middle">Type=Traditional</text>
+<text x="500" y="204" font-size="13" fill="#374151" text-anchor="middle">Auto · 往回 15（10）</text>
+<line x1="590" y1="155" x2="606" y2="155" stroke="#374151" stroke-width="3"/>
+<rect x="608" y="70" width="176" height="170" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="696" cy="100" r="18" fill="#2563eb"/><text x="696" y="106" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">4</text>
+<text x="696" y="148" font-size="15" fill="#1e3a8a" text-anchor="middle" font-weight="bold">选类型</text>
+<text x="696" y="182" font-size="13" fill="#374151" text-anchor="middle">6 种可选</text>
+<text x="696" y="204" font-size="13" fill="#374151" text-anchor="middle">（11）</text>
+<line x1="786" y1="155" x2="802" y2="155" stroke="#374151" stroke-width="3"/>
+<rect x="804" y="70" width="176" height="170" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="892" cy="100" r="18" fill="#2563eb"/><text x="892" y="106" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">5</text>
+<text x="892" y="148" font-size="15" fill="#1e3a8a" text-anchor="middle" font-weight="bold">取消 S4/S5/R4/R5</text>
+<text x="892" y="182" font-size="13" fill="#374151" text-anchor="middle">只留 P、R1–R3、</text>
+<text x="892" y="204" font-size="13" fill="#374151" text-anchor="middle">S1–S3（13）</text>
+<rect x="20" y="270" width="960" height="110" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+<text x="40" y="300" font-size="15" fill="#166534" text-anchor="True">设置时顺手核对（截图 10/13 画面）：</text>
+<text x="40" y="330" font-size="14" fill="#1f2937" text-anchor="start">Use Daily-based Values ✔ · Show Labels ✔ · Show Prices ✔ · 标签位置 Left · Line Width 1</text>
+<text x="40" y="358" font-size="14" fill="#374151" text-anchor="start">线太多会看花眼：初学先只看 P、R1、S1，熟了再加 R2/R3、S2/S3。</text>
+</svg>

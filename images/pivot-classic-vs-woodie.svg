@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif">
+<rect width="1000" height="480" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" font-weight="bold" text-anchor="middle" fill="#1f2937">两种 P 怎么算：经典 vs 伍迪</text>
+<rect x="40" y="60" width="430" height="200" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="255" y="92" font-size="18" fill="#1e3a8a" text-anchor="middle" font-weight="bold">经典（截图 06）</text>
+<text x="255" y="140" font-size="20" fill="#1f2937" text-anchor="middle">P = (H + L + C) / 3</text>
+<text x="255" y="180" font-size="15" fill="#374151" text-anchor="middle">三个价格一样重</text>
+<text x="255" y="215" font-size="14" fill="#374151" text-anchor="middle">R1/R2/R3、S1/S2/S3 用这个 P 推出</text>
+<rect x="530" y="60" width="430" height="200" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<text x="745" y="92" font-size="18" fill="#92400e" text-anchor="middle" font-weight="bold">伍迪 Woodie（截图 07）</text>
+<text x="745" y="140" font-size="20" fill="#1f2937" text-anchor="middle">P = (H + L + 2C) / 4</text>
+<text x="745" y="180" font-size="15" fill="#374151" text-anchor="middle">收盘价 C 权重翻倍</text>
+<text x="745" y="215" font-size="14" fill="#374151" text-anchor="middle">其余各行写法与经典表相同</text>
+<rect x="40" y="290" width="920" height="170" rx="8" fill="#fff7ed" stroke="#f97316" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="60" y="320" font-size="15" fill="#9a3412" text-anchor="start" font-weight="bold">（笔者补充，非片中原话）TradingView 的 Type 下拉有 6 种（截图 11）：</text>
+<text x="60" y="350" font-size="16" fill="#1f2937" text-anchor="start">Traditional · Fibonacci · Woodie · Classic · DM · Camarilla</text>
+<text x="60" y="385" font-size="14" fill="#374151" text-anchor="start">片中表格叫“经典”，但设置里选的是 Traditional（截图 10）。Traditional 与 Classic 是两个不同选项，</text>
+<text x="60" y="410" font-size="14" fill="#374151" text-anchor="start">高阶线写法有差别。学的时候别混：先确认自己用的是哪一种，再对公式。</text>
+<text x="60" y="440" font-size="13" fill="#6b7280" text-anchor="start">小测验：H=110, L=90, C=100 → 经典 P=100；伍迪 P=(110+90+200)/4=100（这组数恰好相同，换 C=106 试试）。</text>
+</svg>

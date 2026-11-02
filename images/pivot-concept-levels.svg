@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="490" viewBox="0 0 1000 490" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif">
+<rect width="1000" height="490" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" font-weight="bold" text-anchor="middle" fill="#1f2937">枢轴点：用上一周期的 H / L / C 画出本周期 7 条线</text>
+<rect x="30" y="60" width="250" height="330" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="155" y="90" font-size="15" fill="#1e3a8a" text-anchor="middle" font-weight="bold">① 上一周期（如昨天）</text>
+<text x="60" y="140" font-size="18" fill="#1f2937" text-anchor="start">H = 最高价</text>
+<text x="60" y="190" font-size="18" fill="#1f2937" text-anchor="start">L = 最低价</text>
+<text x="60" y="240" font-size="18" fill="#1f2937" text-anchor="start">C = 收盘价</text>
+<text x="155" y="310" font-size="14" fill="#374151" text-anchor="middle">每个新周期用新 H/L/C</text>
+<text x="155" y="332" font-size="14" fill="#374151" text-anchor="middle">重新算一遍</text>
+<path d="M290 225 L350 225" stroke="#374151" stroke-width="3" marker-end="url(#a)"/><defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker></defs>
+<text x="640" y="72" font-size="15" fill="#1e3a8a" text-anchor="middle" font-weight="bold">② 本周期（如今天）的 7 条参考线 —— 经典公式（截图 06）</text>
+<line x1="370" y1="100" x2="620" y2="100" stroke="#b91c1c" stroke-width="3"/>
+<text x="380" y="94" font-size="16" fill="#b91c1c" text-anchor="start" font-weight="bold">R3</text>
+<text x="640" y="105" font-size="15" fill="#1f2937" text-anchor="start">= H + 2×(P − L)</text>
+<line x1="370" y1="144" x2="620" y2="144" stroke="#dc2626" stroke-width="3"/>
+<text x="380" y="138" font-size="16" fill="#dc2626" text-anchor="start" font-weight="bold">R2</text>
+<text x="640" y="149" font-size="15" fill="#1f2937" text-anchor="start">= P + (H − L)</text>
+<line x1="370" y1="188" x2="620" y2="188" stroke="#ef4444" stroke-width="3"/>
+<text x="380" y="182" font-size="16" fill="#ef4444" text-anchor="start" font-weight="bold">R1</text>
+<text x="640" y="193" font-size="15" fill="#1f2937" text-anchor="start">= 2P − L</text>
+<line x1="370" y1="232" x2="620" y2="232" stroke="#2563eb" stroke-width="3"/>
+<text x="380" y="226" font-size="16" fill="#2563eb" text-anchor="start" font-weight="bold">P</text>
+<text x="640" y="237" font-size="15" fill="#1f2937" text-anchor="start">= (H + L + C) / 3</text>
+<line x1="370" y1="276" x2="620" y2="276" stroke="#16a34a" stroke-width="3"/>
+<text x="380" y="270" font-size="16" fill="#16a34a" text-anchor="start" font-weight="bold">S1</text>
+<text x="640" y="281" font-size="15" fill="#1f2937" text-anchor="start">= 2P − H</text>
+<line x1="370" y1="320" x2="620" y2="320" stroke="#15803d" stroke-width="3"/>
+<text x="380" y="314" font-size="16" fill="#15803d" text-anchor="start" font-weight="bold">S2</text>
+<text x="640" y="325" font-size="15" fill="#1f2937" text-anchor="start">= P − (H − L)</text>
+<line x1="370" y1="364" x2="620" y2="364" stroke="#166534" stroke-width="3"/>
+<text x="380" y="358" font-size="16" fill="#166534" text-anchor="start" font-weight="bold">S3</text>
+<text x="640" y="369" font-size="15" fill="#1f2937" text-anchor="start">= L − 2×(H − P)</text>
+<text x="370" y="420" font-size="14" fill="#374151" text-anchor="start">R = 阻力（上方），S = 支撑（下方），P = 中轴</text>
+<text x="500" y="460" font-size="14" fill="#6b7280" text-anchor="middle">注：只是“可能有反应的参考位”，不是买卖信号。</text>
+</svg>

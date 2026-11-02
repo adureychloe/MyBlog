@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif">
+<rect width="1000" height="470" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" font-weight="bold" text-anchor="middle" fill="#1f2937">示例策略怎么读：片中数字 vs 推算 vs 误用</text>
+<rect x="30" y="60" width="470" height="380" rx="8" fill="#f9fafb" stroke="#6b7280" stroke-width="2"/>
+<text x="265" y="88" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="bold">片中示例（2023-04，BTC 1h，截图 20–22）</text>
+<line x1="60" y1="142.72727272727275" x2="330" y2="142.72727272727275" stroke="#0d9488" stroke-width="3"/>
+<text x="340" y="147.72727272727275" font-size="14" fill="#0d9488" text-anchor="start">目标 31,050</text>
+<line x1="60" y1="183.95454545454544" x2="330" y2="183.95454545454544" stroke="#b91c1c" stroke-width="3"/>
+<text x="340" y="188.95454545454544" font-size="14" fill="#b91c1c" text-anchor="start">R3 30,596.5</text>
+<line x1="60" y1="265.8872727272726" x2="330" y2="265.8872727272726" stroke="#dc2626" stroke-width="3"/>
+<text x="340" y="270.8872727272726" font-size="14" fill="#dc2626" text-anchor="start">R2 29,695.24</text>
+<line x1="60" y1="326.6463636363637" x2="330" y2="326.6463636363637" stroke="#2563eb" stroke-width="3"/>
+<text x="340" y="331.6463636363637" font-size="14" fill="#2563eb" text-anchor="start">入场 ≈29,026.89</text>
+<line x1="60" y1="405.22818181818167" x2="330" y2="405.22818181818167" stroke="#6b7280" stroke-width="3"/>
+<text x="340" y="410.22818181818167" font-size="14" fill="#6b7280" text-anchor="start">止损 28,162.49</text>
+<text x="60" y="348.6463636363637" font-size="12" fill="#374151" text-anchor="start">思路：箱体震荡后涨破 29,000 整数关做多，目标看 R2/R3</text>
+<rect x="530" y="60" width="440" height="170" rx="8" fill="#fff7ed" stroke="#f97316" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="550" y="90" font-size="15" fill="#9a3412" text-anchor="start" font-weight="bold">（推算，非片中原话）风险回报</text>
+<text x="550" y="122" font-size="14" fill="#1f2937" text-anchor="start">风险 ≈ 29,027 − 28,162 ≈ 865</text>
+<text x="550" y="148" font-size="14" fill="#1f2937" text-anchor="start">回报 ≈ 31,050 − 29,027 ≈ 2,023</text>
+<text x="550" y="174" font-size="15" fill="#9a3412" text-anchor="start" font-weight="bold">R:R ≈ 2,023 / 865 ≈ 2.3 : 1</text>
+<text x="550" y="205" font-size="13" fill="#6b7280" text-anchor="start">单个例子，算得出不代表能复制。</text>
+<rect x="530" y="250" width="440" height="190" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="550" y="280" font-size="15" fill="#991b1b" text-anchor="True">别这样用</text>
+<text x="550" y="310" font-size="14" fill="#1f2937" text-anchor="start">✗ 把 2023 年这些价位当今天的信号</text>
+<text x="550" y="338" font-size="14" fill="#1f2937" text-anchor="start">✗ “跟庄家/主力平仓”当依据（片中无证据）</text>
+<text x="550" y="366" font-size="14" fill="#1f2937" text-anchor="start">✗ 认定 R2/R3 必反转（作者称回测，</text>
+<text x="565" y="388" font-size="14" fill="#1f2937" text-anchor="start">但没展示数据）→ 观望</text>
+<text x="550" y="420" font-size="14" fill="#166534" text-anchor="start">✓ 只当参考位，和支撑阻力、止损一起看</text>
+</svg>
