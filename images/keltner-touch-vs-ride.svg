@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="560" fill="#fff"/>
+<text x="450" y="38" font-size="24" text-anchor="middle" font-weight="bold">碰上轨 ≠ 做空，碰下轨 ≠ 超卖</text>
+<text x="225" y="78" font-size="17" text-anchor="middle" fill="#c0392b">✗ 误读：碰轨就反着做</text>
+<text x="675" y="78" font-size="17" text-anchor="middle" fill="#1e8449">✓ 片中画面：趋势里价格贴轨走</text>
+<line x1="450" y1="60" x2="450" y2="440" stroke="#ccc"/>
+<path d="M40,330 L120,300 L200,260 L240,240 L280,250 L320,300 L360,330 L400,340" fill="none" stroke="#333" stroke-width="3"/>
+<path d="M40,300 L240,220 L410,280" fill="none" stroke="#d4a017" stroke-width="2"/>
+<circle cx="240" cy="238" r="10" fill="none" stroke="#c0392b" stroke-width="3"/>
+<text x="60" y="380" font-size="15">「碰上轨 → 超买 → 必回落」</text>
+<text x="60" y="404" font-size="15">这种读法片中明确否定</text>
+<path d="M490,420 C560,400 600,330 650,280 C700,220 760,160 840,110" fill="none" stroke="#d4a017" stroke-width="2"/>
+<path d="M490,470 C560,450 600,400 650,350 C700,300 760,240 840,200" fill="none" stroke="#3366cc" stroke-width="2"/>
+<polyline points="490,425 530,412 560,398 590,360 620,318 650,288 680,250 710,215 740,190 770,165 800,140 835,118" fill="none" stroke="#333" stroke-width="3"/>
+<text x="480" y="500" font-size="14">大涨段：通道变宽，价格沿上轨一路走（帧 30/31）</text>
+<text x="40" y="470" font-size="14">字幕（6:03–6:21）：doesn't automatically mean</text>
+<text x="40" y="490" font-size="14">time to short / overbought / oversold</text>
+<rect x="40" y="510" width="820" height="40" rx="6" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="450" y="536" font-size="14" fill="#b35c00" text-anchor="middle">（笔者补充）示意图为手绘简化，非真实价格；片中没给进场、止损规则</text>
+</svg>

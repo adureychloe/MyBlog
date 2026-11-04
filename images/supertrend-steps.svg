@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="560" fill="#fff"/>
+<text x="450" y="38" font-size="24" text-anchor="middle" font-weight="bold">Supertrend 每根 K 线怎么算（帮助页公式，帧 07）</text>
+<g font-size="15">
+<rect x="40" y="65" width="820" height="50" rx="8" fill="#eef4ff" stroke="#3366cc"/>
+<text x="60" y="96">① hl2 = (high + low) / 2</text>
+<rect x="40" y="130" width="820" height="50" rx="8" fill="#eef4ff" stroke="#3366cc"/>
+<text x="60" y="161">② basicUpperBand = hl2 + multiplier×ATR；basicLowerBand = hl2 − multiplier×ATR</text>
+<rect x="40" y="195" width="820" height="70" rx="8" fill="#eef4ff" stroke="#3366cc"/>
+<text x="60" y="222">③ 上轨只往下收：新上轨更低，或上一根收盘已站上旧上轨，才换新值</text>
+<text x="60" y="248">     下轨只往上收：新下轨更高，或上一根收盘已跌破旧下轨，才换新值</text>
+<rect x="40" y="280" width="820" height="70" rx="8" fill="#eef4ff" stroke="#3366cc"/>
+<text x="60" y="307">④ 方向：上一根是上轨（下降中）→ 收盘 &gt; 上轨 则转上升</text>
+<text x="60" y="333">     上一根是下轨（上升中）→ 收盘 &lt; 下轨 则转下降</text>
+<rect x="40" y="365" width="820" height="50" rx="8" fill="#eef9f0" stroke="#27ae60"/>
+<text x="60" y="396">⑤ superTrend = 上升 ? lowerBand（绿，价下） : upperBand（红，价上）</text>
+</g>
+<rect x="40" y="430" width="820" height="110" rx="10" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="60" y="460" font-size="15" fill="#b35c00">（笔者补充）第 ③ 步「只收紧不放宽」是它像移动止损的原因。</text>
+<text x="60" y="488" font-size="15" fill="#b35c00">（笔者补充）Timeframe 选高周期、不勾 Wait for timeframe closes 时，</text>
+<text x="60" y="516" font-size="15" fill="#b35c00">未收盘那根高周期 K 的线可能还会变（推断，片中口播未记录）。</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="570" viewBox="0 0 900 570" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="560" fill="#ffffff"/>
+<text x="450" y="38" font-size="24" text-anchor="middle" font-weight="bold">Keltner 通道 = 中线 EMA ± 倍数 × ATR</text>
+<text x="450" y="66" font-size="15" text-anchor="middle" fill="#555">TradingView 设置面板（片中 1:24 画面）默认值</text>
+<path d="M60,330 C200,320 260,250 380,240 C480,232 520,300 640,290 C720,284 780,230 840,220" fill="none" stroke="#d4a017" stroke-width="3"/>
+<path d="M60,380 C200,370 260,300 380,290 C480,282 520,350 640,340 C720,334 780,280 840,270" fill="none" stroke="#888" stroke-width="3"/>
+<path d="M60,430 C200,420 260,350 380,340 C480,332 520,400 640,390 C720,384 780,330 840,320" fill="none" stroke="#3366cc" stroke-width="3"/>
+<text x="60" y="150" font-size="15" fill="#b8860b">上轨 = EMA + 2×ATR</text>
+<text x="60" y="175" font-size="15" fill="#555">中线 = 20 周期 EMA</text>
+<text x="60" y="200" font-size="15" fill="#3366cc">下轨 = EMA − 2×ATR</text>
+<rect x="60" y="470" width="380" height="80" rx="8" fill="#f3f6fb" stroke="#99a"/>
+<text x="75" y="494" font-size="15">Length 20 · Multiplier 2 · Source Close</text>
+<text x="75" y="514" font-size="15">☑ Use Exponential MA · ATR Length 10</text>
+<text x="75" y="534" font-size="15">Timeframe Chart · ☑ Wait for timeframe closes</text>
+<rect x="470" y="470" width="380" height="80" rx="8" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="485" y="494" font-size="15" fill="#b35c00">（笔者补充）布林带用标准差算带宽，</text>
+<text x="485" y="514" font-size="15" fill="#b35c00">KC 用 ATR；两者对比片中没讲。</text>
+<text x="485" y="534" font-size="15" fill="#b35c00">默认值不等于最优参数。</text>
+<text x="60" y="110" font-size="15" fill="#333">片中字幕：用平均真实波幅（ATR）计算 → 波动变大通道扩张，变小收缩</text>
+</svg>

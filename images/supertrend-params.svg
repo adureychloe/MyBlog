@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="560" fill="#fff"/>
+<text x="450" y="38" font-size="24" text-anchor="middle" font-weight="bold">参数对比：画面里看到的组合</text>
+<g font-size="15">
+<rect x="40" y="70" width="190" height="200" rx="10" fill="#eef9f0" stroke="#27ae60"/>
+<text x="135" y="100" text-anchor="middle" font-weight="bold">10 / 3（默认）</text>
+<text x="135" y="128" text-anchor="middle">帧 09 / 11</text>
+<text x="135" y="152" text-anchor="middle">Pine 源码帧 15</text>
+<text x="135" y="176" text-anchor="middle">日线黄金期货</text>
+<rect x="255" y="70" width="190" height="200" rx="10" fill="#eef9f0" stroke="#27ae60"/>
+<text x="350" y="100" text-anchor="middle" font-weight="bold">25 / 3</text>
+<text x="350" y="128" text-anchor="middle">帧 16 设置面板</text>
+<text x="350" y="152" text-anchor="middle">帧 17 线更宽、</text>
+<text x="350" y="176" text-anchor="middle">翻色少（Factor</text>
+<text x="350" y="200" text-anchor="middle">数字画面未核对）</text>
+<rect x="470" y="70" width="190" height="200" rx="10" fill="#fdecea" stroke="#c0392b"/>
+<text x="565" y="100" text-anchor="middle" font-weight="bold">25 / 2</text>
+<text x="565" y="128" text-anchor="middle">帧 18 / 19</text>
+<text x="565" y="152" text-anchor="middle">线贴得更紧</text>
+<text x="565" y="176" text-anchor="middle">红绿翻色很多</text>
+<rect x="685" y="70" width="190" height="200" rx="10" fill="#eef9f0" stroke="#27ae60"/>
+<text x="780" y="100" text-anchor="middle" font-weight="bold">50 / 4</text>
+<text x="780" y="128" text-anchor="middle">帧 22（工具栏 4h）</text>
+<text x="780" y="152" text-anchor="middle">台阶长、</text>
+<text x="780" y="176" text-anchor="middle">翻色少</text>
+</g>
+<line x1="60" y1="310" x2="850" y2="310" stroke="#555" stroke-width="2"/>
+<polygon points="850,303 865,310 850,317" fill="#555"/>
+<text x="60" y="340" font-size="15">Factor 小 → 线离价格近 → 更灵敏、翻色多</text>
+<text x="865" y="340" font-size="15" text-anchor="end">Factor 大 → 线离价格远 → 更平滑、翻色少</text>
+<text x="450" y="372" font-size="14" fill="#555" text-anchor="middle">（由公式 hl2 ± Factor×ATR 直接可得，配合帧 19 与 22 的画面对比）</text>
+<rect x="40" y="400" width="835" height="130" rx="10" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="60" y="432" font-size="15" fill="#b35c00" font-weight="bold">（笔者补充）</text>
+<text x="60" y="460" font-size="15" fill="#b35c00">· 画面只展示了外观差异，没有任何胜率/回测数据，不能说哪组「最好」</text>
+<text x="60" y="488" font-size="15" fill="#b35c00">· 灵敏 = 早进早出但假信号多；平滑 = 少被洗但回吐利润多</text>
+<text x="60" y="516" font-size="15" fill="#b35c00">· 帧 17 的具体 Factor 数字画面上看不到，本文不写</text>
+</svg>

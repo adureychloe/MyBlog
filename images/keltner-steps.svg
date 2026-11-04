@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="560" fill="#fff"/>
+<text x="450" y="38" font-size="24" text-anchor="middle" font-weight="bold">读 Keltner 通道的 4 步</text>
+<g font-size="16">
+<rect x="40" y="70" width="190" height="150" rx="10" fill="#eef4ff" stroke="#3366cc"/>
+<text x="135" y="100" text-anchor="middle" font-weight="bold">① 加指标</text>
+<text x="135" y="130" text-anchor="middle">Indicators 搜</text>
+<text x="135" y="152" text-anchor="middle">keltner channels</text>
+<text x="135" y="174" text-anchor="middle">（technicals）</text>
+<rect x="255" y="70" width="190" height="150" rx="10" fill="#eef4ff" stroke="#3366cc"/>
+<text x="350" y="100" text-anchor="middle" font-weight="bold">② 看宽窄</text>
+<text x="350" y="130" text-anchor="middle">宽 = 波动大</text>
+<text x="350" y="152" text-anchor="middle">窄 = 波动小</text>
+<rect x="470" y="70" width="190" height="150" rx="10" fill="#eef4ff" stroke="#3366cc"/>
+<text x="565" y="100" text-anchor="middle" font-weight="bold">③ 看贴轨</text>
+<text x="565" y="130" text-anchor="middle">贴上轨走 ≠ 超买</text>
+<text x="565" y="152" text-anchor="middle">贴下轨走 ≠ 超卖</text>
+<rect x="685" y="70" width="190" height="150" rx="10" fill="#eef4ff" stroke="#3366cc"/>
+<text x="780" y="100" text-anchor="middle" font-weight="bold">④ 收缩→扩张</text>
+<text x="780" y="130" text-anchor="middle">提示波动上升</text>
+<text x="780" y="152" text-anchor="middle">但不预测方向</text>
+</g>
+<g stroke="#3366cc" stroke-width="3"><line x1="230" y1="145" x2="255" y2="145"/><line x1="445" y1="145" x2="470" y2="145"/><line x1="660" y1="145" x2="685" y2="145"/></g>
+<rect x="40" y="250" width="835" height="70" rx="10" fill="#f6f6f6" stroke="#999"/>
+<text x="457" y="280" font-size="16" text-anchor="middle">片中字幕：best used as part of a broader analysis；结合其他分析时</text>
+<text x="457" y="305" font-size="16" text-anchor="middle">「providing you're getting a good risk reward」</text>
+<rect x="40" y="345" width="835" height="190" rx="10" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="60" y="378" font-size="16" fill="#b35c00" font-weight="bold">（笔者补充）自己练习时可以加的检查，片中没讲：</text>
+<text x="60" y="410" font-size="15" fill="#b35c00">· 先用均线/高低点判断大方向，再看价格贴哪条轨</text>
+<text x="60" y="438" font-size="15" fill="#b35c00">· 收缩后扩张只当「注意力提醒」，方向另找依据</text>
+<text x="60" y="466" font-size="15" fill="#b35c00">· 布林带缩进 KC 内的「收口」思路（TTM Squeeze）可另行学习</text>
+<text x="60" y="494" font-size="15" fill="#b35c00">· 参数换品种、周期前先回测；本图不是交易规则</text>
+</svg>
