@@ -78,7 +78,7 @@ factor =    input.float(3.0, "Factor",     minval = 0.01, step = 0.01)
 
 ## 五、把日线 Supertrend 叠到小周期图上
 
-帧 23–25：在 1h 图上把 Timeframe 设为「1 day」，且**没有勾选** Wait for timeframe closes（面板同时显示 ATR 50 / Factor 4），图上出现的就是日线级别的 Supertrend。帧 26 又把同样设置放到周线图上。
+帧 24、25：在 1h 图上把 Timeframe 设为「1 day」，且**没有勾选** Wait for timeframe closes（面板同时显示 ATR 50 / Factor 4），图上出现的就是日线级别的 Supertrend。帧 26 又把同样设置放到周线图上。
 
 - （推算）一种常见用法是只做与日线 Supertrend 同色的方向，用它过滤 1h 信号。画面只演示了「怎么叠」，没有记录片中是否这样建议。
 - （笔者补充）不勾 Wait for timeframe closes 时，当天日线还没收盘，叠加的那段线可能还会变动；回看历史图时要小心这种「看起来很准」的错觉。
