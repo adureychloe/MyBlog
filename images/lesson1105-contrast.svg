@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" font-family="Noto Sans CJK SC, sans-serif">
+<rect width="960" height="640" fill="#fff"/>
+<text x="480" y="40" font-size="22" text-anchor="middle" font-weight="bold">对比：我过去的做法 vs 应该的做法</text>
+<rect x="40" y="70" width="420" height="380" rx="8" fill="#fff5f5" stroke="#e53e3e" stroke-width="2"/>
+<text x="250" y="105" font-size="18" text-anchor="middle" font-weight="bold" fill="#c53030">✗ 过去（原话）</text>
+<text x="60" y="150" font-size="15" font-weight="bold">上涨阶段：</text>
+<text x="60" y="178" font-size="14">稳步上涨 → 不敢上，害怕掉下来</text>
+<text x="60" y="203" font-size="14">→ 错过最清楚的一段</text>
+<text x="60" y="250" font-size="15" font-weight="bold">震荡阶段：</text>
+<text x="60" y="278" font-size="14">涨上去开始震荡 → 一直想抄底</text>
+<text x="60" y="303" font-size="14">→ 被打损，再抄，再被打</text>
+<text x="60" y="360" font-size="15" font-weight="bold" fill="#c53030">结果：该做的不做，</text>
+<text x="60" y="388" font-size="15" font-weight="bold" fill="#c53030">不该做的反复做</text>
+<rect x="500" y="70" width="420" height="380" rx="8" fill="#fffaf0" stroke="#dd6b20" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="710" y="105" font-size="18" text-anchor="middle" font-weight="bold" fill="#2f855a">✓ 应该（笔者补充）</text>
+<text x="520" y="150" font-size="15" font-weight="bold">上涨阶段：</text>
+<text x="520" y="178" font-size="14">趋势结构清楚 → 按计划小仓参与</text>
+<text x="520" y="203" font-size="14">止损先定好，怕跌就用止损管住</text>
+<text x="520" y="250" font-size="15" font-weight="bold">震荡阶段：</text>
+<text x="520" y="278" font-size="14">方向不清 → 默认空仓等待</text>
+<text x="520" y="303" font-size="14">等突破确认或回到计划位置再说</text>
+<text x="520" y="360" font-size="15" font-weight="bold" fill="#2f855a">一句话：顺势敢上，</text>
+<text x="520" y="388" font-size="15" font-weight="bold" fill="#2f855a">震荡管住手</text>
+<text x="480" y="500" font-size="14" text-anchor="middle" fill="#4a5568">红色实线 = 我的原话；橙色虚线 = 笔者补充</text>
+<text x="480" y="530" font-size="13" text-anchor="middle" fill="#a0aec0">示意图，无真实价格 / 无买卖建议</text>
+</svg>

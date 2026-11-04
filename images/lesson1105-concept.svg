@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" font-family="Noto Sans CJK SC, sans-serif">
+<rect width="960" height="640" fill="#fff"/>
+<text x="480" y="40" font-size="22" text-anchor="middle" font-weight="bold">概念图：两个犯错区 —— 涨时不敢上，震荡时抄底</text>
+<rect x="60" y="80" width="400" height="360" fill="#fff5f5" stroke="#e53e3e" stroke-width="2" rx="6"/>
+<text x="260" y="108" font-size="17" text-anchor="middle" fill="#c53030" font-weight="bold">错误区①：稳步上涨，不敢上</text>
+<rect x="480" y="80" width="420" height="360" fill="#fff5f5" stroke="#e53e3e" stroke-width="2" rx="6"/>
+<text x="690" y="108" font-size="17" text-anchor="middle" fill="#c53030" font-weight="bold">错误区②：涨上去震荡，反复抄底</text>
+<line x1="490" y1="175" x2="890" y2="175" stroke="#718096" stroke-dasharray="6 4"/>
+<line x1="490" y1="255" x2="890" y2="255" stroke="#718096" stroke-dasharray="6 4"/>
+<text x="885" y="168" font-size="12" text-anchor="end" fill="#718096">区间上沿</text>
+<text x="885" y="290" font-size="12" text-anchor="end" fill="#718096">区间下沿</text>
+<polyline fill="none" stroke="#2b6cb0" stroke-width="3" points="80,410 130,380 160,390 200,340 230,350 270,300 300,310 340,260 370,270 410,215 440,225 470,185 520,250 560,185 600,252 640,190 680,268 720,180 760,250 800,190 840,262 880,200"/>
+<circle cx="200" cy="340" r="12" fill="none" stroke="#c53030" stroke-width="2"/>
+<circle cx="300" cy="310" r="12" fill="none" stroke="#c53030" stroke-width="2"/>
+<circle cx="410" cy="215" r="12" fill="none" stroke="#c53030" stroke-width="2"/>
+<text x="250" y="420" font-size="14" text-anchor="middle" fill="#c53030">「害怕掉下来」→ 一次次看着它涨</text>
+<text x="600" y="252" font-size="22" text-anchor="middle" fill="#c53030">✗</text>
+<text x="680" y="268" font-size="22" text-anchor="middle" fill="#c53030">✗</text>
+<text x="840" y="262" font-size="22" text-anchor="middle" fill="#c53030">✗</text>
+<text x="690" y="330" font-size="14" text-anchor="middle" fill="#c53030">✗ = 想抄底进场 → 被打止损</text>
+<text x="690" y="355" font-size="14" text-anchor="middle" fill="#c53030">「一直想抄底被打损」</text>
+<rect x="60" y="470" width="840" height="100" rx="8" fill="#fffaf0" stroke="#dd6b20" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="80" y="500" font-size="15" font-weight="bold" fill="#c05621">（笔者补充）为什么叫「做反了」</text>
+<text x="80" y="528" font-size="14">趋势清楚时最该参与却在观望；趋势转为震荡、方向不清时反而最想出手。</text>
+<text x="80" y="553" font-size="14">节奏和行情完全错位：该顺的时候怕，该等的时候急。</text>
+<text x="480" y="610" font-size="13" text-anchor="middle" fill="#a0aec0">示意图，无真实价格 / 无买卖建议</text>
+</svg>
