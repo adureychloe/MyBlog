@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="620" fill="#ffffff"/>
+<text x="450" y="34" font-size="20" text-anchor="middle" font-weight="bold">%R + 肯特纳通道：做多步骤（画面有编号的）</text>
+<text x="450" y="56" font-size="13" text-anchor="middle" fill="#555">对照帧 24–29；做空是镜像（帧 30–34）。第 2 步仅字幕，见橙框。</text>
+
+<!-- steps from frames -->
+<rect x="40" y="78" width="400" height="52" rx="8" fill="#e8f0fe" stroke="#4a7fcb"/>
+<text x="55" y="100" font-size="13" font-weight="bold" fill="#1a4a8a">① 画面 STEP #1（4:32）</text>
+<text x="55" y="120" font-size="13">%R 进入超卖区 −80~−100</text>
+
+<rect x="40" y="148" width="400" height="52" rx="8" fill="#e8f0fe" stroke="#4a7fcb"/>
+<text x="55" y="170" font-size="13" font-weight="bold" fill="#1a4a8a">③ 画面 STEP #3（4:46）</text>
+<text x="55" y="190" font-size="13">价格在肯特纳中线下方交易</text>
+
+<rect x="40" y="218" width="400" height="52" rx="8" fill="#e8f0fe" stroke="#4a7fcb"/>
+<text x="55" y="240" font-size="13" font-weight="bold" fill="#1a4a8a">④ 画面 STEP #4（4:52）</text>
+<text x="55" y="260" font-size="13">等收盘站回肯特纳中线上方</text>
+
+<rect x="40" y="288" width="400" height="52" rx="8" fill="#e8f0fe" stroke="#4a7fcb"/>
+<text x="55" y="310" font-size="13" font-weight="bold" fill="#1a4a8a">⑤ 画面 STEP #5（4:59）</text>
+<text x="55" y="330" font-size="13">下一根 K 线做多入场</text>
+
+<rect x="40" y="358" width="400" height="52" rx="8" fill="#e8f0fe" stroke="#4a7fcb"/>
+<text x="55" y="380" font-size="13" font-weight="bold" fill="#1a4a8a">⑥ 画面 STEP #6（5:06）</text>
+<text x="55" y="400" font-size="13">止损放在进场前波段低点下方</text>
+
+<rect x="40" y="428" width="400" height="52" rx="8" fill="#e8f0fe" stroke="#4a7fcb"/>
+<text x="55" y="450" font-size="13" font-weight="bold" fill="#1a4a8a">⑦ 画面 STEP #7（5:12）</text>
+<text x="55" y="470" font-size="13">收盘跌回中线下方 → 离场</text>
+
+<!-- right side: subtitle-only step 2 + notes -->
+<rect x="470" y="78" width="390" height="120" rx="8" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="490" y="106" font-size="14" font-weight="bold" fill="#b35c00">② 仅字幕 · 未截到画面</text>
+<text x="490" y="132" font-size="13" fill="#b35c00">「入场前先要有明显上升趋势」</text>
+<text x="490" y="156" font-size="13" fill="#555">（出处：字幕，未截到画面）</text>
+<text x="490" y="180" font-size="12" fill="#555">本图不把它画成片中幻灯编号。</text>
+
+<rect x="470" y="220" width="390" height="160" rx="8" fill="#f8fafc" stroke="#99a"/>
+<text x="490" y="248" font-size="14" font-weight="bold">片中对趋势的说法（4:12 画面）</text>
+<text x="490" y="276" font-size="13">不用趋势指标，直接看价格行为</text>
+<text x="490" y="300" font-size="13">判断「趋势」还是「盘整」。</text>
+<text x="490" y="332" font-size="13" fill="#555">KC 用途原文（3:46）：当进场信号</text>
+<text x="490" y="356" font-size="13" fill="#555">的一部分，也当移动止损。</text>
+
+<rect x="470" y="400" width="390" height="100" rx="8" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="490" y="428" font-size="13" fill="#b35c00">（推算）止损在波段低、离场在中线，</text>
+<text x="490" y="452" font-size="13" fill="#b35c00">单笔赚幅可能不大；片中无盈亏比、</text>
+<text x="490" y="476" font-size="13" fill="#b35c00">无回测、无带价格的实盘例子。</text>
+
+<text x="450" y="520" font-size="13" text-anchor="middle" fill="#555">做空镜像：① %R 超买 → ③ 价在中线上方 → ④ 收盘跌破中线 → ⑤ 下一根做空</text>
+<text x="450" y="544" font-size="13" text-anchor="middle" fill="#555">→ ⑥ 止损在波段高点上（帧 33 STOPLOSS）→ ⑦ 收盘重回中线上方离场（帧 34 TAKEPROFIT）</text>
+<text x="450" y="572" font-size="13" text-anchor="middle" fill="#b35c00">做空第 2 步「先有下降趋势」同样仅字幕，未截到画面。</text>
+<text x="450" y="598" font-size="12" text-anchor="middle" fill="#888">蓝框 = 有画面编号的步骤；橙虚线框 = 字幕缺口 / 笔者推算，不是幻灯原文。</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="580" viewBox="0 0 900 580" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="580" fill="#ffffff"/>
+<text x="450" y="34" font-size="20" text-anchor="middle" font-weight="bold">70 / 30 过滤读法 · 示意（非存档帧截图）</text>
+<text x="450" y="56" font-size="13" text-anchor="middle" fill="#b35c00">存档图裁掉了副图；70、30 水平线与交叉在 PNG 里看不到。本图整框为笔者示意。</text>
+
+<!-- dashed orange outer = 笔者补充 schematic -->
+<rect x="30" y="74" width="840" height="460" rx="10" fill="#fffaf3" stroke="#e8890c" stroke-width="2.5" stroke-dasharray="8,5"/>
+<text x="50" y="102" font-size="14" font-weight="bold" fill="#b35c00">（笔者补充 · 示意）根据口播规则手绘，不是帧 05–11 的副图复刻</text>
+
+<!-- three panels -->
+<rect x="50" y="120" width="250" height="280" rx="8" fill="#ffffff" stroke="#5a9a6a"/>
+<text x="175" y="150" font-size="15" text-anchor="middle" font-weight="bold" fill="#2d6a3e">偏强涨环境</text>
+<text x="70" y="180" font-size="13">口播：Up &gt; 70</text>
+<text x="70" y="202" font-size="13">且 Down &lt; 30</text>
+<!-- mini schematic -->
+<line x1="70" y1="230" x2="280" y2="230" stroke="#ccc" stroke-dasharray="3,3"/>
+<text x="285" y="234" font-size="11" fill="#888">70</text>
+<line x1="70" y1="300" x2="280" y2="300" stroke="#ccc" stroke-dasharray="3,3"/>
+<text x="285" y="304" font-size="11" fill="#888">30</text>
+<path d="M80,320 L120,200 L200,190 L270,185" fill="none" stroke="#d4a017" stroke-width="2.5"/>
+<path d="M80,210 L120,310 L200,330 L270,340" fill="none" stroke="#3366cc" stroke-width="2.5"/>
+<text x="70" y="370" font-size="12" fill="#555">琥珀线高、蓝线低</text>
+<text x="70" y="390" font-size="12" fill="#555">帧 07 主图：约 23,000</text>
+
+<rect x="320" y="120" width="250" height="280" rx="8" fill="#ffffff" stroke="#b35c00"/>
+<text x="445" y="150" font-size="15" text-anchor="middle" font-weight="bold" fill="#8a3a00">偏跌 / 整理</text>
+<text x="340" y="180" font-size="13">口播：Down &gt; 70</text>
+<text x="340" y="202" font-size="13">且 Up &lt; 30 → 偏跌</text>
+<text x="340" y="230" font-size="13">两线都在 30–70 → 整理</text>
+<path d="M350,200 L400,340 L470,350 L550,360" fill="none" stroke="#d4a017" stroke-width="2"/>
+<path d="M350,340 L400,200 L470,190 L550,185" fill="none" stroke="#3366cc" stroke-width="2"/>
+<text x="340" y="370" font-size="12" fill="#555">帧 09 图例：35.71/100</text>
+<text x="340" y="390" font-size="12" fill="#555">帧 11：两线中段口播</text>
+
+<rect x="590" y="120" width="250" height="280" rx="8" fill="#ffffff" stroke="#666"/>
+<text x="715" y="150" font-size="15" text-anchor="middle" font-weight="bold" fill="#444">横盘</text>
+<text x="610" y="180" font-size="13">口播：两线一起往下</text>
+<text x="610" y="202" font-size="13">= 横盘 / 双方都弱</text>
+<path d="M620,220 L680,280 L740,320 L820,350" fill="none" stroke="#d4a017" stroke-width="2"/>
+<path d="M620,240 L680,290 L740,330 L820,360" fill="none" stroke="#3366cc" stroke-width="2"/>
+<text x="610" y="370" font-size="12" fill="#555">帧 12 主图：2025-10</text>
+<text x="610" y="390" font-size="12" fill="#555">至次年 3 月横盘区间</text>
+
+<text x="50" y="430" font-size="13" fill="#b35c00">主图可核对：帧 07 从约 23,000 低点后大涨；帧 10 历史高点约 31,000 后更低的高点；帧 12 横盘区间。</text>
+<text x="50" y="456" font-size="13" fill="#b35c00">副图 70/30 线、交叉轨迹：口播有、存档 PNG 无 → 上图曲线仅为示意，请勿当成截图复原。</text>
+<text x="50" y="500" font-size="14" fill="#2d6a3e">用途建议：当「有没有趋势」的过滤器（采用），不要单独当下单扳机。</text>
+</svg>

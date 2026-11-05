@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="560" fill="#ffffff"/>
+<text x="450" y="36" font-size="22" text-anchor="middle" font-weight="bold">四条信号文字 +「超买 ≠ 马上反转」</text>
+<text x="450" y="60" font-size="14" text-anchor="middle" fill="#555">对照片中 2:08–2:54 信号页；提醒来自字幕约 1:58–2:40</text>
+
+<!-- four signals -->
+<rect x="40" y="80" width="820" height="170" rx="8" fill="#f3f6fb" stroke="#99a"/>
+<text x="60" y="108" font-size="15" font-weight="bold">片中 SIGNALS 四条（帧 13–16 原文大意）</text>
+<text x="60" y="136" font-size="14">1. 高于 −20 → 超买（OVERBOUGHT）</text>
+<text x="60" y="160" font-size="14">2. 低于 −80 → 超卖（OVERSOLD）</text>
+<text x="60" y="184" font-size="14">3. 从下向上穿 −50 → 多头动量增强</text>
+<text x="60" y="208" font-size="14">4. 从上向下穿 −50 → 空头动量增强</text>
+<text x="60" y="232" font-size="13" fill="#555">画面是示意图上的 %R 线 + 红箭头，没有实盘进出场价。</text>
+
+<!-- left good reading / right caution -->
+<rect x="40" y="270" width="400" height="250" rx="8" fill="#eef8f0" stroke="#5a9a6a"/>
+<text x="240" y="304" font-size="16" text-anchor="middle" font-weight="bold" fill="#2d6a3e">可记：位置读法</text>
+<text x="60" y="340" font-size="14">0~−20：偏热（超买区）</text>
+<text x="60" y="368" font-size="14">−80~−100：偏冷（超卖区）</text>
+<text x="60" y="396" font-size="14">−50：中线，看动量方向</text>
+<text x="60" y="432" font-size="13" fill="#444">定义清楚，适合当「温度计」。</text>
+<text x="60" y="456" font-size="13" fill="#444">刻度来自帧 10，可核对。</text>
+<text x="60" y="490" font-size="13" fill="#2d6a3e">→ 定义部分结论：采用</text>
+
+<rect x="460" y="270" width="400" height="250" rx="8" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="660" y="304" font-size="16" text-anchor="middle" font-weight="bold" fill="#b35c00">反例提醒（片中字幕）</text>
+<text x="480" y="340" font-size="14" fill="#b35c00">「可以长期停在超买/超卖区」</text>
+<text x="480" y="368" font-size="14" fill="#333">所以：读到 −15 不等于马上做空；</text>
+<text x="480" y="396" font-size="14" fill="#333">读到 −90 也不等于马上做多。</text>
+<text x="480" y="432" font-size="13" fill="#555">字幕建议再配其他确认。</text>
+<text x="480" y="460" font-size="13" fill="#555">−50 穿越：只有文字页，无统计。</text>
+<text x="480" y="490" font-size="13" fill="#b35c00">→ −50 信号：观望（无回测）</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="560" fill="#ffffff"/>
+<text x="450" y="36" font-size="22" text-anchor="middle" font-weight="bold">Aroon：用「时间」量趋势，不是用「幅度」</text>
+<text x="450" y="60" font-size="14" text-anchor="middle" fill="#555">对照 TradingView 官方片：NQ1! 12h；副图图例可读，副图本体被裁</text>
+
+<rect x="40" y="84" width="400" height="200" rx="8" fill="#fff8ef" stroke="#d4a017"/>
+<text x="60" y="118" font-size="16" font-weight="bold" fill="#b8860b">Aroon Up（琥珀色）</text>
+<text x="60" y="150" font-size="14">问：最近新高是多久以前？</text>
+<text x="60" y="178" font-size="14">越靠近 100 → 新高越近</text>
+<text x="60" y="206" font-size="14">越靠近 0 → 新高很久没出现</text>
+<text x="60" y="242" font-size="13" fill="#555">口播定义（约 0:48–1:05）</text>
+<text x="60" y="264" font-size="13" fill="#555">存档图能核对：图例琥珀色数值</text>
+
+<rect x="460" y="84" width="400" height="200" rx="8" fill="#eef3fb" stroke="#3366cc"/>
+<text x="480" y="118" font-size="16" font-weight="bold" fill="#3366cc">Aroon Down（蓝色）</text>
+<text x="480" y="150" font-size="14">问：最近新低是多久以前？</text>
+<text x="480" y="178" font-size="14">越靠近 100 → 新低越近</text>
+<text x="480" y="206" font-size="14">越靠近 0 → 新低很久没出现</text>
+<text x="480" y="242" font-size="13" fill="#555">两条线都在 0–100 之间</text>
+<text x="480" y="264" font-size="13" fill="#555">（口播 1:26；图例可读）</text>
+
+<rect x="40" y="310" width="520" height="160" rx="8" fill="#f3f6fb" stroke="#99a"/>
+<text x="60" y="340" font-size="15" font-weight="bold">存档图里能核对的图例读数（举例）</text>
+<text x="60" y="368" font-size="14">帧 02：92.86% / 7.14% · 帧 03：85.71% / 0.00%</text>
+<text x="60" y="392" font-size="14">帧 05：92.86% / 0.00% · 帧 07：92.86% / 28.57%</text>
+<text x="60" y="416" font-size="14">帧 09：35.71% / 100.00% · 帧 11：14.29% / 64.29%</text>
+<text x="60" y="448" font-size="13" fill="#555">加指标：搜索「Aroon」（帧 01）；演示品种 NQ1! 12h</text>
+
+<rect x="580" y="310" width="280" height="160" rx="8" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="600" y="340" font-size="14" fill="#b35c00">（推算）步长 100/14≈7.14</text>
+<text x="600" y="368" font-size="13" fill="#b35c00">图例都是 7.14 的倍数，</text>
+<text x="600" y="392" font-size="13" fill="#b35c00">和默认 Length=14 吻合。</text>
+<text x="600" y="424" font-size="13" fill="#b35c00">Length 口播说默认 14；</text>
+<text x="600" y="448" font-size="13" fill="#b35c00">Inputs 页闪过未截到。</text>
+
+<text x="450" y="510" font-size="13" text-anchor="middle" fill="#888">注意：本系列存档 PNG 把下方副图裁掉了——图里只能看到图例那一行，看不到完整副图曲线。</text>
+<text x="450" y="536" font-size="13" text-anchor="middle" fill="#888">因此下文任何「70/30 线、交叉」配图都标成示意，不假装来自存档帧。</text>
+</svg>

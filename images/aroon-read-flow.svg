@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="620" fill="#ffffff"/>
+<text x="450" y="34" font-size="20" text-anchor="middle" font-weight="bold">怎么读 Aroon：过滤器步骤 + 观望项</text>
+<text x="450" y="56" font-size="13" text-anchor="middle" fill="#555">蓝框 = 画面/口播可核对；橙虚线框 = 笔者示意或观望内容</text>
+
+<!-- flow steps -->
+<rect x="40" y="78" width="180" height="90" rx="8" fill="#e8f0fe" stroke="#4a7fcb"/>
+<text x="130" y="110" font-size="14" text-anchor="middle" font-weight="bold" fill="#1a4a8a">① 加指标</text>
+<text x="130" y="136" font-size="12" text-anchor="middle">搜 Aroon（帧 01）</text>
+<text x="130" y="154" font-size="12" text-anchor="middle">NQ1! 12h 演示</text>
+
+<text x="235" y="125" font-size="22" fill="#888">→</text>
+
+<rect x="250" y="78" width="180" height="90" rx="8" fill="#e8f0fe" stroke="#4a7fcb"/>
+<text x="340" y="110" font-size="14" text-anchor="middle" font-weight="bold" fill="#1a4a8a">② 看图例</text>
+<text x="340" y="136" font-size="12" text-anchor="middle">Up / Down 两数</text>
+<text x="340" y="154" font-size="12" text-anchor="middle">0–100（帧 02–04）</text>
+
+<text x="445" y="125" font-size="22" fill="#888">→</text>
+
+<rect x="460" y="78" width="180" height="90" rx="8" fill="#e8f0fe" stroke="#4a7fcb"/>
+<text x="550" y="110" font-size="14" text-anchor="middle" font-weight="bold" fill="#1a4a8a">③ 70/30 过滤</text>
+<text x="550" y="136" font-size="12" text-anchor="middle">口播规则</text>
+<text x="550" y="154" font-size="12" text-anchor="middle">当环境判断</text>
+
+<text x="655" y="125" font-size="22" fill="#888">→</text>
+
+<rect x="670" y="78" width="190" height="90" rx="8" fill="#e8f0fe" stroke="#4a7fcb"/>
+<text x="765" y="110" font-size="14" text-anchor="middle" font-weight="bold" fill="#1a4a8a">④ 趋势市再用</text>
+<text x="765" y="136" font-size="12" text-anchor="middle">片中：震荡市弱</text>
+<text x="765" y="154" font-size="12" text-anchor="middle">要配合其他分析</text>
+
+<!-- middle: what we adopt -->
+<rect x="40" y="200" width="400" height="180" rx="8" fill="#eef8f0" stroke="#5a9a6a"/>
+<text x="240" y="232" font-size="15" text-anchor="middle" font-weight="bold" fill="#2d6a3e">采用：定义 + 70/30 过滤</text>
+<text x="60" y="266" font-size="13">· Up/Down 用时间量新高/新低</text>
+<text x="60" y="290" font-size="13">· Up&gt;70 &amp; Down&lt;30 → 偏涨环境</text>
+<text x="60" y="314" font-size="13">· 反之偏跌；30–70 或同降 → 整理</text>
+<text x="60" y="346" font-size="13" fill="#555">适合给别的进场信号做「有没有趋势」</text>
+<text x="60" y="366" font-size="13" fill="#555">的背景判断（队列结论）。</text>
+
+<rect x="460" y="200" width="400" height="180" rx="8" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="660" y="232" font-size="15" text-anchor="middle" font-weight="bold" fill="#b35c00">观望：交叉三步 / 振荡器 0 轴</text>
+<text x="480" y="266" font-size="13" fill="#b35c00">交叉三步（口播）：交叉 → 一升一降</text>
+<text x="480" y="290" font-size="13" fill="#b35c00">拉开 → 一条到 100、另一条到 0</text>
+<text x="480" y="314" font-size="13" fill="#b35c00">振荡器 = Up−Down；穿 0 轴分多空</text>
+<text x="480" y="346" font-size="13" fill="#555">存档图看不到副图交叉；无进出场价、</text>
+<text x="480" y="366" font-size="13" fill="#555">无回测 → 不当进场扳机。</text>
+
+<!-- bottom: osc settings from frame 20 -->
+<rect x="40" y="400" width="820" height="100" rx="8" fill="#f3f6fb" stroke="#99a"/>
+<text x="60" y="430" font-size="14" font-weight="bold">Aroon Osc 设置 Style（帧 20 可核对）</text>
+<text x="60" y="458" font-size="13">Center 0 · Upper level 90 · Lower level −90 · Oscillator 绿/红 · Oscillator fill 开</text>
+<text x="60" y="482" font-size="13" fill="#555">Visibility 页（帧 21）只改各周期是否显示。Length=14 来自口播，Inputs 页未截到。</text>
+
+<rect x="40" y="520" width="820" height="70" rx="8" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="60" y="548" font-size="13" fill="#b35c00">（笔者补充）Aroon 与 ADX 都是「先判断有没有趋势」：ADX 看幅度，Aroon 看时间；</text>
+<text x="60" y="572" font-size="13" fill="#b35c00">可互相印证，但片中没讲，也未验证。交叉要等冲到 100 → 偏滞后。</text>
+</svg>
