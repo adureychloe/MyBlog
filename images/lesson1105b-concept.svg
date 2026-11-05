@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" font-family="Noto Sans CJK SC, sans-serif"><rect width="960" height="640" fill="#fff"/>
+<text x="480" y="40" font-size="22" text-anchor="middle" font-weight="bold">概念：夜盘大涨 → 白天刚开盘一波卖压（示意）</text>
+<rect x="40" y="70" width="300" height="360" fill="#f3f3f3"/><text x="190" y="95" font-size="16" text-anchor="middle">夜盘</text>
+<rect x="340" y="70" width="300" height="360" fill="#fff4f4"/><text x="490" y="95" font-size="16" text-anchor="middle" fill="#c53030">白天刚开盘：大波动区</text>
+<rect x="640" y="70" width="280" height="360" fill="#eefaf0"/><text x="780" y="95" font-size="16" text-anchor="middle" fill="#2f855a">亚盘时间结束之后</text>
+<polyline points="60,380 120,350 180,300 240,240 300,170 340,150" fill="none" stroke="#2b6cb0" stroke-width="3"/>
+<text x="150" y="250" font-size="15" fill="#2b6cb0">夜盘大涨</text>
+<polyline points="340,150 370,230 400,190 430,290 460,240 500,320 540,270 580,330 640,300" fill="none" stroke="#c53030" stroke-width="3"/>
+<text x="400" y="380" font-size="15" fill="#c53030">一波卖压，上下大幅波动</text>
+<text x="400" y="405" font-size="15" fill="#c53030" font-weight="bold">→ 不要去做，有仓先平</text>
+<polyline points="640,300 700,295 760,285 820,290 900,280" fill="none" stroke="#2f855a" stroke-width="3" stroke-dasharray="2,0"/>
+<text x="660" y="380" font-size="15" fill="#2f855a" font-weight="bold">→ 重新评估，再入场</text>
+<rect x="40" y="460" width="880" height="140" rx="8" fill="#fffaf0" stroke="#dd6b20" stroke-width="2" stroke-dasharray="8,5"/>
+<text x="60" y="495" font-size="16" fill="#dd6b20" font-weight="bold">（笔者补充）为什么会有卖压——通用常识推测，非统计</text>
+<text x="60" y="525" font-size="14">· 夜盘涨的部分里，有人趁白天开盘、流动性回来时获利了结</text>
+<text x="60" y="552" font-size="14">· 开盘时现货市场的参与者集中进场，价格要重新消化夜间的涨幅</text>
+<text x="60" y="579" font-size="14">· 曲线纯示意，无真实价格；卖压不是每次都有，也不一定多大</text>
+</svg>
