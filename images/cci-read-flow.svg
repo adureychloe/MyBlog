@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="560" fill="#ffffff"/>
+<text x="450" y="34" font-size="20" text-anchor="middle" font-weight="bold">读 CCI 白板：四步（无实盘副图）</text>
+<text x="450" y="56" font-size="13" text-anchor="middle" fill="#555">步骤流 · 帧 01 标题 → 02 TYP → 03 公式 → 04「CCI 14天」总结</text>
+
+<!-- 4 steps -->
+<rect x="28" y="80" width="200" height="120" rx="10" fill="#e8f0fe" stroke="#4a7"/>
+<text x="128" y="115" font-size="15" text-anchor="middle" font-weight="bold">① 认名称</text>
+<text x="128" y="142" font-size="13" text-anchor="middle">CCI / 顺势指标</text>
+<text x="128" y="166" font-size="12" text-anchor="middle" fill="#555">Commodity Channel Index</text>
+<text x="128" y="186" font-size="11" text-anchor="middle" fill="#888">帧 01 · 0:33</text>
+
+<rect x="244" y="80" width="200" height="120" rx="10" fill="#e8f0fe" stroke="#4a7"/>
+<text x="344" y="115" font-size="15" text-anchor="middle" font-weight="bold">② 算 TYP</text>
+<text x="344" y="142" font-size="13" text-anchor="middle">(H+L+C)/3</text>
+<text x="344" y="166" font-size="12" text-anchor="middle" fill="#555">典型价</text>
+<text x="344" y="186" font-size="11" text-anchor="middle" fill="#888">帧 02 · 1:16</text>
+
+<rect x="460" y="80" width="200" height="120" rx="10" fill="#e8f0fe" stroke="#4a7"/>
+<text x="560" y="115" font-size="15" text-anchor="middle" font-weight="bold">③ 套公式</text>
+<text x="560" y="142" font-size="12" text-anchor="middle">(TYP−MA)</text>
+<text x="560" y="162" font-size="12" text-anchor="middle">/(0.015×MD)</text>
+<text x="560" y="186" font-size="11" text-anchor="middle" fill="#888">帧 03 · 3:22</text>
+
+<rect x="676" y="80" width="200" height="120" rx="10" fill="#e8f0fe" stroke="#4a7"/>
+<text x="776" y="115" font-size="15" text-anchor="middle" font-weight="bold">④ 读 ±100</text>
+<text x="776" y="142" font-size="13" text-anchor="middle">14 天总结板</text>
+<text x="776" y="166" font-size="12" text-anchor="middle" fill="#555">超买·超跌·震荡</text>
+<text x="776" y="186" font-size="11" text-anchor="middle" fill="#888">帧 04 · 4:27</text>
+
+<!-- arrows between via text -->
+<text x="228" y="145" font-size="18" fill="#666">→</text>
+<text x="444" y="145" font-size="18" fill="#666">→</text>
+<text x="660" y="145" font-size="18" fill="#666">→</text>
+
+<!-- verdict row -->
+<rect x="28" y="230" width="280" height="130" rx="8" fill="#eef8f0" stroke="#5a9"/>
+<text x="48" y="262" font-size="15" font-weight="bold" fill="#1a6b3c">采用</text>
+<text x="48" y="292" font-size="13">TYP、CCI 公式、N=14、0.015</text>
+<text x="48" y="316" font-size="13">±100 作常态带分界</text>
+<text x="48" y="340" font-size="12" fill="#555">板书多帧一致</text>
+
+<rect x="324" y="230" width="280" height="130" rx="8" fill="#fff8e6" stroke="#da6"/>
+<text x="344" y="262" font-size="15" font-weight="bold" fill="#8a5a00">观望</text>
+<text x="344" y="292" font-size="13">&lt;−100 → 买入时机</text>
+<text x="344" y="316" font-size="13">&gt;+100 → 加速上涨顺势</text>
+<text x="344" y="340" font-size="12" fill="#555">无图表例、无风控</text>
+
+<rect x="620" y="230" width="256" height="130" rx="8" fill="#fdecea" stroke="#d66"/>
+<text x="640" y="262" font-size="15" font-weight="bold" fill="#a33">弃用</text>
+<text x="640" y="292" font-size="13">一碰 ±100 就反向开仓</text>
+<text x="640" y="316" font-size="12" fill="#555">与「加速上涨」冲突</text>
+<text x="640" y="340" font-size="12" fill="#555">且无证据</text>
+
+<rect x="28" y="384" width="848" height="150" rx="8" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="48" y="416" font-size="14" fill="#b35c00" font-weight="bold">缺口与处理</text>
+<text x="48" y="444" font-size="13" fill="#b35c00">① 成功截图仅 4 张，中间大量板书未截到。</text>
+<text x="48" y="468" font-size="13" fill="#b35c00">② 无实盘副图 → 文中任何「K 线 + CCI」例子必须标（笔者补充）示意。</text>
+<text x="48" y="492" font-size="13" fill="#b35c00">③ MD 算例数字像素不清（笔记未逐个数核对）→ 省略具体数字，不臆造。</text>
+<text x="48" y="516" font-size="13" fill="#b35c00">④ 无买卖喊单；本流只整理「怎么读白板」。</text>
+</svg>

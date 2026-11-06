@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="600" fill="#ffffff"/>
+<text x="450" y="34" font-size="20" text-anchor="middle" font-weight="bold">怎么读 MFI：四步对照片中标注</text>
+<text x="450" y="56" font-size="13" text-anchor="middle" fill="#555">步骤流 · 对照帧 04（80/20）→ 06（峰圈）→ 10（背离）→ 13（彩圈+水平线）</text>
+
+<!-- steps -->
+<rect x="30" y="80" width="190" height="110" rx="10" fill="#e8f0fe" stroke="#4a7"/>
+<text x="125" y="115" font-size="15" text-anchor="middle" font-weight="bold">① 认副图</text>
+<text x="125" y="140" font-size="13" text-anchor="middle">看标签 MFI (14)</text>
+<text x="125" y="162" font-size="12" text-anchor="middle" fill="#555">EURUSD 1D（帧 01/04）</text>
+
+<path d="M230,135 L258,135" stroke="#666" stroke-width="2"/>
+
+<rect x="260" y="80" width="190" height="110" rx="10" fill="#e8f0fe" stroke="#4a7"/>
+<text x="355" y="115" font-size="15" text-anchor="middle" font-weight="bold">② 看 80 / 20</text>
+<text x="355" y="140" font-size="13" text-anchor="middle">作背景刻度</text>
+<text x="355" y="162" font-size="12" text-anchor="middle" fill="#555">Overbought &amp; Oversold</text>
+
+<path d="M460,135 L488,135" stroke="#666" stroke-width="2"/>
+
+<rect x="490" y="80" width="190" height="110" rx="10" fill="#fff3cd" stroke="#c9a"/>
+<text x="585" y="115" font-size="15" text-anchor="middle" font-weight="bold">③ 对照背离</text>
+<text x="585" y="140" font-size="13" text-anchor="middle">价 HH vs MFI LH</text>
+<text x="585" y="162" font-size="12" text-anchor="middle" fill="#555">帧 10 / 14 绿连线</text>
+
+<path d="M690,135 L718,135" stroke="#666" stroke-width="2"/>
+
+<rect x="720" y="80" width="160" height="110" rx="10" fill="#fff3cd" stroke="#c9a"/>
+<text x="800" y="115" font-size="15" text-anchor="middle" font-weight="bold">④ 峰谷线</text>
+<text x="800" y="140" font-size="13" text-anchor="middle">彩圈 + 水平线</text>
+<text x="800" y="162" font-size="12" text-anchor="middle" fill="#555">帧 12 / 13</text>
+
+<!-- annotation panel matching frame 13 -->
+<rect x="30" y="220" width="520" height="240" rx="8" fill="#fafafa" stroke="#99a"/>
+<text x="50" y="248" font-size="14" font-weight="bold">帧 13 标注结构（示意复原布局）</text>
+<rect x="50" y="265" width="480" height="170" fill="#fff" stroke="#ccc"/>
+<line x1="70" y1="295" x2="500" y2="295" stroke="#888" stroke-dasharray="4,3"/>
+<line x1="70" y1="400" x2="500" y2="400" stroke="#888" stroke-dasharray="4,3"/>
+<text x="510" y="299" font-size="11">80</text>
+<text x="510" y="404" font-size="11">20</text>
+<path d="M80,360 L130,300 L180,290 L230,340 L280,305 L330,320 L380,370 L430,385 L480,360" fill="none" stroke="#5b4bb7" stroke-width="2.5"/>
+<!-- blue / red / green circles + horizontal -->
+<circle cx="180" cy="290" r="18" fill="#68a" opacity="0.35" stroke="#246" stroke-width="2"/>
+<circle cx="280" cy="305" r="18" fill="#d66" opacity="0.35" stroke="#a22" stroke-width="2"/>
+<line x1="300" y1="355" x2="400" y2="355" stroke="#444" stroke-width="2"/>
+<circle cx="390" cy="370" r="18" fill="#6c6" opacity="0.35" stroke="#282" stroke-width="2"/>
+<text x="155" y="270" font-size="11" fill="#246">蓝·峰</text>
+<text x="255" y="270" font-size="11" fill="#a22">红·更低峰</text>
+<text x="360" y="345" font-size="11" fill="#282">绿·破谷线</text>
+
+<!-- verdicts -->
+<rect x="570" y="220" width="300" height="90" rx="8" fill="#eef8f0" stroke="#5a9"/>
+<text x="590" y="250" font-size="14" font-weight="bold" fill="#1a6b3c">采用</text>
+<text x="590" y="274" font-size="13">定义（价+量、0–100、14）</text>
+<text x="590" y="296" font-size="13">80/20 作背景刻度</text>
+
+<rect x="570" y="325" width="300" height="90" rx="8" fill="#fff8e6" stroke="#da6"/>
+<text x="590" y="355" font-size="14" font-weight="bold" fill="#8a5a00">观望</text>
+<text x="590" y="379" font-size="13">背离预警；峰谷+水平突破</text>
+<text x="590" y="401" font-size="13">可回测，片中无完整规则</text>
+
+<rect x="570" y="430" width="300" height="70" rx="8" fill="#fdecea" stroke="#d66"/>
+<text x="590" y="458" font-size="14" font-weight="bold" fill="#a33">弃用</text>
+<text x="590" y="482" font-size="13">裸用 80/20 自动反转入场</text>
+
+<rect x="30" y="480" width="520" height="100" rx="8" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="50" y="510" font-size="13" fill="#b35c00">（笔者补充）任何「完整公式」都不在片中画面；</text>
+<text x="50" y="534" font-size="13" fill="#b35c00">若文中写出典型价×量→资金流比率，一律标（笔者补充）。</text>
+<text x="50" y="558" font-size="13" fill="#b35c00">无买卖喊单；本图只整理读图顺序。</text>
+</svg>

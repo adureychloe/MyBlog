@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="640" fill="#ffffff"/>
+<text x="450" y="32" font-size="20" text-anchor="middle" font-weight="bold">正例：看跌背离示意　｜　反例：裸用 80/20 逆势</text>
+<text x="450" y="54" font-size="13" text-anchor="middle" fill="#555">左对照帧 10/14（绿连线）；右为（推算）反例，片中无胜率统计</text>
+
+<!-- LEFT: bearish divergence -->
+<rect x="24" y="72" width="420" height="400" rx="8" fill="#fafafa" stroke="#99a"/>
+<text x="44" y="98" font-size="15" font-weight="bold" fill="#1a6b3c">正例 · 看跌背离（帧 10 / 14）</text>
+<text x="44" y="118" font-size="12" fill="#666">价更高高点 + MFI 更低高点（绿连线）</text>
+
+<!-- price -->
+<rect x="44" y="130" width="380" height="130" fill="#fff" stroke="#ccc"/>
+<text x="54" y="148" font-size="12" fill="#444">价格</text>
+<path d="M60,220 L100,200 L140,170 L180,185 L220,155 L260,140 L300,160 L340,150 L380,210" fill="none" stroke="#333" stroke-width="2"/>
+<!-- two peaks HH -->
+<circle cx="180" cy="185" r="5" fill="#2a7"/>
+<circle cx="300" cy="150" r="5" fill="#2a7"/>
+<line x1="180" y1="185" x2="300" y2="150" stroke="#3a9" stroke-width="2.5"/>
+<text x="220" y="145" font-size="11" fill="#1a6b3c">更高高点</text>
+
+<!-- mfi -->
+<rect x="44" y="272" width="380" height="150" fill="#fff" stroke="#ccc"/>
+<text x="54" y="290" font-size="12" fill="#444">MFI (14)</text>
+<line x1="60" y1="310" x2="400" y2="310" stroke="#888" stroke-dasharray="4,3"/>
+<line x1="60" y1="390" x2="400" y2="390" stroke="#888" stroke-dasharray="4,3"/>
+<text x="405" y="314" font-size="11">80</text>
+<text x="405" y="394" font-size="11">20</text>
+<path d="M60,360 L100,330 L140,300 L180,295 L220,340 L260,320 L300,335 L340,360 L380,370" fill="none" stroke="#5b4bb7" stroke-width="2.5"/>
+<circle cx="180" cy="295" r="5" fill="#3a9"/>
+<circle cx="300" cy="335" r="5" fill="#3a9"/>
+<line x1="180" y1="295" x2="300" y2="335" stroke="#3a9" stroke-width="2.5"/>
+<text x="210" y="360" font-size="11" fill="#1a6b3c">更低高点</text>
+<text x="44" y="450" font-size="12" fill="#555">结论栏：背离 → 观望（图示清楚，样本少、无确认规则）</text>
+
+<!-- RIGHT: naked 80/20 counterexample -->
+<rect x="456" y="72" width="420" height="400" rx="8" fill="#fff8f6" stroke="#d88"/>
+<text x="476" y="98" font-size="15" font-weight="bold" fill="#a33">反例 · 裸用 80/20 逆势（推算）</text>
+<text x="476" y="118" font-size="12" fill="#666">上升行情里反复冲上 80（对照帧 06 绿圈峰）</text>
+
+<rect x="476" y="130" width="380" height="130" fill="#fff" stroke="#ccc"/>
+<text x="486" y="148" font-size="12" fill="#444">价格（趋势延续）</text>
+<path d="M490,240 L530,230 L570,210 L610,195 L650,180 L690,165 L730,150 L770,140 L820,130" fill="none" stroke="#c33" stroke-width="2.5"/>
+<text x="620" y="220" font-size="12" fill="#a33">单边上行继续走</text>
+
+<rect x="476" y="272" width="380" height="150" fill="#fff" stroke="#ccc"/>
+<text x="486" y="290" font-size="12" fill="#444">MFI (14) · 多次 &gt;80</text>
+<line x1="490" y1="310" x2="840" y2="310" stroke="#888" stroke-dasharray="4,3"/>
+<path d="M500,350 L540,300 L560,340 L600,295 L620,345 L660,290 L680,340 L720,285 L740,335 L780,300" fill="none" stroke="#5b4bb7" stroke-width="2.5"/>
+<!-- green circles like frame 06 -->
+<circle cx="540" cy="300" r="14" fill="#8d8" opacity="0.35" stroke="#3a3" stroke-width="1.5"/>
+<circle cx="600" cy="295" r="14" fill="#8d8" opacity="0.35" stroke="#3a3" stroke-width="1.5"/>
+<circle cx="660" cy="290" r="14" fill="#8d8" opacity="0.35" stroke="#3a3" stroke-width="1.5"/>
+<circle cx="720" cy="285" r="14" fill="#8d8" opacity="0.35" stroke="#3a3" stroke-width="1.5"/>
+<text x="476" y="450" font-size="12" fill="#a33">一碰 80 就做空 → 弃用（无规则、无风控、无统计）</text>
+
+<!-- bottom note -->
+<rect x="24" y="490" width="852" height="130" rx="8" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="44" y="520" font-size="14" fill="#b35c00" font-weight="bold">（推算 / 笔者补充）</text>
+<text x="44" y="546" font-size="13" fill="#b35c00">帧 06 绿圈标在 MFI 冲上 80 的峰，对应价格局部高点——是事后标注示意，不是回测过的入场清单。</text>
+<text x="44" y="570" font-size="13" fill="#b35c00">帧 13/14 还有蓝/红/绿半透明圆 + 短水平线标峰谷突破；笔记推算像 RSI 教材的 failure swing，</text>
+<text x="44" y="594" font-size="13" fill="#b35c00">但无字幕，不能写成片中口头术语。峰谷突破用法整体标「观望」。</text>
+</svg>

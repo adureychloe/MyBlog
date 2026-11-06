@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="620" fill="#ffffff"/>
+<text x="450" y="34" font-size="20" text-anchor="middle" font-weight="bold">CCI：典型价离均线有多远（无上下界）</text>
+<text x="450" y="56" font-size="13" text-anchor="middle" fill="#555">对照半桶财经白板 · 帧 02（TYP）· 帧 03/04（完整公式 · 14 天）</text>
+
+<!-- TYP box -->
+<rect x="30" y="78" width="840" height="88" rx="8" fill="#f3f6fb" stroke="#99a"/>
+<text x="50" y="108" font-size="15" font-weight="bold">典型价 TYP（帧 02 白板）</text>
+<text x="50" y="138" font-size="16">TYP = (最高价 + 最低价 + 收盘价) / 3　　即 (H + L + C) / 3</text>
+
+<!-- formula box -->
+<rect x="30" y="182" width="840" height="120" rx="8" fill="#f3f6fb" stroke="#99a"/>
+<text x="50" y="212" font-size="15" font-weight="bold">完整公式（帧 03 / 04 白板）</text>
+<text x="50" y="244" font-size="17" font-weight="bold">CCI = (TYP − MA) / (0.015 × MD)</text>
+<text x="50" y="274" font-size="13" fill="#555">MA = TYP 的 N 日简单移动平均；MD = 平均绝对偏差；片中常用 N = 14</text>
+
+<!-- levels -->
+<rect x="30" y="320" width="520" height="200" rx="8" fill="#fafafa" stroke="#99a"/>
+<text x="50" y="350" font-size="15" font-weight="bold">±100 读法（帧 02 / 04 并列表述）</text>
+<rect x="50" y="368" width="480" height="40" rx="4" fill="#fdecea" stroke="#d88"/>
+<text x="70" y="394" font-size="14">CCI &gt; +100　→　「超买」且「加速上涨」</text>
+<rect x="50" y="420" width="480" height="40" rx="4" fill="#eef8f0" stroke="#8c8"/>
+<text x="70" y="446" font-size="14">CCI &lt; −100　→　「超跌」/「准备进场」</text>
+<rect x="50" y="472" width="480" height="36" rx="4" fill="#f0f0f5" stroke="#99a"/>
+<text x="70" y="496" font-size="14">−100 &lt; CCI &lt; +100　→　震荡 / 常态带</text>
+
+<!-- right notes -->
+<rect x="570" y="320" width="300" height="120" rx="8" fill="#eef8f0" stroke="#5a9"/>
+<text x="590" y="350" font-size="14" font-weight="bold" fill="#1a6b3c">采用</text>
+<text x="590" y="376" font-size="13">TYP、公式、默认 14、0.015</text>
+<text x="590" y="400" font-size="13">±100 作常态带分界</text>
+<text x="590" y="424" font-size="12" fill="#555">多帧板书一致，可核对</text>
+
+<rect x="570" y="456" width="300" height="100" rx="8" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="590" y="484" font-size="13" fill="#b35c00">（笔者补充）0.015 常被说成</text>
+<text x="590" y="508" font-size="13" fill="#b35c00">让多数读数落进 ±100；</text>
+<text x="590" y="532" font-size="13" fill="#b35c00">不是本片逐字口播。</text>
+
+<rect x="30" y="540" width="840" height="60" rx="8" fill="#f8fafc" stroke="#99a"/>
+<text x="50" y="566" font-size="13" fill="#555">缺口：全程只有白板，无实盘 K 线 + CCI 副图；MD 算例字小，笔记未逐个数核对 → 文中不写具体偏差数字。</text>
+<text x="50" y="588" font-size="13" fill="#555">字幕曾出现「这个数值不就放大了很多吗」（帧 03）。</text>
+</svg>
