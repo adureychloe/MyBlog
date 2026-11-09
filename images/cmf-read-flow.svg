@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="600" fill="#ffffff"/>
+<text x="450" y="34" font-size="20" text-anchor="middle" font-weight="bold">怎么读 CMF：五步对照片中章节</text>
+<text x="450" y="56" font-size="13" text-anchor="middle" fill="#555">步骤流 · 帧 02 → 04/05 → 07/09 → 10 → 13</text>
+
+<!-- 5 steps -->
+<rect x="18" y="78" width="155" height="120" rx="10" fill="#e8f0fe" stroke="#4a7"/>
+<text x="95" y="112" font-size="14" text-anchor="middle" font-weight="bold">① 添加</text>
+<text x="95" y="138" font-size="12" text-anchor="middle">搜索 cmf</text>
+<text x="95" y="158" font-size="12" text-anchor="middle">Chaikin Money Flow</text>
+<text x="95" y="180" font-size="11" text-anchor="middle" fill="#555">帧 02 · 0:16</text>
+
+<path d="M178,138 L198,138" stroke="#666" stroke-width="2" marker-end="url(#arr)"/>
+
+<rect x="200" y="78" width="155" height="120" rx="10" fill="#e8f0fe" stroke="#4a7"/>
+<text x="277" y="112" font-size="14" text-anchor="middle" font-weight="bold">② 认副图</text>
+<text x="277" y="138" font-size="12" text-anchor="middle">绿线 + 零轴</text>
+<text x="277" y="158" font-size="12" text-anchor="middle">Length = 20</text>
+<text x="277" y="180" font-size="11" text-anchor="middle" fill="#555">帧 04/05 · 0:53–2:04</text>
+
+<path d="M360,138 L380,138" stroke="#666" stroke-width="2"/>
+
+<rect x="382" y="78" width="155" height="120" rx="10" fill="#e8f0fe" stroke="#4a7"/>
+<text x="459" y="112" font-size="14" text-anchor="middle" font-weight="bold">③ 读零轴</text>
+<text x="459" y="138" font-size="12" text-anchor="middle">上偏买压示意</text>
+<text x="459" y="158" font-size="12" text-anchor="middle">下偏卖压示意</text>
+<text x="459" y="180" font-size="11" text-anchor="middle" fill="#555">帧 07 / 09</text>
+
+<path d="M542,138 L562,138" stroke="#666" stroke-width="2"/>
+
+<rect x="564" y="78" width="155" height="120" rx="10" fill="#fff3cd" stroke="#c9a"/>
+<text x="641" y="112" font-size="14" text-anchor="middle" font-weight="bold">④ 看背离</text>
+<text x="641" y="138" font-size="12" text-anchor="middle">价 HH vs CMF LH</text>
+<text x="641" y="158" font-size="12" text-anchor="middle">标「观望」</text>
+<text x="641" y="180" font-size="11" text-anchor="middle" fill="#555">帧 10 · 5:00</text>
+
+<path d="M724,138 L744,138" stroke="#666" stroke-width="2"/>
+
+<rect x="746" y="78" width="140" height="120" rx="10" fill="#e8f0fe" stroke="#4a7"/>
+<text x="816" y="112" font-size="14" text-anchor="middle" font-weight="bold">⑤ 查震荡</text>
+<text x="816" y="138" font-size="12" text-anchor="middle">灰框贴零？</text>
+<text x="816" y="158" font-size="12" text-anchor="middle">降权单独用</text>
+<text x="816" y="180" font-size="11" text-anchor="middle" fill="#555">帧 13 · 6:48</text>
+
+<!-- middle schematic -->
+<rect x="30" y="220" width="540" height="230" rx="8" fill="#fafafa" stroke="#99a"/>
+<text x="50" y="248" font-size="14" font-weight="bold">零轴读法小复盘（示意）</text>
+<rect x="50" y="265" width="500" height="160" fill="#fff" stroke="#ccc"/>
+<line x1="70" y1="345" x2="520" y2="345" stroke="#888" stroke-dasharray="5,4"/>
+<path d="M80,310 L140,290 L200,320 L260,360 L320,380 L380,350 L440,330 L500,300" fill="none" stroke="#1a9a4a" stroke-width="2.5"/>
+<text x="100" y="285" font-size="12" fill="#1a7a3c">例：CMF 0.14（帧 09）</text>
+<text x="280" y="400" font-size="12" fill="#a33">例：CMF −0.07（帧 07）</text>
+<text x="430" y="285" font-size="11" fill="#555">0</text>
+
+<!-- right verdicts -->
+<rect x="590" y="220" width="280" height="70" rx="8" fill="#eef8f0" stroke="#5a9"/>
+<text x="610" y="248" font-size="14" font-weight="bold" fill="#1a6b3c">采用</text>
+<text x="610" y="272" font-size="12">定义 · Length 20 · 零轴读法 · 震荡降权</text>
+
+<rect x="590" y="305" width="280" height="70" rx="8" fill="#fff8e6" stroke="#da6"/>
+<text x="610" y="333" font-size="14" font-weight="bold" fill="#8a5a00">观望</text>
+<text x="610" y="357" font-size="12">背离作反转预警（可回测）</text>
+
+<rect x="590" y="390" width="280" height="70" rx="8" fill="#fdecea" stroke="#c66"/>
+<text x="610" y="418" font-size="14" font-weight="bold" fill="#a22">弃用</text>
+<text x="610" y="442" font-size="12">零轴穿越 / 背离自动开仓</text>
+
+<rect x="30" y="470" width="840" height="110" rx="8" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="50" y="500" font-size="14" fill="#b35c00" font-weight="bold">（笔者补充 / 推算）非片中原话</text>
+<text x="50" y="526" font-size="13" fill="#b35c00">常见公式：收盘在高低区间位置 × 成交量，再对 N 根加总标准化。可对照同日学习的 MFI（0–100）。</text>
+<text x="50" y="552" font-size="13" fill="#b35c00">Limitation 章节无文字条目；口头局限无法从截图核对。Length=21 出现在观看记录旁注，Inputs 面板只拍到 20，不以 21 为片中结论。</text>
+</svg>

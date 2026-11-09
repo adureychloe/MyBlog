@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="600" fill="#ffffff"/>
+<text x="450" y="34" font-size="20" text-anchor="middle" font-weight="bold">怎么读 Stoch RSI：五步</text>
+<text x="450" y="56" font-size="13" text-anchor="middle" fill="#555">步骤流 · 帧 07 公式 → 09 Inputs → 15 Style → 23 对照 RSI → 自检</text>
+
+<rect x="18" y="78" width="155" height="120" rx="10" fill="#e8f0fe" stroke="#4a7"/>
+<text x="95" y="112" font-size="14" text-anchor="middle" font-weight="bold">① 认公式</text>
+<text x="95" y="138" font-size="12" text-anchor="middle">对 RSI 再随机</text>
+<text x="95" y="158" font-size="12" text-anchor="middle">指标的指标</text>
+<text x="95" y="180" font-size="11" text-anchor="middle" fill="#555">帧 07 · 3:44</text>
+
+<path d="M178,138 L198,138" stroke="#666" stroke-width="2"/>
+
+<rect x="200" y="78" width="155" height="120" rx="10" fill="#e8f0fe" stroke="#4a7"/>
+<text x="277" y="112" font-size="14" text-anchor="middle" font-weight="bold">② 认参数</text>
+<text x="277" y="138" font-size="12" text-anchor="middle">K=3 D=3</text>
+<text x="277" y="158" font-size="12" text-anchor="middle">RSI/Stoch=14</text>
+<text x="277" y="180" font-size="11" text-anchor="middle" fill="#555">帧 09 · 5:00</text>
+
+<path d="M360,138 L380,138" stroke="#666" stroke-width="2"/>
+
+<rect x="382" y="78" width="155" height="120" rx="10" fill="#e8f0fe" stroke="#4a7"/>
+<text x="459" y="112" font-size="14" text-anchor="middle" font-weight="bold">③ 认刻度</text>
+<text x="459" y="138" font-size="12" text-anchor="middle">Style 80/50/20</text>
+<text x="459" y="158" font-size="12" text-anchor="middle">（板书 .8/.5/.2）</text>
+<text x="459" y="180" font-size="11" text-anchor="middle" fill="#555">帧 15 · 8:47</text>
+
+<path d="M542,138 L562,138" stroke="#666" stroke-width="2"/>
+
+<rect x="564" y="78" width="155" height="120" rx="10" fill="#e8f0fe" stroke="#4a7"/>
+<text x="641" y="112" font-size="14" text-anchor="middle" font-weight="bold">④ 对照 RSI</text>
+<text x="641" y="138" font-size="12" text-anchor="middle">是否更早贴地</text>
+<text x="641" y="158" font-size="12" text-anchor="middle">两步离价格</text>
+<text x="641" y="180" font-size="11" text-anchor="middle" fill="#555">帧 23 · 11:00</text>
+
+<path d="M724,138 L744,138" stroke="#666" stroke-width="2"/>
+
+<rect x="746" y="78" width="140" height="120" rx="10" fill="#fff3cd" stroke="#c9a"/>
+<text x="816" y="112" font-size="14" text-anchor="middle" font-weight="bold">⑤ 自检</text>
+<text x="816" y="138" font-size="12" text-anchor="middle">别自动开仓</text>
+<text x="816" y="158" font-size="12" text-anchor="middle">别等同 RSI</text>
+<text x="816" y="180" font-size="11" text-anchor="middle" fill="#555">弃用项</text>
+
+<!-- middle params panel -->
+<rect x="30" y="220" width="520" height="230" rx="8" fill="#fafafa" stroke="#99a"/>
+<text x="50" y="248" font-size="14" font-weight="bold">Inputs 面板复原（帧 09–14 多帧一致）</text>
+<rect x="50" y="265" width="480" height="160" fill="#fff" stroke="#ccc"/>
+<text x="70" y="295" font-size="14">K = 3　　D = 3</text>
+<text x="70" y="325" font-size="14">RSI Length = 14　　Stochastic Length = 14</text>
+<text x="70" y="355" font-size="14">RSI Source = Close　　Timeframe = Chart</text>
+<text x="70" y="385" font-size="13" fill="#555">勾选 Wait for timeframe closes</text>
+<text x="70" y="410" font-size="12" fill="#888">（笔者补充）K/D 类似普通随机指标 %K/%D ——非片中原话</text>
+
+<rect x="570" y="220" width="300" height="70" rx="8" fill="#eef8f0" stroke="#5a9"/>
+<text x="590" y="248" font-size="14" font-weight="bold" fill="#1a6b3c">采用</text>
+<text x="590" y="272" font-size="12">定义·公式·默认参数·80/50/20·更敏感</text>
+
+<rect x="570" y="305" width="300" height="70" rx="8" fill="#fff8e6" stroke="#da6"/>
+<text x="590" y="333" font-size="14" font-weight="bold" fill="#8a5a00">观望</text>
+<text x="590" y="357" font-size="12">交叉 / 超买超卖过滤后再回测</text>
+
+<rect x="570" y="390" width="300" height="70" rx="8" fill="#fdecea" stroke="#c66"/>
+<text x="590" y="418" font-size="14" font-weight="bold" fill="#a22">弃用</text>
+<text x="590" y="442" font-size="12">自动买卖；等同于普通 RSI</text>
+
+<rect x="30" y="470" width="840" height="110" rx="8" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="50" y="500" font-size="14" fill="#b35c00" font-weight="bold">缺口处理（须在文中注明）</text>
+<text x="50" y="526" font-size="13" fill="#b35c00">① 无背离教学幻灯片。② 约 10:04 起曾卡住，末段约 1 分钟快进补看，连续口播可能有漏；已用 10:03 / 11:00 / 11:09 帧补对照。</text>
+<text x="50" y="552" font-size="13" fill="#b35c00">③ Visibility 选项卡未点开。④ 开篇头肩顶/底标注是演示装饰，未讲成 Stoch RSI 策略。</text>
+</svg>

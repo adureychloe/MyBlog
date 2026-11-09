@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="640" fill="#ffffff"/>
+<text x="450" y="32" font-size="20" text-anchor="middle" font-weight="bold">正例：更敏感贴地 · 反例：当成同一个东西</text>
+<text x="450" y="54" font-size="13" text-anchor="middle" fill="#555">左对照帧 23（11:00）· 右为「弃用」反例示意</text>
+
+<!-- LEFT positive -->
+<rect x="20" y="72" width="430" height="430" rx="8" fill="#fafafa" stroke="#99a"/>
+<text x="40" y="98" font-size="15" font-weight="bold" fill="#1a6b3c">正例 · 同图对照（采用「更敏感」）</text>
+<text x="40" y="118" font-size="12" fill="#666">NG1! 1D · 帧 23：Stoch RSI 贴地，RSI 仍在中下部</text>
+
+<rect x="40" y="130" width="390" height="100" fill="#fff" stroke="#ccc"/>
+<text x="50" y="148" font-size="12" fill="#444">价格（天然气期货示意）</text>
+<path d="M60,200 L120,185 L180,190 L240,170 L300,175 L360,160 L400,180" fill="none" stroke="#333" stroke-width="2"/>
+
+<rect x="40" y="245" width="390" height="110" fill="#fff" stroke="#ccc"/>
+<text x="50" y="265" font-size="12" fill="#2266cc" font-weight="bold">Stoch RSI 2.11 / 10.40</text>
+<rect x="60" y="275" width="340" height="60" fill="#c8d4f0" opacity="0.4"/>
+<line x1="60" y1="280" x2="400" y2="280" stroke="#888" stroke-dasharray="3,2"/>
+<line x1="60" y1="325" x2="400" y2="325" stroke="#888" stroke-dasharray="3,2"/>
+<text x="410" y="284" font-size="11">80</text>
+<text x="410" y="329" font-size="11">20</text>
+<path d="M70,330 L140,328 L210,332 L280,330 L350,331 L390,330" fill="none" stroke="#2266cc" stroke-width="2.5"/>
+<path d="M70,320 L140,318 L210,322 L280,318 L350,319 L390,317" fill="none" stroke="#e67e22" stroke-width="2"/>
+<text x="140" y="310" font-size="12" fill="#a22" font-weight="bold">几乎贴地</text>
+
+<rect x="40" y="370" width="390" height="110" fill="#fff" stroke="#ccc"/>
+<text x="50" y="390" font-size="12" fill="#6b3" font-weight="bold">RSI 38.32 / 46.79</text>
+<rect x="60" y="400" width="340" height="55" fill="#d8d4ec" opacity="0.4"/>
+<line x1="60" y1="410" x2="400" y2="410" stroke="#888" stroke-dasharray="3,2"/>
+<line x1="60" y1="445" x2="400" y2="445" stroke="#888" stroke-dasharray="3,2"/>
+<path d="M70,430 L140,425 L210,428 L280,420 L350,422 L390,418" fill="none" stroke="#6b3" stroke-width="2.5"/>
+<text x="150" y="415" font-size="12" fill="#555">仍约 38–47，未贴底</text>
+
+<!-- RIGHT counter -->
+<rect x="470" y="72" width="410" height="430" rx="8" fill="#fafafa" stroke="#99a"/>
+<text x="490" y="98" font-size="15" font-weight="bold" fill="#a22">反例 · 把两者当同一个（弃用）</text>
+<text x="490" y="118" font-size="12" fill="#666">（推算）若用 Stoch RSI 的 80/20 当 RSI 的 70/30</text>
+
+<rect x="490" y="140" width="370" height="200" fill="#fff" stroke="#ccc"/>
+<text x="510" y="168" font-size="13" font-weight="bold">错误假设</text>
+<text x="510" y="196" font-size="13">「Stoch RSI = RSI，只是更灵敏」</text>
+<text x="510" y="224" font-size="13">→ 一碰 20 就当超卖反转</text>
+<text x="510" y="252" font-size="13">→ 假信号会明显更多</text>
+<text x="510" y="290" font-size="12" fill="#a22">对照图只支持「更敏感」，</text>
+<text x="510" y="312" font-size="12" fill="#a22">不支持「更准」。</text>
+
+<rect x="490" y="360" width="370" height="120" rx="8" fill="#fdecea" stroke="#c66"/>
+<text x="510" y="390" font-size="14" font-weight="bold" fill="#a22">弃用</text>
+<text x="510" y="416" font-size="13">自动买卖；或把 Stoch RSI 与 RSI</text>
+<text x="510" y="440" font-size="13">当成同一个东西互换使用</text>
+
+<!-- bottom -->
+<rect x="20" y="520" width="860" height="100" rx="8" fill="#fff8e6" stroke="#da6"/>
+<text x="40" y="550" font-size="14" font-weight="bold" fill="#8a5a00">观望：交叉 / 超买超卖当作择时过滤器再回测</text>
+<text x="40" y="576" font-size="13">幻灯片写主要用途是交叉和 OB/OS；片中无样本、无止损止盈清单。</text>
+<text x="40" y="600" font-size="13" fill="#555">0:20 贴地帧：笔记记 Stoch RSI≈6.30/5.14，画面读数有出入 → 正文不写死该帧具体数字。</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="640" fill="#ffffff"/>
+<text x="450" y="32" font-size="20" text-anchor="middle" font-weight="bold">Stoch RSI：对 RSI 再做一次随机</text>
+<text x="450" y="54" font-size="13" text-anchor="middle" fill="#555">对照 TradingView 帧 07/20 公式板 · NG1! 天然气期货日线 · Chande &amp; Kroll 1994</text>
+
+<!-- formula board recreation -->
+<rect x="30" y="72" width="540" height="360" rx="8" fill="#1a1a1a" stroke="#444"/>
+<text x="50" y="102" font-size="16" fill="#eee" font-weight="bold">Stochastic RSI（公式板复原）</text>
+<text x="50" y="130" font-size="13" fill="#bbb">History: Tushar Chande &amp; Stanley Kroll · 1994 The New Technical Trader</text>
+<text x="50" y="160" font-size="14" fill="#8cf" font-weight="bold">Stoch RSI = (RSI − Lowest Low RSI) / (Highest High RSI − Lowest Low RSI)</text>
+<text x="50" y="190" font-size="13" fill="#ddd">常用 14 周期示例刻度：</text>
+<text x="70" y="220" font-size="14" fill="#8cf">1</text>
+<text x="100" y="220" font-size="13" fill="#ccc">= RSI 处于 14 日最高</text>
+<text x="70" y="248" font-size="14" fill="#8cf">.8</text>
+<text x="100" y="248" font-size="13" fill="#ccc">= RSI 靠近 14 日区间高位</text>
+<text x="70" y="276" font-size="14" fill="#8cf">.5</text>
+<text x="100" y="276" font-size="13" fill="#ccc">= RSI 在区间中部</text>
+<text x="70" y="304" font-size="14" fill="#8cf">.2</text>
+<text x="100" y="304" font-size="13" fill="#ccc">= RSI 靠近 14 日区间低位</text>
+<text x="70" y="332" font-size="14" fill="#8cf">0</text>
+<text x="100" y="332" font-size="13" fill="#ccc">= RSI 处于 14 日最低</text>
+<text x="50" y="370" font-size="13" fill="#fa0">「indicator of an indicator」——离价格两步</text>
+<text x="50" y="398" font-size="12" fill="#999">主要用途写：crossovers 与超买超卖（无完整进场清单）</text>
+<text x="50" y="418" font-size="11" fill="#777">布局对照帧 07（3:44）/ 20（4:02）；文字为复原，非像素描摹</text>
+
+<!-- right cards -->
+<rect x="590" y="72" width="280" height="130" rx="8" fill="#f3f6fb" stroke="#99a"/>
+<text x="610" y="102" font-size="15" font-weight="bold">片中可核对</text>
+<text x="610" y="128" font-size="13">· 公式板完整写出</text>
+<text x="610" y="150" font-size="13">· 刻度 1 / .8 / .5 / .2 / 0</text>
+<text x="610" y="172" font-size="13">· 「指标的指标」原文</text>
+
+<rect x="590" y="218" width="280" height="100" rx="8" fill="#eef8f0" stroke="#5a9"/>
+<text x="610" y="248" font-size="15" font-weight="bold" fill="#1a6b3c">采用</text>
+<text x="610" y="274" font-size="13">定义 · 公式 · 14 周期示例</text>
+<text x="610" y="296" font-size="13">比 RSI 多走一步、更敏感</text>
+
+<rect x="590" y="338" width="280" height="94" rx="8" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="610" y="366" font-size="13" fill="#b35c00">（笔者补充）.8/.2 ↔ 80/20</text>
+<text x="610" y="390" font-size="12" fill="#b35c00">只是小数与百分数两种写法；</text>
+<text x="610" y="412" font-size="12" fill="#b35c00">不是片中原话。</text>
+
+<!-- bottom: platform scale -->
+<rect x="30" y="450" width="840" height="170" rx="8" fill="#fafafa" stroke="#99a"/>
+<text x="50" y="480" font-size="14" font-weight="bold">平台 Style：0–100 刻度 · Upper 80 / Middle 50 / Lower 20</text>
+<text x="50" y="506" font-size="13" fill="#555">对照帧 15/16 Style 面板；副图标签常见「Stoch RSI 3, 3, 14, 14」</text>
+<rect x="50" y="520" width="700" height="80" fill="#fff" stroke="#ccc"/>
+<rect x="80" y="535" width="640" height="50" fill="#c8d4f0" opacity="0.5"/>
+<line x1="80" y1="535" x2="720" y2="535" stroke="#666" stroke-dasharray="4,3"/>
+<line x1="80" y1="560" x2="720" y2="560" stroke="#888" stroke-dasharray="3,3"/>
+<line x1="80" y1="585" x2="720" y2="585" stroke="#666" stroke-dasharray="4,3"/>
+<text x="730" y="540" font-size="12">80</text>
+<text x="730" y="564" font-size="12">50</text>
+<text x="730" y="590" font-size="12">20</text>
+<path d="M100,575 L160,540 L220,580 L280,530 L340,570 L400,545 L460,585 L520,535 L580,550 L640,575 L700,540" fill="none" stroke="#2266cc" stroke-width="2"/>
+<path d="M100,580 L160,550 L220,585 L280,545 L340,575 L400,555 L460,588 L520,548 L580,560 L640,580 L700,555" fill="none" stroke="#e67e22" stroke-width="2"/>
+<text x="100" y="528" font-size="11" fill="#2266cc">K 蓝</text>
+<text x="150" y="528" font-size="11" fill="#e67e22">D 橙</text>
+</svg>

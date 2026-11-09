@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="620" fill="#ffffff"/>
+<text x="450" y="34" font-size="22" text-anchor="middle" font-weight="bold">CMF：绕着零轴摆的资金流线</text>
+<text x="450" y="58" font-size="13" text-anchor="middle" fill="#555">对照 TradingView 帧 02/04/05：BTCUSD 1D · Bitstamp · Length=20 · 刻度约 ±0.40</text>
+
+<!-- left chart schematic -->
+<rect x="30" y="78" width="520" height="400" rx="8" fill="#fafafa" stroke="#99a"/>
+<text x="50" y="104" font-size="14" font-weight="bold">示意：BTCUSD 日线 + CMF 副图</text>
+<text x="50" y="124" font-size="12" fill="#666">结构对照帧 04（零轴+刻度）；曲线手绘，非复原具体行情</text>
+
+<rect x="50" y="140" width="480" height="130" fill="#fff" stroke="#ccc"/>
+<text x="60" y="158" font-size="12" fill="#444">价格（蜡烛示意）</text>
+<path d="M70,240 L110,220 L150,200 L190,185 L230,195 L270,170 L310,160 L350,175 L390,190 L430,205 L490,230" fill="none" stroke="#2a7" stroke-width="2"/>
+<text x="60" y="258" font-size="11" fill="#888">BTCUSD · 1D · Bitstamp（片中图例）</text>
+
+<rect x="50" y="280" width="480" height="180" fill="#fff" stroke="#ccc"/>
+<text x="60" y="300" font-size="12" fill="#1a7a3c" font-weight="bold">CMF −0.03</text>
+<!-- zero line -->
+<line x1="70" y1="370" x2="500" y2="370" stroke="#888" stroke-width="1.5" stroke-dasharray="5,4"/>
+<!-- scale marks -->
+<text x="510" y="310" font-size="11" fill="#555">0.40</text>
+<text x="510" y="340" font-size="11" fill="#555">0.20</text>
+<text x="510" y="374" font-size="11" fill="#333" font-weight="bold">0</text>
+<text x="510" y="410" font-size="11" fill="#555">−0.20</text>
+<text x="510" y="445" font-size="11" fill="#555">−0.40</text>
+<path d="M80,350 L120,330 L160,345 L200,320 L240,355 L280,390 L320,405 L360,380 L400,395 L440,415 L480,400" fill="none" stroke="#1a9a4a" stroke-width="2.5"/>
+<text x="80" y="325" font-size="11" fill="#1a7a3c">零轴上方 ≈ 买压示意</text>
+<text x="80" y="445" font-size="11" fill="#a33">零轴下方 ≈ 卖压示意</text>
+
+<!-- right cards -->
+<rect x="570" y="78" width="300" height="130" rx="8" fill="#f3f6fb" stroke="#99a"/>
+<text x="590" y="108" font-size="15" font-weight="bold">片中可核对</text>
+<text x="590" y="134" font-size="13">· 搜索 cmf → Chaikin Money Flow</text>
+<text x="590" y="156" font-size="13">· 绿线 + 虚线 Zero = 0</text>
+<text x="590" y="178" font-size="13">· 读数是小数（如 −0.15、0.14）</text>
+<text x="590" y="190" font-size="12" fill="#666">　（不是 0–100）</text>
+
+<rect x="570" y="224" width="300" height="120" rx="8" fill="#eef8f0" stroke="#5a9"/>
+<text x="590" y="254" font-size="15" font-weight="bold" fill="#1a6b3c">采用（定义背景）</text>
+<text x="590" y="280" font-size="13">绕 0 轴的价+量资金流</text>
+<text x="590" y="302" font-size="13">Inputs Length = 20</text>
+<text x="590" y="324" font-size="13">零轴上/下作买卖压读法</text>
+
+<rect x="570" y="360" width="300" height="118" rx="8" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="590" y="388" font-size="14" fill="#b35c00">（笔者补充）常见算法</text>
+<text x="590" y="412" font-size="13" fill="#b35c00">收盘在高低区间的位置 × 量，</text>
+<text x="590" y="434" font-size="13" fill="#b35c00">再加总标准化；约落在 −1～+1。</text>
+<text x="590" y="456" font-size="12" fill="#b35c00">片中无公式板；不是片中原话。</text>
+
+<rect x="30" y="500" width="840" height="100" rx="8" fill="#f8fafc" stroke="#99a"/>
+<text x="50" y="530" font-size="14" font-weight="bold">缺口与对照</text>
+<text x="50" y="556" font-size="13">帧 02 搜索「cmf」；帧 05 Inputs 写明 Length=20；帧 06 Style 勾选 Zero=0。</text>
+<text x="50" y="580" font-size="13" fill="#555">缺口：全程没有公式板。可对照旧文 MFI（0–100）——CMF 以 0 为中轴。</text>
+</svg>
