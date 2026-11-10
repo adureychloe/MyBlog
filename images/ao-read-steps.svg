@@ -67,7 +67,7 @@
 <rect x="20" y="450" width="860" height="160" rx="8" fill="#fff5f5" stroke="#c66"/>
 <text x="40" y="480" font-size="14" font-weight="bold" fill="#a33">缺口与画面冲突处理</text>
 <text x="40" y="508" font-size="13">① 约 7:10 起 Video unavailable；09:27（上海时间）重试遇 bot 墙，未登录 → 7:10–11:02 空白。</text>
-<text x="40" y="532" font-size="13">② 周 AO 讲解只听到开头（约 7:05–7:10）。③ 碟形/双峰未出现在已看画面。</text>
-<text x="40" y="556" font-size="13">④ 细字面板以帧 02 暂停核对为准；黄金例 AO 244.2 / 价格约 3,305.5（帧 04）；下跌例 −86.1（帧 07）。</text>
+<text x="40" y="532" font-size="13">② 周 AO 讲解只听到开头（约 7:05–7:10）。③ 碟形/双峰未出现在已看画面。帧 10 AO 读数笔记与画面不一致，未写死。</text>
+<text x="40" y="556" font-size="13">④ 细字面板以帧 02 暂停核对为准；黄金例 AO 244.2（帧 04）；价格因笔记与画面不一致未写；下跌例 −86.1（帧 07）。</text>
 <text x="40" y="580" font-size="13" fill="#555">可对照：[MACD 入门（10/22）] · [Stochastic（10/29）] · [CMF（11/09）]</text>
 </svg>
