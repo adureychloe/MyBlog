@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="620" fill="#ffffff"/>
+<text x="450" y="32" font-size="22" text-anchor="middle" font-weight="bold">正例 vs 反例：AO 上升 ≠ 买入信号</text>
+<text x="450" y="56" font-size="13" text-anchor="middle" fill="#555">对照帧 04–07（黄金周线）、帧 09–11（颜色可改）· 口播：上升不是买入本身</text>
+
+<!-- left: rising momentum example -->
+<rect x="30" y="74" width="410" height="300" rx="8" fill="#fafafa" stroke="#5a9"/>
+<text x="50" y="100" font-size="15" font-weight="bold" fill="#1a6b3c">正例读法：上升 = 动量在增强</text>
+<text x="50" y="122" font-size="12" fill="#555">帧 04–06 · GC1! · 1W · COMEX（结构示意）</text>
+<rect x="50" y="136" width="370" height="100" fill="#fff" stroke="#ccc"/>
+<text x="60" y="156" font-size="11" fill="#666">价格（示意上升）</text>
+<path d="M70,210 L120,195 L170,180 L220,165 L280,150 L350,130" fill="none" stroke="#2a7" stroke-width="2.5"/>
+<text x="300" y="160" font-size="12" fill="#a33">约 3,305.5</text>
+<rect x="50" y="250" width="370" height="100" fill="#fff" stroke="#ccc"/>
+<text x="60" y="270" font-size="11" fill="#666">AO 副图</text>
+<line x1="70" y1="320" x2="400" y2="320" stroke="#888" stroke-dasharray="4,3"/>
+<rect x="100" y="295" width="16" height="25" fill="#2a9a4a"/>
+<rect x="140" y="280" width="16" height="40" fill="#2a9a4a"/>
+<rect x="180" y="265" width="16" height="55" fill="#2a9a4a"/>
+<rect x="220" y="250" width="16" height="70" fill="#2a9a4a"/>
+<text x="260" y="275" font-size="12">帧 04 读数 244.2</text>
+<text x="60" y="360" font-size="12" fill="#1a6b3c">口播：momentum is rapidly picking up</text>
+
+<!-- right: counterexample -->
+<rect x="460" y="74" width="410" height="300" rx="8" fill="#fff8f8" stroke="#c66"/>
+<text x="480" y="100" font-size="15" font-weight="bold" fill="#a33">反例 / 弃用：当成买入按钮</text>
+<text x="480" y="122" font-size="12" fill="#555">帧 05–07 + 口播明确否定</text>
+<rect x="480" y="140" width="370" height="90" rx="6" fill="#ffe8e8" stroke="#c66"/>
+<text x="495" y="170" font-size="14" font-weight="bold" fill="#a33">✗ AO 柱在上升 → 立刻买入</text>
+<text x="495" y="196" font-size="13" fill="#a33">片中说：上升表示动量增强，</text>
+<text x="495" y="218" font-size="13" fill="#a33">但「不是买入信号」本身</text>
+<rect x="480" y="248" width="370" height="100" rx="6" fill="#fff" stroke="#99a"/>
+<text x="495" y="276" font-size="13" font-weight="bold">下跌示意（帧 07）</text>
+<text x="495" y="300" font-size="12">AO 读数 −86.1；画面有零下时段</text>
+<text x="495" y="324" font-size="12" fill="#555">只说明动量也可偏弱，不是交易指令</text>
+
+<!-- bottom: color warning -->
+<rect x="30" y="394" width="840" height="100" rx="8" fill="#f3f6fb" stroke="#99a"/>
+<text x="50" y="424" font-size="14" font-weight="bold">颜色可改 → 别用颜色当方向（帧 09–11）</text>
+<text x="50" y="450" font-size="13">Style：Color 0 / Color 1 演示过 红+青 → 蓝+青 → 蓝+绿；读数示例 143.0、133.9。</text>
+<text x="50" y="474" font-size="13" fill="#555">看的是柱相对前一根升高还是降低，以及相对零线的位置——不是「绿=多、红=空」的固定色码。</text>
+
+<rect x="30" y="512" width="840" height="88" rx="8" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="50" y="542" font-size="14" fill="#b35c00">（推算）不同品种 AO 数值不能直接比</text>
+<text x="50" y="568" font-size="13" fill="#b35c00">黄金周线例里 AO 可达几百，是价格单位下的差值；跨品种硬比大小没有意义。</text>
+<text x="50" y="590" font-size="12" fill="#b35c00">不是片中原话。</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="620" fill="#ffffff"/>
+<text x="450" y="32" font-size="22" text-anchor="middle" font-weight="bold">Awesome Oscillator：5 与 34 周期中点均线之差</text>
+<text x="450" y="56" font-size="13" text-anchor="middle" fill="#555">对照 TradingView 帧 02（1:49）计算面板 · Bill Williams · 红/绿柱围零线</text>
+
+<rect x="30" y="74" width="520" height="420" rx="8" fill="#fafafa" stroke="#99a"/>
+<text x="50" y="100" font-size="14" font-weight="bold">公式与柱色（帧 02 可核对）</text>
+<text x="50" y="124" font-size="13">lengthAO1 = 5　·　lengthAO2 = 34</text>
+<rect x="50" y="140" width="480" height="56" rx="6" fill="#eef4ff" stroke="#6a8"/>
+<text x="70" y="165" font-size="15" font-weight="bold">AO = SMA((H+L)/2, 5) − SMA((H+L)/2, 34)</text>
+<text x="70" y="186" font-size="12" fill="#555">面板写的是高低价中点的两根简单均线之差</text>
+
+<rect x="50" y="214" width="480" height="160" fill="#fff" stroke="#ccc"/>
+<text x="60" y="236" font-size="12" fill="#444">示意副图：红/绿柱围着 0 线（非复原具体行情）</text>
+<line x1="70" y1="300" x2="500" y2="300" stroke="#888" stroke-width="1.5" stroke-dasharray="5,4"/>
+<text x="510" y="304" font-size="12" font-weight="bold">0</text>
+<!-- green bars above -->
+<rect x="90" y="250" width="18" height="50" fill="#2a9a4a"/>
+<rect x="120" y="230" width="18" height="70" fill="#2a9a4a"/>
+<rect x="150" y="260" width="18" height="40" fill="#c43"/>
+<rect x="180" y="275" width="18" height="25" fill="#c43"/>
+<!-- below zero -->
+<rect x="240" y="300" width="18" height="45" fill="#c43"/>
+<rect x="270" y="300" width="18" height="70" fill="#c43"/>
+<rect x="300" y="300" width="18" height="35" fill="#2a9a4a"/>
+<rect x="330" y="300" width="18" height="20" fill="#2a9a4a"/>
+<!-- above again -->
+<rect x="390" y="220" width="18" height="80" fill="#2a9a4a"/>
+<rect x="420" y="240" width="18" height="60" fill="#2a9a4a"/>
+<rect x="450" y="255" width="18" height="45" fill="#c43"/>
+<text x="60" y="360" font-size="12" fill="#2a7a3c">绿柱 = 当前值高于前一根</text>
+<text x="280" y="360" font-size="12" fill="#a33">红柱 = 当前值低于前一根</text>
+
+<rect x="50" y="390" width="225" height="88" rx="6" fill="#eef8f0" stroke="#5a9"/>
+<text x="65" y="415" font-size="13" font-weight="bold" fill="#1a6b3c">零线上方</text>
+<text x="65" y="438" font-size="12">短期动量比长期更向上</text>
+<text x="65" y="458" font-size="12" fill="#555">（帧 02 The basics）</text>
+<rect x="305" y="390" width="225" height="88" rx="6" fill="#fff0f0" stroke="#c66"/>
+<text x="320" y="415" font-size="13" font-weight="bold" fill="#a33">零线下方</text>
+<text x="320" y="438" font-size="12">短期动量比长期更向下</text>
+<text x="320" y="458" font-size="12" fill="#555">（帧 02 The basics）</text>
+
+<!-- right cards -->
+<rect x="570" y="74" width="300" height="150" rx="8" fill="#f3f6fb" stroke="#99a"/>
+<text x="590" y="104" font-size="15" font-weight="bold">片中可核对</text>
+<text x="590" y="130" font-size="13">· 作者：Bill Williams</text>
+<text x="590" y="152" font-size="13">· 周期：5 与 34</text>
+<text x="590" y="174" font-size="13">· 红/绿柱围零线的直方图</text>
+<text x="590" y="196" font-size="13">· Zero Line Cross 写「可能」</text>
+
+<rect x="570" y="240" width="300" height="120" rx="8" fill="#eef8f0" stroke="#5a9"/>
+<text x="590" y="270" font-size="15" font-weight="bold" fill="#1a6b3c">采用</text>
+<text x="590" y="296" font-size="13">定义、计算公式、零线含义</text>
+<text x="590" y="318" font-size="13">柱色 = 相对前一根升降</text>
+<text x="590" y="340" font-size="13">（不是固定多空方向色）</text>
+
+<rect x="570" y="378" width="300" height="116" rx="8" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="590" y="406" font-size="14" fill="#b35c00">（笔者补充）hl2</text>
+<text x="590" y="430" font-size="13" fill="#b35c00">(H+L)/2 常称中间价 hl2。</text>
+<text x="590" y="452" font-size="13" fill="#b35c00">面板可用 hl2 写法；补充</text>
+<text x="590" y="474" font-size="13" fill="#b35c00">用语，不是额外公式。</text>
+
+<rect x="30" y="512" width="840" height="88" rx="8" fill="#fff5f5" stroke="#c66"/>
+<text x="50" y="542" font-size="14" font-weight="bold" fill="#a33">观看缺口（必须写明）</text>
+<text x="50" y="568" font-size="13">本片只看了 0:00–约 7:10 / 11:02；后半因 Video unavailable / bot 墙未看到。</text>
+<text x="50" y="590" font-size="13" fill="#555">碟形、双峰等信号未出现在已看画面——不写入片中内容。</text>
+</svg>

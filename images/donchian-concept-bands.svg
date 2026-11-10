@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="620" fill="#ffffff"/>
+<text x="450" y="32" font-size="22" text-anchor="middle" font-weight="bold">唐奇安通道：上轨=周期最高，下轨=周期最低，中线=中点</text>
+<text x="450" y="56" font-size="13" text-anchor="middle" fill="#555">对照帧 01–04 · Trade Nation + TradingView · Length 画面糊 → 未核对具体数字</text>
+
+<rect x="30" y="74" width="540" height="400" rx="8" fill="#fafafa" stroke="#99a"/>
+<text x="50" y="100" font-size="14" font-weight="bold">通道三线示意（阶梯状，非复原具体行情）</text>
+<!-- upper band -->
+<path d="M70,160 L150,160 L150,140 L230,140 L230,150 L320,150 L320,130 L420,130 L420,145 L520,145" fill="none" stroke="#4a9fd8" stroke-width="2.5"/>
+<text x="530" y="150" font-size="12" fill="#2a6a9a" font-weight="bold">上轨</text>
+<!-- middle -->
+<path d="M70,230 L150,220 L230,215 L320,210 L420,205 L520,210" fill="none" stroke="#d4892a" stroke-width="2.5"/>
+<text x="530" y="214" font-size="12" fill="#b35c00" font-weight="bold">中线</text>
+<!-- lower -->
+<path d="M70,300 L150,300 L150,320 L230,320 L230,310 L320,310 L320,330 L420,330 L420,315 L520,315" fill="none" stroke="#4a9fd8" stroke-width="2.5"/>
+<text x="530" y="320" font-size="12" fill="#2a6a9a" font-weight="bold">下轨</text>
+<!-- fill hint -->
+<path d="M70,160 L150,160 L150,140 L230,140 L230,150 L320,150 L320,130 L420,130 L420,145 L520,145 L520,315 L420,315 L420,330 L320,330 L320,310 L230,310 L230,320 L150,320 L150,300 L70,300 Z" fill="#4a9fd8" opacity="0.08"/>
+<!-- price candles schematic -->
+<path d="M100,250 L130,240 L180,255 L220,235 L270,245 L310,220 L360,230 L400,210 L460,225 L500,240" fill="none" stroke="#333" stroke-width="1.5"/>
+<text x="70" y="360" font-size="13">帧 01–02：下轨 = 所选周期内的最低价（Recent Low）</text>
+<text x="70" y="384" font-size="13">帧 03：中线 = 上下轨的中点（Range Context）</text>
+<text x="70" y="408" font-size="13">帧 04：偏上侧标注 Upper / Bullish Pressure；偏下侧 Lower / Bearish Pressure</text>
+<text x="70" y="432" font-size="12" fill="#555">片中用「可能」——只作背景，不是开仓规则</text>
+<text x="70" y="456" font-size="12" fill="#888">示例图标的（如 GBP/CAD 等）与周期在部分帧看不太清，不作硬写</text>
+
+<rect x="590" y="74" width="280" height="130" rx="8" fill="#eef8f0" stroke="#5a9"/>
+<text x="610" y="104" font-size="15" font-weight="bold" fill="#1a6b3c">采用</text>
+<text x="610" y="130" font-size="13">上/下轨 = 周期最高/最低</text>
+<text x="610" y="152" font-size="13">中线 = 二者中点</text>
+<text x="610" y="174" font-size="13">Length 越长越平滑（口播）</text>
+
+<rect x="590" y="220" width="280" height="120" rx="8" fill="#fff8e8" stroke="#da0"/>
+<text x="610" y="250" font-size="15" font-weight="bold" fill="#b35c00">观望</text>
+<text x="610" y="276" font-size="13">上/下侧 = 多/空压力</text>
+<text x="610" y="298" font-size="13">（片中说「可能」）</text>
+<text x="610" y="320" font-size="13">无统计、无过滤清单</text>
+
+<rect x="590" y="356" width="280" height="118" rx="8" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="610" y="384" font-size="14" fill="#b35c00">参数：未核对 Length</text>
+<text x="610" y="408" font-size="13" fill="#b35c00">帧 07 Inputs：Offset = 0</text>
+<text x="610" y="430" font-size="13" fill="#b35c00">Timeframe: Chart</text>
+<text x="610" y="452" font-size="13" fill="#b35c00">Length 糊，约像 20 → 未核对</text>
+
+<rect x="30" y="494" width="840" height="106" rx="8" fill="#f8fafc" stroke="#99a"/>
+<text x="50" y="524" font-size="14" font-weight="bold">（笔者补充）对照——不是片中原话</text>
+<text x="50" y="550" font-size="13" fill="#b35c00">· 经典「海龟」常用 20 日高点突破——片中没讲，勿写成片中内容。</text>
+<text x="50" y="574" font-size="13" fill="#b35c00">· 与布林带不同：唐奇安只用最高/最低，不用标准差。（笔者补充）</text>
+</svg>

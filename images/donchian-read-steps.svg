@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" font-family="Noto Sans CJK SC, Noto Serif CJK SC, sans-serif">
+<rect width="900" height="640" fill="#ffffff"/>
+<text x="450" y="32" font-size="22" text-anchor="middle" font-weight="bold">读唐奇安通道五步</text>
+<text x="450" y="56" font-size="13" text-anchor="middle" fill="#555">全片 2:48 已看完 · Length 数字糊 → 文中/图中均不写死</text>
+
+<!-- steps -->
+<rect x="20" y="78" width="160" height="90" rx="8" fill="#eef4ff" stroke="#6a8"/>
+<text x="100" y="108" font-size="13" text-anchor="middle" font-weight="bold">① 认三线</text>
+<text x="100" y="130" font-size="12" text-anchor="middle">上 / 中 / 下</text>
+<text x="100" y="150" font-size="11" text-anchor="middle" fill="#555">帧 01–03</text>
+<text x="185" y="125" font-size="18" fill="#888">→</text>
+
+<rect x="200" y="78" width="160" height="90" rx="8" fill="#eef4ff" stroke="#6a8"/>
+<text x="280" y="108" font-size="13" text-anchor="middle" font-weight="bold">② 看宽度</text>
+<text x="280" y="130" font-size="12" text-anchor="middle">宽波动 / 窄盘整</text>
+<text x="280" y="150" font-size="11" text-anchor="middle" fill="#555">帧 05–06</text>
+<text x="365" y="125" font-size="18" fill="#888">→</text>
+
+<rect x="380" y="78" width="160" height="90" rx="8" fill="#fff8e8" stroke="#da0"/>
+<text x="460" y="108" font-size="13" text-anchor="middle" font-weight="bold">③ 压力？</text>
+<text x="460" y="130" font-size="12" text-anchor="middle">上多 / 下空「可能」</text>
+<text x="460" y="150" font-size="11" text-anchor="middle" fill="#b35c00">观望 · 帧 04</text>
+<text x="545" y="125" font-size="18" fill="#888">→</text>
+
+<rect x="560" y="78" width="160" height="90" rx="8" fill="#eef4ff" stroke="#6a8"/>
+<text x="640" y="108" font-size="13" text-anchor="middle" font-weight="bold">④ 参数</text>
+<text x="640" y="130" font-size="12" text-anchor="middle">Offset=0 · 越长越平滑</text>
+<text x="640" y="150" font-size="11" text-anchor="middle" fill="#555">帧 07 · Length 未核对</text>
+<text x="725" y="125" font-size="18" fill="#888">→</text>
+
+<rect x="740" y="78" width="140" height="90" rx="8" fill="#fff0f0" stroke="#c66"/>
+<text x="810" y="108" font-size="13" text-anchor="middle" font-weight="bold">⑤ 勿碰轨入场</text>
+<text x="810" y="130" font-size="12" text-anchor="middle">不确认突破</text>
+<text x="810" y="150" font-size="11" text-anchor="middle" fill="#a33">弃用 · 帧 08–09</text>
+
+<!-- three columns -->
+<rect x="20" y="190" width="280" height="160" rx="8" fill="#eef8f0" stroke="#5a9"/>
+<text x="40" y="220" font-size="15" font-weight="bold" fill="#1a6b3c">采用</text>
+<text x="40" y="248" font-size="13">· 上/下轨/中线定义</text>
+<text x="40" y="270" font-size="13">· 宽 = 波动大，窄 = 盘整</text>
+<text x="40" y="292" font-size="13">· Length 越长越平滑</text>
+<text x="40" y="314" font-size="13">· Offset = 0（面板可核对）</text>
+<text x="40" y="336" font-size="13">· 「不确认突破」这一警告</text>
+
+<rect x="320" y="190" width="280" height="160" rx="8" fill="#fff8e8" stroke="#da0"/>
+<text x="340" y="220" font-size="15" font-weight="bold" fill="#b35c00">观望</text>
+<text x="340" y="248" font-size="13">· 靠上/下侧 = 多/空压力</text>
+<text x="340" y="270" font-size="13">· 片中用「可能」，无样本</text>
+<text x="340" y="292" font-size="13">· 具体 Length 数字</text>
+<text x="340" y="314" font-size="13">　（画面糊，约像 20，未核对）</text>
+<text x="340" y="336" font-size="13">· 如何过滤假动作</text>
+
+<rect x="620" y="190" width="260" height="160" rx="8" fill="#fff0f0" stroke="#c66"/>
+<text x="640" y="220" font-size="15" font-weight="bold" fill="#a33">弃用</text>
+<text x="640" y="248" font-size="13">· 触碰上/下轨就开仓</text>
+<text x="640" y="270" font-size="13">· 把冲出轨道当确认突破</text>
+<text x="640" y="292" font-size="13">· 把短片当完整策略</text>
+<text x="640" y="314" font-size="13">· 把海龟规则写成片中内容</text>
+<text x="640" y="336" font-size="13">· 写死未核对的 Length</text>
+
+<rect x="20" y="370" width="860" height="120" rx="8" fill="#fff7ec" stroke="#e8890c" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="40" y="400" font-size="14" fill="#b35c00">（笔者补充）可链接旧文——不是片中原话</text>
+<text x="40" y="428" font-size="13" fill="#b35c00">布林收口 + OBV（10/21）· Keltner 肯特纳通道（11/04）· 假突破相关笔记</text>
+<text x="40" y="452" font-size="13" fill="#b35c00">唐奇安看极值高低；布林看均值±标准差；肯特纳常见 EMA±ATR——三者不是同一把尺子。</text>
+<text x="40" y="476" font-size="12" fill="#b35c00">片中只讲唐奇安本身；对照是笔者整理。</text>
+
+<rect x="20" y="510" width="860" height="110" rx="8" fill="#f8fafc" stroke="#99a"/>
+<text x="40" y="540" font-size="14" font-weight="bold">缺口</text>
+<text x="40" y="566" font-size="13">① 全长仅 2:48：无入场、止损、回测。② Length 糊，不写死数字。③ 示例标的/周期多数帧看不清。</text>
+<text x="40" y="590" font-size="13">④ 片底 CFD 风险提示（73.7% 零售账户亏钱）是营销平台短片背景，不是策略证据。</text>
+<text x="40" y="612" font-size="12" fill="#555">仅供学习，不构成投资建议。</text>
+</svg>
