@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" font-family="Noto Sans CJK SC, Noto Serif CJK SC, WenQuanYi Micro Hei, sans-serif">
+<rect width="900" height="640" fill="#ffffff"/>
+<text x="450" y="34" font-size="22" text-anchor="middle" font-weight="bold">同向 = 趋势确认；价高 + 线低 = 看跌背离示意</text>
+<text x="450" y="58" font-size="13" text-anchor="middle" fill="#555">左对照帧 12–14（2:16–2:42）；右对照帧 15–16（3:34–4:04）；线条手绘示意</text>
+
+<!-- left -->
+<rect x="30" y="76" width="410" height="400" rx="8" fill="#eef8f0" stroke="#5a9"/>
+<text x="50" y="104" font-size="16" font-weight="bold" fill="#1a6b3c">A. 同向：价格涨，ADL 也涨</text>
+<rect x="50" y="118" width="370" height="140" fill="#fff" stroke="#ccc"/>
+<text x="60" y="136" font-size="12" fill="#444">价格：一路更高低点、小回调</text>
+<path d="M65,240 L95,215 L115,225 L145,195 L165,205 L195,175 L215,185 L245,155 L265,165 L295,140 L315,150 L345,130 L400,145" fill="none" stroke="#2a7" stroke-width="2"/>
+<path d="M95,220 L145,197 L195,177 L245,155 L295,138" fill="none" stroke="#c33" stroke-width="12" stroke-opacity="0.18" stroke-linecap="round"/>
+<text x="250" y="240" font-size="11" fill="#c33">红色笔刷 = 上涨段（帧 13）</text>
+<rect x="50" y="268" width="370" height="120" fill="#fff" stroke="#ccc"/>
+<text x="60" y="286" font-size="12" fill="#7a7a10">Accum/Dist：同段也在抬升（帧 14 笔刷）</text>
+<path d="M65,370 L115,360 L165,345 L215,335 L265,318 L315,305 L345,298 L400,302" fill="none" stroke="#9a9a1a" stroke-width="2.5"/>
+<path d="M65,370 L345,298" fill="none" stroke="#c33" stroke-width="10" stroke-opacity="0.18" stroke-linecap="round"/>
+<text x="50" y="414" font-size="13">片中：两者大体同向 → 增强对当前趋势的信心</text>
+<text x="50" y="436" font-size="13">字幕：both price and the ADL generally…</text>
+<text x="50" y="462" font-size="14" font-weight="bold" fill="#1a6b3c">结论：采用（当背景，不单独用）</text>
+
+<!-- right -->
+<rect x="460" y="76" width="410" height="400" rx="8" fill="#fff6e0" stroke="#c9a227"/>
+<text x="480" y="104" font-size="16" font-weight="bold" fill="#8a6a00">B. 背离：价格更高高点，ADL 更低高点</text>
+<rect x="480" y="118" width="370" height="140" fill="#fff" stroke="#ccc"/>
+<text x="490" y="136" font-size="12" fill="#444">价格：两个高点，连线略向上</text>
+<path d="M495,240 L530,200 L560,160 L585,175 L615,215 L650,200 L690,150 L715,170 L760,215 L835,235" fill="none" stroke="#2a7" stroke-width="2"/>
+<line x1="555" y1="156" x2="700" y2="146" stroke="#d8452a" stroke-width="2.5"/>
+<text x="705" y="140" font-size="11" fill="#d8452a">HH</text>
+<rect x="480" y="268" width="370" height="120" fill="#fff" stroke="#ccc"/>
+<text x="490" y="286" font-size="12" fill="#7a7a10">Accum/Dist：对应两峰，连线向下</text>
+<path d="M495,370 L530,330 L560,300 L585,320 L615,360 L650,345 L690,330 L715,345 L760,370 L835,375" fill="none" stroke="#9a9a1a" stroke-width="2.5"/>
+<line x1="555" y1="298" x2="700" y2="328" stroke="#d8452a" stroke-width="2.5"/>
+<text x="705" y="322" font-size="11" fill="#d8452a">LH</text>
+<text x="480" y="414" font-size="13">片中：价格涨、但买压在变弱 → 「值得再查」</text>
+<text x="480" y="436" font-size="13">没给进场、止损或胜率</text>
+<text x="480" y="462" font-size="14" font-weight="bold" fill="#8a6a00">结论：观望（反转预警，需另行验证）</text>
+
+<!-- bottom -->
+<rect x="30" y="490" width="840" height="130" rx="8" fill="#fbeaea" stroke="#c33"/>
+<text x="50" y="518" font-size="16" font-weight="bold" fill="#a22">反例 / 弃用</text>
+<text x="50" y="544" font-size="13">· 把 54.x M 这种绝对读数当买卖阈值：它是累加值，起点不同就整体平移，片中也没给阈值。</text>
+<text x="50" y="568" font-size="13">· 一见背离或 ADL 拐头就单独开仓：片尾明确说不要单独用，要结合趋势、支撑和阻力。</text>
+<text x="50" y="594" font-size="12" fill="#666">另：4:40 的第二个例子（价格低点连线）画面与字幕对不上，自动字幕也较乱——这里不画成「看涨背离」示意。</text>
+</svg>

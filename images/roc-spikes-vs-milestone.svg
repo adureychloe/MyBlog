@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="680" viewBox="0 0 900 680" font-family="Noto Sans CJK SC, Noto Serif CJK SC, WenQuanYi Micro Hei, sans-serif">
+<rect width="900" height="680" fill="#ffffff"/>
+<text x="450" y="34" font-size="22" text-anchor="middle" font-weight="bold">日线找尖峰，月线画里程碑</text>
+<text x="450" y="58" font-size="13" text-anchor="middle" fill="#555">左对照帧 23–30（3:35–5:18，TLT 1D）；右对照帧 45–47（8:05–8:17，TLT 1M）；形状手绘</text>
+<defs><marker id="up" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#333"/></marker></defs>
+
+<!-- left daily -->
+<rect x="30" y="76" width="420" height="440" rx="8" fill="#f3f6fb" stroke="#99a"/>
+<text x="50" y="104" font-size="16" font-weight="bold">A. 日线：圈出过去的尖峰</text>
+<rect x="50" y="116" width="380" height="150" fill="#fff" stroke="#ccc"/>
+<text x="60" y="134" font-size="12" fill="#444">价格：大方向向下（示意）</text>
+<path d="M60,170 L80,190 L95,175 L110,160 L130,180 L150,175 L175,165 L200,185 L230,195 L260,205 L280,215 L300,200 L320,215 L345,230 L370,245 L395,235 L420,240" fill="none" stroke="#2a7" stroke-width="2"/>
+<line x1="95" y1="205" x2="95" y2="182" stroke="#333" stroke-width="2" marker-end="url(#up)"/>
+<line x1="110" y1="190" x2="110" y2="167" stroke="#333" stroke-width="2" marker-end="url(#up)"/>
+<line x1="175" y1="195" x2="175" y2="172" stroke="#333" stroke-width="2" marker-end="url(#up)"/>
+<line x1="300" y1="230" x2="300" y2="207" stroke="#333" stroke-width="2" marker-end="url(#up)"/>
+<line x1="370" y1="215" x2="370" y2="238" stroke="#333" stroke-width="2" marker-end="url(#up)"/>
+<text x="210" y="255" font-size="11" fill="#555">五个白箭头 ↔ 五个 ROC 尖峰（帧 26）</text>
+
+<rect x="50" y="276" width="380" height="110" fill="#fff" stroke="#ccc"/>
+<text x="60" y="294" font-size="12" fill="#2f57c8">ROC（Length 1，柱状）</text>
+<line x1="60" y1="350" x2="420" y2="350" stroke="#999" stroke-dasharray="4,3"/>
+<g fill="#2f57c8">
+<rect x="70" y="340" width="5" height="10"/><rect x="80" y="350" width="5" height="14"/><rect x="93" y="318" width="5" height="32"/><rect x="108" y="306" width="5" height="44"/><rect x="122" y="350" width="5" height="12"/><rect x="138" y="338" width="5" height="12"/><rect x="152" y="350" width="5" height="18"/><rect x="173" y="318" width="5" height="32"/><rect x="190" y="342" width="5" height="8"/><rect x="205" y="350" width="5" height="16"/><rect x="220" y="336" width="5" height="14"/><rect x="236" y="350" width="5" height="10"/><rect x="252" y="340" width="5" height="10"/><rect x="268" y="350" width="5" height="22"/><rect x="284" y="344" width="5" height="6"/><rect x="298" y="318" width="5" height="32"/><rect x="314" y="350" width="5" height="14"/><rect x="330" y="340" width="5" height="10"/><rect x="346" y="350" width="5" height="18"/><rect x="368" y="318" width="5" height="32"/><rect x="384" y="350" width="5" height="10"/><rect x="398" y="334" width="5" height="16"/><rect x="412" y="314" width="5" height="36"/>
+</g>
+<g fill="none" stroke="#333" stroke-width="1.5">
+<ellipse cx="95" cy="314" rx="8" ry="5"/><ellipse cx="110" cy="302" rx="8" ry="5"/><ellipse cx="175" cy="314" rx="8" ry="5"/><ellipse cx="300" cy="314" rx="8" ry="5"/><ellipse cx="370" cy="314" rx="8" ry="5"/>
+</g>
+
+<text x="50" y="410" font-size="13">片中做法：拿「今天这一涨」和历史尖峰比，</text>
+<text x="50" y="430" font-size="13">再用价格区间工具量尖峰后走了多远：</text>
+<text x="50" y="452" font-size="13" fill="#2f57c8">3.12% · 1.30% · 3.77% · 3.97%</text>
+<text x="50" y="472" font-size="11" fill="#666">（帧 28–30 标签，画面较糊、按截图辨认；口播「another 1% move」</text>
+<text x="50" y="488" font-size="11" fill="#666">　「almost a 7% move」）</text>
+<text x="50" y="506" font-size="13" font-weight="bold" fill="#1a6b3c">结论：采用（历史比较，知道该期待多大）</text>
+
+<!-- right monthly -->
+<rect x="470" y="76" width="400" height="440" rx="8" fill="#eef8f0" stroke="#5a9"/>
+<text x="490" y="104" font-size="16" font-weight="bold">B. 月线：在 3 月柱高画一条线</text>
+<rect x="490" y="116" width="360" height="110" fill="#fff" stroke="#ccc"/>
+<text x="500" y="134" font-size="12" fill="#444">价格（月 K，示意）：末段连续下跌</text>
+<path d="M500,180 L540,170 L580,150 L610,140 L640,160 L680,170 L710,165 L740,175 L760,185 L780,195 L800,205 L820,212 L840,205" fill="none" stroke="#2a7" stroke-width="2"/>
+<rect x="490" y="236" width="360" height="150" fill="#fff" stroke="#ccc"/>
+<text x="500" y="254" font-size="12" fill="#2f57c8">ROC（Length 1，月柱）</text>
+<line x1="500" y1="340" x2="840" y2="340" stroke="#999" stroke-dasharray="4,3"/>
+<g fill="#2f57c8">
+<rect x="510" y="330" width="9" height="10"/><rect x="526" y="340" width="9" height="12"/><rect x="542" y="276" width="9" height="64"/><rect x="558" y="340" width="9" height="16"/><rect x="574" y="300" width="9" height="40"/><rect x="590" y="322" width="9" height="18"/><rect x="606" y="340" width="9" height="20"/><rect x="622" y="318" width="9" height="22"/><rect x="638" y="340" width="9" height="12"/><rect x="654" y="326" width="9" height="14"/><rect x="670" y="340" width="9" height="10"/><rect x="686" y="290" width="9" height="50"/><rect x="702" y="306" width="9" height="34"/><rect x="718" y="340" width="9" height="14"/><rect x="734" y="340" width="9" height="20"/><rect x="750" y="340" width="9" height="18"/><rect x="766" y="340" width="9" height="22"/><rect x="782" y="314" width="9" height="26"/>
+</g>
+<line x1="500" y1="306" x2="840" y2="306" stroke="#555" stroke-width="2"/>
+<ellipse cx="706" cy="306" rx="12" ry="7" fill="none" stroke="#333" stroke-width="1.5"/>
+<text x="722" y="296" font-size="11" fill="#333">← 3 月</text>
+<text x="700" y="378" font-size="10" fill="#a33">连续 4 个下跌月（红 K）</text>
+<text x="796" y="300" font-size="10" fill="#333">本月</text>
+<text x="500" y="410" font-size="13">口播：此前连续 4 个下跌月，每个都差于 −2.5%；</text>
+<text x="500" y="430" font-size="13">新月份才开始几天，已经 +3.86%。</text>
+<text x="500" y="450" font-size="11" fill="#666">（数字来自口播；副图数字画面模糊，未核对）</text>
+<text x="500" y="472" font-size="13">画线 = 里程碑：若继续涨可能超过 3 月，</text>
+<text x="500" y="490" font-size="13">成为它最大的月度涨幅之一（只是历史参照）</text>
+<text x="500" y="508" font-size="13" font-weight="bold" fill="#1a6b3c">结论：采用（当历史参照）</text>
+
+<rect x="30" y="530" width="840" height="130" rx="8" fill="#fbeaea" stroke="#c33"/>
+<text x="50" y="558" font-size="16" font-weight="bold" fill="#a22">反例 / 弃用：一见尖峰就开仓</text>
+<text x="50" y="584" font-size="13">片中对尖峰之后的走法只说「也许是均值回归，也许是动量」，还说想看到这次突然的大动作有高成交量配合——</text>
+<text x="50" y="606" font-size="13">两种方向都提了，没有进场、止损、胜率。把尖峰本身当买卖信号 → 弃用；回归 / 动量、配合成交量 → 观望。</text>
+<text x="50" y="634" font-size="12" fill="#666">图中 3 月柱以外还有更高的月柱（帧 46/47 可见）：这条线不是历史最高，只是「3 月那一步」的高度。</text>
+</svg>

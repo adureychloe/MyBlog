@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" font-family="Noto Sans CJK SC, Noto Serif CJK SC, WenQuanYi Micro Hei, sans-serif">
+<rect width="900" height="640" fill="#ffffff"/>
+<text x="450" y="34" font-size="22" text-anchor="middle" font-weight="bold">累积/派发线 ADL：一条一直累加的价量线</text>
+<text x="450" y="58" font-size="13" text-anchor="middle" fill="#555">对照 TradingView 帧 03/04/05：NQ1! · 1h · CME · 副图标签 Accum/Dist</text>
+
+<rect x="30" y="76" width="510" height="370" rx="8" fill="#fafafa" stroke="#99a"/>
+<text x="50" y="102" font-size="14" font-weight="bold">示意：价格主图 + Accum/Dist 副图</text>
+<text x="50" y="121" font-size="12" fill="#666">结构对照帧 04/09；线条手绘，不复原具体行情</text>
+
+<rect x="50" y="132" width="470" height="140" fill="#fff" stroke="#ccc"/>
+<text x="60" y="150" font-size="12" fill="#444">价格（NQ1! 1 小时，示意）</text>
+<path d="M70,240 L110,225 L150,205 L190,215 L230,180 L270,170 L310,190 L350,160 L390,175 L430,200 L470,225 L505,250" fill="none" stroke="#2a7" stroke-width="2"/>
+
+<rect x="50" y="282" width="470" height="150" fill="#fff" stroke="#ccc"/>
+<text x="60" y="302" font-size="12" fill="#7a7a10" font-weight="bold">Accum/Dist 54.62 M（帧 04，0:30）</text>
+<path d="M70,400 L110,390 L150,372 L190,380 L230,350 L270,342 L310,356 L350,330 L390,340 L430,362 L470,385 L505,400" fill="none" stroke="#9a9a1a" stroke-width="2.5"/>
+<text x="70" y="424" font-size="11" fill="#666">单位是 M（百万）级的大数，不是 0–100</text>
+
+<rect x="560" y="76" width="310" height="170" rx="8" fill="#f3f6fb" stroke="#99a"/>
+<text x="580" y="104" font-size="15" font-weight="bold">片中可核对</text>
+<text x="580" y="130" font-size="13">· 搜索 accumulation →</text>
+<text x="580" y="150" font-size="13">　TECHNICALS「Accumulation/Distribution」</text>
+<text x="580" y="174" font-size="13">· Inputs 只有：Timeframe = Chart</text>
+<text x="580" y="194" font-size="13">　☑ Wait for timeframe closes</text>
+<text x="580" y="218" font-size="13" fill="#a33" font-weight="bold">· 没有 Length 参数</text>
+<text x="580" y="238" font-size="12" fill="#666">（帧 05，0:49）</text>
+
+<rect x="560" y="260" width="310" height="186" rx="8" fill="#fff8ee" stroke="#e08a1e" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="580" y="288" font-size="15" font-weight="bold" fill="#b25f00">（笔者补充）常见算法</text>
+<text x="580" y="312" font-size="12">片中没有公式板，以下非片中原话：</text>
+<text x="580" y="336" font-size="12">① 乘数 = [(收−低) − (高−收)] ÷ (高−低)</text>
+<text x="580" y="358" font-size="12">　收在最高 → +1；收在最低 → −1</text>
+<text x="580" y="380" font-size="12">② 当根资金流 = 乘数 × 当根成交量</text>
+<text x="580" y="402" font-size="12">③ ADL = 前一根 ADL + 当根资金流</text>
+<text x="580" y="428" font-size="12" fill="#b25f00">→ 一直累加，所以绝对值本身没意义</text>
+
+<rect x="30" y="462" width="840" height="160" rx="8" fill="#fff8ee" stroke="#e08a1e" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="50" y="490" font-size="15" font-weight="bold" fill="#b25f00">（笔者补充）别和这三样混</text>
+<text x="50" y="518" font-size="13">· OBV：收盘比前收高就整根量 +，低就整根量 −；ADL 还看「收在当根高低区间的哪里」。</text>
+<text x="50" y="544" font-size="13">· CMF：同一个资金流想法，但只算最近 N 根并除以总量，绕 0 轴摆；ADL 从头累加、不归一化。</text>
+<text x="50" y="570" font-size="13">· 威科夫的「吸筹/派发」：是价格结构阶段的叫法，和这条指标线不是一回事。</text>
+<text x="50" y="600" font-size="12" fill="#666">以上均非片中内容；片中没有做这几样对比。</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="660" viewBox="0 0 900 660" font-family="Noto Sans CJK SC, Noto Serif CJK SC, WenQuanYi Micro Hei, sans-serif">
+<rect width="900" height="660" fill="#ffffff"/>
+<text x="450" y="34" font-size="22" text-anchor="middle" font-weight="bold">变动率 ROC：现在比 N 根之前涨/跌了百分之几</text>
+<text x="450" y="58" font-size="13" text-anchor="middle" fill="#555">对照 TradingView 帧 10/12/13/16：TLT · 1D · NASDAQ；默认 Length 9 · Source close</text>
+
+<rect x="30" y="76" width="840" height="58" rx="8" fill="#fbeaea" stroke="#c33" stroke-width="2"/>
+<text x="50" y="102" font-size="15" font-weight="bold" fill="#a22">先排雷：这里的 ROC = Rate of Change（变动率指标）</text>
+<text x="50" y="124" font-size="13">不是期权 / 财务里常说的「ROC 资本回报率」（Return on Capital）。两者只是缩写撞车。</text>
+
+<rect x="30" y="148" width="410" height="300" rx="8" fill="#fafafa" stroke="#99a"/>
+<text x="50" y="174" font-size="14" font-weight="bold">示意：Length 9 → Length 1 的样子</text>
+<text x="50" y="193" font-size="12" fill="#666">形状手绘；对照帧 10（9，线）与帧 16（1，柱状）</text>
+<rect x="50" y="204" width="370" height="100" fill="#fff" stroke="#ccc"/>
+<text x="60" y="222" font-size="12" fill="#2f57c8">Length 9：平滑的曲线</text>
+<line x1="60" y1="262" x2="410" y2="262" stroke="#999" stroke-dasharray="4,3"/>
+<path d="M60,262 C90,240 110,236 140,250 S190,285 220,278 S270,240 300,244 S360,280 410,230" fill="none" stroke="#2f57c8" stroke-width="2"/>
+<rect x="50" y="314" width="370" height="120" fill="#fff" stroke="#ccc"/>
+<text x="60" y="332" font-size="12" fill="#2f57c8">Length 1 + Columns：每天一根柱</text>
+<line x1="60" y1="384" x2="410" y2="384" stroke="#999" stroke-dasharray="4,3"/>
+<g fill="#2f57c8">
+<rect x="70" y="372" width="6" height="12"/><rect x="84" y="384" width="6" height="16"/><rect x="98" y="364" width="6" height="20"/><rect x="112" y="384" width="6" height="8"/><rect x="126" y="378" width="6" height="6"/><rect x="140" y="384" width="6" height="22"/><rect x="154" y="350" width="6" height="34"/><rect x="168" y="384" width="6" height="12"/><rect x="182" y="370" width="6" height="14"/><rect x="196" y="384" width="6" height="18"/><rect x="210" y="374" width="6" height="10"/><rect x="224" y="384" width="6" height="26"/><rect x="238" y="366" width="6" height="18"/><rect x="252" y="384" width="6" height="10"/><rect x="266" y="376" width="6" height="8"/><rect x="280" y="384" width="6" height="14"/><rect x="294" y="356" width="6" height="28"/><rect x="308" y="384" width="6" height="20"/><rect x="322" y="372" width="6" height="12"/><rect x="336" y="384" width="6" height="8"/><rect x="350" y="368" width="6" height="16"/><rect x="364" y="384" width="6" height="12"/><rect x="378" y="342" width="6" height="42"/><rect x="392" y="376" width="6" height="8"/>
+</g>
+<text x="60" y="426" font-size="11" fill="#666">柱高 = 当天相对前一天的 %（帧 33：刻度就是百分比）</text>
+
+<rect x="460" y="148" width="410" height="186" rx="8" fill="#f3f6fb" stroke="#99a"/>
+<text x="480" y="176" font-size="15" font-weight="bold">片中可核对</text>
+<text x="480" y="202" font-size="13">· 搜 rate of → 添加 Rate Of Change，副图标 ROC</text>
+<text x="480" y="226" font-size="13">· Inputs：Length 9、Source close（帧 10）</text>
+<text x="480" y="250" font-size="13">· Source 可选 open/high/low/close/hl2/hlc3/ohlc4</text>
+<text x="480" y="274" font-size="13">· 改成 Length 1 → 看「按天」的变动率</text>
+<text x="480" y="298" font-size="13">· Style 有 Zero Line 0；绘图改 Columns</text>
+<text x="480" y="322" font-size="13">· 后段试过 Length 5（更平滑），又改回 1</text>
+
+<rect x="460" y="348" width="410" height="100" rx="8" fill="#eef8f0" stroke="#5a9"/>
+<text x="480" y="376" font-size="15" font-weight="bold" fill="#1a6b3c">采用</text>
+<text x="480" y="402" font-size="13">把 ROC 读成「涨跌了百分之几」；</text>
+<text x="480" y="424" font-size="13">Length 1 柱状图 = 每天的涨跌幅</text>
+
+<rect x="30" y="462" width="840" height="180" rx="8" fill="#fff8ee" stroke="#e08a1e" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="50" y="490" font-size="15" font-weight="bold" fill="#b25f00">（笔者补充）常见公式——片中没有出示公式板</text>
+<text x="50" y="520" font-size="14">ROC = (今天的收盘 − N 根之前的收盘) ÷ N 根之前的收盘 × 100</text>
+<text x="50" y="548" font-size="13">（推算示例，非片中数据）N 根之前收 100，今天收 103 → ROC = +3；今天收 98 → ROC = −2。</text>
+<text x="50" y="574" font-size="13">· N = 1：就是日涨跌幅；N 越大，看的是越长一段的涨跌，柱子 / 曲线也越平滑。</text>
+<text x="50" y="600" font-size="13">· 零轴上方 = 比 N 根前高；下方 = 比 N 根前低。它不封顶，没有 0–100 的固定范围。</text>
+<text x="50" y="626" font-size="12" fill="#666">TradingView 的具体实现以平台文档为准；这里只为了让第一次学的人知道柱子代表什么。</text>
+</svg>

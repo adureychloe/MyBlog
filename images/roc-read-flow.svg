@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" font-family="Noto Sans CJK SC, Noto Serif CJK SC, WenQuanYi Micro Hei, sans-serif">
+<rect width="900" height="620" fill="#ffffff"/>
+<text x="450" y="34" font-size="22" text-anchor="middle" font-weight="bold">读 ROC 五步：先问「这一涨在它自己的历史里算多大」</text>
+<text x="450" y="58" font-size="13" text-anchor="middle" fill="#555">每步对应片中帧；第 5 步片中只给了两种可能，没有给规则</text>
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#557"/></marker></defs>
+
+<rect x="20" y="80" width="160" height="160" rx="10" fill="#f3f6fb" stroke="#99a"/>
+<text x="100" y="108" font-size="15" text-anchor="middle" font-weight="bold">① 添加 + 设参</text>
+<text x="100" y="134" font-size="12" text-anchor="middle">Rate Of Change</text>
+<text x="100" y="154" font-size="12" text-anchor="middle">默认 Length 9</text>
+<text x="100" y="174" font-size="12" text-anchor="middle">改成 Length 1</text>
+<text x="100" y="194" font-size="12" text-anchor="middle">Source close</text>
+<text x="100" y="226" font-size="11" text-anchor="middle" fill="#666">帧 03–12（0:15–1:40）</text>
+
+<rect x="196" y="80" width="160" height="160" rx="10" fill="#f3f6fb" stroke="#99a"/>
+<text x="276" y="108" font-size="15" text-anchor="middle" font-weight="bold">② 改成柱状</text>
+<text x="276" y="134" font-size="12" text-anchor="middle">Style → Columns</text>
+<text x="276" y="154" font-size="12" text-anchor="middle">每根柱 = 当天 %</text>
+<text x="276" y="174" font-size="12" text-anchor="middle">Zero Line 0</text>
+<text x="276" y="194" font-size="12" text-anchor="middle">（线 / 阶梯线也行）</text>
+<text x="276" y="226" font-size="11" text-anchor="middle" fill="#666">帧 15–16，60–63</text>
+
+<rect x="372" y="80" width="160" height="160" rx="10" fill="#f3f6fb" stroke="#99a"/>
+<text x="452" y="108" font-size="15" text-anchor="middle" font-weight="bold">③ 和历史比</text>
+<text x="452" y="134" font-size="12" text-anchor="middle">圈出过去的尖峰</text>
+<text x="452" y="154" font-size="12" text-anchor="middle">今天这根</text>
+<text x="452" y="174" font-size="12" text-anchor="middle">排在什么位置？</text>
+<text x="452" y="194" font-size="12" text-anchor="middle">离群值 = outlier</text>
+<text x="452" y="226" font-size="11" text-anchor="middle" fill="#666">帧 21–23，64–65</text>
+
+<rect x="548" y="80" width="160" height="160" rx="10" fill="#f3f6fb" stroke="#99a"/>
+<text x="628" y="108" font-size="15" text-anchor="middle" font-weight="bold">④ 量尖峰之后</text>
+<text x="628" y="134" font-size="12" text-anchor="middle">价格区间工具</text>
+<text x="628" y="154" font-size="12" text-anchor="middle">量后续走了多远</text>
+<text x="628" y="174" font-size="12" text-anchor="middle">月线：在 3 月柱高</text>
+<text x="628" y="194" font-size="12" text-anchor="middle">画里程碑线</text>
+<text x="628" y="226" font-size="11" text-anchor="middle" fill="#666">帧 28–30，45–47</text>
+
+<rect x="724" y="80" width="160" height="160" rx="10" fill="#fff6e0" stroke="#c9a227"/>
+<text x="804" y="108" font-size="15" text-anchor="middle" font-weight="bold">⑤ 之后呢？</text>
+<text x="804" y="134" font-size="12" text-anchor="middle">也许均值回归</text>
+<text x="804" y="154" font-size="12" text-anchor="middle">也许是动量</text>
+<text x="804" y="174" font-size="12" text-anchor="middle">想看到高成交量</text>
+<text x="804" y="194" font-size="12" text-anchor="middle">配合 → 观望</text>
+<text x="804" y="226" font-size="11" text-anchor="middle" fill="#666">帧 66–67（10:57–11:05）</text>
+
+<line x1="180" y1="160" x2="194" y2="160" stroke="#557" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="356" y1="160" x2="370" y2="160" stroke="#557" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="532" y1="160" x2="546" y2="160" stroke="#557" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="708" y1="160" x2="722" y2="160" stroke="#557" stroke-width="2" marker-end="url(#ar)"/>
+
+<rect x="20" y="262" width="280" height="140" rx="8" fill="#eef8f0" stroke="#5a9"/>
+<text x="40" y="290" font-size="15" font-weight="bold" fill="#1a6b3c">采用</text>
+<text x="40" y="316" font-size="13">· ROC = 相对 N 根前的 %</text>
+<text x="40" y="340" font-size="13">· Length 1 柱状图看日涨跌</text>
+<text x="40" y="364" font-size="13">· 和自身历史比、画里程碑</text>
+
+<rect x="310" y="262" width="280" height="140" rx="8" fill="#fff6e0" stroke="#c9a227"/>
+<text x="330" y="290" font-size="15" font-weight="bold" fill="#8a6a00">观望</text>
+<text x="330" y="316" font-size="13">· 尖峰后回归还是延续</text>
+<text x="330" y="340" font-size="13">· 配合高成交量确认</text>
+<text x="330" y="364" font-size="13">· Length 5 等平滑版本</text>
+
+<rect x="600" y="262" width="284" height="140" rx="8" fill="#fbeaea" stroke="#c33"/>
+<text x="620" y="290" font-size="15" font-weight="bold" fill="#a22">弃用</text>
+<text x="620" y="316" font-size="13">· 一见尖峰就开仓</text>
+<text x="620" y="340" font-size="13">· 把别的品种的 % 尖峰</text>
+<text x="620" y="360" font-size="13">　当成这个品种的阈值</text>
+
+<rect x="20" y="420" width="864" height="180" rx="8" fill="#fff8ee" stroke="#e08a1e" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="40" y="448" font-size="15" font-weight="bold" fill="#b25f00">（笔者补充）「多大才算极端」——片中没有给定义</text>
+<text x="40" y="476" font-size="13">· 片中只是用眼睛圈出「最高的几根」。想更客观，可以算这个品种过去 N 年 Length 1 ROC 的分位数</text>
+<text x="40" y="498" font-size="13">　（如 95% / 99% 分位），或「超过均值 ± 2 个标准差」，当作自己的离群线。</text>
+<text x="40" y="524" font-size="13">· 阈值依品种而定：同样 +3%，对债券 ETF 可能已是少见的大日，对小盘股或加密币可能很平常。</text>
+<text x="40" y="550" font-size="13">· 周期也要一致：日线的 ROC 尖峰和月线的 ROC 尖峰不能放在一起比（片中口播也说「取决于周期」）。</text>
+<text x="40" y="578" font-size="12" fill="#666">以上分位数 / 标准差 / 品种阈值的说法都不是片中原话。</text>
+</svg>
