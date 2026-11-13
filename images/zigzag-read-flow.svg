@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" font-family="Noto Sans CJK SC, Noto Serif CJK SC, WenQuanYi Micro Hei, sans-serif">
+<rect width="900" height="600" fill="#ffffff"/>
+<text x="450" y="34" font-size="22" text-anchor="middle" font-weight="bold">读 ZigZag 五步</text>
+<text x="450" y="58" font-size="13" text-anchor="middle" fill="#555">五步对照片中画面；第 4 步「高低点抬高/降低」的读法和底部橙框是笔者补充</text>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker></defs>
+<g font-size="12">
+<rect x="20" y="80" width="160" height="150" rx="8" fill="#eef2f8" stroke="#7a8bb0"/>
+<text x="34" y="104" font-size="14" font-weight="bold">1 加指标</text>
+<text x="34" y="128">内置 Zig Zag</text>
+<text x="34" y="148">默认 5% / 10</text>
+<text x="34" y="168">（帧 01–02）</text>
+
+<rect x="196" y="80" width="160" height="150" rx="8" fill="#eef2f8" stroke="#7a8bb0"/>
+<text x="210" y="104" font-size="14" font-weight="bold">2 精简标签</text>
+<text x="210" y="128">改线色（帧 03）</text>
+<text x="210" y="148">太挤就关成交量</text>
+<text x="210" y="168">等显示项（帧 04）</text>
+
+<rect x="372" y="80" width="160" height="150" rx="8" fill="#eef2f8" stroke="#7a8bb0"/>
+<text x="386" y="104" font-size="14" font-weight="bold">3 选周期</text>
+<text x="386" y="128">越短：摆动、噪音越多</text>
+<text x="386" y="148">1h：片中当折中</text>
+<text x="386" y="168">日/周：看大结构</text>
+<text x="386" y="188">（帧 05–07）</text>
+
+<rect x="548" y="80" width="160" height="150" rx="8" fill="#effaf3" stroke="#1a9b5a"/>
+<text x="562" y="104" font-size="14" font-weight="bold">4 数结构</text>
+<text x="562" y="128">只用已确认转折</text>
+<text x="562" y="148">高点、低点在抬高</text>
+<text x="562" y="168">还是在降低？</text>
+<text x="562" y="188">每段涨跌多少？</text>
+
+<rect x="724" y="80" width="160" height="150" rx="8" fill="#fdf1d8" stroke="#d9a400"/>
+<text x="738" y="104" font-size="14" font-weight="bold">5 最右一折</text>
+<text x="738" y="128">当「暂定」</text>
+<text x="738" y="148">会变、会滞后</text>
+<text x="738" y="168">（帧 08，3:14）</text>
+</g>
+<line x1="180" y1="155" x2="194" y2="155" stroke="#666" stroke-width="2" marker-end="url(#a)"/>
+<line x1="356" y1="155" x2="370" y2="155" stroke="#666" stroke-width="2" marker-end="url(#a)"/>
+<line x1="532" y1="155" x2="546" y2="155" stroke="#666" stroke-width="2" marker-end="url(#a)"/>
+<line x1="708" y1="155" x2="722" y2="155" stroke="#666" stroke-width="2" marker-end="url(#a)"/>
+
+<rect x="20" y="256" width="280" height="130" rx="8" fill="#effaf3" stroke="#1a9b5a" stroke-width="2"/>
+<text x="36" y="282" font-size="15" font-weight="bold" fill="#137a45">采用</text>
+<text x="36" y="306" font-size="12">画波段骨架、数高低点</text>
+<text x="36" y="326" font-size="12">量每一段涨跌幅（看标签）</text>
+<text x="36" y="346" font-size="12">大周期看大结构</text>
+
+<rect x="310" y="256" width="280" height="130" rx="8" fill="#fdf1d8" stroke="#d9a400" stroke-width="2"/>
+<text x="326" y="282" font-size="15" font-weight="bold" fill="#8a6a00">观望</text>
+<text x="326" y="306" font-size="12">用最右一折做实时判断</text>
+<text x="326" y="326" font-size="12">（会随新数据改变）</text>
+
+<rect x="600" y="256" width="280" height="130" rx="8" fill="#fbeaea" stroke="#c33" stroke-width="2"/>
+<text x="616" y="282" font-size="15" font-weight="bold" fill="#a22">弃用</text>
+<text x="616" y="306" font-size="12">把转折点当买卖信号</text>
+<text x="616" y="326" font-size="12">用历史折线回测</text>
+<text x="616" y="350" font-size="11" fill="#666">依据：片中没给进出场规则 +</text>
+<text x="616" y="368" font-size="11" fill="#666">3:14 滞后/末段会变的警告</text>
+
+<rect x="20" y="404" width="860" height="176" rx="8" fill="#fff6ec" stroke="#e8892b" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="40" y="430" font-size="14" font-weight="bold" fill="#b85f00">（笔者补充，非片中内容）</text>
+<text x="40" y="456" font-size="12">· 锚点：已确认的 ZigZag 转折点可以当画斐波那契回撤、趋势线的起止点，省得手工找高低点。</text>
+<text x="40" y="480" font-size="12">· 幅度：deviation 按品种日常波动调，同一个 5% 放到不同品种效果差很多。</text>
+<text x="40" y="504" font-size="12">· 结构：「高点低点都在抬高 / 降低」这套读法来自市场结构的基础知识，片中只说「看更大的市场结构」。</text>
+<text x="40" y="528" font-size="12">· 回测：用已确认的历史折线回测会虚高（见上一张图）。</text>
+<text x="40" y="556" font-size="11" fill="#777">注：3:25–4:10 没有截图，本文不写那段片中说了什么。</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="660" viewBox="0 0 900 660" font-family="Noto Sans CJK SC, Noto Serif CJK SC, WenQuanYi Micro Hei, sans-serif">
+<rect width="900" height="660" fill="#ffffff"/>
+<text x="450" y="34" font-size="22" text-anchor="middle" font-weight="bold">为什么 ZigZag「事后看起来很准」</text>
+<text x="450" y="58" font-size="13" text-anchor="middle" fill="#555">对照帧 07 / 08：MGC1! 1h · COMEX，黄色折线与标签（只标价格与变化，成交量略）</text>
+
+<rect x="30" y="76" width="840" height="320" rx="8" fill="#fafafa" stroke="#99a"/>
+<text x="50" y="100" font-size="14" font-weight="bold">示意：帧 08 的折线顺序（位置手绘，标签按截图读）</text>
+<polyline points="80,190 160,145 260,330 340,210 450,360 520,270 640,350" fill="none" stroke="#e6b800" stroke-width="3"/>
+<polyline points="640,350 800,200" fill="none" stroke="#e6b800" stroke-width="3" stroke-dasharray="8,6"/>
+<g font-size="12" font-family="monospace">
+<text x="60" y="210" fill="#d33">4456.5</text>
+<text x="130" y="136" fill="#1a9b5a">4688.0 (+231.5)</text>
+<text x="210" y="352" fill="#d33">4106.7 (-581.3)</text>
+<text x="300" y="200" fill="#1a9b5a">4463.8 (+357.1)</text>
+<text x="420" y="378" fill="#d33">4016.0 (-447.8)</text>
+<text x="480" y="260" fill="#1a9b5a">4276.6 (+260.6)</text>
+<text x="590" y="372" fill="#d33">4023.6 (变化未写)</text>
+<text x="730" y="190" fill="#1a9b5a">4509.2 (+485.6)</text>
+</g>
+<text x="50" y="386" font-size="12" fill="#333">实线 = 已确认的转折：回头看，每个高低点都「刚好」被连上</text>
+<rect x="660" y="230" width="196" height="96" rx="6" fill="#fdf1d8" stroke="#d9a400"/>
+<text x="672" y="252" font-size="12" font-weight="bold" fill="#8a6a00">最右一段（虚线）</text>
+<text x="672" y="272" font-size="12">会随新 K 线改变；</text>
+<text x="672" y="290" font-size="12">（推算）下一个转折点要</text>
+<text x="672" y="308" font-size="12">价格反向走够幅度才确认</text>
+
+<rect x="30" y="410" width="410" height="110" rx="8" fill="#fbeaea" stroke="#c33" stroke-width="2"/>
+<text x="50" y="436" font-size="14" font-weight="bold" fill="#a22">帧 08（3:14）片中警告</text>
+<text x="50" y="460" font-size="12">字幕：…data develops, and its confirmed pivots can lag.</text>
+<text x="50" y="480" font-size="12">意思：最新一段会随新数据改变，</text>
+<text x="50" y="500" font-size="12">已确认的转折点会滞后。</text>
+
+<rect x="460" y="410" width="410" height="110" rx="8" fill="#f2f2f2" stroke="#999"/>
+<text x="480" y="436" font-size="14" font-weight="bold">读数核对说明</text>
+<text x="480" y="460" font-size="12">4023.6 的括号变化：笔记与画面读数不一致，</text>
+<text x="480" y="480" font-size="12">未写具体数值。成交量行 4h 与 1h 图读数不同，</text>
+<text x="480" y="500" font-size="12">本图略去。360p 小字末位可能有误。</text>
+
+<rect x="30" y="534" width="840" height="108" rx="8" fill="#fff6ec" stroke="#e8892b" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="50" y="560" font-size="14" font-weight="bold" fill="#b85f00">（笔者补充，非片中原话）为什么不能拿历史折线回测</text>
+<text x="50" y="584" font-size="12">· 图上每个「完美」转折点，在它发生的那一刻还没被画出来——要等价格反向走够幅度后才补上。</text>
+<text x="50" y="606" font-size="12">· 拿已确认的历史折线去回测「在转折点买/卖」，等于偷看了未来，结果会虚高。</text>
+<text x="50" y="628" font-size="12">· 片中只给了警告，没有给任何进出场规则。</text>
+</svg>

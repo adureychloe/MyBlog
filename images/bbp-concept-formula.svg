@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="660" viewBox="0 0 900 660" font-family="Noto Sans CJK SC, Noto Serif CJK SC, WenQuanYi Micro Hei, sans-serif">
+<rect width="900" height="660" fill="#ffffff"/>
+<text x="450" y="34" font-size="22" text-anchor="middle" font-weight="bold">多空力量 BBP：最高价、最低价离 EMA 各有多远</text>
+<text x="450" y="58" font-size="13" text-anchor="middle" fill="#555">对照 Trade Nation + TradingView 帧 02（0:44 公式页）/ 03（1:13）/ 04（~1:29）</text>
+
+<rect x="30" y="76" width="400" height="330" rx="8" fill="#fafafa" stroke="#99a"/>
+<text x="50" y="102" font-size="14" font-weight="bold">示意：一根 K 线和它的 EMA</text>
+<text x="50" y="121" font-size="12" fill="#666">手绘，非片中图表；EMA 片中口播为收盘价的 EMA</text>
+<line x1="60" y1="270" x2="410" y2="270" stroke="#2f57c8" stroke-width="2.5"/>
+<text x="330" y="292" font-size="12" fill="#2f57c8">EMA</text>
+<line x1="200" y1="150" x2="200" y2="330" stroke="#1a9b5a" stroke-width="2"/>
+<rect x="186" y="185" width="28" height="110" fill="#1a9b5a"/>
+<text x="120" y="154" font-size="12">High 最高价</text>
+<text x="120" y="344" font-size="12">Low 最低价</text>
+<line x1="250" y1="150" x2="250" y2="268" stroke="#1a9b5a" stroke-width="2"/>
+<line x1="250" y1="270" x2="250" y2="150" stroke="#1a9b5a" stroke-width="2"/>
+<text x="258" y="206" font-size="13" fill="#137a45" font-weight="bold">Bull Power</text>
+<text x="258" y="224" font-size="12" fill="#137a45">= High − EMA（这里为正）</text>
+<line x1="250" y1="270" x2="250" y2="330" stroke="#d33" stroke-width="2"/>
+<text x="258" y="318" font-size="13" fill="#a22" font-weight="bold">Bear Power</text>
+<text x="258" y="336" font-size="12" fill="#a22">= Low − EMA（这里为负）</text>
+<line x1="210" y1="150" x2="250" y2="150" stroke="#999" stroke-dasharray="3,3"/>
+<line x1="210" y1="330" x2="250" y2="330" stroke="#999" stroke-dasharray="3,3"/>
+<text x="50" y="390" font-size="12">两段相加：正的大 → 多头占优；负的大 → 空头占优</text>
+
+<rect x="450" y="76" width="420" height="150" rx="8" fill="#eef2f8" stroke="#7a8bb0" stroke-width="2"/>
+<text x="470" y="102" font-size="14" font-weight="bold">帧 02（0:44）片中公式页原文</text>
+<text x="470" y="134" font-size="15" font-family="monospace">Bull Power = High - EMA</text>
+<text x="470" y="164" font-size="15" font-family="monospace">Bear Power = Low - EMA</text>
+<text x="470" y="194" font-size="15" font-family="monospace">Bull Bear Power =</text>
+<text x="490" y="214" font-size="15" font-family="monospace">Bull Power + Bear Power</text>
+
+<rect x="450" y="240" width="420" height="166" rx="8" fill="#f2f2f2" stroke="#999"/>
+<text x="470" y="266" font-size="14" font-weight="bold">TradingView 设置（帧 03 / 04）</text>
+<text x="470" y="292" font-size="12">Inputs 只有一项 Length；演示改成 28（图标签 BBP 28）</text>
+<text x="470" y="314" font-size="12">其余演示图的标签是 BBP 13（片中没明说是默认值）</text>
+<text x="470" y="336" font-size="12">口播：周期短 → 反应快、噪音多；长 → 平滑、滞后</text>
+<text x="470" y="358" font-size="12">Style：BBPower Color 0 绿 / Color 1 红，Zero line ☑</text>
+<text x="470" y="380" font-size="12">画法菜单里选中 Columns（柱状）</text>
+
+<rect x="30" y="422" width="840" height="140" rx="8" fill="#fff6ec" stroke="#e8892b" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="50" y="448" font-size="14" font-weight="bold" fill="#b85f00">（笔者补充 / 推算，不是片中公式）</text>
+<text x="50" y="474" font-size="13" font-family="monospace">BBP = (High − EMA) + (Low − EMA) = 2 × ( (High + Low) ÷ 2 − EMA )</text>
+<text x="50" y="498" font-size="12">· 按片中公式代数化简：本质是「K 线中点离 EMA 多远」的两倍，所以它和「价格减均线」的乖离很像。</text>
+<text x="50" y="520" font-size="12">· （推算）读数是价格单位：帧 07 EURUSD 副图刻度是 0.00x 级，帧 06 TSLA 是几十级（美元）——不同品种不能直接比大小。</text>
+<text x="50" y="542" font-size="12">· 这两条都不是视频里讲的。</text>
+
+<rect x="30" y="576" width="840" height="66" rx="8" fill="#f7f7f7" stroke="#bbb"/>
+<text x="50" y="600" font-size="12" fill="#555">画面说明：帧 02 起，视频底部常驻 Trade Nation 的 CFD 风险提示横幅（零售 CFD 账户多数亏损的合规声明），</text>
+<text x="50" y="622" font-size="12" fill="#555">本图未画出。它是券商合规文字，不是这个指标的结论。</text>
+</svg>

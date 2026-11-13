@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="680" viewBox="0 0 900 680" font-family="Noto Sans CJK SC, Noto Serif CJK SC, WenQuanYi Micro Hei, sans-serif">
+<rect width="900" height="680" fill="#ffffff"/>
+<text x="450" y="34" font-size="22" text-anchor="middle" font-weight="bold">零线上下、零线穿越，以及片中列的三条局限</text>
+<text x="450" y="58" font-size="13" text-anchor="middle" fill="#555">对照帧 06（~2:17 TSLA）/ 07（2:39 EURUSD）/ 08（~3:00）/ 09（3:42）/ 10（~4:02）/ 11（4:32）</text>
+
+<rect x="30" y="76" width="840" height="250" rx="8" fill="#fafafa" stroke="#99a"/>
+<text x="50" y="102" font-size="14" font-weight="bold">示意：BBP 副图（柱高手绘，不是片中读数）</text>
+<line x1="60" y1="210" x2="850" y2="210" stroke="#888" stroke-dasharray="5,4"/>
+<text x="800" y="202" font-size="12" fill="#666">零线</text>
+<g fill="#1a9b5a">
+<rect x="70" y="196" width="12" height="14"/><rect x="86" y="186" width="12" height="24"/><rect x="102" y="172" width="12" height="38"/><rect x="118" y="160" width="12" height="50"/><rect x="134" y="150" width="12" height="60"/><rect x="150" y="164" width="12" height="46"/><rect x="166" y="180" width="12" height="30"/><rect x="182" y="196" width="12" height="14"/>
+<rect x="470" y="190" width="12" height="20"/><rect x="486" y="176" width="12" height="34"/><rect x="502" y="160" width="12" height="50"/><rect x="518" y="140" width="12" height="70"/><rect x="534" y="150" width="12" height="60"/><rect x="550" y="170" width="12" height="40"/><rect x="566" y="186" width="12" height="24"/>
+</g>
+<g fill="#d33">
+<rect x="198" y="210" width="12" height="12"/><rect x="214" y="210" width="12" height="26"/><rect x="230" y="210" width="12" height="40"/><rect x="246" y="210" width="12" height="54"/><rect x="262" y="210" width="12" height="46"/><rect x="278" y="210" width="12" height="30"/><rect x="294" y="210" width="12" height="16"/>
+<rect x="582" y="210" width="12" height="10"/><rect x="598" y="210" width="12" height="22"/><rect x="614" y="210" width="12" height="30"/>
+</g>
+<text x="90" y="134" font-size="12" fill="#137a45">正值（绿）：多头可能在掌控</text>
+<text x="200" y="290" font-size="12" fill="#a22">负值（红）：空头占优</text>
+<rect x="560" y="246" width="150" height="30" rx="4" fill="#111"/>
+<text x="635" y="267" font-size="14" fill="#fff" text-anchor="middle">Bearish Crossover</text>
+<text x="720" y="252" font-size="11" fill="#555">帧 08 画面标签：</text>
+<text x="720" y="268" font-size="11" fill="#555">柱子跌到零线下</text>
+<text x="50" y="314" font-size="12">口播：上穿零线 = 「潜在」买入信号，下穿零线 = 「潜在」卖出信号；要配合价格走势确认趋势强度。</text>
+
+<rect x="30" y="340" width="840" height="56" rx="8" fill="#f2f2f2" stroke="#999"/>
+<text x="50" y="364" font-size="12">背离、超买超卖（极端读数）：片中只在口播里提到（2:45–3:06），<tspan font-weight="bold">没有演示画面</tspan>，本文不画示例。</text>
+<text x="50" y="384" font-size="12">「Bearish Crossover」画面里也没标价格、进场点、止损或目标。</text>
+
+<g font-size="12">
+<rect x="30" y="410" width="270" height="150" rx="8" fill="#fbeaea" stroke="#c33"/>
+<text x="46" y="436" font-size="14" font-weight="bold" fill="#a22">① Lagging Nature 滞后</text>
+<text x="46" y="460">帧 09（3:42），NVDA 1h</text>
+<text x="46" y="482">口播：靠过去的价格算，</text>
+<text x="46" y="502">信号可能晚到、错过机会、</text>
+<text x="46" y="522">进出场偏迟</text>
+
+<rect x="315" y="410" width="270" height="150" rx="8" fill="#fbeaea" stroke="#c33"/>
+<text x="331" y="436" font-size="14" font-weight="bold" fill="#a22">② Sensitivity to Period Length</text>
+<text x="331" y="460">帧 10（~4:02），GBPUSD 1h</text>
+<text x="331" y="482">口播：周期短反应快，但</text>
+<text x="331" y="502">假信号多；周期长更平滑，</text>
+<text x="331" y="522">但不及时</text>
+
+<rect x="600" y="410" width="270" height="150" rx="8" fill="#fbeaea" stroke="#c33"/>
+<text x="616" y="436" font-size="14" font-weight="bold" fill="#a22">③ Lack of Context 缺乏背景</text>
+<text x="616" y="460">帧 11（4:32），GBPUSD 1h</text>
+<text x="616" y="482">口播：不考虑基本面、</text>
+<text x="616" y="502">地缘事件、大盘趋势；</text>
+<text x="616" y="522">别单靠 BBP</text>
+</g>
+
+<rect x="30" y="576" width="840" height="86" rx="8" fill="#f7f7f7" stroke="#bbb"/>
+<text x="50" y="600" font-size="12" fill="#555">画面说明：以上各帧底部都有 Trade Nation 的 CFD 风险提示横幅（「CFDs are complex instruments…」，</text>
+<text x="50" y="620" font-size="12" fill="#555">写明零售投资者 CFD 账户多数亏损），本图未画出。这是券商合规文字，不是 BBP 指标的教学结论。</text>
+<text x="50" y="644" font-size="12" fill="#555">带「~」的时间：截图里播放器时钟被遮住，是近似值。</text>
+</svg>

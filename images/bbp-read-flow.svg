@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" font-family="Noto Sans CJK SC, Noto Serif CJK SC, WenQuanYi Micro Hei, sans-serif">
+<rect width="900" height="620" fill="#ffffff"/>
+<text x="450" y="34" font-size="22" text-anchor="middle" font-weight="bold">读 BBP 四步</text>
+<text x="450" y="58" font-size="13" text-anchor="middle" fill="#555">步骤 1–4 对照片中画面与口播；底部橙框是笔者补充</text>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker></defs>
+<g font-size="12">
+<rect x="20" y="80" width="200" height="150" rx="8" fill="#eef2f8" stroke="#7a8bb0"/>
+<text x="36" y="104" font-size="14" font-weight="bold">1 加指标、定 Length</text>
+<text x="36" y="128">只有 Length 一项</text>
+<text x="36" y="148">图上 BBP 13，演示改 28</text>
+<text x="36" y="168">短快噪、长稳慢</text>
+<text x="36" y="188">（帧 03）</text>
+
+<rect x="240" y="80" width="200" height="150" rx="8" fill="#eef2f8" stroke="#7a8bb0"/>
+<text x="256" y="104" font-size="14" font-weight="bold">2 看零线哪一边</text>
+<text x="256" y="128">绿柱在上：多头占优</text>
+<text x="256" y="148">红柱在下：空头占优</text>
+<text x="256" y="168">（帧 04–07）</text>
+
+<rect x="460" y="80" width="200" height="150" rx="8" fill="#effaf3" stroke="#1a9b5a"/>
+<text x="476" y="104" font-size="14" font-weight="bold">3 对照价格走势</text>
+<text x="476" y="128">口播：配合价格走势</text>
+<text x="476" y="148">确认趋势强度</text>
+<text x="476" y="168">（帧 07，2:39 前后）</text>
+
+<rect x="680" y="80" width="200" height="150" rx="8" fill="#fdf1d8" stroke="#d9a400"/>
+<text x="696" y="104" font-size="14" font-weight="bold">4 穿越只当「潜在」</text>
+<text x="696" y="128">零线穿越 = 潜在信号</text>
+<text x="696" y="148">记住三条局限：</text>
+<text x="696" y="168">滞后 / 周期敏感 / 无背景</text>
+<text x="696" y="188">（帧 08–11）</text>
+</g>
+<line x1="220" y1="155" x2="238" y2="155" stroke="#666" stroke-width="2" marker-end="url(#a)"/>
+<line x1="440" y1="155" x2="458" y2="155" stroke="#666" stroke-width="2" marker-end="url(#a)"/>
+<line x1="660" y1="155" x2="678" y2="155" stroke="#666" stroke-width="2" marker-end="url(#a)"/>
+
+<rect x="20" y="252" width="280" height="120" rx="8" fill="#effaf3" stroke="#1a9b5a" stroke-width="2"/>
+<text x="36" y="278" font-size="15" font-weight="bold" fill="#137a45">采用</text>
+<text x="36" y="302" font-size="12">当「趋势力量计」：</text>
+<text x="36" y="322" font-size="12">确认趋势里谁占上风</text>
+
+<rect x="310" y="252" width="280" height="120" rx="8" fill="#fdf1d8" stroke="#d9a400" stroke-width="2"/>
+<text x="326" y="278" font-size="15" font-weight="bold" fill="#8a6a00">观望</text>
+<text x="326" y="302" font-size="12">零线穿越当进出场</text>
+<text x="326" y="322" font-size="12">背离、极端读数（只有口播）</text>
+
+<rect x="600" y="252" width="280" height="120" rx="8" fill="#fbeaea" stroke="#c33" stroke-width="2"/>
+<text x="616" y="278" font-size="15" font-weight="bold" fill="#a22">弃用</text>
+<text x="616" y="302" font-size="12">单看 BBP 下单</text>
+<text x="616" y="322" font-size="12">（片中自己列为局限）</text>
+
+<rect x="20" y="390" width="860" height="210" rx="8" fill="#fff6ec" stroke="#e8892b" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="40" y="416" font-size="14" font-weight="bold" fill="#b85f00">（笔者补充，片中没讲，须自己核实 / 回测）艾尔德原书的顺势用法</text>
+<text x="40" y="442" font-size="12">· 艾尔德（Alexander Elder）原本的思路：先用 EMA 的斜率定趋势方向，再只在顺势方向用力量柱找回调。</text>
+<text x="40" y="464" font-size="12">· 例如 EMA 向上时，等空头力量（Bear Power）为负、但开始回升，再考虑做多；EMA 向下时反过来看多头力量。</text>
+<text x="40" y="486" font-size="12">· 这是书上的经典规则，不是这支视频的内容；具体条件、止损和效果都要自己去查原书并回测。</text>
+<text x="40" y="512" font-size="12">· （推算）零线穿越在价格贴着 EMA 来回走的震荡市里会频繁出现，假信号可能很多。</text>
+<text x="40" y="538" font-size="12">· （推算）读数是价格单位，不同品种不能直接比大小。</text>
+<text x="40" y="574" font-size="11" fill="#777">片中没有给止损、目标、胜率；以上都不是视频里讲的。</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" font-family="Noto Sans CJK SC, Noto Serif CJK SC, WenQuanYi Micro Hei, sans-serif">
+<rect width="900" height="640" fill="#ffffff"/>
+<text x="450" y="34" font-size="22" text-anchor="middle" font-weight="bold">ZigZag：把够大的波段高低点连成折线</text>
+<text x="450" y="58" font-size="13" text-anchor="middle" fill="#555">对照 TradingView 帧 00 / 01 / 02 / 08：MGC1! 微型黄金期货 · COMEX；360p 画面</text>
+
+<rect x="30" y="76" width="520" height="300" rx="8" fill="#fafafa" stroke="#99a"/>
+<text x="50" y="102" font-size="14" font-weight="bold">示意：原始 K 线（灰）→ 加上 ZigZag（黄）</text>
+<text x="50" y="121" font-size="12" fill="#666">形状手绘，不复原片中行情；对照帧 00（无折线）与帧 01（有折线）</text>
+<path d="M60,300 L75,285 L85,295 L100,250 L112,262 L125,215 L135,228 L150,170 L160,182 L172,165 L185,200 L195,190 L210,240 L222,232 L235,290 L248,280 L262,318 L275,300 L290,262 L300,270 L315,230 L328,238 L342,200 L355,212 L370,190 L385,226 L398,218 L412,262 L425,255 L440,300 L452,290 L466,330 L480,312 L495,280 L510,288 L530,240" fill="none" stroke="#aaa" stroke-width="1.5"/>
+<polyline points="60,300 172,165 262,318 370,190 466,330 530,240" fill="none" stroke="#e6b800" stroke-width="3"/>
+<g font-size="11">
+<circle cx="172" cy="165" r="4" fill="#1a9b5a"/><text x="140" y="150" fill="#1a9b5a">摆动高点</text>
+<circle cx="262" cy="318" r="4" fill="#d33"/><text x="236" y="340" fill="#d33">摆动低点</text>
+<circle cx="370" cy="190" r="4" fill="#1a9b5a"/>
+<circle cx="466" cy="330" r="4" fill="#d33"/>
+</g>
+<text x="50" y="364" font-size="12" fill="#333">小起伏（没走够幅度）被跳过，只留「骨架」。</text>
+
+<rect x="570" y="76" width="300" height="300" rx="8" fill="#eef2f8" stroke="#7a8bb0"/>
+<text x="590" y="102" font-size="14" font-weight="bold">帧 02（1:20）Inputs 默认</text>
+<g font-size="13">
+<text x="590" y="130">Price deviation for reversals (%)</text>
+<text x="590" y="148" font-weight="bold">= 5</text>
+<text x="590" y="174">Pivot legs <tspan font-weight="bold">= 10</tspan></text>
+<text x="590" y="198">☑ Calculate projected pivots</text>
+<text x="590" y="220">☑ Display reversal price</text>
+<text x="590" y="242">☑ Display cumulative volume</text>
+<text x="590" y="264">☑ Display reversal price change</text>
+<text x="606" y="284">变化显示方式：Absolute</text>
+</g>
+<text x="590" y="312" font-size="12" fill="#555">字幕：这个参数控制价格要走多大</text>
+<text x="590" y="330" font-size="12" fill="#555">才……（截图字幕到此为止）</text>
+<text x="590" y="356" font-size="12" fill="#555">Pivot legs 的含义片中没解释</text>
+
+<rect x="30" y="392" width="520" height="120" rx="8" fill="#effaf3" stroke="#1a9b5a"/>
+<text x="50" y="418" font-size="14" font-weight="bold">端点标签三行信息（帧 08，1h 图上的一个标签）</text>
+<text x="70" y="448" font-size="18" fill="#1a9b5a" font-family="monospace">4276.6 (+260.6)</text>
+<text x="70" y="472" font-size="18" fill="#1a9b5a" font-family="monospace">1.182M</text>
+<text x="270" y="448" font-size="12">← 转折价（变化）</text>
+<text x="270" y="472" font-size="12">← 累计成交量（可关掉）</text>
+<text x="50" y="500" font-size="11" fill="#777">360p 小字：这一个标签在帧 02/05/06/07/08/09 读数一致，才拿来举例</text>
+
+<rect x="570" y="392" width="300" height="120" rx="8" fill="#fff6ec" stroke="#e8892b" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="590" y="418" font-size="14" font-weight="bold" fill="#b85f00">（推算）括号里的数怎么来</text>
+<text x="590" y="442" font-size="12">本转折价 − 上一个转折价：</text>
+<text x="590" y="462" font-size="12" font-family="monospace">4276.6 − 4016.0 = +260.6</text>
+<text x="590" y="484" font-size="12">按帧 08 相邻两个标签核算吻合，</text>
+<text x="590" y="502" font-size="12">片中没有口头解释这一点</text>
+
+<rect x="30" y="528" width="840" height="94" rx="8" fill="#fff6ec" stroke="#e8892b" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="50" y="554" font-size="14" font-weight="bold" fill="#b85f00">（笔者补充，非片中原话）</text>
+<text x="50" y="578" font-size="12">· 5% 只是片中黄金 4h 的默认值；波动大的品种（加密、小盘股）可能太敏感，外汇主要货币对可能几乎不出折线——按品种日常波动调。</text>
+<text x="50" y="600" font-size="12">· （推算，未核实）Pivot legs 可能和确认一个转折点要多少根 K 线有关；片中没讲，别当定论。</text>
+</svg>
